@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApolloRPG Wiki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a class="logo" onclick="showHome()">
+                <div class="logo-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <span>ApolloRPG Wiki</span>
+            </a>
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search wiki...">
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="category-section">
+                <h3><i class="fas fa-bars"></i> Categories</h3>
+                
+                <div class="category-item active" data-category="home" onclick="showHome()">
+                    <i class="fas fa-home"></i>
+                    <span>Main Page</span>
+                </div>
+                
+                <div class="category-item" data-category="bosses" onclick="filterCategory('bosses')">
+                    <i class="fas fa-dragon"></i>
+                    <span>Bosses</span>
+                </div>
+                
+                <div class="category-item" data-category="weapons" onclick="filterCategory('weapons')">
+                    <i class="fas fa-gavel"></i>
+                    <span>Weapons</span>
+                </div>
+                
+                <div class="category-item" data-category="armor" onclick="filterCategory('armor')">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Armor</span>
+                </div>
+                
+                <div class="category-item" data-category="abilities" onclick="filterCategory('abilities')">
+                    <i class="fas fa-magic"></i>
+                    <span>Abilities</span>
+                </div>
+                
+                <div class="category-item" data-category="locations" onclick="filterCategory('locations')">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Locations</span>
+                </div>
+                
+                <div class="category-item" data-category="questlines" onclick="filterCategory('questlines')">
+                    <i class="fas fa-scroll"></i>
+                    <span>Questlines</span>
+                </div>
+                
+                <div class="category-item" data-category="enemies" onclick="filterCategory('enemies')">
+                    <i class="fas fa-skull-crossbones"></i>
+                    <span>Enemies</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Breadcrumb Navigation -->
+            <div class="breadcrumb" id="breadcrumb">
+                <i class="fas fa-home"></i>
+                <a onclick="showHome()">Home</a>
+            </div>
+
+            <!-- Home View (Main Page) -->
+            <div id="homeView">
+                <div class="wiki-hero">
+                    <h1>Welcome to ApolloRPG Wiki</h1>
+                    <p>Your complete guide to classes, bosses, items, and more</p>
+                </div>
+
+                <!-- Category Grid on Main Page -->
+                <div class="category-grid">
+                    <div class="category-card" onclick="filterCategory('bosses')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-dragon"></i>
+                        </div>
+                        <h3>Bosses</h3>
+                        <p>Learn Information About All The Bosses Of The Realm!</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('weapons')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h3>Weapons</h3>
+                        <p>Browse legendary weapons and their stats</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('armor')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Armor</h3>
+                        <p>Learn about all the server armour</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('accessories')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <h3>Accessories</h3>
+                        <p>Learn About Accessories and how they help you</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('locations')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Locations</h3>
+                        <p>Find out about dimensions and locations</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('questlines')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                        <h3>Questlines</h3>
+                        <p>Learn How to progress correctly through the server</p>
+                    </div>
+
+                    <div class="category-card" onclick="filterCategory('enemies')">
+                        <div class="category-card-icon" style="background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);">
+                            <i class="fas fa-skull-crossbones"></i>
+                        </div>
+                        <h3>Enemies</h3>
+                        <p>Know your foes and their weaknesses</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category List View -->
+            <div id="listView" class="hidden">
+                <div class="category-header">
+                    <h1 id="categoryTitle"></h1>
+                    <p id="categoryDescription"></p>
+                </div>
+                <div class="wiki-grid" id="wikiGrid"></div>
+            </div>
+
+            <!-- Detail View (Item Page) -->
+            <div id="detailView" class="hidden">
+                <div class="detail-header">
+                    <div class="detail-icon" id="detailIcon"></div>
+                    <div class="detail-title-section">
+                        <h1 id="detailTitle"></h1>
+                        <div class="detail-meta" id="detailMeta"></div>
+                    </div>
+                </div>
+
+                <div class="detail-content">
+                    <div class="detail-stats" id="detailStats"></div>
+                    <div class="detail-description" id="detailDescription"></div>
+                    <div class="detail-sections" id="detailSections"></div>
+                </div>
+
+                <div class="related-items">
+                    <h2>Related Items</h2>
+                    <div class="wiki-grid" id="relatedItems"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>ApolloRPG Wiki © 2025 | Made with <i class="fas fa-heart"></i> by the ApolloMC Team</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
