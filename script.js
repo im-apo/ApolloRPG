@@ -19,256 +19,308 @@ const WIKI_DATA = {
     // BOSSES
     bosses: [
         {
-            id: 'dragon-lord',
-            name: 'Dragon Lord',
+            id: 'boss-1',
+            name: 'Boss 1',
             category: 'bosses',
             icon: 'fa-dragon',
             gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-            description: 'Ancient dragon overlord who guards legendary treasures.',
-            tags: ['Raid Boss', 'Level 100+', 'Fire'],
+            description: 'Description for Boss 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Health': '5,000,000 HP',
-                'Damage': '5,000-10,000',
-                'Armor': '500',
-                'Difficulty': 'Mythic'
+                'Health': '1,000,000 HP',
+                'Damage': '1,000-2,000',
+                'Armor': '100',
+                'Difficulty': 'Hard'
             },
-            fullDescription: 'The Dragon Lord is the ultimate challenge, requiring a full raid group and perfect coordination to defeat. His flames can melt the strongest armor.',
+            fullDescription: 'Full description for Boss 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Abilities',
                     content: [
-                        'Inferno Breath - Massive fire cone attack',
-                        'Wing Buffet - Knockback all nearby players',
-                        'Summon Drakes - Calls lesser dragons to aid',
-                        'Cataclysm - Room-wide fire damage'
+                        'Ability 1 - Description',
+                        'Ability 2 - Description',
+                        'Ability 3 - Description'
                     ]
                 },
                 {
                     title: 'Strategy',
                     content: [
-                        'Tank must face boss away from raid',
-                        'Kill adds immediately when summoned',
-                        'Spread out during Cataclysm phase',
-                        'Use fire resistance potions'
+                        'Strategy tip 1',
+                        'Strategy tip 2',
+                        'Strategy tip 3'
                     ]
                 },
                 {
                     title: 'Loot',
                     content: [
-                        'Titan Sword (Legendary Weapon)',
-                        'Dragon Scale Armor (Legendary Set)',
-                        'Dragon Mount (Rare Drop)',
-                        'Ancient Artifacts'
+                        'Item 1',
+                        'Item 2',
+                        'Item 3'
                     ]
                 }
             ],
-            related: ['titan-sword', 'dragons-peak', 'dragon-quest']
+            related: []
+        },
+        {
+            id: 'boss-2',
+            name: 'Boss 2',
+            category: 'bosses',
+            icon: 'fa-dragon',
+            gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+            description: 'Description for Boss 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
+            stats: {
+                'Health': '1,000,000 HP',
+                'Damage': '1,000-2,000',
+                'Armor': '100',
+                'Difficulty': 'Hard'
+            },
+            fullDescription: 'Full description for Boss 2. Add detailed information here.',
+            sections: [
+                {
+                    title: 'Abilities',
+                    content: [
+                        'Ability 1 - Description',
+                        'Ability 2 - Description',
+                        'Ability 3 - Description'
+                    ]
+                },
+                {
+                    title: 'Strategy',
+                    content: [
+                        'Strategy tip 1',
+                        'Strategy tip 2',
+                        'Strategy tip 3'
+                    ]
+                }
+            ],
+            related: []
         }
     ],
 
     // WEAPONS
     weapons: [
         {
-            id: 'titan-sword',
-            name: 'Titan Sword',
+            id: 'weapon-1',
+            name: 'Weapon 1',
             category: 'weapons',
-            icon: 'fa-gavel',
+            icon: 'fa-sword',
             gradient: 'linear-gradient(135deg, #FFD700 0%, #FFA500 100%)',
-            description: 'A legendary blade forged in dragon fire.',
-            tags: ['Legendary', 'Two-Handed', 'Melee'],
+            description: 'Description for Weapon 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Damage': '+350',
-                'Critical': '+20%',
+                'Damage': '+100',
+                'Critical': '+10%',
                 'Speed': 'Fast',
-                'Rarity': 'Legendary'
+                'Rarity': 'Epic'
             },
-            fullDescription: 'The Titan Sword is said to have been crafted by the ancient dragon smiths in the heart of Mount Inferno. Its blade glows with an eternal flame.',
+            fullDescription: 'Full description for Weapon 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Special Abilities',
                     content: [
-                        'Dragon\'s Fury - Every 10th hit unleashes a fire wave',
-                        'Flame Aura - Burns nearby enemies for 50 damage/sec',
-                        'Phoenix Rebirth - Revive once per battle at 50% HP'
+                        'Ability 1 - Description',
+                        'Ability 2 - Description'
                     ]
                 },
                 {
                     title: 'How to Obtain',
                     content: [
-                        'Defeat the Dragon Lord in Dragon\'s Peak',
-                        '2% drop rate from Dragon Lord',
-                        'Requires level 100+'
+                        'Method 1',
+                        'Method 2'
                     ]
                 }
             ],
-            related: ['dragon-lord', 'dragons-peak']
+            related: []
         },
         {
-            id: 'staff-of-eternity',
-            name: 'Staff of Eternity',
+            id: 'weapon-2',
+            name: 'Weapon 2',
             category: 'weapons',
             icon: 'fa-wand-magic-sparkles',
             gradient: 'linear-gradient(135deg, #9333ea 0%, #4c1d95 100%)',
-            description: 'An ancient staff channeling infinite magical power.',
-            tags: ['Legendary', 'Two-Handed', 'Magic'],
+            description: 'Description for Weapon 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Magic Power': '+400',
-                'Mana Regen': '+50/sec',
-                'Cooldown': '-25%',
+                'Damage': '+150',
+                'Critical': '+15%',
+                'Speed': 'Medium',
                 'Rarity': 'Legendary'
             },
-            fullDescription: 'Created by the Archmage Council, the Staff of Eternity contains a fragment of pure magical essence.',
+            fullDescription: 'Full description for Weapon 2. Add detailed information here.',
             sections: [
                 {
                     title: 'Special Abilities',
                     content: [
-                        'Infinite Mana - Never run out of mana',
-                        'Spell Echo - 30% chance to cast spells twice',
-                        'Time Warp - Rewind all cooldowns once per minute'
+                        'Ability 1 - Description',
+                        'Ability 2 - Description'
                     ]
                 }
             ],
-            related: ['mystic-robes']
+            related: []
         },
         {
-            id: 'phoenix-bow',
-            name: 'Phoenix Bow',
+            id: 'weapon-3',
+            name: 'Weapon 3',
             category: 'weapons',
             icon: 'fa-crosshairs',
             gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-            description: 'A bow blessed by the legendary Phoenix.',
-            tags: ['Epic', 'Two-Handed', 'Ranged'],
+            description: 'Description for Weapon 3',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Damage': '+280',
-                'Critical': '+25%',
+                'Damage': '+120',
+                'Critical': '+20%',
                 'Speed': 'Very Fast',
                 'Rarity': 'Epic'
             },
-            fullDescription: 'This bow was crafted from the feathers of a Phoenix and never runs out of arrows.',
+            fullDescription: 'Full description for Weapon 3. Add detailed information here.',
             sections: [
                 {
                     title: 'Special Abilities',
                     content: [
-                        'Infinite Arrows - Never need to refill',
-                        'Phoenix Fire - Arrows ignite targets',
-                        'Wing Shot - Fire while jumping'
+                        'Ability 1 - Description',
+                        'Ability 2 - Description'
                     ]
                 }
             ],
-            related: ['shadow-cloak']
+            related: []
         }
     ],
 
     // ARMOR
     armor: [
         {
-            id: 'titan-armor',
-            name: 'Titan Armor Set',
+            id: 'armor-1',
+            name: 'Armor Set 1',
             category: 'armor',
             icon: 'fa-shield-alt',
             gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-            description: 'Legendary armor set forged from dragon scales.',
-            tags: ['Legendary', 'Heavy Armor', 'Set'],
+            description: 'Description for Armor Set 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Armor': '+500',
-                'Health': '+1000',
-                'Resistance': '+30%',
+                'Armor': '+200',
+                'Health': '+500',
+                'Resistance': '+20%',
                 'Set Pieces': '5'
             },
-            fullDescription: 'The Titan Armor Set is the pinnacle of defensive equipment, providing unmatched protection.',
+            fullDescription: 'Full description for Armor Set 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Set Bonuses',
                     content: [
-                        '2 pieces: +200 Health',
-                        '3 pieces: +10% damage reduction',
-                        '4 pieces: Thorns damage reflect',
-                        '5 pieces: Immune to fire damage'
+                        '2 pieces: Bonus 1',
+                        '3 pieces: Bonus 2',
+                        '4 pieces: Bonus 3',
+                        '5 pieces: Bonus 4'
                     ]
                 }
             ],
-            related: ['titan-sword', 'dragon-lord']
+            related: []
         },
         {
-            id: 'mystic-robes',
-            name: 'Mystic Robes',
+            id: 'armor-2',
+            name: 'Armor Set 2',
             category: 'armor',
             icon: 'fa-hat-wizard',
             gradient: 'linear-gradient(135deg, #9333ea 0%, #4c1d95 100%)',
-            description: 'Enchanted robes that amplify magical power.',
-            tags: ['Epic', 'Light Armor', 'Set'],
+            description: 'Description for Armor Set 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Armor': '+150',
-                'Magic Power': '+200',
-                'Mana': '+500',
+                'Armor': '+100',
+                'Magic Power': '+150',
+                'Mana': '+300',
                 'Set Pieces': '4'
             },
-            fullDescription: 'These robes are woven with arcane threads that enhance spell casting abilities.',
+            fullDescription: 'Full description for Armor Set 2. Add detailed information here.',
             sections: [
                 {
                     title: 'Set Bonuses',
                     content: [
-                        '2 pieces: +100 Mana',
-                        '3 pieces: +15% spell damage',
-                        '4 pieces: Cast time reduced by 20%'
+                        '2 pieces: Bonus 1',
+                        '3 pieces: Bonus 2',
+                        '4 pieces: Bonus 3'
                     ]
                 }
             ],
-            related: ['staff-of-eternity']
+            related: []
         },
         {
-            id: 'shadow-cloak',
-            name: 'Shadow Cloak',
+            id: 'armor-3',
+            name: 'Armor Set 3',
             category: 'armor',
             icon: 'fa-user-ninja',
             gradient: 'linear-gradient(135deg, #434343 0%, #000000 100%)',
-            description: 'A cloak that grants stealth and agility.',
-            tags: ['Epic', 'Light Armor', 'Stealth'],
+            description: 'Description for Armor Set 3',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Armor': '+100',
-                'Agility': '+50',
-                'Critical': '+15%',
+                'Armor': '+80',
+                'Agility': '+30',
+                'Critical': '+10%',
                 'Stealth': 'Enabled'
             },
-            fullDescription: 'Wear this cloak to move unseen through the shadows.',
+            fullDescription: 'Full description for Armor Set 3. Add detailed information here.',
             sections: [
                 {
                     title: 'Special Abilities',
                     content: [
-                        'Shadow Walk - Turn invisible for 5 seconds',
-                        'Increased movement speed',
-                        'Critical strikes from stealth deal 2x damage'
+                        'Ability 1 - Description',
+                        'Ability 2 - Description'
                     ]
                 }
             ],
-            related: ['phoenix-bow']
+            related: []
         }
     ],
 
     // ACCESSORIES
     accessories: [
         {
-            id: 'ring-of-power',
-            name: 'Ring of Power',
+            id: 'accessory-1',
+            name: 'Accessory 1',
             category: 'accessories',
             icon: 'fa-ring',
             gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-            description: 'A ring that amplifies all stats.',
-            tags: ['Legendary', 'Ring', 'Universal'],
+            description: 'Description for Accessory 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'All Stats': '+50',
-                'Health': '+500',
-                'Damage': '+100',
-                'Rarity': 'Legendary'
+                'All Stats': '+25',
+                'Health': '+250',
+                'Damage': '+50',
+                'Rarity': 'Epic'
             },
-            fullDescription: 'This ancient ring was worn by the first king and grants immense power to its wearer.',
+            fullDescription: 'Full description for Accessory 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Special Effect',
                     content: [
-                        'Increases all stats by 10%',
-                        'Grants immunity to crowd control once per minute',
-                        'Passive health regeneration'
+                        'Effect 1 - Description',
+                        'Effect 2 - Description'
+                    ]
+                }
+            ],
+            related: []
+        },
+        {
+            id: 'accessory-2',
+            name: 'Accessory 2',
+            category: 'accessories',
+            icon: 'fa-ring',
+            gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+            description: 'Description for Accessory 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
+            stats: {
+                'All Stats': '+30',
+                'Health': '+300',
+                'Damage': '+60',
+                'Rarity': 'Legendary'
+            },
+            fullDescription: 'Full description for Accessory 2. Add detailed information here.',
+            sections: [
+                {
+                    title: 'Special Effect',
+                    content: [
+                        'Effect 1 - Description',
+                        'Effect 2 - Description'
                     ]
                 }
             ],
@@ -279,111 +331,203 @@ const WIKI_DATA = {
     // LOCATIONS
     locations: [
         {
-            id: 'dragons-peak',
-            name: 'Dragon\'s Peak',
+            id: 'location-1',
+            name: 'Location 1',
             category: 'locations',
             icon: 'fa-mountain',
             gradient: 'linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)',
-            description: 'A treacherous mountain inhabited by ancient dragons.',
-            tags: ['Dungeon', 'High Level', 'Raid'],
+            description: 'Description for Location 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Level Range': '100-150',
-                'Bosses': '5',
-                'Loot Quality': 'Legendary',
-                'Players': '10-20'
+                'Level Range': '50-100',
+                'Bosses': '3',
+                'Loot Quality': 'Epic',
+                'Players': '5-10'
             },
-            fullDescription: 'Dragon\'s Peak stands as the tallest mountain in the realm, shrouded in mystery and danger.',
+            fullDescription: 'Full description for Location 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Boss Encounters',
                     content: [
-                        'Flame Drake - Fire breathing dragon',
-                        'Frost Wyrm - Ice elemental dragon',
-                        'Storm Dragon - Lightning attacks',
-                        'Shadow Serpent - Poison and stealth',
-                        'Dragon Lord - Final boss with all elements'
+                        'Boss 1 - Description',
+                        'Boss 2 - Description',
+                        'Boss 3 - Description'
+                    ]
+                },
+                {
+                    title: 'Notable Features',
+                    content: [
+                        'Feature 1',
+                        'Feature 2',
+                        'Feature 3'
                     ]
                 }
             ],
-            related: ['dragon-lord', 'titan-sword', 'dragon-quest']
+            related: []
+        },
+        {
+            id: 'location-2',
+            name: 'Location 2',
+            category: 'locations',
+            icon: 'fa-dungeon',
+            gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+            description: 'Description for Location 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
+            stats: {
+                'Level Range': '75-125',
+                'Bosses': '5',
+                'Loot Quality': 'Legendary',
+                'Players': '10-20'
+            },
+            fullDescription: 'Full description for Location 2. Add detailed information here.',
+            sections: [
+                {
+                    title: 'Boss Encounters',
+                    content: [
+                        'Boss 1 - Description',
+                        'Boss 2 - Description'
+                    ]
+                }
+            ],
+            related: []
         }
     ],
 
     // QUESTLINES
     questlines: [
         {
-            id: 'dragon-quest',
-            name: 'The Dragon\'s Challenge',
+            id: 'quest-1',
+            name: 'Questline 1',
             category: 'questlines',
             icon: 'fa-scroll',
             gradient: 'linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)',
-            description: 'Prove your worth by defeating the Dragon Lord.',
-            tags: ['Main Quest', 'Epic', 'Level 100+'],
+            description: 'Description for Questline 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
-                'Required Level': '100',
-                'Duration': '2-3 hours',
-                'Difficulty': 'Epic',
-                'Chapters': '5'
+                'Required Level': '50',
+                'Duration': '1-2 hours',
+                'Difficulty': 'Medium',
+                'Chapters': '3'
             },
-            fullDescription: 'The Dragon Lord has challenged the strongest warriors in the realm to face him at Dragon\'s Peak.',
+            fullDescription: 'Full description for Questline 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Quest Steps',
                     content: [
-                        'Speak to the Elder in the village',
-                        'Collect 5 Dragon Artifacts',
-                        'Reach the summit of Dragon\'s Peak',
-                        'Defeat all guardian dragons',
-                        'Face the Dragon Lord in final combat'
+                        'Step 1 - Description',
+                        'Step 2 - Description',
+                        'Step 3 - Description'
                     ]
                 },
                 {
                     title: 'Rewards',
                     content: [
-                        'Titan Sword (Legendary Weapon)',
-                        '500,000 Gold',
-                        'Dragon Mount',
-                        'Title: Dragon Slayer'
+                        'Reward 1',
+                        'Reward 2',
+                        'Reward 3'
                     ]
                 }
             ],
-            related: ['dragons-peak', 'dragon-lord', 'titan-sword']
+            related: []
+        },
+        {
+            id: 'quest-2',
+            name: 'Questline 2',
+            category: 'questlines',
+            icon: 'fa-scroll',
+            gradient: 'linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)',
+            description: 'Description for Questline 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
+            stats: {
+                'Required Level': '75',
+                'Duration': '2-3 hours',
+                'Difficulty': 'Hard',
+                'Chapters': '5'
+            },
+            fullDescription: 'Full description for Questline 2. Add detailed information here.',
+            sections: [
+                {
+                    title: 'Quest Steps',
+                    content: [
+                        'Step 1 - Description',
+                        'Step 2 - Description'
+                    ]
+                },
+                {
+                    title: 'Rewards',
+                    content: [
+                        'Reward 1',
+                        'Reward 2'
+                    ]
+                }
+            ],
+            related: []
         }
     ],
 
     // ENEMIES
     enemies: [
         {
-            id: 'goblin-warrior',
-            name: 'Goblin Warrior',
+            id: 'enemy-1',
+            name: 'Enemy 1',
             category: 'enemies',
             icon: 'fa-skull',
             gradient: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
-            description: 'Common enemy found in forests and caves.',
-            tags: ['Common', 'Melee', 'Level 1-10'],
+            description: 'Description for Enemy 1',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
             stats: {
                 'Health': '500 HP',
                 'Damage': '20-30',
                 'Armor': '10',
                 'Experience': '50 XP'
             },
-            fullDescription: 'Goblin Warriors are the foot soldiers of goblin tribes, often found in groups.',
+            fullDescription: 'Full description for Enemy 1. Add detailed information here.',
             sections: [
                 {
                     title: 'Drops',
                     content: [
-                        'Goblin Sword (Common)',
-                        'Leather Scraps',
-                        '5-10 Gold',
-                        'Health Potion (Rare)'
+                        'Item 1',
+                        'Item 2',
+                        'Item 3'
                     ]
                 },
                 {
                     title: 'Locations',
                     content: [
-                        'Dark Forest',
-                        'Goblin Caves',
-                        'Mountain Paths'
+                        'Location 1',
+                        'Location 2'
+                    ]
+                }
+            ],
+            related: []
+        },
+        {
+            id: 'enemy-2',
+            name: 'Enemy 2',
+            category: 'enemies',
+            icon: 'fa-skull-crossbones',
+            gradient: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
+            description: 'Description for Enemy 2',
+            tags: ['Tag1', 'Tag2', 'Tag3'],
+            stats: {
+                'Health': '1000 HP',
+                'Damage': '40-60',
+                'Armor': '25',
+                'Experience': '100 XP'
+            },
+            fullDescription: 'Full description for Enemy 2. Add detailed information here.',
+            sections: [
+                {
+                    title: 'Drops',
+                    content: [
+                        'Item 1',
+                        'Item 2'
+                    ]
+                },
+                {
+                    title: 'Locations',
+                    content: [
+                        'Location 1'
                     ]
                 }
             ],
