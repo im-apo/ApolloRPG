@@ -1,0 +1,375 @@
+[
+    {
+        "id": "kings-crown",
+        "name": "King's Crown",
+        "category": "accessories",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #C0C0C0 0%, #808080 100%)",
+        "description": "A crown dropped by defeated Kings",
+        "tags": ["Boss Drop", "Collectible"],
+        "stats": {
+            "Base Item": "Golden Helmet",
+            "Collectible": "Yes"
+        },
+        "fullDescription": "The King's Crown is a trophy obtained by defeating King bosses throughout the realm. While it can be worn, its true value lies in collecting 27 of them to exchange for the legendary Ultimate Emperor's Crown.",
+        "sections": [
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by King bosses",
+                    "Various King enemies throughout the world",
+                    "Collect 27 for special quest"
+                ]
+            },
+            {
+                "title": "Uses",
+                "content": [
+                    "Can be worn as helmet",
+                    "Collect 27 to trade for Ultimate Emperor's Crown",
+                    "Required for 3rd questline"
+                ]
+            }
+        ],
+        "related": ["emperors-crown"]
+    },
+    {
+        "id": "emperors-crown",
+        "name": "Ultimate Emperor's Crown",
+        "category": "accessories",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #FFD700 0%, #FFA000 100%)",
+        "description": "A Mystical Crown Said To Once Be Worn By A Mighty Emperor",
+        "tags": ["Quest Reward", "Helmet", "Legendary"],
+        "stats": {
+            "Base Item": "Golden Helmet",
+            "Health": "+20",
+            "Armor": "+5",
+            "Attack Damage": "+3"
+        },
+        "fullDescription": "The Ultimate Emperor's Crown is a mystical golden helmet that once adorned the head of a powerful emperor. Obtained by collecting 27 King's Crowns in the 3rd questline, it grants its wearer incredible power and combat prowess.",
+        "sections": [
+            {
+                "title": "Attributes",
+                "content": [
+                    "Health: +20 - Massive health boost",
+                    "Armor: +5 - Additional protection",
+                    "Attack Damage: +3 - Increased damage output",
+                    "Can be worn as helmet"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Complete 3rd questline",
+                    "Collect 27 King's Crowns",
+                    "Trade crowns for Emperor's Crown"
+                ]
+            },
+            {
+                "title": "Uses",
+                "content": [
+                    "Can be worn as helmet",
+                    "Used to craft Menacing Magmar Helmet",
+                    "Requires Netherite Upgrade Template + Magmar Helmet",
+                    "Provides powerful combat stat bonuses"
+                ]
+            }
+        ],
+        "related": ["kings-crown", "menacing-magmar-helmet"]
+    },
+    {
+        "id": "miners-helmet",
+        "name": "Miner's Helmet",
+        "category": "accessories",
+        "icon": "fa-hard-hat",
+        "gradient": "linear-gradient(135deg, #FFB300 0%, #FF6F00 100%)",
+        "description": "A very nice helmet for miners, but cursed with the zombie virus",
+        "tags": ["Boss Drop", "Golden Helmet", "Cursed"],
+        "stats": {
+            "Base Item": "Golden Helmet",
+            "Health": "+2",
+            "Aqua Affinity": "IV"
+        },
+        "fullDescription": "The Miner's Helmet is a golden helmet designed to help navigate dark caves and underwater tunnels. Despite its usefulness, legends say it carries a curse from the Undead Miner, potentially turning its wearer into a zombie.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Aqua Affinity IV - Mine fast underwater",
+                    "Custom model for appearance"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Undead Miner",
+                    "Cave dimension boss"
+                ]
+            },
+            {
+                "title": "Curse Warning",
+                "content": [
+                    "Said to be cursed with zombie virus",
+                    "Use at your own risk",
+                    "Perfect for underwater mining"
+                ]
+            }
+        ],
+        "related": ["enlightened-pickaxe", "ultimate-pickaxe"]
+    },
+	{
+    "id": "amulet-daylight",
+    "name": "Amulet of Daylight",
+    "category": "accessories",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
+    "description": "For the glory of Merlin, Daylight is mine to command!",
+    "tags": ["Legendary Artifact", "Trollhunter"],
+    "stats": {
+        "Base Item": "Heart of the Sea",
+        "Emits": "Bright Aura"
+    },
+    "fullDescription": "The sacred amulet that chooses the Trollhunter. Put in a crafting table to summon the blade and armor set. Can be recrafted after use.",
+    "sections": [
+        {
+            "title": "How to Craft",
+            "content": [
+                "Requires 3 Triumbric Stones:",
+                "  - Birthstone (Bearer's origin)",
+                "  - Gunmar's Eye (Gunmar's essence)",
+                "  - Killstone (Gunmar's first kill)",
+                "Craft to awaken the amulet"
+            ]
+        },
+        {
+            "title": "Usage",
+            "content": [
+                "Place in crafting table",
+                "Summons Daylight blade",
+                "Summons complete armor set",
+                "Can be recrafted after use",
+                "Emits bright aura"
+            ]
+        },
+        {
+            "title": "Upgrade Path",
+            "content": [
+                "Can be upgraded to Eclipse Amulet",
+                "Requires all 3 Triumbric Stones",
+                "Specifically forged to kill Gunmar"
+            ]
+        }
+    ],
+    "related": ["daylight-blade", "eclipse-amulet", "triumbric-stones"]
+},
+{
+    "id": "eclipse-amulet",
+    "name": "Amulet of Eclipse",
+    "category": "accessories",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+    "description": "For the doom of Gunmar, Eclipse is mine to command!",
+    "tags": ["Legendary Artifact", "Anti-Gunmar"],
+    "stats": {
+        "Base Item": "Heart of the Sea",
+        "Emits": "Bright Aura",
+        "Purpose": "Specifically forged to kill Gunmar"
+    },
+    "fullDescription": "The perfected form of the Daylight Amulet, transformed by the three Triumbric Stones. Channels ultimate power to destroy Gunmar the Black.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Upgrade Daylight Amulet",
+                "Requires Birthstone",
+                "Requires Gunmar's Eye",
+                "Requires Killstone",
+                "Transformation ritual"
+            ]
+        },
+        {
+            "title": "Usage",
+            "content": [
+                "Place in crafting table",
+                "Summons Eclipse blade",
+                "Summons Eclipse armor set",
+                "Anti-Gunmar specialized equipment",
+                "Bypasses all Gumm-Gumm resistances"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Custom model (Model: 2)",
+                "Only blade capable of killing Gunmar",
+                "Channels Triumbric power",
+                "Ultimate Trollhunter weapon"
+            ]
+        }
+    ],
+    "related": ["eclipse-blade", "amulet-daylight", "moonlight-amulet"]
+},
+{
+    "id": "moonlight-amulet",
+    "name": "Amulet of Moonlight",
+    "category": "accessories",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
+    "description": "For the Doom of Evil, Moonlight is mine to command!",
+    "tags": ["Mythic Artifact", "Supreme"],
+    "stats": {
+        "Base Item": "Heart of the Sea",
+        "Emits": "Bright Aura",
+        "Power": "Supreme against ALL corruption"
+    },
+    "fullDescription": "The supreme amulet that transcends both Daylight and Eclipse. Forged by an ancient order of celestial guardians to vanquish all corrupted beasts and dark entities. The pinnacle of Merlin's magical craft.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Ultimate crafting recipe",
+                "Requires Lunar Crystal",
+                "Requires Celestial Core",
+                "Requires Stardust Essence",
+                "Celestial guardian blessing"
+            ]
+        },
+        {
+            "title": "Usage",
+            "content": [
+                "Place in crafting table",
+                "Summons Moonlight blade",
+                "Summons Moonlight armor set",
+                "Channels both light and darkness",
+                "Supreme power against ALL corruption"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Custom model (Model: 3)",
+                "Strongest amulet in existence",
+                "Purifies all corruption",
+                "Banishes darkness itself"
+            ]
+        }
+    ],
+    "related": ["moonlight-blade", "eclipse-amulet", "lunar-crystal"]
+},
+{
+    "id": "gunmar-dark-shield",
+    "name": "Dark Underlord's Aegis",
+    "category": "accessories",
+    "icon": "fa-shield",
+    "gradient": "linear-gradient(135deg, #B71C1C 0%, #000000 100%)",
+    "description": "A shield forged from pure Darklands obsidian",
+    "tags": ["Legendary Shield", "Gumm-Gumm"],
+    "stats": {
+        "Base Item": "Shield",
+        "Thorns": "V",
+        "Reflects": "40% damage"
+    },
+    "fullDescription": "A shield forged from pure Darklands obsidian. Reflects damage back at attackers and provides massive defensive bonuses.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Offhand: +30 Max Health",
+                "Offhand: +25% Knockback Resistance",
+                "Thorns V - Massive damage reflection",
+                "Reflects 40% of damage taken"
+            ]
+        }
+    ],
+    "related": ["decimaar-blade", "gunmar-armor-set"]
+},
+{
+    "id": "draals-honor",
+    "name": "Draal's Honor Token",
+    "category": "accessories",
+    "icon": "fa-medal",
+    "gradient": "linear-gradient(135deg, #FFB300 0%, #F57C00 100%)",
+    "description": "For the glory of Merlin...",
+    "tags": ["Legendary Trophy", "Collectible"],
+    "stats": {
+        "Base Item": "Iron Ingot",
+        "Item Type": "Trophy"
+    },
+    "fullDescription": "A token representing the honor and sacrifice of Draal the Deadly, son of Kanjigar, who gave his life protecting the Trollhunter and his friends.",
+    "sections": [
+        {
+            "title": "Lore",
+            "content": [
+                "Memorial to Draal the Deadly",
+                "Son of Kanjigar the Courageous",
+                "Gave his life for the Trollhunter",
+                "Symbol of ultimate sacrifice",
+                "For the glory of Merlin..."
+            ]
+        }
+    ],
+    "related": ["draals-arm", "kanjigars-memory"]
+},
+{
+    "id": "kanjigars-amulet",
+    "name": "Kanjigar's Old Amulet",
+    "category": "accessories",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #616161 0%, #424242 100%)",
+    "description": "The dormant amulet that once belonged to Kanjigar",
+    "tags": ["Historic Relic", "Display Item"],
+    "stats": {
+        "Base Item": "Heart of the Sea",
+        "Status": "Dormant",
+        "Display": "Only"
+    },
+    "fullDescription": "The dormant amulet that once belonged to Kanjigar the Courageous. It chose You. as the next Trollhunter. Display item only.",
+    "sections": [
+        {
+            "title": "History",
+            "content": [
+                "Belonged to Kanjigar the Courageous",
+                "Chose YOU as the successor and champion",
+                "First human Trollhunter",
+                "Historic artifact",
+                "Display item only - no powers"
+            ]
+        }
+    ],
+    "related": ["amulet-daylight"]
+},
+{
+    "id": "arcane-order-sigil",
+    "name": "Arcane Order Sigil",
+    "category": "accessories",
+    "icon": "fa-pentagram",
+    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+    "description": "Hints at greater threats to come...",
+    "tags": ["Mythic Artifact", "Teaser"],
+    "stats": {
+        "Base Item": "Echo Shard",
+        "Dark Magic": "Yes"
+    },
+    "fullDescription": "A mysterious sigil bearing the mark of the Arcane Order. Dark magic emanates from its surface. Hints at greater threats to come...",
+    "sections": [
+        {
+            "title": "Mystery",
+            "content": [
+                "Mark of the Arcane Order",
+                "Dark magic emanates from it",
+                "Future storyline teaser",
+                "Greater threats to come",
+                "Glowing ominous aura"
+            ]
+        }
+    ],
+    "related": []
+}
+]
