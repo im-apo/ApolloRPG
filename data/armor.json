@@ -1,0 +1,632 @@
+[
+    {
+        "id": "magmar-armor",
+        "name": "Magmar Armor Set",
+        "category": "armor",
+        "icon": "fa-shield-alt",
+        "gradient": "linear-gradient(135deg, #FF6F00 0%, #E65100 100%)",
+        "description": "Blessed armor from the Magmar dimension",
+        "tags": ["Boss Drop", "Netherite Armor", "Set Bonus"],
+        "stats": {
+            "Armor Type": "Netherite Set",
+            "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+            "Protection": "All VII",
+            "Fire Protection": "VI"
+        },
+        "fullDescription": "The Magmar Armor Set is a blessed collection of netherite armor pieces obtained from the dangerous Magmar dimension. Each piece is unbreakable and provides exceptional protection against all forms of damage, especially fire.",
+        "sections": [
+            {
+                "title": "Armor Pieces",
+                "content": [
+                    "Magmar Helmet - Protection VII, Aqua Affinity III, Respiration III",
+                    "Magmar Chestplate - Protection VII, Thorns II",
+                    "Magmar Leggings - Protection VII, Swift Sneak V",
+                    "Magmar Boots - Protection VII, Soul Speed IV, Feather Falling VI"
+                ]
+            },
+            {
+                "title": "Enchantments (All Pieces)",
+                "content": [
+                    "Protection VII - Maximum protection",
+                    "Projectile Protection IV",
+                    "Fire Protection VI - Excellent fire resistance",
+                    "Blast Protection IV",
+                    "Thorns (varies) - Reflects damage to attackers",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Magmar bosses",
+                    "Magmar dimension",
+                    "Complete set drops are rare"
+                ]
+            },
+            {
+                "title": "Set Bonus",
+                "content": [
+                    "2 pieces: Fire immunity",
+                    "4 pieces: Maximum fire resistance + movement bonuses"
+                ]
+            }
+        ],
+        "related": ["menacing-magmar-helmet", "corrupted-armor"]
+    },
+    {
+        "id": "menacing-magmar-helmet",
+        "name": "Menacing Magmar Helmet",
+        "category": "armor",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #FF8F00 0%, #F57C00 100%)",
+        "description": "Magmar Helmet combined with the Emperor's Crown",
+        "tags": ["Crafted", "Netherite Helmet", "Unique"],
+        "stats": {
+            "Base Item": "Netherite Helmet",
+            "Health": "+20",
+            "Armor": "+5",
+            "Attack Damage": "+3"
+        },
+        "fullDescription": "The Menacing Magmar Helmet is a powerful fusion of the standard Magmar Helmet and the Emperor's Crown. This unique piece combines the protective properties of Magmar armor with additional combat bonuses, making it superior to the standard helmet.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Protection VII - Maximum protection",
+                    "Projectile Protection IV",
+                    "Fire Protection VI",
+                    "Blast Protection IV",
+                    "Thorns I - Reflects damage",
+                    "Respiration III - Underwater breathing",
+                    "Aqua Affinity II - Faster underwater mining",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires Magmar Helmet",
+                    "Requires King's Crown",
+                    "Special crafting recipe",
+                    "Upgraded version of base helmet"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 2)",
+                    "Unique stat bonuses",
+                    "Best helmet in the game",
+                    "Grants combat bonuses unlike normal armor"
+                ]
+            }
+        ],
+        "related": ["magmar-armor", "kings-crown", "corrupted-helmet"]
+    },
+    {
+        "id": "corrupted-armor",
+        "name": "Corrupted Armor Set",
+        "category": "armor",
+        "icon": "fa-shield-alt",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "Corrupted Upgrade For The Magmar Armor Forged With Corrupted Scales",
+        "tags": ["Crafted", "Netherite Armor", "Corrupted"],
+        "stats": {
+            "Armor Type": "Corrupted Netherite Set",
+            "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+            "Protection": "All XI",
+            "Fire Protection": "VII"
+        },
+        "fullDescription": "The Corrupted Armor Set represents the ultimate evolution of Magmar armor, enhanced with Corrupted Scales. This dark armor channels corruption energy while providing unmatched protection.",
+        "sections": [
+            {
+                "title": "Armor Pieces",
+                "content": [
+                    "Corrupted Helmet - Upgraded Menacing Magmar Helmet",
+                    "Corrupted Chestplate - Enhanced Magmar Chestplate",
+                    "Corrupted Leggings - Improved Magmar Leggings",
+                    "Corrupted Boots - Reinforced Magmar Boots"
+                ]
+            },
+            {
+                "title": "Enchantments (All Pieces)",
+                "content": [
+                    "Protection XI - Extreme protection",
+                    "Projectile Protection V",
+                    "Fire Protection VII - Maximum fire resistance",
+                    "Blast Protection V",
+                    "Thorns I - Reflects damage",
+                    "Respiration III - Underwater breathing",
+                    "Aqua Affinity III - Fast underwater mining",
+                    "Swift Sneak V - Leggings only",
+                    "Soul Speed IV - Boots only",
+                    "Feather Falling VI - Boots only",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires Magmar Armor pieces",
+                    "Requires Corrupted Scales",
+                    "Upgrade at special crafting station",
+                    "End-game armor enhancement"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 3)",
+                    "Superior to standard Magmar armor",
+                    "Corruption energy infused",
+                    "Best armor set in the game"
+                ]
+            }
+        ],
+        "related": ["magmar-armor", "corrupted-helmet", "corrupt-scales"]
+    },
+    {
+        "id": "corrupted-helmet",
+        "name": "Corrupted Helmet",
+        "category": "armor",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #AB47BC 0%, #6A1B9A 100%)",
+        "description": "Corrupted Upgrade For The Menacing Magmar Helmet",
+        "tags": ["Crafted", "Netherite Helmet", "Corrupted"],
+        "stats": {
+            "Base Item": "Netherite Helmet",
+            "Health": "+20",
+            "Armor": "+5",
+            "Attack Damage": "+3"
+        },
+        "fullDescription": "The Corrupted Helmet is the ultimate head protection, combining the Menacing Magmar Helmet with Corrupted Scales. This dark crown channels corruption while providing maximum defense.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Protection XI - Maximum protection",
+                    "Projectile Protection V",
+                    "Fire Protection VII",
+                    "Blast Protection V",
+                    "Thorns I - Reflects damage",
+                    "Respiration III - Underwater breathing",
+                    "Aqua Affinity III - Fast underwater mining",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires Menacing Magmar Helmet",
+                    "Requires Corrupted Scales",
+                    "Corruption dimension crafting",
+                    "Ultimate helmet upgrade"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 3)",
+                    "Best helmet in the game",
+                    "Corruption energy channeled",
+                    "Maintains all combat bonuses"
+                ]
+            }
+        ],
+        "related": ["menacing-magmar-helmet", "corrupted-armor"]
+    },
+    {
+        "id": "bandit-tunic",
+        "name": "Bandit Tunic",
+        "category": "armor",
+        "icon": "fa-vest",
+        "gradient": "linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%)",
+        "description": "A leather tunic taken from the corpse of a bandit",
+        "tags": ["Early Game", "Leather Armor"],
+        "stats": {
+            "Base Item": "Leather Chestplate",
+            "Color": "Red (255, 40, 40)",
+            "Durability": "Unbreakable"
+        },
+        "fullDescription": "The Bandit Tunic is a red leather chestplate that was stripped from a fallen bandit. While it provides basic protection, its unbreakable nature makes it useful for early-game players.",
+        "sections": [
+            {
+                "title": "Features",
+                "content": [
+                    "Distinctive red color",
+                    "Unbreakable durability",
+                    "Basic leather protection",
+                    "Early game armor option"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Bandit enemies",
+                    "Common drop",
+                    "Early game area"
+                ]
+            }
+        ],
+        "related": []
+    },
+	{
+    "id": "daylight-armor",
+    "name": "Daylight Armor Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
+    "description": "The sacred armor of the Trollhunter",
+    "tags": ["Legendary", "Trollhunter", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+        "Protection": "All XI",
+        "Fire Protection": "IV-V"
+    },
+    "fullDescription": "Forged by Merlin himself, this armor protects the Trollhunter from corruption and grants clarity in battle. Summoned alongside the Daylight blade when the Amulet is placed in a crafting table.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Helmet of Daylight - Protection XI, Respiration III, Aqua Affinity I",
+                "Chestplate of Daylight - Protection XI, Fire Protection V, Thorns III",
+                "Leggings of Daylight - Protection XI, Fire Protection IV, Swift Sneak III",
+                "Boots of Daylight - Protection XI, Fire Protection IV, Feather Falling V, Soul Speed III"
+            ]
+        },
+        {
+            "title": "Enchantments (All Pieces)",
+            "content": [
+                "Protection XI - Maximum protection",
+                "Fire Protection IV-V - Excellent fire resistance",
+                "Explosion Protection V - Blast resistance",
+                "Thorns III (Chestplate) - Reflects damage",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +25 Max Health, +6 Armor",
+                "Chestplate: +20% Knockback Resistance",
+                "Boots: +8% Movement Speed"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Craft Amulet of Daylight",
+                "Place Amulet in crafting table",
+                "Summons complete armor set + blade",
+                "Can be recrafted after use"
+            ]
+        }
+    ],
+    "related": ["daylight-blade", "eclipse-armor", "amulet-daylight"]
+},
+{
+    "id": "eclipse-armor",
+    "name": "Eclipse Armor Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+    "description": "Enhanced Daylight armor transformed by Triumbric Stones",
+    "tags": ["Legendary", "Anti-Gunmar", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+        "Protection": "All XIII",
+        "Fire Protection": "V-VI"
+    },
+    "fullDescription": "The ultimate form of Trollhunter armor, reinforced with the power of three Triumbric Stones. Withstands even Gunmar's mightiest strikes and grants immunity to his intimidation.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Helmet of Eclipse - Protection XIII, Respiration III, Thorns IV",
+                "Chestplate of Eclipse - Protection XIII, Fire Protection VI, Thorns V",
+                "Leggings of Eclipse - Protection XIII, Fire Protection V, Swift Sneak III",
+                "Boots of Eclipse - Protection XIII, Fire Protection V, Feather Falling VI, Soul Speed IV"
+            ]
+        },
+        {
+            "title": "Enchantments (All Pieces)",
+            "content": [
+                "Protection XIII - Extreme protection",
+                "Fire Protection V-VI - Maximum fire resistance",
+                "Explosion Protection VI - Superior blast resistance",
+                "Thorns IV-V - High damage reflection",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +25 Max Health, +7 Armor, +4 Armor Toughness",
+                "Chestplate: +30% Knockback Resistance, +9 Armor, +5 Toughness",
+                "Leggings: +7.5 Armor, +4 Armor Toughness",
+                "Boots: +7 Armor, +4 Armor Toughness"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Upgrade Daylight Amulet with Triumbric Stones",
+                "Requires Birthstone, Gunmar's Eye, Killstone",
+                "Place Eclipse Amulet in crafting table",
+                "Anti-Gunmar specialized armor"
+            ]
+        }
+    ],
+    "related": ["eclipse-blade", "daylight-armor", "moonlight-armor"]
+},
+{
+    "id": "moonlight-armor",
+    "name": "Moonlight Armor Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
+    "description": "Supreme celestial armor blessed by lunar and solar magic",
+    "tags": ["Mythic", "Supreme Artifact", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+        "Protection": "All XV",
+        "Fire Protection": "VI-VII"
+    },
+    "fullDescription": "The supreme armor crafted from moonbeams, starlight, and pure celestial essence. Reflects all dark magic and curses back at their casters with amplified force. Grants perfect vision through darkness and immunity to corruption.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Helmet of Moonlight - Protection XV, Respiration V, Projectile Protection VII, Thorns IV",
+                "Chestplate of Moonlight - Protection XV, Fire Protection VII, Explosion Protection VII, Projectile Protection VII, Thorns VI",
+                "Leggings of Moonlight - Protection XV, Fire Protection VI, Swift Sneak IV",
+                "Boots of Moonlight - Protection XV, Fire Protection VI, Feather Falling VII, Soul Speed IV, Depth Strider III"
+            ]
+        },
+        {
+            "title": "Enchantments (All Pieces)",
+            "content": [
+                "Protection XV - Divine protection",
+                "Fire Protection VI-VII - Absolute fire immunity",
+                "Explosion Protection VII - Complete blast immunity",
+                "Projectile Protection VII - Ranged attack immunity",
+                "Thorns IV-VI - Massive damage reflection",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +30 Max Health, +8 Armor, +6 Armor Toughness",
+                "Chestplate: +40% Knockback Resistance, +10 Armor, +6 Toughness",
+                "Leggings: +8.5 Armor, +6 Armor Toughness",
+                "Boots: +8 Armor, +6 Armor Toughness"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Perfect vision through all darkness",
+                "Immunity to all corruption and mind control",
+                "Reflects dark magic back at casters",
+                "Can walk on moonbeams, air, and water",
+                "Strongest armor in existence"
+            ]
+        }
+    ],
+    "related": ["moonlight-blade", "eclipse-armor"]
+},
+{
+    "id": "gunmar-armor-set",
+    "name": "Gunmar's Dark Underlord Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #B71C1C 0%, #000000 100%)",
+    "description": "The impenetrable armor of the Dark Underlord",
+    "tags": ["Mythic", "Gumm-Gumm", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+        "Special": "Dark Aura, Regeneration II"
+    },
+    "fullDescription": "The crown and armor of Gunmar the Black, forged in the heart of the Darklands. Radiates with absolute power and dominion. No blade has ever pierced this armor.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Gunmar's Skull Crown - Thorns V, Respiration III, Aqua Affinity I",
+                "Gunmar's War Plate - Fire Protection VII, Explosion Protection VII, Thorns V",
+                "Gunmar's War Greaves - Fire Protection VI, Swift Sneak V, Thorns IV",
+                "Gunmar's War Treads - Fire Protection VI, Feather Falling V, Soul Speed IV, Thorns IV"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +50 Max Health, +8 Armor, +8 Attack Damage",
+                "Chestplate: +35% Knockback Resistance",
+                "Full Set: Dark Aura - Weakens nearby enemies",
+                "Full Set: Regeneration II (constant)"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Dropped by Gunmar the Black",
+                "Darklands dimension boss",
+                "Extremely rare mythic drop",
+                "Worn by the Dark Underlord himself"
+            ]
+        }
+    ],
+    "related": ["decimaar-blade", "gunmar-dark-shield"]
+},
+{
+    "id": "bular-armor-set",
+    "name": "Bular's Troll Warlord Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Ancient stone armor forged in the Darklands",
+    "tags": ["Gumm-Gumm", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)"
+    },
+    "fullDescription": "The twisted horns and stone armor of Bular the Butcher, still radiating dark Gumm-Gumm power. This armor protected him through countless battles.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Bular's Horned Helm - Protection VII, Thorns II",
+                "Bular's Stone Plate - Protection VIII, Fire Protection IV, Thorns III",
+                "Bular's Stone Greaves - Protection VII, Fire Protection III",
+                "Bular's War Treads - Protection VII, Fire Protection III, Feather Falling IV"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +30 Max Health, +5 Armor, +4 Attack Damage",
+                "Chestplate: +18% Knockback Resistance"
+            ]
+        },
+        {
+            "title": "Enchantments",
+            "content": [
+                "Protection VII-VIII - High protection",
+                "Fire Protection III-IV - Fire resistance",
+                "Thorns II-III - Reflects damage",
+                "Unbreaking IV - Durable",
+                "Unbreakable - Never breaks"
+            ]
+        }
+    ],
+    "related": ["bulars-twin-blades", "bular-essence"]
+},
+{
+    "id": "angor-armor-set",
+    "name": "Angor's Shadow Assassin Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #7B1FA2 0%, #4A148C 100%)",
+    "description": "Armor forged in dark magic, bound by the Infernal Shroud",
+    "tags": ["Legendary", "Cursed", "Netherite Set"],
+    "stats": {
+        "Armor Type": "Netherite Set",
+        "Set Pieces": "4 (Helmet, Chest, Legs, Boots)",
+        "Special": "Shadow Walker, Invisibility in darkness"
+    },
+    "fullDescription": "The skull and armor of Angor Rot, corrupted by the Infernal Shroud curse. Allows swift silent movement through darkness and grants invisibility in shadows.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Angor's Cursed Helm (Wither Skeleton Skull) - Thorns III",
+                "Angor's Shadow Plate - Explosion Protection V, Thorns IV",
+                "Angor's Shadow Greaves - Swift Sneak V",
+                "Angor's Shadow Treads - Feather Falling V, Soul Speed IV"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Helmet: +35 Max Health, +6 Armor, +5 Attack Damage",
+                "Chestplate: +22% Knockback Resistance",
+                "Boots: +4% Movement Speed",
+                "Full Set: Shadow Walker - Invisibility in darkness"
+            ]
+        },
+        {
+            "title": "Enchantments",
+            "content": [
+                "Thorns III-IV - Reflects damage",
+                "Explosion Protection V - Blast resistance",
+                "Swift Sneak V - Silent movement",
+                "Unbreaking V - Durable",
+                "Unbreakable - Never breaks"
+            ]
+        }
+    ],
+    "related": ["angor-blade", "infernal-shard"]
+},
+{
+    "id": "changeling-armor-set",
+    "name": "Changeling's Shapeshifter Set",
+    "category": "armor",
+    "icon": "fa-shield-alt",
+    "gradient": "linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)",
+    "description": "Armor woven from shadows for blending into any environment",
+    "tags": ["Shapeshifter Set", "Leather Armor"],
+    "stats": {
+        "Armor Type": "Leather Set",
+        "Set Pieces": "4 (Mask, Cloak, Legs, Boots)",
+        "Special": "Poison Resistance"
+    },
+    "fullDescription": "A mask that shifts between forms and a cloak woven from shadows. Helps the wearer blend into any environment with silent, swift movement.",
+    "sections": [
+        {
+            "title": "Armor Pieces",
+            "content": [
+                "Changeling's Facade (Player Head) - Durability IV",
+                "Changeling's Cloak (Green Leather) - Durability IV, Poison Resistance",
+                "Changeling's Stride (Green Leather) - Swift Sneak III, Durability IV",
+                "Changeling's Steps (Green Leather) - Feather Falling IV, Soul Speed III, Durability IV"
+            ]
+        },
+        {
+            "title": "Special Attributes",
+            "content": [
+                "Mask: +22 Max Health, +4 Armor",
+                "Boots: +4% Movement Speed",
+                "Full Set: Poison Resistance",
+                "Color: Dark Green (RGB: 34, 139, 34)"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Silent footsteps",
+                "Leaves no trace",
+                "Lightweight movement",
+                "Shape-shifting appearance"
+            ]
+        }
+    ],
+    "related": ["changeling-fang", "changeling-essence"]
+},
+{
+    "id": "creepslayerz-jacket",
+    "name": "Creepslayerz Jacket",
+    "category": "armor",
+    "icon": "fa-vest",
+    "gradient": "linear-gradient(135deg, #EF5350 0%, #C62828 100%)",
+    "description": "An official Creepslayerz team jacket",
+    "tags": ["Rare Armor", "Leather Chestplate"],
+    "stats": {
+        "Base Item": "Leather Chestplate",
+        "Color": "Red (255, 0, 0)"
+    },
+    "fullDescription": "An official Creepslayerz team jacket worn by the once alive Dark Knights of Arcadia in their monster-hunting adventures.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Protection IV - Basic protection",
+                "Unbreaking V - Durable"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Quest reward",
+                "Creepslayerz storyline",
+                "Monster hunting team gear"
+            ]
+        }
+    ]
+}
+]

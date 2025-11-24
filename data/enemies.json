@@ -1,0 +1,68 @@
+[
+    {
+        "id": "enemy-1",
+        "name": "Enemy 1",
+        "category": "enemies",
+        "icon": "fa-skull",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "Description for Enemy 1",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Health": "500 HP",
+            "Damage": "20-30",
+            "Armor": "10",
+            "Experience": "50 XP"
+        },
+        "fullDescription": "Full description for Enemy 1. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Drops",
+                "content": [
+                    "Item 1",
+                    "Item 2",
+                    "Item 3"
+                ]
+            },
+            {
+                "title": "Locations",
+                "content": [
+                    "Location 1",
+                    "Location 2"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "enemy-2",
+        "name": "Enemy 2",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "Description for Enemy 2",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Health": "1000 HP",
+            "Damage": "40-60",
+            "Armor": "25",
+            "Experience": "100 XP"
+        },
+        "fullDescription": "Full description for Enemy 2. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Drops",
+                "content": [
+                    "Item 1",
+                    "Item 2"
+                ]
+            },
+            {
+                "title": "Locations",
+                "content": [
+                    "Location 1"
+                ]
+            }
+        ],
+        "related": []
+    }
+]

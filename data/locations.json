@@ -1,0 +1,63 @@
+[
+    {
+        "id": "location-1",
+        "name": "Location 1",
+        "category": "locations",
+        "icon": "fa-mountain",
+        "gradient": "linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)",
+        "description": "Description for Location 1",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Level Range": "50-100",
+            "Bosses": "3",
+            "Loot Quality": "Epic",
+            "Players": "5-10"
+        },
+        "fullDescription": "Full description for Location 1. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Boss Encounters",
+                "content": [
+                    "Boss 1 - Description",
+                    "Boss 2 - Description",
+                    "Boss 3 - Description"
+                ]
+            },
+            {
+                "title": "Notable Features",
+                "content": [
+                    "Feature 1",
+                    "Feature 2",
+                    "Feature 3"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "location-2",
+        "name": "Location 2",
+        "category": "locations",
+        "icon": "fa-dungeon",
+        "gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+        "description": "Description for Location 2",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Level Range": "75-125",
+            "Bosses": "5",
+            "Loot Quality": "Legendary",
+            "Players": "10-20"
+        },
+        "fullDescription": "Full description for Location 2. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Boss Encounters",
+                "content": [
+                    "Boss 1 - Description",
+                    "Boss 2 - Description"
+                ]
+            }
+        ],
+        "related": []
+    }
+]

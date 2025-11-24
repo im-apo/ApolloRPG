@@ -1,0 +1,80 @@
+[
+    {
+        "id": "boss-1",
+        "name": "Boss 1",
+        "category": "bosses",
+        "icon": "fa-dragon",
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+        "description": "Description for Boss 1",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Health": "1,000,000 HP",
+            "Damage": "1,000-2,000",
+            "Armor": "100",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "Full description for Boss 1. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Ability 1 - Description",
+                    "Ability 2 - Description",
+                    "Ability 3 - Description"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Strategy tip 1",
+                    "Strategy tip 2",
+                    "Strategy tip 3"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Item 1",
+                    "Item 2",
+                    "Item 3"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "boss-2",
+        "name": "Boss 2",
+        "category": "bosses",
+        "icon": "fa-dragon",
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+        "description": "Description for Boss 2",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Health": "1,000,000 HP",
+            "Damage": "1,000-2,000",
+            "Armor": "100",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "Full description for Boss 2. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Ability 1 - Description",
+                    "Ability 2 - Description",
+                    "Ability 3 - Description"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Strategy tip 1",
+                    "Strategy tip 2",
+                    "Strategy tip 3"
+                ]
+            }
+        ],
+        "related": []
+    }
+]

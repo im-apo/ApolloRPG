@@ -1,0 +1,310 @@
+[
+    {
+        "id": "exorcist-handle",
+        "name": "Exorcist Sword Handle",
+        "category": "materials",
+        "icon": "fa-grip-lines",
+        "gradient": "linear-gradient(135deg, #8D6E63 0%, #4E342E 100%)",
+        "description": "Used to craft the Exorcist sword",
+        "tags": ["Crafting Material", "Boss Drop"],
+        "stats": {
+            "Base Item": "Leather Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "Exorcist Recipe"
+        },
+        "fullDescription": "The Exorcist Sword Handle is a crucial component required to craft the legendary Exorcist sword. This specially crafted handle is designed to withstand the immense power of the final weapon.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for Exorcist crafting",
+                    "Combine with Magmarite",
+                    "Combine with Melted Magmar Core",
+                    "Special crafting recipe"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Rare boss drop",
+                    "Nether dimension"
+                ]
+            }
+        ],
+        "related": ["exorcist", "melted-magmar-core"]
+    },
+    {
+        "id": "melted-magmar-core",
+        "name": "Melted Magmar Core",
+        "category": "materials",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #FF5722 0%, #D84315 100%)",
+        "description": "Used to craft the Exorcist sword",
+        "tags": ["Crafting Material", "Processed"],
+        "stats": {
+            "Base Item": "Diamond Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "Exorcist Recipe"
+        },
+        "fullDescription": "The Melted Magmar Core is the processed form of an Infused Magmar Core. This molten core contains the essence of the Magmar dimension and is essential for creating the ultimate Exorcist weapon.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for Exorcist crafting",
+                    "Processed from Infused Core",
+                    "Contains Magmar essence",
+                    "End-game crafting material"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Melt an Infused Magmar Core",
+                    "Requires special process",
+                    "Magmar dimension material"
+                ]
+            }
+        ],
+        "related": ["exorcist", "infused-magmar-core", "exorcist-handle"]
+    },
+    {
+        "id": "infused-magmar-core",
+        "name": "Infused Magmar Core",
+        "category": "materials",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #FF9800 0%, #E65100 100%)",
+        "description": "Needs to be melted before use",
+        "tags": ["Crafting Material", "Boss Drop"],
+        "stats": {
+            "Base Item": "Iron Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "Process into Melted Core"
+        },
+        "fullDescription": "The Infused Magmar Core is a raw material infused with the power of the Magmar dimension. It must be melted down before it can be used in crafting the legendary Exorcist sword.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Must be melted first",
+                    "Becomes Melted Magmar Core",
+                    "Part of Exorcist recipe chain",
+                    "Raw crafting material"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Magmar bosses",
+                    "Magmar dimension"
+                ]
+            }
+        ],
+        "related": ["melted-magmar-core", "exorcist"]
+    },
+    {
+        "id": "sword-centrepiece",
+        "name": "Sword Centrepiece",
+        "category": "materials",
+        "icon": "fa-gem",
+        "gradient": "linear-gradient(135deg, #FFD700 0%, #FFC107 100%)",
+        "description": "I Wonder What This Is For?",
+        "tags": ["Crafting Material", "Mysterious"],
+        "stats": {
+            "Base Item": "Golden Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "Unknown Recipe"
+        },
+        "fullDescription": "The Sword Centrepiece is a mysterious golden component whose purpose remains largely unknown. It appears to be an important piece for some kind of legendary weapon crafting, but the full recipe is yet to be discovered.",
+        "sections": [
+            {
+                "title": "Mystery",
+                "content": [
+                    "Purpose currently unknown",
+                    "Likely used in special crafting",
+                    "May be part of secret recipe",
+                    "Keep for future use"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Rare boss drops",
+                    "Various dimensions"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "frostbite-handle",
+        "name": "FrostBite Sword Handle",
+        "category": "materials",
+        "icon": "fa-grip-lines",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #0D47A1 100%)",
+        "description": "Used To Craft The FrostBite",
+        "tags": ["Crafting Material", "Frost"],
+        "stats": {
+            "Base Item": "Leather Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "FrostBite Recipe"
+        },
+        "fullDescription": "The FrostBite Sword Handle is a frozen component used to craft the legendary FrostBite sword. This icy handle can withstand extreme cold and channels frost magic.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for FrostBite crafting",
+                    "Upgrade from PermaFrost",
+                    "Frost dimension material"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Frost Elemental",
+                    "Arctic dimension"
+                ]
+            }
+        ],
+        "related": ["frostbite-centrepiece", "permafrost", "frostbite"]
+    },
+    {
+        "id": "frostbite-centrepiece",
+        "name": "FrostBite Centrepiece",
+        "category": "materials",
+        "icon": "fa-gem",
+        "gradient": "linear-gradient(135deg, #81D4FA 0%, #01579B 100%)",
+        "description": "I Wonder What This Is For?",
+        "tags": ["Crafting Material", "Frost"],
+        "stats": {
+            "Base Item": "Golden Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "FrostBite Recipe"
+        },
+        "fullDescription": "The FrostBite Centrepiece is a mysterious frozen gem that holds the essence of eternal winter. Combined with other materials, it can create the ultimate frost weapon.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for FrostBite crafting",
+                    "Part of frost weapon upgrades",
+                    "Frozen magical component"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Frost Elemental",
+                    "Arctic dimension boss"
+                ]
+            }
+        ],
+        "related": ["frostbite-handle", "permafrost", "frostbite"]
+    },
+    {
+        "id": "corrupt-scales",
+        "name": "Corrupted Scales",
+        "category": "materials",
+        "icon": "fa-dragon",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "Scales Used To Upgrade Weapons and Armour",
+        "tags": ["Crafting Material", "Upgrade Material"],
+        "stats": {
+            "Base Item": "Turtle Scute",
+            "Item Type": "Crafting Material",
+            "Used In": "Corrupted Armor Upgrades"
+        },
+        "fullDescription": "Corrupted Scales are powerful upgrade materials dropped by corrupted entities. These scales can be used to upgrade Magmar armor pieces into their Corrupted variants, significantly enhancing their power.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Upgrade Magmar Helmet to Corrupted Helmet",
+                    "Upgrade Magmar Armor pieces",
+                    "Enhance weapon and armor stats",
+                    "End-game crafting material"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Corrupt King",
+                    "Corruption dimension boss",
+                    "Rare upgrade material"
+                ]
+            }
+        ],
+        "related": ["corrupted-helmet", "corrupted-armor"]
+    },
+    {
+        "id": "mega-handle",
+        "name": "Mega Sword Handle",
+        "category": "materials",
+        "icon": "fa-grip-lines",
+        "gradient": "linear-gradient(135deg, #FF5722 0%, #F57C00 100%)",
+        "description": "Used To Craft Every Sword Going Forward From LightsBane",
+        "tags": ["Crafting Material", "Ultimate Material"],
+        "stats": {
+            "Base Item": "Leather Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "LightsBane & Beyond"
+        },
+        "fullDescription": "The Mega Sword Handle is an ultimate crafting component required for all top-tier sword upgrades starting from LightsBane. This handle represents the pinnacle of weapon crafting technology.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for LightsBane",
+                    "Required for Night's Edge",
+                    "Used in all ultimate weapon crafts",
+                    "Most advanced handle material"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Corrupt King",
+                    "Corruption dimension",
+                    "Ultra rare material"
+                ]
+            }
+        ],
+        "related": ["mega-centrepiece", "lights-bane", "nights-edge"]
+    },
+    {
+        "id": "mega-centrepiece",
+        "name": "Mega Sword Centrepiece",
+        "category": "materials",
+        "icon": "fa-gem",
+        "gradient": "linear-gradient(135deg, #FFD700 0%, #FF6F00 100%)",
+        "description": "Used To Craft Every Sword Going Forward From LightsBane",
+        "tags": ["Crafting Material", "Ultimate Material"],
+        "stats": {
+            "Base Item": "Golden Horse Armor",
+            "Item Type": "Crafting Material",
+            "Used In": "LightsBane & Beyond"
+        },
+        "fullDescription": "The Mega Sword Centrepiece is the core component for all ultimate weapon upgrades. This golden gem contains concentrated power from multiple dimensions.",
+        "sections": [
+            {
+                "title": "Usage",
+                "content": [
+                    "Required for LightsBane",
+                    "Required for Night's Edge",
+                    "Core component for ultimate weapons",
+                    "Multi-dimensional power source"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Corrupt King",
+                    "Corruption dimension boss",
+                    "Ultra rare crafting component"
+                ]
+            }
+        ],
+        "related": ["mega-handle", "lights-bane", "nights-edge"]
+    }
+]

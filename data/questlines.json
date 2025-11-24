@@ -1,0 +1,70 @@
+[
+    {
+        "id": "quest-1",
+        "name": "Questline 1",
+        "category": "questlines",
+        "icon": "fa-scroll",
+        "gradient": "linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)",
+        "description": "Description for Questline 1",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Required Level": "50",
+            "Duration": "1-2 hours",
+            "Difficulty": "Medium",
+            "Chapters": "3"
+        },
+        "fullDescription": "Full description for Questline 1. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Quest Steps",
+                "content": [
+                    "Step 1 - Description",
+                    "Step 2 - Description",
+                    "Step 3 - Description"
+                ]
+            },
+            {
+                "title": "Rewards",
+                "content": [
+                    "Reward 1",
+                    "Reward 2",
+                    "Reward 3"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "quest-2",
+        "name": "Questline 2",
+        "category": "questlines",
+        "icon": "fa-scroll",
+        "gradient": "linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)",
+        "description": "Description for Questline 2",
+        "tags": ["Tag1", "Tag2", "Tag3"],
+        "stats": {
+            "Required Level": "75",
+            "Duration": "2-3 hours",
+            "Difficulty": "Hard",
+            "Chapters": "5"
+        },
+        "fullDescription": "Full description for Questline 2. Add detailed information here.",
+        "sections": [
+            {
+                "title": "Quest Steps",
+                "content": [
+                    "Step 1 - Description",
+                    "Step 2 - Description"
+                ]
+            },
+            {
+                "title": "Rewards",
+                "content": [
+                    "Reward 1",
+                    "Reward 2"
+                ]
+            }
+        ],
+        "related": []
+    }
+]

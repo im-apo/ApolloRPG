@@ -1,0 +1,1003 @@
+[
+    {
+        "id": "skeleton-king-sword",
+        "name": "Greatsword of the Skeleton King",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
+        "description": "A powerful sword used by the King of Skeletons",
+        "tags": ["Boss Drop", "Diamond Sword"],
+        "stats": {
+            "Base Item": "Diamond Sword",
+            "Attack Damage": "+13.5",
+            "Health": "+10",
+            "Movement Speed": "+0.1"
+        },
+        "fullDescription": "The Greatsword of the Skeleton King is a legendary diamond sword that once belonged to the ruler of all undead skeletons. It radiates with ancient power and grants the wielder enhanced combat capabilities.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness V - Massively increases damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Sets enemies ablaze",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by the Skeleton King boss",
+                    "Rare drop chance",
+                    "Located in the Undead Kingdom"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 1)",
+                    "Unique blue enchanted glow",
+                    "Bonus stats when held"
+                ]
+            }
+        ],
+        "related": ["zombie-kings-blade"]
+    },
+    {
+        "id": "zombie-kings-blade",
+        "name": "Greatsword of the Zombie King",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #4CAF50 0%, #1B5E20 100%)",
+        "description": "A powerful sword used by the King of Zombies",
+        "tags": ["Boss Drop", "Netherite Sword"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+16",
+            "Health": "+15",
+            "Movement Speed": "+0.15"
+        },
+        "fullDescription": "The Greatsword of the Zombie King is a formidable netherite blade that was forged in the depths of decay. More powerful than its skeletal counterpart, it grants superior damage and survivability.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness VII - Extreme damage boost",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect IV - Burns enemies intensely",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by the Zombie King boss",
+                    "Rare drop chance",
+                    "Located in the Zombie Kingdom"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 2)",
+                    "Superior to Skeleton King's Sword",
+                    "Enhanced stat bonuses"
+                ]
+            }
+        ],
+        "related": ["skeleton-king-sword", "slime-sword"]
+    },
+    {
+        "id": "slime-sword",
+        "name": "The Legendary Slime Sword",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #8BC34A 0%, #33691E 100%)",
+        "description": "Legend Says It Was Forged By The King Himself",
+        "tags": ["Boss Drop", "Netherite Sword"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+21",
+            "Health": "+30",
+            "Movement Speed": "+0.5"
+        },
+        "fullDescription": "The Legendary Slime Sword is a mythical weapon said to have been forged by the Slime King himself. It is one of the most powerful weapons in the realm, granting massive combat bonuses and incredible mobility.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XI - Devastating damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Sets enemies ablaze",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by the Slime King",
+                    "Extremely rare drop",
+                    "End-game boss reward"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 3)",
+                    "Highest damage sword",
+                    "Massive movement speed boost",
+                    "Significant health increase"
+                ]
+            }
+        ],
+        "related": ["zombie-kings-blade", "magmarite"]
+    },
+    {
+        "id": "magmarite",
+        "name": "Magmarite",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #FF5722 0%, #BF360C 100%)",
+        "description": "Forged By The Nether King In The Nether Wastes",
+        "tags": ["Boss Drop", "Netherite Sword"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+34",
+            "Health": "+30",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "Magmarite is an extraordinarily powerful blade forged by the Nether King himself in the scorching Nether Wastes. This weapon channels the raw power of the nether and is among the strongest weapons in existence.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XXI - Insane damage output",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Burns enemies",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by the Nether King",
+                    "Extremely rare drop",
+                    "Nether dimension boss"
+                ]
+            },
+            {
+                "title": "Upgrade Path",
+                "content": [
+                    "Can be upgraded to Exorcist",
+                    "Requires special materials",
+                    "Even more powerful final form"
+                ]
+            }
+        ],
+        "related": ["exorcist", "slime-sword"]
+    },
+    {
+        "id": "exorcist",
+        "name": "Exorcist",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #FFC107 0%, #F57C00 100%)",
+        "description": "Upgrade For The Legendary Magmarite Blade",
+        "tags": ["Crafted", "Netherite Sword"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+40",
+            "Health": "+35",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "The Exorcist is the ultimate evolution of Magmarite, representing the pinnacle of weapon crafting. This legendary blade combines the raw power of the Nether King's forge with additional mystical enhancements, making it the strongest sword in the entire realm.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XXXIV - Maximum damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Burns enemies",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires Magmarite sword",
+                    "Exorcist Sword Handle",
+                    "Melted Magmar Core",
+                    "Special crafting recipe"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 6)",
+                    "Strongest weapon in the game",
+                    "Maximum stat bonuses",
+                    "Prestigious end-game weapon"
+                ]
+            }
+        ],
+        "related": ["magmarite", "butchers-axe"]
+    },
+    {
+        "id": "permafrost",
+        "name": "PermaFrost",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #0277BD 100%)",
+        "description": "Forged By The Magical Frost Elemental Of The Arctic",
+        "tags": ["Boss Drop", "Netherite Sword", "Frost"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+28",
+            "Health": "+30",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "PermaFrost is a legendary ice blade forged by the Frost Elemental in the frozen wastes of the Arctic. This sword channels the power of eternal winter and can freeze enemies with its touch.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XVI - Massive ice damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Paradoxical cold burn",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Frost Elemental",
+                    "Arctic dimension boss",
+                    "Rare frost weapon"
+                ]
+            },
+            {
+                "title": "Upgrade Path",
+                "content": [
+                    "Can be upgraded to FrostBite",
+                    "Requires special frost materials",
+                    "Even more powerful final form"
+                ]
+            }
+        ],
+        "related": ["frostbite"]
+    },
+    {
+        "id": "frostbite",
+        "name": "FrostBite",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #81D4FA 0%, #01579B 100%)",
+        "description": "Upgraded from the Legendary PermaFrost!",
+        "tags": ["Crafted", "Netherite Sword", "Frost"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+46",
+            "Health": "+40",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "FrostBite is the ultimate form of PermaFrost, enhanced with additional frost materials. This weapon represents absolute zero made manifest, capable of freezing anything it touches instantly.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XL - Devastating frost damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Intense cold burn",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires PermaFrost sword",
+                    "FrostBite Sword Handle",
+                    "FrostBite Centrepiece",
+                    "Special crafting recipe"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 9)",
+                    "Upgraded from PermaFrost",
+                    "Maximum frost power",
+                    "Elite Arctic weapon"
+                ]
+            }
+        ],
+        "related": ["permafrost", "lights-bane"]
+    },
+    {
+        "id": "lights-bane",
+        "name": "Lights Bane",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-moon",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A Weapon Manifested From The Corruption Of The World",
+        "tags": ["Boss Drop", "Netherite Sword", "Corrupted"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+53",
+            "Health": "+45",
+            "Movement Speed": "+1.2"
+        },
+        "fullDescription": "Lights Bane is a manifestation of pure corruption, born from the darkness that threatens to consume the world. This unholy weapon channels the power of the Corrupt King and represents one of the most powerful swords in existence.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XLV - Corrupted damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Dark flames",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Corrupt King",
+                    "Corruption dimension boss",
+                    "Ultra rare corrupted weapon"
+                ]
+            },
+            {
+                "title": "Upgrade Path",
+                "content": [
+                    "Can be combined for Night's Edge",
+                    "Requires all legendary swords",
+                    "Ultimate weapon fusion"
+                ]
+            }
+        ],
+        "related": ["nights-edge", "exorcist", "frostbite"]
+    },
+    {
+        "id": "nights-edge",
+        "name": "Night's Edge",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-star",
+        "gradient": "linear-gradient(135deg, #1A237E 0%, #000000 100%)",
+        "description": "A Combination Of All The Worlds Strongest Weapons!",
+        "tags": ["Crafted", "Netherite Sword", "Ultimate"],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+60",
+            "Health": "+45",
+            "Movement Speed": "+1.2"
+        },
+        "fullDescription": "Night's Edge is the ultimate weapon, forged by combining all of the world's most powerful legendary swords. This blade transcends the power of any single dimension, channeling fire, frost, and corruption simultaneously.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness LIII - Absolute maximum damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Elemental fusion",
+                    "Unbreaking XI - Nearly indestructible",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Craft",
+                "content": [
+                    "Requires Exorcist",
+                    "Requires FrostBite",
+                    "Requires Lights Bane",
+                    "Mega Sword Handle",
+                    "Mega Sword Centrepiece",
+                    "Ultimate crafting recipe"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 11)",
+                    "Strongest weapon in existence",
+                    "Combination of all elements",
+                    "Pinnacle of weapon crafting"
+                ]
+            }
+        ],
+        "related": ["lights-bane", "exorcist", "frostbite"]
+    },
+    {
+        "id": "butchers-axe",
+        "name": "Butchers Axe",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-axe",
+        "gradient": "linear-gradient(135deg, #F44336 0%, #B71C1C 100%)",
+        "description": "I'll Cut You Down!",
+        "tags": ["Boss Drop", "Netherite Axe"],
+        "stats": {
+            "Base Item": "Netherite Axe",
+            "Attack Damage": "+30",
+            "Health": "+10",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "The Butcher's Axe is a fearsome weapon wielded by the most brutal warriors. This massive netherite axe deals devastating damage and strikes terror into the hearts of enemies.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XVIII - Massive damage",
+                    "Knockback I - Pushes enemies back",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Butcher boss",
+                    "Rare drop chance",
+                    "Alternative to sword weapons"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 1)",
+                    "High damage axe weapon",
+                    "Full movement speed bonus"
+                ]
+            }
+        ],
+        "related": ["exorcist", "enlightened-pickaxe"]
+    },
+    {
+        "id": "enlightened-pickaxe",
+        "name": "Great Enlightened Pickaxe",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #00BCD4 0%, #006064 100%)",
+        "description": "A powerful Pickaxe used by the Undead Miner",
+        "tags": ["Boss Drop", "Netherite Pickaxe", "Tool"],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+3 (Main/Off)",
+            "Movement Speed": "+0.15",
+            "Mining Speed": "Very Fast"
+        },
+        "fullDescription": "The Great Enlightened Pickaxe once belonged to a legendary miner who delved too deep and was cursed to wander the caves forever. This powerful tool grants exceptional mining capabilities.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency VII - Extremely fast mining",
+                    "Fortune IV - Better drops",
+                    "Unbreaking VII - Very durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Undead Miner boss",
+                    "Cave dimension boss",
+                    "Rare mining tool drop"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 1)",
+                    "Can be held in either hand",
+                    "Bonus stats in both hands"
+                ]
+            }
+        ],
+        "related": ["ultimate-pickaxe"]
+    },
+    {
+        "id": "ultimate-pickaxe",
+        "name": "Ultimate Pickaxe",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A powerful Pickaxe literally touched by God",
+        "tags": ["Crafted", "Netherite Pickaxe"],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+10 Main, +6 Off",
+            "Movement Speed": "+0.3",
+            "Mining Speed": "Godlike"
+        },
+        "fullDescription": "The Ultimate Pickaxe is a divine tool that has been blessed by the gods themselves. It is unbreakable and mines at supernatural speeds, making it the best mining tool in existence.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XIII - Instant mining",
+                    "Fortune VIII - Maximum drops",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Craft from Enlightened Pickaxe",
+                    "Requires rare materials",
+                    "End-game mining tool"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 2)",
+                    "Unbreakable durability",
+                    "Massive stat bonuses",
+                    "Best mining tool available"
+                ]
+            }
+        ],
+        "related": ["enlightened-pickaxe"]
+    },
+	{
+    "id": "daylight-blade",
+    "name": "Daylight",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
+    "description": "For the glory of Merlin, Daylight is mine to command!",
+    "tags": ["Legendary", "Trollhunter", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+70",
+        "Health": "+50",
+        "Movement Speed": "+1.25"
+    },
+    "fullDescription": "The sacred blade of the Trollhunter, summoned by the Amulet of Daylight. Forged by Merlin himself to slay trolls, this legendary weapon is effective against all Gumm-Gumm trolls and emits a bright aura.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness XLVIII - Devastating damage",
+                "Mending I - Repairs with experience",
+                "Sweeping Edge III - Area damage",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Craft the Amulet of Daylight first",
+                "Requires 3 Triumbric Stones",
+                "Place Amulet in crafting table",
+                "Summons complete armor set + blade"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Custom model (Model: 12)",
+                "Glowing aura effect",
+                "Effective vs Gumm-Gumm trolls",
+                "Part of Trollhunter legacy"
+            ]
+        }
+    ],
+    "related": ["amulet-daylight", "eclipse-blade", "daylight-armor"]
+},
+{
+    "id": "eclipse-blade",
+    "name": "Eclipse",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+    "description": "For the doom of Gunmar, Eclipse is mine to command!",
+    "tags": ["Legendary", "Anti-Gunmar", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+80",
+        "Health": "+50",
+        "Movement Speed": "+1.25"
+    },
+    "fullDescription": "The ultimate evolution of Daylight, summoned by the Eclipse Amulet. Transformed by the three Triumbric Stones and specifically forged to kill Gunmar the Black. The only blade capable of ending the Dark Lord.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness LII - Anti-Gunmar damage",
+                "Fire Aspect III - Burns enemies",
+                "Mending I - Repairs with experience",
+                "Sweeping Edge III - Area damage",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Upgrade Daylight Amulet with Triumbric Stones",
+                "Requires Birthstone, Gunmar's Eye, Killstone",
+                "Place Eclipse Amulet in crafting table",
+                "Summons Eclipse armor set + blade"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Custom model (Model: 13)",
+                "Bypasses Gumm-Gumm resistances",
+                "Specifically designed to kill Gunmar",
+                "Enhanced Trollhunter weapon"
+            ]
+        }
+    ],
+    "related": ["eclipse-amulet", "daylight-blade", "moonlight-blade"]
+},
+{
+    "id": "moonlight-blade",
+    "name": "Moonlight",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
+    "description": "For the Doom of Evil, Moonlight is mine to command!",
+    "tags": ["Mythic", "Supreme Artifact", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+90",
+        "Health": "+50",
+        "Movement Speed": "+1.25"
+    },
+    "fullDescription": "The supreme amulet that transcends both Daylight and Eclipse. Forged by an ancient order of celestial guardians to vanquish all corrupted beasts and dark entities. The divine blade of the Night Guardian, forged under a blood moon with celestial magic.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness LX - Divine damage",
+                "Smite X - Extra undead damage",
+                "Fire Aspect III - Purifying flames",
+                "Mending I - Repairs with experience",
+                "Sweeping Edge IV - Greater area damage",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Ultimate crafting recipe",
+                "Requires Lunar Crystal",
+                "Requires Celestial Core",
+                "Supreme power against ALL corruption"
+            ]
+        },
+        {
+            "title": "Special Features",
+            "content": [
+                "Custom model (Model: 14)",
+                "Purifies all corruption",
+                "Channels light and darkness",
+                "Strongest Trollhunter weapon"
+            ]
+        }
+    ],
+    "related": ["moonlight-amulet", "eclipse-blade"]
+},
+{
+    "id": "decimaar-blade",
+    "name": "Decimaar Blade",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #B71C1C 0%, #000000 100%)",
+    "description": "Gunmar's legendary blade, stained with the blood of thousands",
+    "tags": ["Mythic", "Gumm-Gumm", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+2 (Massive enchant boost)",
+        "Health": "+50"
+    },
+    "fullDescription": "Gunmar's legendary Blade, stained with the blood of thousands. It is said that no shield can withstand its crushing blows. This weapon inflicts devastating debuffs and has massive lifesteal.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness LVIII - Devastating damage",
+                "Sweeping Edge IV - Maximum area damage",
+                "Fire Aspect III - Dark flames",
+                "Knockback II - Pushes enemies",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Abilities",
+            "content": [
+                "Inflicts Wither V (10s)",
+                "Inflicts Weakness IV (12s)",
+                "Lifesteal: 30%",
+                "Shield Break: Ignores 60% armor"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Dropped by Gunmar the Black",
+                "Darklands dimension boss",
+                "Extremely rare mythic drop"
+            ]
+        }
+    ],
+    "related": ["gunmar-armor-set", "bulars-twin-blades"]
+},
+{
+    "id": "bulars-twin-blade-right",
+    "name": "Bular's Twin Blade - Right",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "One of Bular's legendary twin swords",
+    "tags": ["Gumm-Gumm", "Twin Blade Set", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+12",
+        "Health": "+25"
+    },
+    "fullDescription": "One of Bular's legendary twin swords. This blade has ended countless Trollhunters. When dual-wielded with the left blade, grants +20% damage bonus.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness XLII - High damage",
+                "Fire Aspect II - Burns enemies",
+                "Sweeping Edge III - Area damage",
+                "Unbreaking VIII - Very durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Set Bonus",
+            "content": [
+                "Dual wield with Left blade for +20% damage",
+                "Part of Bular's twin blade set",
+                "Instruments of destruction together"
+            ]
+        }
+    ],
+    "related": ["bulars-twin-blade-left", "bular-armor-set"]
+},
+{
+    "id": "bulars-twin-blade-left",
+    "name": "Bular's Twin Blade - Left",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "The companion blade to Bular's right sword",
+    "tags": ["Gumm-Gumm", "Twin Blade Set", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+9 (Offhand)"
+    },
+    "fullDescription": "The companion blade to Bular's right sword. Together they are instruments of destruction. Designed for offhand wielding as part of the twin blade set.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness XLII - High damage",
+                "Fire Aspect II - Burns enemies",
+                "Sweeping Edge III - Area damage",
+                "Unbreaking VIII - Very durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Set Bonus",
+            "content": [
+                "Dual wield with Right blade for +20% damage",
+                "Designed for offhand combat",
+                "Complete the twin blade set"
+            ]
+        }
+    ],
+    "related": ["bulars-twin-blade-right", "bular-armor-set"]
+},
+{
+    "id": "angor-blade",
+    "name": "Blade of the Shadow Assassin",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #7B1FA2 0%, #4A148C 100%)",
+    "description": "Angor Rot's primary weapon, cursed by the Infernal Shroud",
+    "tags": ["Legendary", "Cursed", "Netherite Sword"],
+    "stats": {
+        "Base Item": "Netherite Sword",
+        "Attack Damage": "+7",
+        "Health": "+30"
+    },
+    "fullDescription": "Angor Rot's primary weapon, cursed by the Infernal Shroud. Strikes leave victims weakened and marked for death. Features lifesteal and inflicts devastating wither damage.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sweeping Edge III - Area damage",
+                "Unbreaking IX - Very durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Abilities",
+            "content": [
+                "Inflicts Wither III (6s)",
+                "Lifesteal: 15%",
+                "Shadow Assassin Set bonus"
+            ]
+        }
+    ],
+    "related": ["angor-armor-set", "angor-dagger"]
+},
+{
+    "id": "angor-dagger",
+    "name": "Shadow Dagger",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-dagger",
+    "gradient": "linear-gradient(135deg, #9C27B0 0%, #6A1B9A 100%)",
+    "description": "A cursed offhand blade for swift, deadly strikes",
+    "tags": ["Shadow Assassin", "Iron Sword"],
+    "stats": {
+        "Base Item": "Iron Sword",
+        "Attack Damage": "+5 (Offhand)"
+    },
+    "fullDescription": "A cursed offhand blade used for swift, deadly strikes. Perfect companion to Angor's main weapon for dual-wielding assassin combat.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness XL - High damage",
+                "Unbreaking VIII - Very durable",
+                "Unbreakable - Never breaks"
+            ]
+        }
+    ],
+    "related": ["angor-blade", "angor-armor-set"]
+},
+{
+    "id": "changeling-fang",
+    "name": "Changeling's Fang",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-sword",
+    "gradient": "linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)",
+    "description": "A blade that drips with deadly toxins",
+    "tags": ["Toxic Weapon", "Iron Sword"],
+    "stats": {
+        "Base Item": "Iron Sword",
+        "Attack Damage": "+15",
+        "Health": "+20"
+    },
+    "fullDescription": "A blade that drips with deadly toxins. Each cut weakens the victim. Part of the Changeling Shapeshifter Set, inflicts Poison III for 5 seconds.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Sharpness XXXVIII - High damage",
+                "Unbreaking VII - Durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Special Abilities",
+            "content": [
+                "Inflicts Poison III (5s)",
+                "Toxic weapon effect",
+                "Weakens victims"
+            ]
+        }
+    ],
+    "related": ["changeling-armor-set"]
+},
+{
+    "id": "merlins-staff",
+    "name": "Staff of Avalon",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-magic",
+    "gradient": "linear-gradient(135deg, #66BB6A 0%, #2E7D32 100%)",
+    "description": "The legendary staff of Merlin the wizard",
+    "tags": ["Legendary", "Magic Weapon", "Blaze Rod"],
+    "stats": {
+        "Base Item": "Blaze Rod",
+        "Attack Damage": "+8",
+        "Health": "+15"
+    },
+    "fullDescription": "The legendary staff of Merlin the wizard. Channels pure magical energy and can summon protective barriers and healing magic.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Knockback III - Pushes enemies",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Abilities",
+            "content": [
+                "Right-Click: Arcane Shield",
+                "  - Grant Resistance III (6s)",
+                "  - Grant Absorption (6 hearts)",
+                "  - Cooldown: 15s",
+                "",
+                "Shift + Right-Click: Healing Wave",
+                "  - Heal nearby allies for 10 HP",
+                "  - Grant Regeneration II (8s)",
+                "  - Cooldown: 25s"
+            ]
+        }
+    ],
+    "related": ["amulet-daylight"]
+},
+{
+    "id": "claires-shadow-staff-corrupted",
+    "name": "Corrupted Shadow Staff",
+    "category": "equipment",
+    "subcategory": "Weapons",
+    "icon": "fa-magic",
+    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+    "description": "Corrupted by overuse of shadow magic",
+    "tags": ["Mythic", "Cursed Weapon", "Stick"],
+    "stats": {
+        "Base Item": "Stick",
+        "Attack Damage": "+12",
+        "Movement Speed": "+1.15"
+    },
+    "fullDescription": "Claire's staff, corrupted by overuse of shadow magic. Incredibly powerful but drains the user's life force.",
+    "sections": [
+        {
+            "title": "Enchantments",
+            "content": [
+                "Knockback III - Pushes enemies",
+                "Unbreaking X - Extremely durable",
+                "Unbreakable - Never breaks"
+            ]
+        },
+        {
+            "title": "Abilities & Curse",
+            "content": [
+                "Right-Click: Greater Shadow Portal",
+                "  - Create large portal",
+                "  - Costs 4 hearts per use",
+                "  - Cooldown: 20s",
+                "",
+                "WARNING: Drains health when held",
+                "Use with extreme caution"
+            ]
+        }
+    ],
+    "related": ["claires-shadow-staff"]
+}
+]
