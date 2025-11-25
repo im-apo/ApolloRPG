@@ -1,80 +1,745 @@
 [
     {
-        "id": "boss-1",
-        "name": "Boss 1",
+        "id": "skeleton-king",
+        "name": "Skeleton King",
         "category": "bosses",
-        "icon": "fa-dragon",
-        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-        "description": "Description for Boss 1",
-        "tags": ["Tag1", "Tag2", "Tag3"],
+        "icon": "fa-skull-crown",
+        "gradient": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+        "description": "Undead monarch commanding skeletal legions",
+        "tags": ["Undead", "Summoner", "Royalty"],
         "stats": {
-            "Health": "1,000,000 HP",
-            "Damage": "1,000-2,000",
-            "Armor": "100",
-            "Difficulty": "Hard"
+            "Health": "500 HP",
+            "Damage": "10",
+            "Armor": "King's Crown",
+            "Difficulty": "Medium"
         },
-        "fullDescription": "Full description for Boss 1. Add detailed information here.",
+        "fullDescription": "An undead king who rules over skeletal warriors. Constantly summons minions and uses devastating smash attacks.",
         "sections": [
             {
                 "title": "Abilities",
                 "content": [
-                    "Ability 1 - Description",
-                    "Ability 2 - Description",
-                    "Ability 3 - Description"
+                    "Summon Skeletons - Constantly spawns minions",
+                    "Smash Attack - Heavy physical damage",
+                    "Intimidating taunts during combat",
+                    "Declares victory on player kills"
+                ]
+            },
+            {
+                "title": "Equipment",
+                "content": [
+                    "King's Crown",
+                    "Skeleton King's Sword"
                 ]
             },
             {
                 "title": "Strategy",
                 "content": [
-                    "Strategy tip 1",
-                    "Strategy tip 2",
-                    "Strategy tip 3"
+                    "Deal with skeleton minions or get overwhelmed",
+                    "Moderate movement speed (0.3)",
+                    "Always shows name",
+                    "Does not despawn"
                 ]
             },
             {
                 "title": "Loot",
                 "content": [
-                    "Item 1",
-                    "Item 2",
-                    "Item 3"
+                    "Skeleton King Drops",
+                    "100 Experience"
+                ]
+            }
+        ],
+        "related": ["zombie-king"]
+    },
+    {
+        "id": "zombie-king",
+        "name": "Zombie King",
+        "category": "bosses",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
+        "description": "Powerful zombie monarch with relentless hordes",
+        "tags": ["Undead", "Summoner", "Royalty"],
+        "stats": {
+            "Health": "750 HP",
+            "Damage": "15",
+            "Armor": "King's Crown",
+            "Difficulty": "Medium-Hard"
+        },
+        "fullDescription": "The zombie counterpart to the Skeleton King. More powerful with higher health and damage, commanding zombie knight minions.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Summon Zombie Knights - Spawns armored zombies",
+                    "Smash Attack - Heavy damage",
+                    "Combat taunts",
+                    "Victory declarations"
+                ]
+            },
+            {
+                "title": "Equipment",
+                "content": [
+                    "King's Crown",
+                    "Zombie King's Blade"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Stronger than Skeleton King in all aspects",
+                    "Slightly faster (0.31 speed)",
+                    "Summoned knights are more dangerous",
+                    "Does not despawn"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Zombie King Drops",
+                    "300 Experience"
+                ]
+            }
+        ],
+        "related": ["skeleton-king"]
+    },
+    {
+        "id": "king-slime",
+        "name": "King Slime",
+        "category": "bosses",
+        "icon": "fa-droplet",
+        "gradient": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
+        "description": "Massive slime monarch with incredible summoning power",
+        "tags": ["Slime", "Summoner", "Giant"],
+        "stats": {
+            "Health": "1,500 HP",
+            "Damage": "10",
+            "Armor": "None",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "An enormous slime of size 13 that commands all lesser slimes. Constantly summons reinforcements and uses mobility to its advantage.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Summon Slime Types - Various slime sizes",
+                    "Summon Prince - Elite spawn",
+                    "Teleportation - Instant mobility",
+                    "Multiple Smash Attacks - 4x smash per cycle",
+                    "Combat taunts"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Massive size (13) makes it hard to miss",
+                    "Very fast movement (1.0 speed)",
+                    "100% knockback immunity",
+                    "Constant summons require AOE damage",
+                    "Teleportation makes it unpredictable",
+                    "Does not despawn"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "King Slime Drops",
+                    "300 Experience"
                 ]
             }
         ],
         "related": []
     },
     {
-        "id": "boss-2",
-        "name": "Boss 2",
+        "id": "giant",
+        "name": "Giant",
         "category": "bosses",
-        "icon": "fa-dragon",
-        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-        "description": "Description for Boss 2",
-        "tags": ["Tag1", "Tag2", "Tag3"],
+        "icon": "fa-mountain",
+        "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
+        "description": "Colossal humanoid warrior of immense strength",
+        "tags": ["Giant", "Melee", "Void Faction"],
         "stats": {
-            "Health": "1,000,000 HP",
-            "Damage": "1,000-2,000",
-            "Armor": "100",
-            "Difficulty": "Hard"
+            "Health": "1,500 HP",
+            "Damage": "2",
+            "Armor": "None",
+            "Difficulty": "Medium-Hard"
         },
-        "fullDescription": "Full description for Boss 2. Add detailed information here.",
+        "fullDescription": "A massive giant standing at twice normal size. Despite lower individual damage, its massive reach and poison attacks make it deadly.",
         "sections": [
             {
                 "title": "Abilities",
                 "content": [
-                    "Ability 1 - Description",
-                    "Ability 2 - Description",
-                    "Ability 3 - Description"
+                    "Poison Attack - Inflicts Poison X on hit (5 seconds)",
+                    "Melee Attack - Long reach due to size",
+                    "Random Stroll - Patrols area"
                 ]
             },
             {
                 "title": "Strategy",
                 "content": [
-                    "Strategy tip 1",
-                    "Strategy tip 2",
-                    "Strategy tip 3"
+                    "Huge size (2.0 scale) gives massive reach",
+                    "Fast movement (0.4 speed) for its size",
+                    "Large follow range (64 blocks)",
+                    "Poison resistance essential",
+                    "Does not despawn"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Giant Drops",
+                    "400 Experience"
                 ]
             }
         ],
         "related": []
+    },
+    {
+        "id": "magmar-elemental",
+        "name": "Magmar Elemental",
+        "category": "bosses",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "Ancient fire elemental commanding the flames themselves",
+        "tags": ["Elemental", "Fire", "Multi-Phase"],
+        "stats": {
+            "Health": "2,000 HP",
+            "Damage": "18",
+            "Armor": "Magmar Set + Dual Swords",
+            "Difficulty": "Medium-Hard"
+        },
+        "fullDescription": "A primordial fire elemental who commands devastating flame attacks. Brother to the Frost Elemental. Grows more powerful through three phases.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-70% HP) - Aggressive Fire Assault",
+                "content": [
+                    "Magmar Fire Ring - Circular flame burst",
+                    "Magmar Meteor Strike - Falling fire",
+                    "Lava Trail - Burning path"
+                ]
+            },
+            {
+                "title": "Phase 2 (70-40% HP) - Summons & Fire Zone Control",
+                "content": [
+                    "Summons Fire Minions (every 500 ticks)",
+                    "Magmar Eruption - Ground eruption",
+                    "Flame Pillar Attack - Vertical fire",
+                    "Explosive Blast - Area explosion",
+                    "Gains Speed I buff"
+                ]
+            },
+            {
+                "title": "Phase 3 (40-0% HP) - Enraged Devastation",
+                "content": [
+                    "Magmar Rage Mode - Enhanced combat",
+                    "Inferno Rain - Sky-based fire attack",
+                    "Smash Attack - Physical devastation",
+                    "Chaotic Firestorm - Unpredictable flames",
+                    "Death Explosion on defeat"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Fire resistance essential",
+                    "Moderate speed (0.4) but hits hard",
+                    "Deal with minions in Phase 2",
+                    "80% knockback resistance",
+                    "Darkens sky during fight"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Magmar Drops",
+                    "750 Experience"
+                ]
+            }
+        ],
+        "related": ["frost-elemental", "infernax"]
+    },
+    {
+        "id": "frost-elemental",
+        "name": "Frost Elemental",
+        "category": "bosses",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
+        "description": "Brother of Magmar seeking revenge, wielding devastating ice powers",
+        "tags": ["Elemental", "Ice", "Multi-Phase"],
+        "stats": {
+            "Health": "3,000 HP",
+            "Damage": "22",
+            "Armor": "Frost Set + Dual PermaFrost",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "The brother of Magmar Elemental, consumed by rage and seeking vengeance. Controls ice and cold with devastating effect through three phases.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-70% HP) - Aggressive Ice Assault",
+                "content": [
+                    "Frost Ice Ring - Circular ice attack",
+                    "Frost Ice Bolt Barrage - Multiple ice projectiles",
+                    "Frost Icicle Strike - Sharp ice spear",
+                    "Frost Trail - Leaves freezing path"
+                ]
+            },
+            {
+                "title": "Phase 2 (70-40% HP) - Summons & Ice Zone Control",
+                "content": [
+                    "Summons Frost Minions",
+                    "Frost Blizzard Teleport - Mobility + AOE",
+                    "Ice Pillar Attack - Ground-based ice",
+                    "Frost Area Freeze - Zone control",
+                    "Gains Speed I buff"
+                ]
+            },
+            {
+                "title": "Phase 3 (40-0% HP) - Enraged Devastation",
+                "content": [
+                    "Frost Rage Mode - Enhanced state",
+                    "Frost Storm - Massive area damage",
+                    "ITP - Instant transmission ability",
+                    "Chaotic Blizzard - Unpredictable ice attacks",
+                    "Death Explosion on defeat"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Fast movement speed (0.45) requires constant vigilance",
+                    "Prepare fire resistance for ice attacks",
+                    "Phase 2 summons can overwhelm - prioritize them",
+                    "85% knockback resistance",
+                    "Creates fog and darkens sky"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Frost E Drops",
+                    "1000 Experience"
+                ]
+            }
+        ],
+        "related": ["magmar-elemental", "infernax"]
+    },
+    {
+        "id": "corrupted-king",
+        "name": "Corrupted King",
+        "category": "bosses",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A powerful king corrupted by void energy, commanding legions of corrupted minions",
+        "tags": ["Void", "Multi-Phase", "Summoner"],
+        "stats": {
+            "Health": "4,000 HP",
+            "Damage": "25",
+            "Armor": "Full Corrupted Set",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "Once a noble ruler, now consumed by void corruption. The Corrupted King commands vast armies and grows more desperate as the battle progresses through four distinct phases.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-75% HP) - Corrupted Assault",
+                "content": [
+                    "Void Fireball - Ranged void projectile",
+                    "Corrupted Teleport Strike - Teleports and attacks",
+                    "Dark Flame Ring - Area flame attack",
+                    "Summon Corrupted Legion"
+                ]
+            },
+            {
+                "title": "Phase 2 (75-50% HP) - Void Corruption Spreads",
+                "content": [
+                    "Void Zone - Area denial ability",
+                    "Corrupted Meteor Strike - Devastating ranged attack",
+                    "Chaotic Void Burst - Explosive area damage",
+                    "Summon Void Trickster",
+                    "Gains Speed I buff"
+                ]
+            },
+            {
+                "title": "Phase 3 (50-25% HP) - Desperate Corruption",
+                "content": [
+                    "Void Rage Mode - Enhanced combat state",
+                    "Corrupted Barrage - Multiple projectiles",
+                    "Void Crush - Powerful single target attack",
+                    "Summon Corrupted Undead"
+                ]
+            },
+            {
+                "title": "Phase 4 (25-0% HP) - Final Corruption",
+                "content": [
+                    "Final Corruption transformation",
+                    "Void Storm - Continuous area damage",
+                    "Dark Inferno Rain - Rain of fire and void",
+                    "Summon Elite Corrupted",
+                    "All abilities on reduced cooldowns",
+                    "Death Explosion on defeat"
+                ]
+            },
+            {
+                "title": "Combat Tips",
+                "content": [
+                    "Prepare for long fight with multiple summon waves",
+                    "Watch for teleport strikes and dodge quickly",
+                    "Phase 4 has fastest attack speed - stay mobile",
+                    "90% knockback resistance makes positioning critical"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Corrupt K Drops",
+                    "1000 Experience"
+                ]
+            }
+        ],
+        "related": ["corrupt-trickster", "frost-elemental"]
+    },
+    {
+        "id": "infernax",
+        "name": "Infernax the Ancient",
+        "category": "bosses",
+        "icon": "fa-fire-flame-curved",
+        "gradient": "linear-gradient(135deg, #ff0000 0%, #8b0000 100%)",
+        "description": "The flame that consumed the gods - most powerful fire elemental",
+        "tags": ["Elemental", "Fire", "Legendary"],
+        "stats": {
+            "Health": "3,500 HP",
+            "Damage": "22.5",
+            "Armor": "Infernax Set + Dual Swords",
+            "Difficulty": "Very Hard"
+        },
+        "fullDescription": "An ancient fire being claiming to have consumed gods themselves. The most powerful of the fire elementals with three devastating phases.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-65% HP) - Calculated Destruction",
+                "content": [
+                    "Voidflame Nova - Void-infused fire",
+                    "Crimson Chains Attack - Binding flames",
+                    "Eternal Flame Wheel - Spinning fire",
+                    "Infernal Brandmark - Curse mark",
+                    "Molten Pathway - Lava trail"
+                ]
+            },
+            {
+                "title": "Phase 2 (65-35% HP) - Wrathful Dominance",
+                "content": [
+                    "Infernax Ascension transformation",
+                    "Phoenix Rebirth - Summons Infernal Phantoms",
+                    "Devouring Hellfire - Life-draining fire",
+                    "Vortex of Agony - Pull and damage",
+                    "Shadowflame Executioner - Dark fire strike",
+                    "Incinerating Wrath - Ultimate fire attack"
+                ]
+            },
+            {
+                "title": "Phase 3 (35-0% HP) - Apocalyptic Fury",
+                "content": [
+                    "Infernax Rage Mode - Full power",
+                    "Apocalypse Rain - Devastating sky attack",
+                    "Deathmark Curse - Target marking",
+                    "Cataclysmic Storm - Multi-element storm",
+                    "Eternal Damnation - Ultimate ability",
+                    "Death Nova on defeat"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Longest and hardest fire elemental fight",
+                    "Phoenix Rebirth summons must be dealt with quickly",
+                    "Fast movement (0.45) and large size (1.5 scale)",
+                    "90% knockback resistance",
+                    "Maximum fire resistance required",
+                    "Creates fog and darkness"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Infernax Drops",
+                    "1000 Experience"
+                ]
+            }
+        ],
+        "related": ["magmar-elemental", "frost-elemental"]
+    },
+    {
+        "id": "changeling",
+        "name": "Changeling",
+        "category": "bosses",
+        "icon": "fa-masks-theater",
+        "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+        "description": "Shapeshifting creature with deadly deception",
+        "tags": ["Gumm-Gumm", "Shapeshifter", "Multi-Phase"],
+        "stats": {
+            "Health": "4,500 HP",
+            "Damage": "16",
+            "Armor": "Changeling Set",
+            "Difficulty": "Hard"
+        },
+        "fullDescription": "A deceptive shapeshifter who uses illusions and transformations. Reveals its true form at half health.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-50% HP) - Deceptive Hunter",
+                "content": [
+                    "Shape Shift - Changes form",
+                    "Venom Strike - Poison attack",
+                    "Deceptive Image - Creates illusions",
+                    "Poison Cloud - Area poison",
+                    "Backstab Attack - High damage sneak attack"
+                ]
+            },
+            {
+                "title": "Phase 2 (50-0% HP) - True Form Unleashed",
+                "content": [
+                    "True Form Transform - Reveals real appearance",
+                    "Ferocious Rampage - Aggressive assault",
+                    "Toxic Spray - Ranged poison",
+                    "Mimic Teleport - Movement ability",
+                    "Paralyzing Gaze - Stun effect"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Fast movement (0.40 speed)",
+                    "Medium size (1.2 scale)",
+                    "65% knockback resistance",
+                    "Illusions can confuse - focus real target",
+                    "Prepare poison resistance"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Changeling Drops",
+                    "350 Experience"
+                ]
+            }
+        ],
+        "related": ["bular", "angor-rot"]
+    },
+    {
+        "id": "bular",
+        "name": "Bular the Butcher",
+        "category": "bosses",
+        "icon": "fa-axe-battle",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "Son of Gunmar, a brutal hunter and warrior",
+        "tags": ["Gumm-Gumm", "Multi-Phase", "Melee"],
+        "stats": {
+            "Health": "6,000 HP",
+            "Damage": "22",
+            "Armor": "Bular's Set + Twin Swords",
+            "Difficulty": "Very Hard"
+        },
+        "fullDescription": "The feared son of Gunmar the Black. A brutal hunter who grows more enraged as he takes damage through three phases.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-70% HP) - Aggressive Hunter",
+                "content": [
+                    "Brutal Ambush - Surprise attack",
+                    "Twin Blade Assault - Dual weapon strikes",
+                    "Crushing Grip - Grab and damage",
+                    "Throw Debris - Ranged attack"
+                ]
+            },
+            {
+                "title": "Phase 2 (70-40% HP) - Enraged Berserker",
+                "content": [
+                    "Bular Rage transformation",
+                    "Ground Smash - AOE damage",
+                    "Blade Spin - Spinning attack",
+                    "Leaping Strike - Jump attack",
+                    "Intimidating Roar - Fear effect"
+                ]
+            },
+            {
+                "title": "Phase 3 (40-0% HP) - Desperate Fury",
+                "content": [
+                    "Bular Final Fury - Ultimate form",
+                    "All abilities on reduced cooldowns",
+                    "Relentless Assault - Non-stop attacks",
+                    "Death sequence with final words"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Large size (1.6 scale) and fast (0.38 speed)",
+                    "85% knockback resistance",
+                    "Long follow range (60 blocks)",
+                    "Darkens sky during fight",
+                    "Son of Gunmar - expect difficulty"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Bular Drops",
+                    "500 Experience"
+                ]
+            }
+        ],
+        "related": ["gunmar", "angor-rot"]
+    },
+    {
+        "id": "angor-rot",
+        "name": "Angor Rot",
+        "category": "bosses",
+        "icon": "fa-dagger",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "The Shadow Assassin - master of darkness and death",
+        "tags": ["Gumm-Gumm", "Assassin", "Multi-Phase"],
+        "stats": {
+            "Health": "7,500 HP",
+            "Damage": "28",
+            "Armor": "Angor's Set + Blade & Dagger",
+            "Difficulty": "Legendary"
+        },
+        "fullDescription": "A legendary shadow assassin wielding the Infernal Shroud. One of the most dangerous bosses with three phases and shadow manipulation.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-70% HP) - The Hunter",
+                "content": [
+                    "Shadow Step - Teleportation",
+                    "Cursed Blade - Debuff weapon",
+                    "Dagger Barrage - Ranged assault",
+                    "Shadow Clone - Creates duplicates",
+                    "Toxic Trap - Area control",
+                    "Assassin Strike - High damage"
+                ]
+            },
+            {
+                "title": "Phase 2 (70-40% HP) - Shadow Master",
+                "content": [
+                    "Angor Shadow Form - Enhanced state",
+                    "Void Rift - Portal attack",
+                    "Shadow Prison - Trap ability",
+                    "Phantom Slash - Swift strikes",
+                    "Cursed Ground - Area debuff",
+                    "Shadow Ambush - Stealth attack",
+                    "Dark Pulse - AOE damage"
+                ]
+            },
+            {
+                "title": "Phase 3 (40-0% HP) - Infernal Awakening",
+                "content": [
+                    "Infernal Awakening - Ultimate transformation",
+                    "Shadow Maelstrom - Massive AOE",
+                    "Death Mark - Target for execution",
+                    "Executioner Combo - Multi-hit finisher",
+                    "All abilities on reduced cooldowns",
+                    "Death sequence"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Very fast (0.45 speed) and unpredictable",
+                    "Medium-large size (1.2 scale)",
+                    "90% knockback resistance",
+                    "Shadow clones distract - identify real Angor",
+                    "Creates fog and darkness",
+                    "Boss music plays",
+                    "Long follow range (80 blocks)"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Angor Rot Drops",
+                    "800 Experience"
+                ]
+            }
+        ],
+        "related": ["gunmar", "bular"]
+    },
+    {
+        "id": "gunmar",
+        "name": "Gunmar the Black",
+        "category": "bosses",
+        "icon": "fa-skull-horns",
+        "gradient": "linear-gradient(135deg, #8b0000 0%, #000000 100%)",
+        "description": "The Dark Underlord - ultimate troll villain",
+        "tags": ["Gumm-Gumm", "Dark Underlord", "Legendary"],
+        "stats": {
+            "Health": "9,000 HP",
+            "Damage": "40",
+            "Armor": "Gunmar's Set + Decimaar",
+            "Difficulty": "Extreme"
+        },
+        "fullDescription": "Father of Bular and Dark Underlord of the Gumm-Gumm. The ultimate boss with four devastating phases and the ability to summon the spirits of his greatest warriors.",
+        "sections": [
+            {
+                "title": "Phase 1 (100-75% HP) - The Conqueror",
+                "content": [
+                    "Devastating Slam - Massive ground attack",
+                    "Skullcrusher Combo - Multi-hit melee",
+                    "Command Horde - Summons minions",
+                    "Titan Roar - Fear effect",
+                    "Earth Shatter - AOE earthquake",
+                    "Brutal Charge - Rush attack",
+                    "Troll King Aura - Buff aura"
+                ]
+            },
+            {
+                "title": "Phase 2 (75-50% HP) - Warlord's Fury",
+                "content": [
+                    "Gunmar Rage transformation",
+                    "Dark Underlord Power - Full power",
+                    "Meteor Strike - Sky attack",
+                    "Chain Pull - Ranged grab",
+                    "Ground Rupture - Line AOE",
+                    "Summon Berserkers",
+                    "Titan Smash - Devastating blow",
+                    "Execution Strike - Finisher"
+                ]
+            },
+            {
+                "title": "Phase 3 (50-25% HP) - Avatar of Darkness",
+                "content": [
+                    "Darklands Ascension - Godlike form",
+                    "Summons Angor & Bular Spirits (one-time)",
+                    "Cataclysmic Slam - Ultimate ground attack",
+                    "Shadow Flame Breath - Breath weapon",
+                    "Dark Portal - Summon reinforcements",
+                    "Obliteration Wave - Screen-wide damage"
+                ]
+            },
+            {
+                "title": "Phase 4 (25-0% HP) - Apocalyptic Rampage",
+                "content": [
+                    "Apocalyptic Rampage mode",
+                    "All abilities on minimum cooldown",
+                    "Relentless assault with no recovery time",
+                    "Summons elite units constantly",
+                    "Death explosion on defeat"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Longest and hardest boss fight in the game",
+                    "Huge size (2.0 scale) and slow (0.32 speed)",
+                    "100% knockback immunity",
+                    "Very long follow range (100 blocks)",
+                    "Phase 3 summons Angor & Bular - prepare for 3v1",
+                    "Maximum armor and resistance required",
+                    "Creates fog and darkness",
+                    "Boss music plays",
+                    "Bring a team - nearly impossible solo"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Gunmar Drops",
+                    "2500 Experience"
+                ]
+            }
+        ],
+        "related": ["bular", "angor-rot"]
     }
 ]

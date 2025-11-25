@@ -1,68 +1,710 @@
 [
     {
-        "id": "enemy-1",
-        "name": "Enemy 1",
+        "id": "skeletal-knight",
+        "name": "Skeletal Knight",
         "category": "enemies",
         "icon": "fa-skull",
-        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
-        "description": "Description for Enemy 1",
-        "tags": ["Tag1", "Tag2", "Tag3"],
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "An undead knight wielding iron equipment",
+        "tags": ["Undead", "Melee", "Elemental Faction"],
         "stats": {
-            "Health": "500 HP",
-            "Damage": "20-30",
-            "Armor": "10",
-            "Experience": "50 XP"
+            "Health": "40 HP",
+            "Damage": "8",
+            "Armor": "Iron Set",
+            "Experience": "10 XP"
         },
-        "fullDescription": "Full description for Enemy 1. Add detailed information here.",
+        "fullDescription": "A reanimated knight bound to serve the Elemental Faction. Wears full iron armor and wields an iron sword with a shield.",
         "sections": [
             {
-                "title": "Drops",
+                "title": "Equipment",
                 "content": [
-                    "Item 1",
-                    "Item 2",
-                    "Item 3"
+                    "Iron Helmet, Chestplate, Leggings, Boots",
+                    "Iron Sword",
+                    "Shield"
                 ]
             },
             {
-                "title": "Locations",
+                "title": "Abilities",
                 "content": [
-                    "Location 1",
-                    "Location 2"
+                    "Immune to sunburn",
+                    "Prevents drops from other sources"
+                ]
+            }
+        ],
+        "related": ["zombie-knight"]
+    },
+    {
+        "id": "zombie-knight",
+        "name": "Zombiefied Knight",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+        "description": "A powerful zombified warrior in diamond armor",
+        "tags": ["Undead", "Melee", "Elemental Faction"],
+        "stats": {
+            "Health": "65 HP",
+            "Damage": "14",
+            "Armor": "Diamond Set",
+            "Experience": "10 XP"
+        },
+        "fullDescription": "A more powerful undead knight covered in diamond armor. Much stronger than its skeletal counterpart.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Diamond Helmet, Chestplate, Leggings, Boots",
+                    "Diamond Sword",
+                    "Shield"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Immune to sunburn",
+                    "Higher damage output",
+                    "Stronger armor"
+                ]
+            }
+        ],
+        "related": ["skeletal-knight"]
+    },
+    {
+        "id": "corrupt-knight",
+        "name": "Corrupt Knight",
+        "category": "enemies",
+        "icon": "fa-shield",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A knight corrupted by void energy",
+        "tags": ["Void", "Corrupted", "Melee"],
+        "stats": {
+            "Health": "400 HP",
+            "Damage": "14",
+            "Armor": "Diamond Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Knights corrupted by the Void, serving the Corrupted King. They wield diamond equipment and inflict wither on their targets.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Diamond armor set",
+                    "Diamond Sword",
+                    "Shield"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Fireball Barrage - Ranged fire attack",
+                    "Wither effect on attack (30 seconds)",
+                    "30% Knockback resistance"
+                ]
+            }
+        ],
+        "related": ["corrupted-undead", "corrupt-trickster"]
+    },
+    {
+        "id": "corrupted-undead",
+        "name": "Corrupted Undead",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "Basic corrupted minions serving the void",
+        "tags": ["Void", "Corrupted", "Melee"],
+        "stats": {
+            "Health": "200 HP",
+            "Damage": "10",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "The most basic servants of the Corrupted King. These undead warriors serve as the bulk of the void army.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather armor set",
+                    "Iron Sword",
+                    "Totem of Undying"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Fireball Barrage - Ranged attack",
+                    "Basic melee combat"
+                ]
+            }
+        ],
+        "related": ["corrupt-knight"]
+    },
+    {
+        "id": "gumm-gumm-goblin",
+        "name": "Gumm-Gumm Goblin",
+        "category": "enemies",
+        "icon": "fa-demon",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "Small but vicious goblin warriors",
+        "tags": ["Gumm-Gumm", "Melee", "Small"],
+        "stats": {
+            "Health": "150 HP",
+            "Damage": "8",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Small goblin creatures that serve the Gumm-Gumm army. They attack in swarms to overwhelm their enemies.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather armor set",
+                    "Stone Sword"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Swarm Attack - Coordinated group assault",
+                    "Small size (0.6 scale)"
+                ]
+            }
+        ],
+        "related": ["gumm-gumm-berserker"]
+    },
+    {
+        "id": "gumm-gumm-berserker",
+        "name": "Gumm-Gumm Berserker",
+        "category": "enemies",
+        "icon": "fa-axe-battle",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "Fierce berserker warriors of the Gumm-Gumm",
+        "tags": ["Gumm-Gumm", "Melee", "Berserker"],
+        "stats": {
+            "Health": "800 HP",
+            "Damage": "18",
+            "Armor": "Iron Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Powerful warriors who enter a berserker rage, becoming even more dangerous in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Helmet & Chestplate",
+                    "Iron Axe"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Berserker Rage - Enhanced combat state",
+                    "Larger size (1.1 scale)"
+                ]
+            }
+        ],
+        "related": ["gumm-gumm-goblin"]
+    },
+    {
+        "id": "flame-trickster",
+        "name": "Flame Trickster",
+        "category": "enemies",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "Agile fire-wielding minion of Magmar",
+        "tags": ["Elemental", "Fire", "Melee"],
+        "stats": {
+            "Health": "110 HP",
+            "Damage": "12",
+            "Armor": "Iron Set",
+            "Experience": "30 XP + Varies"
+        },
+        "fullDescription": "A servant of Magmar Elemental who uses fire and mobility to harass enemies. Can teleport and inflict burning.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron armor set",
+                    "Skeleton King's Sword",
+                    "Totem of Undying"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Crushing Leap - Jump attack",
+                    "Trickster Swap - Teleportation",
+                    "Ignite on attack (3 seconds)"
+                ]
+            },
+            {
+                "title": "Drops",
+                "content": [
+                    "Golden Apple (1-2)",
+                    "Wind Charge (2-4)",
+                    "Experience (30 XP)"
+                ]
+            }
+        ],
+        "related": ["frost-trickster"]
+    },
+    {
+        "id": "frost-trickster",
+        "name": "Frost Trickster",
+        "category": "enemies",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
+        "description": "Swift ice-wielding servant of the Frost Elemental",
+        "tags": ["Elemental", "Ice", "Melee"],
+        "stats": {
+            "Health": "250 HP",
+            "Damage": "15",
+            "Armor": "Diamond Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "A more powerful servant of the Frost Elemental. Uses ice magic and mobility to slow and overwhelm enemies.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Diamond armor set",
+                    "Zombie King's Blade",
+                    "Totem of Undying"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Fireball Barrage - Ranged attack",
+                    "Crushing Leap - Jump attack",
+                    "Trickster Swap - Teleportation",
+                    "Slowness II on attack (2 seconds)"
+                ]
+            }
+        ],
+        "related": ["flame-trickster"]
+    },
+    {
+        "id": "infernal-phantom",
+        "name": "Infernal Phantom",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "Ethereal minion of Infernax the Ancient",
+        "tags": ["Elemental", "Fire", "Phantom"],
+        "stats": {
+            "Health": "150 HP",
+            "Damage": "15",
+            "Armor": "Diamond + Netherite",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Spectral warriors summoned by Infernax. They teleport around the battlefield and drain the life from their enemies.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Diamond Helmet, Chestplate, Leggings",
+                    "Netherite Boots",
+                    "Skeleton King's Sword",
+                    "Totem of Undying"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Phantom Strike - Teleporting attack",
+                    "Soul Drain - Life steal ability",
+                    "Phantom Teleport - Mobility",
+                    "Ignite on attack (4 seconds)",
+                    "Wither I on attack (3 seconds)"
+                ]
+            },
+            {
+                "title": "Drops",
+                "content": [
+                    "Golden Apple (1-3)",
+                    "Wind Charge (3-5)"
                 ]
             }
         ],
         "related": []
     },
     {
-        "id": "enemy-2",
-        "name": "Enemy 2",
+        "id": "undead-miner",
+        "name": "Undead Miner",
         "category": "enemies",
-        "icon": "fa-skull-crossbones",
-        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
-        "description": "Description for Enemy 2",
-        "tags": ["Tag1", "Tag2", "Tag3"],
+        "icon": "fa-pickaxe",
+        "gradient": "linear-gradient(135deg, #ffd89b 0%, #19547b 100%)",
+        "description": "A zombified miner who summons bandit reinforcements",
+        "tags": ["Undead", "Summoner", "Melee"],
         "stats": {
-            "Health": "1000 HP",
-            "Damage": "40-60",
-            "Armor": "25",
-            "Experience": "100 XP"
+            "Health": "200 HP",
+            "Damage": "14",
+            "Armor": "Leather + Gold",
+            "Experience": "Varies"
         },
-        "fullDescription": "Full description for Enemy 2. Add detailed information here.",
+        "fullDescription": "Once a humble miner, now an undead creature that leads bands of bandits through old mining tunnels.",
         "sections": [
             {
-                "title": "Drops",
+                "title": "Equipment",
                 "content": [
-                    "Item 1",
-                    "Item 2"
+                    "Gold Helmet",
+                    "Leather armor set",
+                    "Enlightened Pickaxe",
+                    "Torch"
                 ]
             },
             {
-                "title": "Locations",
+                "title": "Abilities",
                 "content": [
-                    "Location 1"
+                    "Summon Bandits - Calls bandit reinforcements"
+                ]
+            },
+            {
+                "title": "Drops",
+                "content": [
+                    "Undead Miner Drops"
                 ]
             }
         ],
-        "related": []
+        "related": ["bandit"]
+    },
+	{
+        "id": "corrupt-trickster",
+        "name": "Corrupt Trickster",
+        "category": "enemies",
+        "icon": "fa-mask",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A devious corrupted boss who terrorizes with mobility and summons",
+        "tags": ["Void", "Teleporter", "Summoner"],
+        "stats": {
+            "Health": "800 HP",
+            "Damage": "18",
+            "Armor": "Netherite Set",
+            "Difficulty": "Medium"
+        },
+        "fullDescription": "A corrupted warrior who has mastered void magic, using teleportation and minion summoning to overwhelm enemies.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Fireball Barrage - Rapid fire projectiles",
+                    "Crushing Leap - Jump attack",
+                    "Trickster Swap - Teleportation ability",
+                    "Summon Corrupted Undead",
+                    "Wither I on attack (2 seconds)",
+                    "Taunts on player kills"
+                ]
+            },
+            {
+                "title": "Strategy",
+                "content": [
+                    "Very fast movement (0.45 speed) - difficult to escape",
+                    "Deal with summoned minions quickly",
+                    "Watch for teleport attacks",
+                    "50% knockback resistance"
+                ]
+            },
+            {
+                "title": "Loot",
+                "content": [
+                    "Corrupt T Drops"
+                ]
+            }
+        ],
+        "related": ["corrupted-king", "frost-trickster"]
+    },
+    {
+        "id": "bandit",
+        "name": "Bandit",
+        "category": "enemies",
+        "icon": "fa-mask",
+        "gradient": "linear-gradient(135deg, #8e9eab 0%, #eef2f3 100%)",
+        "description": "Common bandits that raid mining operations",
+        "tags": ["Undead", "Creep-slayer", "Melee", "Ranged"],
+        "stats": {
+            "Health": "30 HP",
+            "Damage": "3",
+            "Armor": "Leather Tunic",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Criminal gangs that lurk in caves and attack miners. Come in both melee and ranged variants.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Torch (helmet)",
+                    "Bandit Tunic",
+                    "Leather Boots",
+                    "Iron Axe or Bow",
+                    "Stone Pickaxe"
+                ]
+            },
+            {
+                "title": "Variants",
+                "content": [
+                    "Bandit - Zombie type, melee with axe",
+                    "Decayed Bandit - Skeleton type, ranged with bow"
+                ]
+            },
+            {
+                "title": "Drops",
+                "content": [
+                    "Bandit Drops"
+                ]
+            }
+        ],
+        "related": ["undead-miner"]
+    },
+    {
+        "id": "skeletal-minion",
+        "name": "Skeletal Minion",
+        "category": "enemies",
+        "icon": "fa-skull",
+        "gradient": "linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%)",
+        "description": "Weak skeleton minion summoned by bosses",
+        "tags": ["Undead", "Summoned", "Weak"],
+        "stats": {
+            "Health": "10 HP",
+            "Damage": "2",
+            "Armor": "None",
+            "Experience": "5 XP"
+        },
+        "fullDescription": "Basic skeleton summoned by the Skeleton King to overwhelm enemies with numbers.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Very slow movement (0.1 speed)",
+                    "Immune to sunburn",
+                    "Easily defeated"
+                ]
+            }
+        ],
+        "related": ["zomboid-minion"]
+    },
+    {
+        "id": "zomboid-minion",
+        "name": "Zomboid Minion",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
+        "description": "Weak zombie minion summoned by bosses",
+        "tags": ["Undead", "Summoned", "Weak"],
+        "stats": {
+            "Health": "10 HP",
+            "Damage": "2",
+            "Armor": "None",
+            "Experience": "5 XP"
+        },
+        "fullDescription": "Basic zombie summoned by the Zombie King to overwhelm enemies with numbers.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Immune to sunburn",
+                    "Easily defeated",
+                    "Swarm tactics"
+                ]
+            }
+        ],
+        "related": ["skeletal-minion"]
+    },
+    {
+        "id": "slime-variants",
+        "name": "Slime Variants",
+        "category": "enemies",
+        "icon": "fa-droplet",
+        "gradient": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
+        "description": "Various sizes of slimes serving King Slime",
+        "tags": ["Slime", "Elemental Faction", "Various Sizes"],
+        "stats": {
+            "Health": "5-50 HP",
+            "Damage": "3",
+            "Armor": "None",
+            "Experience": "1-10 XP"
+        },
+        "fullDescription": "Slimes of various sizes summoned by King Slime. Range from tiny to giant, with health scaling by size.",
+        "sections": [
+            {
+                "title": "Variants",
+                "content": [
+                    "Small Slime - 5 HP, Size 1, 1 XP",
+                    "Medium Slime - 15 HP, Size 2, 3 XP",
+                    "Large Slime - 30 HP, Size 3, 6 XP",
+                    "Giant Slime - 50 HP, Size 4, 10 XP"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Do not split on death",
+                    "Prevented from dropping other items"
+                ]
+            }
+        ],
+        "related": ["spawn-of-king"]
+    },
+    {
+        "id": "spawn-of-king",
+        "name": "Spawn of the King",
+        "category": "enemies",
+        "icon": "fa-droplet",
+        "gradient": "linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%)",
+        "description": "Elite slime spawn of King Slime",
+        "tags": ["Slime", "Elite", "Summoner"],
+        "stats": {
+            "Health": "150 HP",
+            "Damage": "7",
+            "Armor": "None",
+            "Experience": "20 XP"
+        },
+        "fullDescription": "Larger and more dangerous slimes directly spawned by King Slime. Can summon smaller slimes.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Summon Small Slimes",
+                    "Faster movement (1.2 speed)",
+                    "Size 8",
+                    "50% Knockback resistance"
+                ]
+            }
+        ],
+        "related": ["slime-variants"]
+    },
+    {
+        "id": "changeling-illusion",
+        "name": "Changeling Illusion",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+        "description": "Deceptive illusion created by the Changeling",
+        "tags": ["Gumm-Gumm", "Illusion", "Deceptive"],
+        "stats": {
+            "Health": "50 HP",
+            "Damage": "1",
+            "Armor": "None",
+            "Experience": "None"
+        },
+        "fullDescription": "A fake copy created by the Changeling to confuse and distract enemies. Fades after a short time.",
+        "sections": [
+            {
+                "title": "Abilities",
+                "content": [
+                    "Illusion Fade - Disappears after short duration",
+                    "Silent movement",
+                    "Slightly smaller (0.9 scale)",
+                    "No drops"
+                ]
+            }
+        ],
+        "related": ["changeling"]
+    },
+    {
+        "id": "angor-shadow-clone",
+        "name": "Angor's Shadow Clone",
+        "category": "enemies",
+        "icon": "fa-clone",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "Shadow duplicate of Angor Rot",
+        "tags": ["Gumm-Gumm", "Shadow", "Clone"],
+        "stats": {
+            "Health": "800 HP",
+            "Damage": "12",
+            "Armor": "Leather",
+            "Experience": "None"
+        },
+        "fullDescription": "A shadow clone created by Angor Rot to attack and confuse enemies. Fades after a period of time.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Purple-tinted Leather Chestplate",
+                    "Angor Blade"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Clone Fade - Disappears after duration",
+                    "Clone Attack - Basic attacks",
+                    "Fast movement (0.45 speed)",
+                    "Slightly larger (1.1 scale)"
+                ]
+            }
+        ],
+        "related": ["angor-rot"]
+    },
+    {
+        "id": "gunmar-spirit-bular",
+        "name": "Spirit of Bular",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "Spectral form of Bular summoned by Gunmar",
+        "tags": ["Gumm-Gumm", "Spirit", "Elite"],
+        "stats": {
+            "Health": "1400 HP",
+            "Damage": "35",
+            "Armor": "Bular's Armor",
+            "Experience": "None"
+        },
+        "fullDescription": "The spirit of Bular the Butcher, summoned by his father Gunmar at 50% health. Retains some of Bular's deadly abilities.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Bular's Horned Helm",
+                    "Bular's Armor",
+                    "Bular's Twin Sword"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Brutal Ambush",
+                    "Twin Blade Assault",
+                    "85% Knockback resistance",
+                    "Large size (1.6 scale)"
+                ]
+            }
+        ],
+        "related": ["gunmar-spirit-angor", "bular"]
+    },
+    {
+        "id": "gunmar-spirit-angor",
+        "name": "Spirit of Angor Rot",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "Spectral form of Angor Rot summoned by Gunmar",
+        "tags": ["Gumm-Gumm", "Spirit", "Elite"],
+        "stats": {
+            "Health": "1500 HP",
+            "Damage": "40",
+            "Armor": "Angor's Equipment",
+            "Experience": "None"
+        },
+        "fullDescription": "The spirit of Angor Rot, summoned by Gunmar at 50% health. Retains the deadly shadow assassin abilities.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Angor's Skull Helm",
+                    "Angor's Chestplate",
+                    "Angor's Blade"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Shadow Step - Teleportation",
+                    "Cursed Blade - Debuff attack",
+                    "Phantom Slash - Swift strike",
+                    "90% Knockback resistance",
+                    "Large size (1.4 scale)"
+                ]
+            }
+        ],
+        "related": ["gunmar-spirit-bular", "angor-rot"]
     }
 ]
