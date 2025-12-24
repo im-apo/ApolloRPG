@@ -486,6 +486,32 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
+// ========================================
+// UPDATE MODAL FUNCTIONS
+// ========================================
+function openUpdateModal() {
+    const modal = document.getElementById('updateModal');
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeUpdateModal() {
+    const modal = document.getElementById('updateModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on ESC key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeUpdateModal();
+    }
+});
+
+// Export functions
+window.openUpdateModal = openUpdateModal;
+window.closeUpdateModal = closeUpdateModal;
+
 // Export functions for onclick handlers
 window.showHome = showHome;
 window.showItemDetail = showItemDetail;

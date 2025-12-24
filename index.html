@@ -204,6 +204,7 @@
                 </div>
             </aside>
 
+
             <!-- Main Content Area -->
             <main class="main-content">
                 <!-- Breadcrumb Navigation -->
@@ -214,6 +215,67 @@
 
                 <!-- Home View (Main Page) -->
                 <div id="homeView">
+                    <div class="update-log-banner" onclick="openUpdateModal()">
+    <div class="update-banner-content">
+        <div class="update-banner-icon">
+            <i class="fas fa-newspaper"></i>
+        </div>
+        <div class="update-banner-text">
+            <h3>New Update: Daylight/Eclipse</h3>
+            <p>Gunmar, Eclipse Weapons, New Ores & More!</p>
+        </div>
+        <div class="update-banner-cta">
+            <span>View Changelog</span>
+            <i class="fas fa-arrow-right"></i>
+        </div>
+    </div>
+</div>
+
+<div id="updateModal" class="modal">
+    <div class="modal-overlay" onclick="closeUpdateModal()"></div>
+    <div class="modal-container">
+        <div class="modal-header">
+            <div class="modal-header-content">
+                <i class="fas fa-newspaper"></i>
+                <h2>Update Changelog</h2>
+            </div>
+            <button class="modal-close" onclick="closeUpdateModal()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="modal-body">
+            <!-- Latest Update with Animated Border - Choose one class -->
+            <div class="update-card latest-rapid">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: Daylight/Eclipse</span>
+                        <span class="update-badge badge-dual-rapid">Latest + Major</span>
+                    </div>
+                    <div class="update-date">
+                        <i class="far fa-calendar"></i>
+                        <span>Early-Mid Early 2026</span>
+                    </div>
+                </div>
+                <div class="update-description">
+                    The Daylight/Eclipse update brings a new dimension, bosses and expanded content!
+                </div>
+                
+                <ul class="update-features">
+                    <li class="added"><strong>New Bosses:</strong> Gunmar The Black, Bular The Butcher, Angor Rot, Changeling, Infernax The Ancient</li>
+                    <li class="added"><strong>New Dimension:</strong> Darklands</li>
+                    <li class="added"><strong>New Weapons:</strong> Daylight, Eclipse, Moonlight</li>
+                    <li class="added"><strong>New Armor Set:</strong> Daylight Armour, Eclipse Armour, Moonlight Armour, New Vanity Sets</li>
+                    <li class="added"><strong>New Materials:</strong> Added Awakenings (Boss Lore), Added New Metals and Gemstones</li>
+                    <li class="added"><strong>New Accessories:</strong> Improved Crystals and Added New Crystals</li>
+                    <li class="changed"><strong>Rebalanced:</strong> The Progression and the Rest of the old Bosses</li>
+                    <li class="changed"><strong>Changes:</strong> Renamed Corrupted King, Plot Rework, Boss Summon Rework.</li>
+                    <li class="fixed"><strong>Check It Out!</strong> Join ApolloRPG now and check the new update for yourself!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
                     <div class="wiki-hero">
                         <h1>Welcome to ApolloRPG Wiki</h1>
                         <p>
