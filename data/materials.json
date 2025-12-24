@@ -3,10 +3,14 @@
         "id": "exorcist-handle",
         "name": "Exorcist Sword Handle",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-grip-lines",
         "gradient": "linear-gradient(135deg, #8D6E63 0%, #4E342E 100%)",
         "description": "Used to craft the Exorcist sword",
-        "tags": ["Crafting Material", "Boss Drop"],
+        "tags": [
+            "Crafting Material",
+            "Boss Drop"
+        ],
         "stats": {
             "Base Item": "Leather Horse Armor",
             "Item Type": "Crafting Material",
@@ -31,16 +35,23 @@
                 ]
             }
         ],
-        "related": ["exorcist", "melted-magmar-core"]
+        "related": [
+            "exorcist",
+            "melted-magmar-core"
+        ]
     },
     {
         "id": "melted-magmar-core",
         "name": "Melted Magmar Core",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #FF5722 0%, #D84315 100%)",
         "description": "Used to craft the Exorcist sword",
-        "tags": ["Crafting Material", "Processed"],
+        "tags": [
+            "Crafting Material",
+            "Processed"
+        ],
         "stats": {
             "Base Item": "Diamond Horse Armor",
             "Item Type": "Crafting Material",
@@ -66,16 +77,24 @@
                 ]
             }
         ],
-        "related": ["exorcist", "infused-magmar-core", "exorcist-handle"]
+        "related": [
+            "exorcist",
+            "infused-magmar-core",
+            "exorcist-handle"
+        ]
     },
     {
         "id": "infused-magmar-core",
         "name": "Infused Magmar Core",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #FF9800 0%, #E65100 100%)",
         "description": "Needs to be melted before use",
-        "tags": ["Crafting Material", "Boss Drop"],
+        "tags": [
+            "Crafting Material",
+            "Boss Drop"
+        ],
         "stats": {
             "Base Item": "Iron Horse Armor",
             "Item Type": "Crafting Material",
@@ -100,16 +119,23 @@
                 ]
             }
         ],
-        "related": ["melted-magmar-core", "exorcist"]
+        "related": [
+            "melted-magmar-core",
+            "exorcist"
+        ]
     },
     {
         "id": "sword-centrepiece",
         "name": "Sword Centrepiece",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-gem",
         "gradient": "linear-gradient(135deg, #FFD700 0%, #FFC107 100%)",
         "description": "I Wonder What This Is For?",
-        "tags": ["Crafting Material", "Mysterious"],
+        "tags": [
+            "Crafting Material",
+            "Mysterious"
+        ],
         "stats": {
             "Base Item": "Golden Horse Armor",
             "Item Type": "Crafting Material",
@@ -140,10 +166,14 @@
         "id": "frostbite-handle",
         "name": "FrostBite Sword Handle",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-grip-lines",
         "gradient": "linear-gradient(135deg, #64B5F6 0%, #0D47A1 100%)",
         "description": "Used To Craft The FrostBite",
-        "tags": ["Crafting Material", "Frost"],
+        "tags": [
+            "Crafting Material",
+            "Frost"
+        ],
         "stats": {
             "Base Item": "Leather Horse Armor",
             "Item Type": "Crafting Material",
@@ -167,16 +197,24 @@
                 ]
             }
         ],
-        "related": ["frostbite-centrepiece", "permafrost", "frostbite"]
+        "related": [
+            "frostbite-centrepiece",
+            "permafrost",
+            "frostbite"
+        ]
     },
     {
         "id": "frostbite-centrepiece",
         "name": "FrostBite Centrepiece",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-gem",
         "gradient": "linear-gradient(135deg, #81D4FA 0%, #01579B 100%)",
         "description": "I Wonder What This Is For?",
-        "tags": ["Crafting Material", "Frost"],
+        "tags": [
+            "Crafting Material",
+            "Frost"
+        ],
         "stats": {
             "Base Item": "Golden Horse Armor",
             "Item Type": "Crafting Material",
@@ -200,16 +238,24 @@
                 ]
             }
         ],
-        "related": ["frostbite-handle", "permafrost", "frostbite"]
+        "related": [
+            "frostbite-handle",
+            "permafrost",
+            "frostbite"
+        ]
     },
     {
         "id": "corrupt-scales",
         "name": "Corrupted Scales",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-dragon",
         "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
         "description": "Scales Used To Upgrade Weapons and Armour",
-        "tags": ["Crafting Material", "Upgrade Material"],
+        "tags": [
+            "Crafting Material",
+            "Upgrade Material"
+        ],
         "stats": {
             "Base Item": "Turtle Scute",
             "Item Type": "Crafting Material",
@@ -235,16 +281,23 @@
                 ]
             }
         ],
-        "related": ["corrupted-helmet", "corrupted-armor"]
+        "related": [
+            "corrupted-helmet",
+            "corrupted-armor"
+        ]
     },
     {
         "id": "mega-handle",
         "name": "Mega Sword Handle",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-grip-lines",
         "gradient": "linear-gradient(135deg, #FF5722 0%, #F57C00 100%)",
         "description": "Used To Craft Every Sword Going Forward From LightsBane",
-        "tags": ["Crafting Material", "Ultimate Material"],
+        "tags": [
+            "Crafting Material",
+            "Ultimate Material"
+        ],
         "stats": {
             "Base Item": "Leather Horse Armor",
             "Item Type": "Crafting Material",
@@ -270,16 +323,24 @@
                 ]
             }
         ],
-        "related": ["mega-centrepiece", "lights-bane", "nights-edge"]
+        "related": [
+            "mega-centrepiece",
+            "lights-bane",
+            "nights-edge"
+        ]
     },
     {
         "id": "mega-centrepiece",
         "name": "Mega Sword Centrepiece",
         "category": "materials",
+        "subcategory": "Boss Material",
         "icon": "fa-gem",
         "gradient": "linear-gradient(135deg, #FFD700 0%, #FF6F00 100%)",
         "description": "Used To Craft Every Sword Going Forward From LightsBane",
-        "tags": ["Crafting Material", "Ultimate Material"],
+        "tags": [
+            "Crafting Material",
+            "Ultimate Material"
+        ],
         "stats": {
             "Base Item": "Golden Horse Armor",
             "Item Type": "Crafting Material",
@@ -305,6 +366,775 @@
                 ]
             }
         ],
-        "related": ["mega-handle", "lights-bane", "nights-edge"]
-    }
+        "related": [
+            "mega-handle",
+            "lights-bane",
+            "nights-edge"
+        ]
+    },
+    {
+        "id": "awakening-skeleton-king",
+        "name": "Awakening Of The Skeleton King",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-skull",
+        "gradient": "linear-gradient(135deg, #E0E0E0 0%, #9E9E9E 100%)",
+        "description": "Long before the world knew peace, a tyrant of bone and death ruled",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "His awakening signals the first calamity. This ancient artifact tells the tale of the Skeleton King's reign of terror.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Chronicles the Skeleton King's history",
+                    "First calamity of the ancient world",
+                    "Tales of bone and death",
+                    "Collectible artifact"
+                ]
+            }
+        ],
+        "related": [
+            "skeleton-king-sword"
+        ]
+    },
+    {
+        "id": "awakening-zombie-king",
+        "name": "Awakening Of The Zombie King",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-biohazard",
+        "gradient": "linear-gradient(135deg, #4CAF50 0%, #1B5E20 100%)",
+        "description": "A plague swept the land, turning all to rot",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "At its center stood a crowned corpse, commanding legions of the undead. This cursed relic recounts the story of the great plague.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Records the great plague",
+                    "Chronicles of the Zombie King",
+                    "Tales of undead legions",
+                    "Ancient cursed artifact"
+                ]
+            }
+        ],
+        "related": [
+            "zombie-kings-blade"
+        ]
+    },
+    {
+        "id": "awakening-king-slime",
+        "name": "Awakening Of The King Slime",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-droplet",
+        "gradient": "linear-gradient(135deg, #8BC34A 0%, #33691E 100%)",
+        "description": "From the depths of primordial ooze, emerged a sentient mass",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "It consumed all, growing ever larger. This gelatinous artifact preserves the legend of the King Slime's emergence.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Tales of primordial ooze",
+                    "Chronicles endless hunger",
+                    "Story of the sentient mass",
+                    "Ancient gelatinous relic"
+                ]
+            }
+        ],
+        "related": [
+            "slime-sword"
+        ]
+    },
+    {
+        "id": "awakening-tank-zombie",
+        "name": "Awakening Of The Tank Zombie",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-shield",
+        "gradient": "linear-gradient(135deg, #616161 0%, #212121 100%)",
+        "description": "An unstoppable juggernaut of decay",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "This beast knows no pain, no fear. Only endless, brutal destruction. This artifact commemorates the terror of the unstoppable juggernaut.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Chronicles of the juggernaut",
+                    "Tales of endless destruction",
+                    "Memories of unstoppable force",
+                    "Historic battle relic"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "awakening-brimstone-crags",
+        "name": "Awakening Of The Brimstone Crags",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-mountain",
+        "gradient": "linear-gradient(135deg, #FF5722 0%, #BF360C 100%)",
+        "description": "When the mountains themselves came alive",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "Molten fury erupted across the nether. The earth itself had reached peace. This artifact records the awakening of the living mountain.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Story of the living mountain",
+                    "Chronicles of molten fury",
+                    "Tales from the nether",
+                    "Ancient geological record"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "awakening-magmar-elemental",
+        "name": "Awakening Of The Magmar Elemental",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%)",
+        "description": "Born from the planet's burning core",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "An ancient flame spirit awoke in rage. Its wrath would scorch the world to ash. This artifact preserves the legend of the fire incarnate.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Chronicles the ancient flame spirit",
+                    "Tales of world-scorching wrath",
+                    "Story of the burning core",
+                    "Legendary fire artifact"
+                ]
+            }
+        ],
+        "related": [
+            "magmarite",
+            "infused-magmar-core"
+        ]
+    },
+    {
+        "id": "awakening-frost-elemental",
+        "name": "Awakening Of The Frost Elemental",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #0D47A1 100%)",
+        "description": "From the frozen wastes of eternal winter",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "A spirit of ice and cold emerged. It sought to freeze all life forever. This artifact tells the story of eternal winter incarnate.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Chronicles the spirit of ice",
+                    "Tales of eternal winter",
+                    "Story of frozen wastes",
+                    "Ancient frost relic"
+                ]
+            }
+        ],
+        "related": [
+            "permafrost",
+            "frostbite-handle"
+        ]
+    },
+    {
+        "id": "awakening-corrupt-king",
+        "name": "Awakening Of The Corrupt King",
+        "category": "materials",
+        "subcategory": "Lore Item",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "Once a noble ruler, now twisted by darkness",
+        "tags": [
+            "Lore Item",
+            "Collectible"
+        ],
+        "stats": {
+            "Base Item": "Nautilus Shell",
+            "Item Type": "Lore Item",
+            "Rarity": "Legendary"
+        },
+        "fullDescription": "Corruption consumed his soul and kingdom. He returned as a herald of chaos. This artifact chronicles the fall of a noble monarch.",
+        "sections": [
+            {
+                "title": "Lore",
+                "content": [
+                    "Story of the fallen monarch",
+                    "Chronicles of corruption",
+                    "Tales of chaos and darkness",
+                    "Tragic royal artifact"
+                ]
+            }
+        ],
+        "related": [
+            "corrupt-scales",
+            "mega-handle",
+            "mega-centrepiece"
+        ]
+    },
+    {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #5865F2 0%, #3B5BDB 100%)",
+    "description": "A brilliant blue gemstone",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "None"
+    },
+    "fullDescription": "A brilliant blue gemstone used for advanced crafting. The most basic ore that can be mined with any pickaxe.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Sapphire Ore blocks",
+                "Regenerates every 2 seconds",
+                "No special pickaxe required",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "ruby",
+    "name": "Ruby",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #DC143C 0%, #8B0000 100%)",
+    "description": "A deep crimson gemstone",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "A deep crimson gemstone that radiates intense energy. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Ruby Ore blocks",
+                "Regenerates every 2 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "topaz",
+    "name": "Topaz",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #FFD700 0%, #FF8C00 100%)",
+    "description": "A warm golden gemstone",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "A warm golden gemstone that shines like the sun. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Topaz Ore blocks",
+                "Regenerates every 2 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "amber",
+    "name": "Amber",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-droplet",
+    "gradient": "linear-gradient(135deg, #FFBF00 0%, #FF8C00 100%)",
+    "description": "Ancient fossilized tree resin",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "Ancient fossilized tree resin that contains preserved secrets. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Amber Ore blocks",
+                "Regenerates every 2 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "jade",
+    "name": "Jade",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #00A36C 0%, #006400 100%)",
+    "description": "A mystical green stone",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "A mystical green stone, symbol of wisdom and balance. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Jade Ore blocks",
+                "Regenerates every 2 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "opal",
+    "name": "Opal",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #FFFFFF 0%, #E8E8E8 50%, #C8C8FF 100%)",
+    "description": "An iridescent white gem",
+    "tags": [
+        "Tier 1",
+        "Common",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "1",
+        "Rarity": "Common",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "2 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "An iridescent white gem that reflects rainbow colors. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Opal Ore blocks",
+                "Regenerates every 2 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "tungsten-ore",
+    "name": "Tungsten",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-cube",
+    "gradient": "linear-gradient(135deg, #B4B4B4 0%, #787878 100%)",
+    "description": "An incredibly dense metal",
+    "tags": [
+        "Tier 2",
+        "Uncommon",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "2",
+        "Rarity": "Uncommon",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "4 seconds",
+        "Required Pickaxe": "Enlightened"
+    },
+    "fullDescription": "An incredibly dense metal, perfect for heavy-duty equipment. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Tungsten Ore blocks",
+                "Regenerates every 4 seconds",
+                "Requires Enlightened pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "magnetite",
+    "name": "Magnetite",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-magnet",
+    "gradient": "linear-gradient(135deg, #323232 0%, #000000 100%)",
+    "description": "A naturally magnetic ore",
+    "tags": [
+        "Tier 2",
+        "Uncommon",
+        "Pre-Hardmode"
+    ],
+    "stats": {
+        "Tier": "2",
+        "Rarity": "Uncommon",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "4 seconds",
+        "Required Pickaxe": "Industrial"
+    },
+    "fullDescription": "A naturally magnetic ore that hums with electromagnetic power. Used for advanced crafting.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Magnetite Ore blocks",
+                "Regenerates every 4 seconds",
+                "Requires Industrial pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "magmaritian-crystal",
+    "name": "Magmaritian Crystal",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-fire",
+    "gradient": "linear-gradient(135deg, #FF4500 0%, #8B0000 100%)",
+    "description": "Forged in the heart of volcanoes",
+    "tags": [
+        "Tier 3",
+        "Rare",
+        "Pre-Hardmode",
+        "Fire Debuff"
+    ],
+    "stats": {
+        "Tier": "3",
+        "Rarity": "Rare",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "7.5 seconds",
+        "Required Pickaxe": "Magnetic",
+        "Debuff": "Fire Damage (4 hearts)"
+    },
+    "fullDescription": "Forged in the heart of volcanoes, this crystal burns with eternal flame. Extremely hot to the touch - mining without fire immunity deals 4 hearts of fire damage.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Magmaritian Ore blocks",
+                "Regenerates every 7.5 seconds",
+                "Requires Magnetic pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        },
+        {
+            "title": "Danger Warning",
+            "content": [
+                "Deals 4 hearts fire damage when mined",
+                "Get a pickaxe with 'Immune to Fire Ores'",
+                "Volcanic Inferno Drill or better recommended",
+                "Or use Elemental/Ultimate pickaxe"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "glacial-titanium",
+    "name": "Glacial Titanium",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-snowflake",
+    "gradient": "linear-gradient(135deg, #87CEEB 0%, #1E90FF 100%)",
+    "description": "Frozen for millennia",
+    "tags": [
+        "Tier 3",
+        "Rare",
+        "Pre-Hardmode",
+        "Frost Debuff"
+    ],
+    "stats": {
+        "Tier": "3",
+        "Rarity": "Rare",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "7.5 seconds",
+        "Required Pickaxe": "Volcanic",
+        "Debuff": "Freeze (6 hearts + Slowness II + Mining Fatigue II)"
+    },
+    "fullDescription": "Frozen for millennia, light yet incredibly strong. Cold as eternal ice - mining without frost immunity inflicts freeze damage and debilitating slowness effects.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Glacial Titanium Ore blocks",
+                "Regenerates every 7.5 seconds",
+                "Requires Magnetic pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        },
+        {
+            "title": "Danger Warning",
+            "content": [
+                "Deals 6 hearts freeze damage when mined",
+                "Applies Slowness II for 5 seconds",
+                "Applies Mining Fatigue II for 5 seconds",
+                "Get a pickaxe with 'Immune to Frost Ores'",
+                "Glacial Permafrost Breaker or better recommended"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "iridium-shard",
+    "name": "Iridium Shard",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-star",
+    "gradient": "linear-gradient(135deg, #FF69B4 0%, #8A2BE2 50%, #00CED1 100%)",
+    "description": "An otherworldly metal",
+    "tags": [
+        "Tier 4",
+        "Legendary",
+        "Pre-Hardmode",
+        "Radiance Debuff"
+    ],
+    "stats": {
+        "Tier": "4",
+        "Rarity": "Legendary",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "10 seconds",
+        "Required Pickaxe": "Elemental",
+        "Debuff": "Blinding Radiance (25 hearts + Blindness)"
+    },
+    "fullDescription": "An otherworldly metal that shimmers with rainbow light. Incredibly rare and valuable - its radiance blinds those who mine it without proper protection.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Iridium Ore blocks",
+                "Regenerates every 10 seconds",
+                "Requires Elemental pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        },
+        {
+            "title": "Danger Warning",
+            "content": [
+                "Deals 25 hearts lightning damage when mined",
+                "Applies Blindness for 4 seconds",
+                "Get a pickaxe with 'Immune to Radiance Ores'",
+                "Iridescent Prismatic Drill or better recommended"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "mana-infused-emerald",
+    "name": "Mana Infused Emerald",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-wand-sparkles",
+    "gradient": "linear-gradient(135deg, #00FF7F 0%, #32CD32 100%)",
+    "description": "Pulses with magical energy",
+    "tags": [
+        "Tier 4",
+        "Legendary",
+        "Pre-Hardmode",
+        "Magic Debuff"
+    ],
+    "stats": {
+        "Tier": "4",
+        "Rarity": "Legendary",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "10 seconds",
+        "Required Pickaxe": "Iridescent",
+        "Debuff": "Magical Surge (40 hearts + Levitation II)"
+    },
+    "fullDescription": "Pulses with magical energy and contains pure arcane power. Whispers of ancient magic - mining releases a magical surge that levitates unprepared miners.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Mana Infused Emerald Ore blocks",
+                "Regenerates every 10 seconds",
+                "Requires Iridescent pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        },
+        {
+            "title": "Danger Warning",
+            "content": [
+                "Deals 40 hearts magic damage when mined",
+                "Applies Levitation II for 3 seconds",
+                "Get a pickaxe with 'Immune to Magic Ores'",
+                "Arcane Mining Drill or better recommended"
+            ]
+        }
+    ],
+    "related": []
+},
+{
+    "id": "entropic-crystal",
+    "name": "Entropic Crystal",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-atom",
+    "gradient": "linear-gradient(135deg, #9400D3 0%, #4B0082 100%)",
+    "description": "Born from chaos itself",
+    "tags": [
+        "Tier 4",
+        "Legendary",
+        "Pre-Hardmode",
+        "Chaos Debuff"
+    ],
+    "stats": {
+        "Tier": "4",
+        "Rarity": "Legendary",
+        "Difficulty": "Pre-Hardmode",
+        "Regeneration": "10 seconds",
+        "Required Pickaxe": "Arcane",
+        "Debuff": "Random Chaos (60 hearts + Nausea/Weakness/Poison)"
+    },
+    "fullDescription": "Born from chaos itself, it warps reality around it. Unstable and dangerous - mining inflicts random debilitating chaos effects.",
+    "sections": [
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Mine Entropic Ore blocks",
+                "Regenerates every 10 seconds",
+                "Requires Arcane pickaxe or better",
+                "Amount varies by pickaxe quality"
+            ]
+        },
+        {
+            "title": "Danger Warning",
+            "content": [
+                "Deals 60 hearts lightning damage when mined",
+                "Random chaos effect:",
+                "- Nausea II for 6 seconds, OR",
+                "- Weakness II for 5 seconds, OR",
+                "- Poison II for 4 seconds",
+                "Get a pickaxe with 'Immune to Chaos Ores'",
+                "Entropic Nullifier or Ultimate pickaxe recommended"
+            ]
+        }
+    ],
+    "related": []
+}
 ]

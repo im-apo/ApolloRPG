@@ -3,8 +3,9 @@
         "id": "skeleton-king",
         "name": "Skeleton King",
         "category": "bosses",
-        "icon": "fa-skull-crown",
-        "gradient": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+		"subcategory": "Pre-Hardmode",
+        "icon": "fa-skull",
+        "gradient": "linear-gradient(135deg, #2c2c2c 0%, #434343 100%)",
         "description": "Undead monarch commanding skeletal legions",
         "tags": ["Undead", "Summoner", "Royalty"],
         "stats": {
@@ -54,6 +55,7 @@
         "id": "zombie-king",
         "name": "Zombie King",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-skull-crossbones",
         "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
         "description": "Powerful zombie monarch with relentless hordes",
@@ -105,6 +107,7 @@
         "id": "king-slime",
         "name": "King Slime",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-droplet",
         "gradient": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
         "description": "Massive slime monarch with incredible summoning power",
@@ -152,6 +155,7 @@
         "id": "giant",
         "name": "Giant",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-mountain",
         "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
         "description": "Colossal humanoid warrior of immense strength",
@@ -194,8 +198,9 @@
     },
     {
         "id": "magmar-elemental",
-        "name": "Magmar Elemental",
+        "name": "Magmar - Magma Elemental",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
         "description": "Ancient fire elemental commanding the flames themselves",
@@ -258,11 +263,12 @@
     },
     {
         "id": "frost-elemental",
-        "name": "Frost Elemental",
+        "name": "Frostveil - Frost Elemental",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-snowflake",
         "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
-        "description": "Brother of Magmar seeking revenge, wielding devastating ice powers",
+        "description": "Sister of Magmar seeking revenge, wielding devastating ice powers",
         "tags": ["Elemental", "Ice", "Multi-Phase"],
         "stats": {
             "Health": "3,000 HP",
@@ -270,7 +276,7 @@
             "Armor": "Frost Set + Dual PermaFrost",
             "Difficulty": "Hard"
         },
-        "fullDescription": "The brother of Magmar Elemental, consumed by rage and seeking vengeance. Controls ice and cold with devastating effect through three phases.",
+        "fullDescription": "The sister of Magmar Elemental, consumed by rage and seeking vengeance. Controls ice and cold with devastating effect through three phases.",
         "sections": [
             {
                 "title": "Phase 1 (100-70% HP) - Aggressive Ice Assault",
@@ -323,8 +329,9 @@
     },
     {
         "id": "corrupted-king",
-        "name": "Corrupted King",
+        "name": "Aurelion - Corrupted King",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-crown",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "A powerful king corrupted by void energy, commanding legions of corrupted minions",
@@ -335,7 +342,7 @@
             "Armor": "Full Corrupted Set",
             "Difficulty": "Hard"
         },
-        "fullDescription": "Once a noble ruler, now consumed by void corruption. The Corrupted King commands vast armies and grows more desperate as the battle progresses through four distinct phases.",
+        "fullDescription": "Once a noble ruler, now consumed by void corruption. The Corrupted King commands vast armies and grows more desperate as the battle progresses through four distinct phases.  (Also Known as Aurelion - The Aether Elemental/The Fallen Elemental)",
         "sections": [
             {
                 "title": "Phase 1 (100-75% HP) - Corrupted Assault",
@@ -399,6 +406,7 @@
         "id": "infernax",
         "name": "Infernax the Ancient",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-fire-flame-curved",
         "gradient": "linear-gradient(135deg, #ff0000 0%, #8b0000 100%)",
         "description": "The flame that consumed the gods - most powerful fire elemental",
@@ -468,6 +476,7 @@
         "id": "changeling",
         "name": "Changeling",
         "category": "bosses",
+		"subcategory": "Pre-Hardmode",
         "icon": "fa-masks-theater",
         "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
         "description": "Shapeshifting creature with deadly deception",
@@ -520,226 +529,415 @@
         ],
         "related": ["bular", "angor-rot"]
     },
-    {
-        "id": "bular",
-        "name": "Bular the Butcher",
-        "category": "bosses",
-        "icon": "fa-axe-battle",
-        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
-        "description": "Son of Gunmar, a brutal hunter and warrior",
-        "tags": ["Gumm-Gumm", "Multi-Phase", "Melee"],
-        "stats": {
-            "Health": "6,000 HP",
-            "Damage": "22",
-            "Armor": "Bular's Set + Twin Swords",
-            "Difficulty": "Very Hard"
-        },
-        "fullDescription": "The feared son of Gunmar the Black. A brutal hunter who grows more enraged as he takes damage through three phases.",
-        "sections": [
-            {
-                "title": "Phase 1 (100-70% HP) - Aggressive Hunter",
-                "content": [
-                    "Brutal Ambush - Surprise attack",
-                    "Twin Blade Assault - Dual weapon strikes",
-                    "Crushing Grip - Grab and damage",
-                    "Throw Debris - Ranged attack"
-                ]
-            },
-            {
-                "title": "Phase 2 (70-40% HP) - Enraged Berserker",
-                "content": [
-                    "Bular Rage transformation",
-                    "Ground Smash - AOE damage",
-                    "Blade Spin - Spinning attack",
-                    "Leaping Strike - Jump attack",
-                    "Intimidating Roar - Fear effect"
-                ]
-            },
-            {
-                "title": "Phase 3 (40-0% HP) - Desperate Fury",
-                "content": [
-                    "Bular Final Fury - Ultimate form",
-                    "All abilities on reduced cooldowns",
-                    "Relentless Assault - Non-stop attacks",
-                    "Death sequence with final words"
-                ]
-            },
-            {
-                "title": "Strategy",
-                "content": [
-                    "Large size (1.6 scale) and fast (0.38 speed)",
-                    "85% knockback resistance",
-                    "Long follow range (60 blocks)",
-                    "Darkens sky during fight",
-                    "Son of Gunmar - expect difficulty"
-                ]
-            },
-            {
-                "title": "Loot",
-                "content": [
-                    "Bular Drops",
-                    "500 Experience"
-                ]
-            }
-        ],
-        "related": ["gunmar", "angor-rot"]
+  {
+    "id": "bular",
+    "name": "Bular the Butcher",
+    "category": "bosses",
+	"subcategory": "Pre-Hardmode",
+    "icon": "fa-dungeon",
+    "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+    "description": "Son of Gunmar, a brutal hunter and warrior",
+    "tags": ["Gumm-Gumm", "Multi-Phase", "Melee"],
+    "stats": {
+      "Health": "6,000 HP",
+      "Damage": "22",
+      "Armor": "Bular's Set + Twin Swords",
+      "Difficulty": "Very Hard"
     },
-    {
-        "id": "angor-rot",
-        "name": "Angor Rot",
-        "category": "bosses",
-        "icon": "fa-dagger",
-        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        "description": "The Shadow Assassin - master of darkness and death",
-        "tags": ["Gumm-Gumm", "Assassin", "Multi-Phase"],
-        "stats": {
-            "Health": "7,500 HP",
-            "Damage": "28",
-            "Armor": "Angor's Set + Blade & Dagger",
-            "Difficulty": "Legendary"
-        },
-        "fullDescription": "A legendary shadow assassin wielding the Infernal Shroud. One of the most dangerous bosses with three phases and shadow manipulation.",
-        "sections": [
-            {
-                "title": "Phase 1 (100-70% HP) - The Hunter",
-                "content": [
-                    "Shadow Step - Teleportation",
-                    "Cursed Blade - Debuff weapon",
-                    "Dagger Barrage - Ranged assault",
-                    "Shadow Clone - Creates duplicates",
-                    "Toxic Trap - Area control",
-                    "Assassin Strike - High damage"
-                ]
-            },
-            {
-                "title": "Phase 2 (70-40% HP) - Shadow Master",
-                "content": [
-                    "Angor Shadow Form - Enhanced state",
-                    "Void Rift - Portal attack",
-                    "Shadow Prison - Trap ability",
-                    "Phantom Slash - Swift strikes",
-                    "Cursed Ground - Area debuff",
-                    "Shadow Ambush - Stealth attack",
-                    "Dark Pulse - AOE damage"
-                ]
-            },
-            {
-                "title": "Phase 3 (40-0% HP) - Infernal Awakening",
-                "content": [
-                    "Infernal Awakening - Ultimate transformation",
-                    "Shadow Maelstrom - Massive AOE",
-                    "Death Mark - Target for execution",
-                    "Executioner Combo - Multi-hit finisher",
-                    "All abilities on reduced cooldowns",
-                    "Death sequence"
-                ]
-            },
-            {
-                "title": "Strategy",
-                "content": [
-                    "Very fast (0.45 speed) and unpredictable",
-                    "Medium-large size (1.2 scale)",
-                    "90% knockback resistance",
-                    "Shadow clones distract - identify real Angor",
-                    "Creates fog and darkness",
-                    "Boss music plays",
-                    "Long follow range (80 blocks)"
-                ]
-            },
-            {
-                "title": "Loot",
-                "content": [
-                    "Angor Rot Drops",
-                    "800 Experience"
-                ]
-            }
-        ],
-        "related": ["gunmar", "bular"]
+    "fullDescription": "The feared son of Gunmar the Black. A brutal hunter who grows more enraged as he takes damage through three phases.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Brutal Ambush - Surprise attack",
+          "Twin Blade Assault - Dual weapon strikes",
+          "Crushing Grip - Grab and damage",
+          "Throw Debris - Ranged attack"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Large size (1.6 scale) and fast (0.38 speed)",
+          "85% knockback resistance",
+          "Manage distance to avoid combo damage",
+          "Darkens sky during fight"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Bular Drops",
+          "500 Experience"
+        ]
+      }
+    ],
+    "related": ["gunmar", "angor-rot"]
+  },
+  {
+    "id": "angor-rot",
+    "name": "Angor Rot",
+    "category": "bosses",
+	"subcategory": "Pre-Hardmode",
+    "icon": "fa-mask",
+    "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "description": "The Shadow Assassin - master of darkness and death",
+    "tags": ["Gumm-Gumm", "Assassin", "Multi-Phase"],
+    "stats": {
+      "Health": "7,500 HP",
+      "Damage": "28",
+      "Armor": "Angor's Set + Blade & Dagger",
+      "Difficulty": "Legendary"
     },
-    {
-        "id": "gunmar",
-        "name": "Gunmar the Black",
-        "category": "bosses",
-        "icon": "fa-skull-horns",
-        "gradient": "linear-gradient(135deg, #8b0000 0%, #000000 100%)",
-        "description": "The Dark Underlord - ultimate troll villain",
-        "tags": ["Gumm-Gumm", "Dark Underlord", "Legendary"],
-        "stats": {
-            "Health": "9,000 HP",
-            "Damage": "40",
-            "Armor": "Gunmar's Set + Decimaar",
-            "Difficulty": "Extreme"
-        },
-        "fullDescription": "Father of Bular and Dark Underlord of the Gumm-Gumm. The ultimate boss with four devastating phases and the ability to summon the spirits of his greatest warriors.",
-        "sections": [
-            {
-                "title": "Phase 1 (100-75% HP) - The Conqueror",
-                "content": [
-                    "Devastating Slam - Massive ground attack",
-                    "Skullcrusher Combo - Multi-hit melee",
-                    "Command Horde - Summons minions",
-                    "Titan Roar - Fear effect",
-                    "Earth Shatter - AOE earthquake",
-                    "Brutal Charge - Rush attack",
-                    "Troll King Aura - Buff aura"
-                ]
-            },
-            {
-                "title": "Phase 2 (75-50% HP) - Warlord's Fury",
-                "content": [
-                    "Gunmar Rage transformation",
-                    "Dark Underlord Power - Full power",
-                    "Meteor Strike - Sky attack",
-                    "Chain Pull - Ranged grab",
-                    "Ground Rupture - Line AOE",
-                    "Summon Berserkers",
-                    "Titan Smash - Devastating blow",
-                    "Execution Strike - Finisher"
-                ]
-            },
-            {
-                "title": "Phase 3 (50-25% HP) - Avatar of Darkness",
-                "content": [
-                    "Darklands Ascension - Godlike form",
-                    "Summons Angor & Bular Spirits (one-time)",
-                    "Cataclysmic Slam - Ultimate ground attack",
-                    "Shadow Flame Breath - Breath weapon",
-                    "Dark Portal - Summon reinforcements",
-                    "Obliteration Wave - Screen-wide damage"
-                ]
-            },
-            {
-                "title": "Phase 4 (25-0% HP) - Apocalyptic Rampage",
-                "content": [
-                    "Apocalyptic Rampage mode",
-                    "All abilities on minimum cooldown",
-                    "Relentless assault with no recovery time",
-                    "Summons elite units constantly",
-                    "Death explosion on defeat"
-                ]
-            },
-            {
-                "title": "Strategy",
-                "content": [
-                    "Longest and hardest boss fight in the game",
-                    "Huge size (2.0 scale) and slow (0.32 speed)",
-                    "100% knockback immunity",
-                    "Very long follow range (100 blocks)",
-                    "Phase 3 summons Angor & Bular - prepare for 3v1",
-                    "Maximum armor and resistance required",
-                    "Creates fog and darkness",
-                    "Boss music plays",
-                    "Bring a team - nearly impossible solo"
-                ]
-            },
-            {
-                "title": "Loot",
-                "content": [
-                    "Gunmar Drops",
-                    "2500 Experience"
-                ]
-            }
-        ],
-        "related": ["bular", "angor-rot"]
-    }
+    "fullDescription": "A legendary shadow assassin wielding the Infernal Shroud. One of the most dangerous bosses with three phases and shadow manipulation.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Shadow Step - Teleportation",
+          "Cursed Blade - Debuff weapon",
+          "Dagger Barrage - Ranged assault",
+          "Shadow Clone - Creates duplicates",
+          "Toxic Trap - Area control",
+          "Assassin Strike - High damage"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Very fast (0.45 speed) and unpredictable",
+          "Medium-large size (1.2 scale)",
+          "90% knockback resistance",
+          "Shadow clones distract - identify real Angor",
+          "Use ranged attacks to avoid high melee damage"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Angor Rot Drops",
+          "800 Experience"
+        ]
+      }
+    ],
+    "related": ["gunmar", "bular"]
+  },
+  {
+    "id": "gunmar",
+    "name": "Gunmar the Black",
+    "category": "bosses",
+	"subcategory": "Pre-Hardmode",
+    "icon": "fa-skull-crossbones",
+    "gradient": "linear-gradient(135deg, #8b0000 0%, #000000 100%)",
+    "description": "The Dark Underlord - ultimate troll villain",
+    "tags": ["Gumm-Gumm", "Dark Underlord", "Legendary"],
+    "stats": {
+      "Health": "9,000 HP",
+      "Damage": "40",
+      "Armor": "Gunmar's Set + Decimaar",
+      "Difficulty": "Extreme"
+    },
+    "fullDescription": "Father of Bular and Dark Underlord of the Gumm-Gumm. Ultimate boss with four devastating phases and ability to summon spirits of his greatest warriors.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Devastating Slam - Massive ground attack",
+          "Skullcrusher Combo - Multi-hit melee",
+          "Command Horde - Summons minions",
+          "Titan Roar - Fear effect",
+          "Earth Shatter - AOE earthquake",
+          "Brutal Charge - Rush attack",
+          "Troll King Aura - Buff aura"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Longest and hardest boss fight",
+          "Huge size (2.0 scale), slow (0.32 speed)",
+          "100% knockback immunity",
+          "Phase 3 summons Angor & Bular - prepare for 3v1",
+          "Maximum armor and resistance required",
+          "Bring a team - nearly impossible solo"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Gunmar Drops",
+          "2,500 Experience"
+        ]
+      }
+    ],
+    "related": ["bular", "angor-rot"]
+  },
+  {
+    "id": "reawoken-brimstone-elemental",
+    "name": "Reawoken Brimstone Elemental",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-fire",
+    "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+    "description": "Ancient elemental reborn from Brimstone Mother’s sacrifice",
+    "tags": ["Elemental", "Fire", "Hardmode"],
+    "stats": {
+      "Health": "10,500 HP",
+      "Damage": "45",
+      "Armor": "Brimstone Set + Dual Magma Swords",
+      "Difficulty": "Hard"
+    },
+    "fullDescription": "A primordial fire elemental reborn, commanding devastating flame attacks and environmental destruction.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Magma Burst - AoE fire explosion",
+          "Flame Pillars - Vertical magma strikes",
+          "Lava Trail - Leaves burning paths",
+          "Summon Emberlings - Fire minions every 400 ticks"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Fire resistance essential",
+          "Manage minions during AoE attacks",
+          "Moderate movement (0.4 speed)",
+          "80% knockback resistance"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Brimstone Drops",
+          "1,000 Experience"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "catastrophe",
+    "name": "Catastrophe",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-explosion",
+    "gradient": "linear-gradient(135deg, #8B0000 0%, #FF4500 100%)",
+    "description": "Envoy of the Shade Lord, harbinger of collapse",
+    "tags": ["Envoy", "Void", "Hardmode"],
+    "stats": {
+      "Health": "11,500 HP",
+      "Damage": "50",
+      "Armor": "Catastrophe Set",
+      "Difficulty": "Hard"
+    },
+    "fullDescription": "One of the two Envoys of the Shade Lord, spreading collapse wherever it moves. Requires mobility and reaction to AoE hazards.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Crushing Void - AoE knockback attack",
+          "Shadowquake - Ground tremor",
+          "Summon Corrupted Minions",
+          "Dark Pulse - AoE damage wave"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Watch positioning to avoid AoE",
+          "Summoned minions must be prioritized",
+          "Teleportation and knockback require agility"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Catastrophe Drops",
+          "1,200 Experience"
+        ]
+      }
+    ],
+    "related": ["cataclysm"]
+  },
+  {
+    "id": "cataclysm",
+    "name": "Cataclysm",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-meteor",
+    "gradient": "linear-gradient(135deg, #4B0082 0%, #9400D3 100%)",
+    "description": "Envoy of the Shade Lord, harbinger of unending mutation",
+    "tags": ["Envoy", "Void", "Hardmode"],
+    "stats": {
+      "Health": "11,500 HP",
+      "Damage": "55",
+      "Armor": "Cataclysm Set",
+      "Difficulty": "Hard"
+    },
+    "fullDescription": "Twin Envoy to Catastrophe, spreading mutation and chaos. Requires control of summoned illusions and debuffs.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Mutation Wave - AoE poison/debuff",
+          "Shadow Rift - Teleports and attacks",
+          "Summon Corrupted Tricksters",
+          "Chaos Pulse - Area explosion"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Focus on real boss, ignore illusions until safe",
+          "Avoid AoE debuffs",
+          "Teleportation requires careful positioning"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Cataclysm Drops",
+          "1,250 Experience"
+        ]
+      }
+    ],
+    "related": ["catastrophe"]
+  },
+  {
+    "id": "absolute-catastrophe",
+    "name": "Absolute Catastrophe",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-skull-crossbones",
+    "gradient": "linear-gradient(135deg, #FF0000 0%, #8B0000 100%)",
+    "description": "Evolved form of Catastrophe, absolute harbinger of collapse",
+    "tags": ["Envoy", "Void", "Hardmode", "Elite"],
+    "stats": {
+      "Health": "14,000 HP",
+      "Damage": "60",
+      "Armor": "Absolute Catastrophe Set",
+      "Difficulty": "Extreme"
+    },
+    "fullDescription": "Transcended form of Catastrophe, combining all previous mechanics with increased speed, AoE, and minions.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Ultimate Crushing Void - Massive AoE",
+          "Cataclysmic Shadowquake",
+          "Summon Elite Corrupted Minions",
+          "Dark Pulse Rampage"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "High mobility required",
+          "AOE + minion combination is deadly",
+          "Extreme awareness and dodging essential"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Absolute Catastrophe Drops",
+          "1,500 Experience"
+        ]
+      }
+    ],
+    "related": ["absolute-cataclysm"]
+  },
+  {
+    "id": "absolute-cataclysm",
+    "name": "Absolute Cataclysm",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-meteor",
+    "gradient": "linear-gradient(135deg, #4B0082 0%, #9400D3 100%)",
+    "description": "Evolved form of Cataclysm, ultimate harbinger of chaos",
+    "tags": ["Envoy", "Void", "Hardmode", "Elite"],
+    "stats": {
+      "Health": "15,000 HP",
+      "Damage": "65",
+      "Armor": "Absolute Cataclysm Set",
+      "Difficulty": "Extreme"
+    },
+    "fullDescription": "Absolute Cataclysm wields all powers of Cataclysm, creating overwhelming AoE, teleportation, and debuff hazards simultaneously.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Ultimate Mutation Wave - AoE poison/debuff",
+          "Shadow Rift Rampage",
+          "Summon Elite Tricksters",
+          "Chaos Pulse Storm"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Requires mastery of previous fights",
+          "Multi-phase mechanics test mobility, awareness, and minion control",
+          "Do not underestimate AoE and debuffs"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Absolute Cataclysm Drops",
+          "1,750 Experience"
+        ]
+      }
+    ],
+    "related": ["absolute-catastrophe"]
+  },
+  {
+    "id": "shade-lord",
+    "name": "Shade Lord",
+    "category": "bosses",
+	"subcategory": "Hardmode",
+    "icon": "fa-ghost",
+    "gradient": "linear-gradient(135deg, #0F0F0F 0%, #434343 100%)",
+    "description": "The ultimate void entity, master of all corruption",
+    "tags": ["Void", "Legendary", "Final Boss"],
+    "stats": {
+      "Health": "18,000 HP",
+      "Damage": "70",
+      "Armor": "Shade Set + Void Aura",
+      "Difficulty": "Legendary"
+    },
+    "fullDescription": "The final embodiment of the Corruption, commanding both envoys and all void powers. The last and deadliest battle.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "content": [
+          "Void Collapse - Massive area damage",
+          "Summon Envoys - Catastrophe & Cataclysm",
+          "Void Rift - Teleports and attacks",
+          "Dark Nova - Continuous AoE damage",
+          "Corruption Pulse - Random debuff zones"
+        ]
+      },
+      {
+        "title": "Strategy",
+        "content": [
+          "Master all previous mechanics",
+          "Always prioritize surviving AoE",
+          "Envoys summon creates high chaos",
+          "Patience and positioning are key",
+          "Maximum resistance required"
+        ]
+      },
+      {
+        "title": "Loot",
+        "content": [
+          "Shade Lord Drops",
+          "3,000 Experience"
+        ]
+      }
+    ],
+    "related": ["absolute-catastrophe", "absolute-cataclysm"]
+  }
 ]

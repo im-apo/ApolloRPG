@@ -7,7 +7,10 @@
         "icon": "fa-sword",
         "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
         "description": "A powerful sword used by the King of Skeletons",
-        "tags": ["Boss Drop", "Diamond Sword"],
+        "tags": [
+            "Boss Drop",
+            "Diamond Sword"
+        ],
         "stats": {
             "Base Item": "Diamond Sword",
             "Attack Damage": "+13.5",
@@ -43,7 +46,9 @@
                 ]
             }
         ],
-        "related": ["zombie-kings-blade"]
+        "related": [
+            "zombie-kings-blade"
+        ]
     },
     {
         "id": "zombie-kings-blade",
@@ -53,7 +58,10 @@
         "icon": "fa-sword",
         "gradient": "linear-gradient(135deg, #4CAF50 0%, #1B5E20 100%)",
         "description": "A powerful sword used by the King of Zombies",
-        "tags": ["Boss Drop", "Netherite Sword"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+16",
@@ -89,7 +97,10 @@
                 ]
             }
         ],
-        "related": ["skeleton-king-sword", "slime-sword"]
+        "related": [
+            "skeleton-king-sword",
+            "slime-sword"
+        ]
     },
     {
         "id": "slime-sword",
@@ -99,7 +110,10 @@
         "icon": "fa-sword",
         "gradient": "linear-gradient(135deg, #8BC34A 0%, #33691E 100%)",
         "description": "Legend Says It Was Forged By The King Himself",
-        "tags": ["Boss Drop", "Netherite Sword"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+21",
@@ -136,7 +150,10 @@
                 ]
             }
         ],
-        "related": ["zombie-kings-blade", "magmarite"]
+        "related": [
+            "zombie-kings-blade",
+            "magmarite"
+        ]
     },
     {
         "id": "magmarite",
@@ -146,7 +163,10 @@
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #FF5722 0%, #BF360C 100%)",
         "description": "Forged By The Nether King In The Nether Wastes",
-        "tags": ["Boss Drop", "Netherite Sword"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+34",
@@ -182,7 +202,10 @@
                 ]
             }
         ],
-        "related": ["exorcist", "slime-sword"]
+        "related": [
+            "exorcist",
+            "slime-sword"
+        ]
     },
     {
         "id": "exorcist",
@@ -192,7 +215,10 @@
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #FFC107 0%, #F57C00 100%)",
         "description": "Upgrade For The Legendary Magmarite Blade",
-        "tags": ["Crafted", "Netherite Sword"],
+        "tags": [
+            "Crafted",
+            "Netherite Sword"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+40",
@@ -230,7 +256,10 @@
                 ]
             }
         ],
-        "related": ["magmarite", "butchers-axe"]
+        "related": [
+            "magmarite",
+            "butchers-axe"
+        ]
     },
     {
         "id": "permafrost",
@@ -240,7 +269,11 @@
         "icon": "fa-snowflake",
         "gradient": "linear-gradient(135deg, #64B5F6 0%, #0277BD 100%)",
         "description": "Forged By The Magical Frost Elemental Of The Arctic",
-        "tags": ["Boss Drop", "Netherite Sword", "Frost"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword",
+            "Frost"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+28",
@@ -276,7 +309,9 @@
                 ]
             }
         ],
-        "related": ["frostbite"]
+        "related": [
+            "frostbite"
+        ]
     },
     {
         "id": "frostbite",
@@ -286,7 +321,11 @@
         "icon": "fa-snowflake",
         "gradient": "linear-gradient(135deg, #81D4FA 0%, #01579B 100%)",
         "description": "Upgraded from the Legendary PermaFrost!",
-        "tags": ["Crafted", "Netherite Sword", "Frost"],
+        "tags": [
+            "Crafted",
+            "Netherite Sword",
+            "Frost"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+46",
@@ -324,7 +363,10 @@
                 ]
             }
         ],
-        "related": ["permafrost", "lights-bane"]
+        "related": [
+            "permafrost",
+            "lights-bane"
+        ]
     },
     {
         "id": "lights-bane",
@@ -334,7 +376,11 @@
         "icon": "fa-moon",
         "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
         "description": "A Weapon Manifested From The Corruption Of The World",
-        "tags": ["Boss Drop", "Netherite Sword", "Corrupted"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword",
+            "Corrupted"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+53",
@@ -370,7 +416,11 @@
                 ]
             }
         ],
-        "related": ["nights-edge", "exorcist", "frostbite"]
+        "related": [
+            "nights-edge",
+            "exorcist",
+            "frostbite"
+        ]
     },
     {
         "id": "nights-edge",
@@ -380,7 +430,11 @@
         "icon": "fa-star",
         "gradient": "linear-gradient(135deg, #1A237E 0%, #000000 100%)",
         "description": "A Combination Of All The Worlds Strongest Weapons!",
-        "tags": ["Crafted", "Netherite Sword", "Ultimate"],
+        "tags": [
+            "Crafted",
+            "Netherite Sword",
+            "Ultimate"
+        ],
         "stats": {
             "Base Item": "Netherite Sword",
             "Attack Damage": "+60",
@@ -420,7 +474,11 @@
                 ]
             }
         ],
-        "related": ["lights-bane", "exorcist", "frostbite"]
+        "related": [
+            "lights-bane",
+            "exorcist",
+            "frostbite"
+        ]
     },
     {
         "id": "butchers-axe",
@@ -430,7 +488,10 @@
         "icon": "fa-axe",
         "gradient": "linear-gradient(135deg, #F44336 0%, #B71C1C 100%)",
         "description": "I'll Cut You Down!",
-        "tags": ["Boss Drop", "Netherite Axe"],
+        "tags": [
+            "Boss Drop",
+            "Netherite Axe"
+        ],
         "stats": {
             "Base Item": "Netherite Axe",
             "Attack Damage": "+30",
@@ -465,539 +526,1002 @@
                 ]
             }
         ],
-        "related": ["exorcist", "enlightened-pickaxe"]
+        "related": [
+            "exorcist",
+            "enlightened-pickaxe"
+        ]
     },
     {
-        "id": "enlightened-pickaxe",
-        "name": "Great Enlightened Pickaxe",
+        "id": "daylight-blade",
+        "name": "Daylight",
         "category": "equipment",
-        "subcategory": "Tools",
-        "icon": "fa-hammer",
-        "gradient": "linear-gradient(135deg, #00BCD4 0%, #006064 100%)",
-        "description": "A powerful Pickaxe used by the Undead Miner",
-        "tags": ["Boss Drop", "Netherite Pickaxe", "Tool"],
-        "stats": {
-            "Base Item": "Netherite Pickaxe",
-            "Health": "+3 (Main/Off)",
-            "Movement Speed": "+0.15",
-            "Mining Speed": "Very Fast"
-        },
-        "fullDescription": "The Great Enlightened Pickaxe once belonged to a legendary miner who delved too deep and was cursed to wander the caves forever. This powerful tool grants exceptional mining capabilities.",
-        "sections": [
-            {
-                "title": "Enchantments",
-                "content": [
-                    "Efficiency VII - Extremely fast mining",
-                    "Fortune IV - Better drops",
-                    "Unbreaking VII - Very durable",
-                    "Mending I - Repairs with experience"
-                ]
-            },
-            {
-                "title": "How to Obtain",
-                "content": [
-                    "Dropped by Undead Miner boss",
-                    "Cave dimension boss",
-                    "Rare mining tool drop"
-                ]
-            },
-            {
-                "title": "Special Features",
-                "content": [
-                    "Custom model (Model: 1)",
-                    "Can be held in either hand",
-                    "Bonus stats in both hands"
-                ]
-            }
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
+        "description": "For the glory of Merlin, Daylight is mine to command!",
+        "tags": [
+            "Legendary",
+            "Trollhunter",
+            "Netherite Sword"
         ],
-        "related": ["ultimate-pickaxe"]
-    },
-    {
-        "id": "ultimate-pickaxe",
-        "name": "Ultimate Pickaxe",
-        "category": "equipment",
-        "subcategory": "Tools",
-        "icon": "fa-hammer",
-        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
-        "description": "A powerful Pickaxe literally touched by God",
-        "tags": ["Crafted", "Netherite Pickaxe"],
         "stats": {
-            "Base Item": "Netherite Pickaxe",
-            "Health": "+10 Main, +6 Off",
-            "Movement Speed": "+0.3",
-            "Mining Speed": "Godlike"
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+70",
+            "Health": "+50",
+            "Movement Speed": "+1.25"
         },
-        "fullDescription": "The Ultimate Pickaxe is a divine tool that has been blessed by the gods themselves. It is unbreakable and mines at supernatural speeds, making it the best mining tool in existence.",
+        "fullDescription": "The sacred blade of the Trollhunter, summoned by the Amulet of Daylight. Forged by Merlin himself to slay trolls, this legendary weapon is effective against all Gumm-Gumm trolls and emits a bright aura.",
         "sections": [
             {
                 "title": "Enchantments",
                 "content": [
-                    "Efficiency XIII - Instant mining",
-                    "Fortune VIII - Maximum drops",
+                    "Sharpness XLVIII - Devastating damage",
+                    "Mending I - Repairs with experience",
+                    "Sweeping Edge III - Area damage",
+                    "Unbreaking X - Extremely durable",
                     "Unbreakable - Never breaks"
                 ]
             },
             {
                 "title": "How to Obtain",
                 "content": [
-                    "Craft from Enlightened Pickaxe",
-                    "Requires rare materials",
-                    "End-game mining tool"
+                    "Craft the Amulet of Daylight first",
+                    "Requires 3 Triumbric Stones",
+                    "Place Amulet in crafting table",
+                    "Summons complete armor set + blade"
                 ]
             },
             {
                 "title": "Special Features",
                 "content": [
-                    "Custom model (Model: 2)",
-                    "Unbreakable durability",
-                    "Massive stat bonuses",
-                    "Best mining tool available"
+                    "Custom model (Model: 12)",
+                    "Glowing aura effect",
+                    "Effective vs Gumm-Gumm trolls",
+                    "Part of Trollhunter legacy"
                 ]
             }
         ],
-        "related": ["enlightened-pickaxe"]
+        "related": [
+            "amulet-daylight",
+            "eclipse-blade",
+            "daylight-armor"
+        ]
     },
-	{
-    "id": "daylight-blade",
-    "name": "Daylight",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #64B5F6 0%, #1976D2 100%)",
-    "description": "For the glory of Merlin, Daylight is mine to command!",
-    "tags": ["Legendary", "Trollhunter", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+70",
-        "Health": "+50",
-        "Movement Speed": "+1.25"
+    {
+        "id": "eclipse-blade",
+        "name": "Eclipse",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+        "description": "For the doom of Gunmar, Eclipse is mine to command!",
+        "tags": [
+            "Legendary",
+            "Anti-Gunmar",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+80",
+            "Health": "+50",
+            "Movement Speed": "+1.25"
+        },
+        "fullDescription": "The ultimate evolution of Daylight, summoned by the Eclipse Amulet. Transformed by the three Triumbric Stones and specifically forged to kill Gunmar the Black. The only blade capable of ending the Dark Lord.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness LII - Anti-Gunmar damage",
+                    "Fire Aspect III - Burns enemies",
+                    "Mending I - Repairs with experience",
+                    "Sweeping Edge III - Area damage",
+                    "Unbreaking X - Extremely durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Upgrade Daylight Amulet with Triumbric Stones",
+                    "Requires Birthstone, Gunmar's Eye, Killstone",
+                    "Place Eclipse Amulet in crafting table",
+                    "Summons Eclipse armor set + blade"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 13)",
+                    "Bypasses Gumm-Gumm resistances",
+                    "Specifically designed to kill Gunmar",
+                    "Enhanced Trollhunter weapon"
+                ]
+            }
+        ],
+        "related": [
+            "eclipse-amulet",
+            "daylight-blade",
+            "moonlight-blade"
+        ]
     },
-    "fullDescription": "The sacred blade of the Trollhunter, summoned by the Amulet of Daylight. Forged by Merlin himself to slay trolls, this legendary weapon is effective against all Gumm-Gumm trolls and emits a bright aura.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness XLVIII - Devastating damage",
-                "Mending I - Repairs with experience",
-                "Sweeping Edge III - Area damage",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "moonlight-blade",
+        "name": "Moonlight",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
+        "description": "For the Doom of Evil, Moonlight is mine to command!",
+        "tags": [
+            "Mythic",
+            "Supreme Artifact",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+90",
+            "Health": "+50",
+            "Movement Speed": "+1.25"
         },
-        {
-            "title": "How to Obtain",
-            "content": [
-                "Craft the Amulet of Daylight first",
-                "Requires 3 Triumbric Stones",
-                "Place Amulet in crafting table",
-                "Summons complete armor set + blade"
-            ]
-        },
-        {
-            "title": "Special Features",
-            "content": [
-                "Custom model (Model: 12)",
-                "Glowing aura effect",
-                "Effective vs Gumm-Gumm trolls",
-                "Part of Trollhunter legacy"
-            ]
-        }
-    ],
-    "related": ["amulet-daylight", "eclipse-blade", "daylight-armor"]
-},
-{
-    "id": "eclipse-blade",
-    "name": "Eclipse",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
-    "description": "For the doom of Gunmar, Eclipse is mine to command!",
-    "tags": ["Legendary", "Anti-Gunmar", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+80",
-        "Health": "+50",
-        "Movement Speed": "+1.25"
+        "fullDescription": "The supreme amulet that transcends both Daylight and Eclipse. Forged by an ancient order of celestial guardians to vanquish all corrupted beasts and dark entities. The divine blade of the Night Guardian, forged under a blood moon with celestial magic.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness LX - Divine damage",
+                    "Smite X - Extra undead damage",
+                    "Fire Aspect III - Purifying flames",
+                    "Mending I - Repairs with experience",
+                    "Sweeping Edge IV - Greater area damage",
+                    "Unbreaking X - Extremely durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Ultimate crafting recipe",
+                    "Requires Lunar Crystal",
+                    "Requires Celestial Core",
+                    "Supreme power against ALL corruption"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 14)",
+                    "Purifies all corruption",
+                    "Channels light and darkness",
+                    "Strongest Trollhunter weapon"
+                ]
+            }
+        ],
+        "related": [
+            "moonlight-amulet",
+            "eclipse-blade"
+        ]
     },
-    "fullDescription": "The ultimate evolution of Daylight, summoned by the Eclipse Amulet. Transformed by the three Triumbric Stones and specifically forged to kill Gunmar the Black. The only blade capable of ending the Dark Lord.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness LII - Anti-Gunmar damage",
-                "Fire Aspect III - Burns enemies",
-                "Mending I - Repairs with experience",
-                "Sweeping Edge III - Area damage",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "decimaar-blade",
+        "name": "Decimaar Blade",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #B71C1C 0%, #000000 100%)",
+        "description": "Gunmar's legendary blade, stained with the blood of thousands",
+        "tags": [
+            "Mythic",
+            "Gumm-Gumm",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+2 (Massive enchant boost)",
+            "Health": "+50"
         },
-        {
-            "title": "How to Obtain",
-            "content": [
-                "Upgrade Daylight Amulet with Triumbric Stones",
-                "Requires Birthstone, Gunmar's Eye, Killstone",
-                "Place Eclipse Amulet in crafting table",
-                "Summons Eclipse armor set + blade"
-            ]
-        },
-        {
-            "title": "Special Features",
-            "content": [
-                "Custom model (Model: 13)",
-                "Bypasses Gumm-Gumm resistances",
-                "Specifically designed to kill Gunmar",
-                "Enhanced Trollhunter weapon"
-            ]
-        }
-    ],
-    "related": ["eclipse-amulet", "daylight-blade", "moonlight-blade"]
-},
-{
-    "id": "moonlight-blade",
-    "name": "Moonlight",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
-    "description": "For the Doom of Evil, Moonlight is mine to command!",
-    "tags": ["Mythic", "Supreme Artifact", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+90",
-        "Health": "+50",
-        "Movement Speed": "+1.25"
+        "fullDescription": "Gunmar's legendary Blade, stained with the blood of thousands. It is said that no shield can withstand its crushing blows. This weapon inflicts devastating debuffs and has massive lifesteal.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness LVIII - Devastating damage",
+                    "Sweeping Edge IV - Maximum area damage",
+                    "Fire Aspect III - Dark flames",
+                    "Knockback II - Pushes enemies",
+                    "Unbreaking X - Extremely durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "Inflicts Wither V (10s)",
+                    "Inflicts Weakness IV (12s)",
+                    "Lifesteal: 30%",
+                    "Shield Break: Ignores 60% armor"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by Gunmar the Black",
+                    "Darklands dimension boss",
+                    "Extremely rare mythic drop"
+                ]
+            }
+        ],
+        "related": [
+            "gunmar-armor-set",
+            "bulars-twin-blades"
+        ]
     },
-    "fullDescription": "The supreme amulet that transcends both Daylight and Eclipse. Forged by an ancient order of celestial guardians to vanquish all corrupted beasts and dark entities. The divine blade of the Night Guardian, forged under a blood moon with celestial magic.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness LX - Divine damage",
-                "Smite X - Extra undead damage",
-                "Fire Aspect III - Purifying flames",
-                "Mending I - Repairs with experience",
-                "Sweeping Edge IV - Greater area damage",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "bulars-twin-blade-right",
+        "name": "Bular's Twin Blade - Right",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+        "description": "One of Bular's legendary twin swords",
+        "tags": [
+            "Gumm-Gumm",
+            "Twin Blade Set",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+12",
+            "Health": "+25"
         },
-        {
-            "title": "How to Obtain",
-            "content": [
-                "Ultimate crafting recipe",
-                "Requires Lunar Crystal",
-                "Requires Celestial Core",
-                "Supreme power against ALL corruption"
-            ]
-        },
-        {
-            "title": "Special Features",
-            "content": [
-                "Custom model (Model: 14)",
-                "Purifies all corruption",
-                "Channels light and darkness",
-                "Strongest Trollhunter weapon"
-            ]
-        }
-    ],
-    "related": ["moonlight-amulet", "eclipse-blade"]
-},
-{
-    "id": "decimaar-blade",
-    "name": "Decimaar Blade",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #B71C1C 0%, #000000 100%)",
-    "description": "Gunmar's legendary blade, stained with the blood of thousands",
-    "tags": ["Mythic", "Gumm-Gumm", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+2 (Massive enchant boost)",
-        "Health": "+50"
+        "fullDescription": "One of Bular's legendary twin swords. This blade has ended countless Trollhunters. When dual-wielded with the left blade, grants +20% damage bonus.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XLII - High damage",
+                    "Fire Aspect II - Burns enemies",
+                    "Sweeping Edge III - Area damage",
+                    "Unbreaking VIII - Very durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Set Bonus",
+                "content": [
+                    "Dual wield with Left blade for +20% damage",
+                    "Part of Bular's twin blade set",
+                    "Instruments of destruction together"
+                ]
+            }
+        ],
+        "related": [
+            "bulars-twin-blade-left",
+            "bular-armor-set"
+        ]
     },
-    "fullDescription": "Gunmar's legendary Blade, stained with the blood of thousands. It is said that no shield can withstand its crushing blows. This weapon inflicts devastating debuffs and has massive lifesteal.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness LVIII - Devastating damage",
-                "Sweeping Edge IV - Maximum area damage",
-                "Fire Aspect III - Dark flames",
-                "Knockback II - Pushes enemies",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "bulars-twin-blade-left",
+        "name": "Bular's Twin Blade - Left",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+        "description": "The companion blade to Bular's right sword",
+        "tags": [
+            "Gumm-Gumm",
+            "Twin Blade Set",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+9 (Offhand)"
         },
-        {
-            "title": "Special Abilities",
-            "content": [
-                "Inflicts Wither V (10s)",
-                "Inflicts Weakness IV (12s)",
-                "Lifesteal: 30%",
-                "Shield Break: Ignores 60% armor"
-            ]
-        },
-        {
-            "title": "How to Obtain",
-            "content": [
-                "Dropped by Gunmar the Black",
-                "Darklands dimension boss",
-                "Extremely rare mythic drop"
-            ]
-        }
-    ],
-    "related": ["gunmar-armor-set", "bulars-twin-blades"]
-},
-{
-    "id": "bulars-twin-blade-right",
-    "name": "Bular's Twin Blade - Right",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
-    "description": "One of Bular's legendary twin swords",
-    "tags": ["Gumm-Gumm", "Twin Blade Set", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+12",
-        "Health": "+25"
+        "fullDescription": "The companion blade to Bular's right sword. Together they are instruments of destruction. Designed for offhand wielding as part of the twin blade set.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XLII - High damage",
+                    "Fire Aspect II - Burns enemies",
+                    "Sweeping Edge III - Area damage",
+                    "Unbreaking VIII - Very durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Set Bonus",
+                "content": [
+                    "Dual wield with Right blade for +20% damage",
+                    "Designed for offhand combat",
+                    "Complete the twin blade set"
+                ]
+            }
+        ],
+        "related": [
+            "bulars-twin-blade-right",
+            "bular-armor-set"
+        ]
     },
-    "fullDescription": "One of Bular's legendary twin swords. This blade has ended countless Trollhunters. When dual-wielded with the left blade, grants +20% damage bonus.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness XLII - High damage",
-                "Fire Aspect II - Burns enemies",
-                "Sweeping Edge III - Area damage",
-                "Unbreaking VIII - Very durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "angor-blade",
+        "name": "Blade of the Shadow Assassin",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #7B1FA2 0%, #4A148C 100%)",
+        "description": "Angor Rot's primary weapon, cursed by the Infernal Shroud",
+        "tags": [
+            "Legendary",
+            "Cursed",
+            "Netherite Sword"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+7",
+            "Health": "+30"
         },
-        {
-            "title": "Set Bonus",
-            "content": [
-                "Dual wield with Left blade for +20% damage",
-                "Part of Bular's twin blade set",
-                "Instruments of destruction together"
-            ]
-        }
-    ],
-    "related": ["bulars-twin-blade-left", "bular-armor-set"]
-},
-{
-    "id": "bulars-twin-blade-left",
-    "name": "Bular's Twin Blade - Left",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
-    "description": "The companion blade to Bular's right sword",
-    "tags": ["Gumm-Gumm", "Twin Blade Set", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+9 (Offhand)"
+        "fullDescription": "Angor Rot's primary weapon, cursed by the Infernal Shroud. Strikes leave victims weakened and marked for death. Features lifesteal and inflicts devastating wither damage.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sweeping Edge III - Area damage",
+                    "Unbreaking IX - Very durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "Inflicts Wither III (6s)",
+                    "Lifesteal: 15%",
+                    "Shadow Assassin Set bonus"
+                ]
+            }
+        ],
+        "related": [
+            "angor-armor-set",
+            "angor-dagger"
+        ]
     },
-    "fullDescription": "The companion blade to Bular's right sword. Together they are instruments of destruction. Designed for offhand wielding as part of the twin blade set.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness XLII - High damage",
-                "Fire Aspect II - Burns enemies",
-                "Sweeping Edge III - Area damage",
-                "Unbreaking VIII - Very durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "angor-dagger",
+        "name": "Shadow Dagger",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-dagger",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #6A1B9A 100%)",
+        "description": "A cursed offhand blade for swift, deadly strikes",
+        "tags": [
+            "Shadow Assassin",
+            "Iron Sword"
+        ],
+        "stats": {
+            "Base Item": "Iron Sword",
+            "Attack Damage": "+5 (Offhand)"
         },
-        {
-            "title": "Set Bonus",
-            "content": [
-                "Dual wield with Right blade for +20% damage",
-                "Designed for offhand combat",
-                "Complete the twin blade set"
-            ]
-        }
-    ],
-    "related": ["bulars-twin-blade-right", "bular-armor-set"]
-},
-{
-    "id": "angor-blade",
-    "name": "Blade of the Shadow Assassin",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #7B1FA2 0%, #4A148C 100%)",
-    "description": "Angor Rot's primary weapon, cursed by the Infernal Shroud",
-    "tags": ["Legendary", "Cursed", "Netherite Sword"],
-    "stats": {
-        "Base Item": "Netherite Sword",
-        "Attack Damage": "+7",
-        "Health": "+30"
+        "fullDescription": "A cursed offhand blade used for swift, deadly strikes. Perfect companion to Angor's main weapon for dual-wielding assassin combat.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XL - High damage",
+                    "Unbreaking VIII - Very durable",
+                    "Unbreakable - Never breaks"
+                ]
+            }
+        ],
+        "related": [
+            "angor-blade",
+            "angor-armor-set"
+        ]
     },
-    "fullDescription": "Angor Rot's primary weapon, cursed by the Infernal Shroud. Strikes leave victims weakened and marked for death. Features lifesteal and inflicts devastating wither damage.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sweeping Edge III - Area damage",
-                "Unbreaking IX - Very durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "changeling-fang",
+        "name": "Changeling's Fang",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-sword",
+        "gradient": "linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)",
+        "description": "A blade that drips with deadly toxins",
+        "tags": [
+            "Toxic Weapon",
+            "Iron Sword"
+        ],
+        "stats": {
+            "Base Item": "Iron Sword",
+            "Attack Damage": "+15",
+            "Health": "+20"
         },
-        {
-            "title": "Special Abilities",
-            "content": [
-                "Inflicts Wither III (6s)",
-                "Lifesteal: 15%",
-                "Shadow Assassin Set bonus"
-            ]
-        }
-    ],
-    "related": ["angor-armor-set", "angor-dagger"]
-},
-{
-    "id": "angor-dagger",
-    "name": "Shadow Dagger",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-dagger",
-    "gradient": "linear-gradient(135deg, #9C27B0 0%, #6A1B9A 100%)",
-    "description": "A cursed offhand blade for swift, deadly strikes",
-    "tags": ["Shadow Assassin", "Iron Sword"],
-    "stats": {
-        "Base Item": "Iron Sword",
-        "Attack Damage": "+5 (Offhand)"
+        "fullDescription": "A blade that drips with deadly toxins. Each cut weakens the victim. Part of the Changeling Shapeshifter Set, inflicts Poison III for 5 seconds.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XXXVIII - High damage",
+                    "Unbreaking VII - Durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "Inflicts Poison III (5s)",
+                    "Toxic weapon effect",
+                    "Weakens victims"
+                ]
+            }
+        ],
+        "related": [
+            "changeling-armor-set"
+        ]
     },
-    "fullDescription": "A cursed offhand blade used for swift, deadly strikes. Perfect companion to Angor's main weapon for dual-wielding assassin combat.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness XL - High damage",
-                "Unbreaking VIII - Very durable",
-                "Unbreakable - Never breaks"
-            ]
-        }
-    ],
-    "related": ["angor-blade", "angor-armor-set"]
-},
-{
-    "id": "changeling-fang",
-    "name": "Changeling's Fang",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-sword",
-    "gradient": "linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)",
-    "description": "A blade that drips with deadly toxins",
-    "tags": ["Toxic Weapon", "Iron Sword"],
-    "stats": {
-        "Base Item": "Iron Sword",
-        "Attack Damage": "+15",
-        "Health": "+20"
-    },
-    "fullDescription": "A blade that drips with deadly toxins. Each cut weakens the victim. Part of the Changeling Shapeshifter Set, inflicts Poison III for 5 seconds.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Sharpness XXXVIII - High damage",
-                "Unbreaking VII - Durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "merlins-staff",
+        "name": "Staff of Avalon",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-magic",
+        "gradient": "linear-gradient(135deg, #66BB6A 0%, #2E7D32 100%)",
+        "description": "The legendary staff of Merlin the wizard",
+        "tags": [
+            "Legendary",
+            "Magic Weapon",
+            "Blaze Rod"
+        ],
+        "stats": {
+            "Base Item": "Blaze Rod",
+            "Attack Damage": "+8",
+            "Health": "+15"
         },
-        {
-            "title": "Special Abilities",
-            "content": [
-                "Inflicts Poison III (5s)",
-                "Toxic weapon effect",
-                "Weakens victims"
-            ]
-        }
-    ],
-    "related": ["changeling-armor-set"]
-},
-{
-    "id": "merlins-staff",
-    "name": "Staff of Avalon",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-magic",
-    "gradient": "linear-gradient(135deg, #66BB6A 0%, #2E7D32 100%)",
-    "description": "The legendary staff of Merlin the wizard",
-    "tags": ["Legendary", "Magic Weapon", "Blaze Rod"],
-    "stats": {
-        "Base Item": "Blaze Rod",
-        "Attack Damage": "+8",
-        "Health": "+15"
+        "fullDescription": "The legendary staff of Merlin the wizard. Channels pure magical energy and can summon protective barriers and healing magic.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Knockback III - Pushes enemies",
+                    "Unbreaking X - Extremely durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Right-Click: Arcane Shield",
+                    "  - Grant Resistance III (6s)",
+                    "  - Grant Absorption (6 hearts)",
+                    "  - Cooldown: 15s",
+                    "",
+                    "Shift + Right-Click: Healing Wave",
+                    "  - Heal nearby allies for 10 HP",
+                    "  - Grant Regeneration II (8s)",
+                    "  - Cooldown: 25s"
+                ]
+            }
+        ],
+        "related": [
+            "amulet-daylight"
+        ]
     },
-    "fullDescription": "The legendary staff of Merlin the wizard. Channels pure magical energy and can summon protective barriers and healing magic.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Knockback III - Pushes enemies",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "claires-shadow-staff-corrupted",
+        "name": "Corrupted Shadow Staff",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-magic",
+        "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
+        "description": "Corrupted by overuse of shadow magic",
+        "tags": [
+            "Mythic",
+            "Cursed Weapon",
+            "Stick"
+        ],
+        "stats": {
+            "Base Item": "Stick",
+            "Attack Damage": "+12",
+            "Movement Speed": "+1.15"
         },
-        {
-            "title": "Abilities",
-            "content": [
-                "Right-Click: Arcane Shield",
-                "  - Grant Resistance III (6s)",
-                "  - Grant Absorption (6 hearts)",
-                "  - Cooldown: 15s",
-                "",
-                "Shift + Right-Click: Healing Wave",
-                "  - Heal nearby allies for 10 HP",
-                "  - Grant Regeneration II (8s)",
-                "  - Cooldown: 25s"
-            ]
-        }
-    ],
-    "related": ["amulet-daylight"]
-},
-{
-    "id": "claires-shadow-staff-corrupted",
-    "name": "Corrupted Shadow Staff",
-    "category": "equipment",
-    "subcategory": "Weapons",
-    "icon": "fa-magic",
-    "gradient": "linear-gradient(135deg, #E53935 0%, #B71C1C 100%)",
-    "description": "Corrupted by overuse of shadow magic",
-    "tags": ["Mythic", "Cursed Weapon", "Stick"],
-    "stats": {
-        "Base Item": "Stick",
-        "Attack Damage": "+12",
-        "Movement Speed": "+1.15"
+        "fullDescription": "Claire's staff, corrupted by overuse of shadow magic. Incredibly powerful but drains the user's life force.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Knockback III - Pushes enemies",
+                    "Unbreaking X - Extremely durable",
+                    "Unbreakable - Never breaks"
+                ]
+            },
+            {
+                "title": "Abilities & Curse",
+                "content": [
+                    "Right-Click: Greater Shadow Portal",
+                    "  - Create large portal",
+                    "  - Costs 4 hearts per use",
+                    "  - Cooldown: 20s",
+                    "",
+                    "WARNING: Drains health when held",
+                    "Use with extreme caution"
+                ]
+            }
+        ],
+        "related": [
+            "claires-shadow-staff"
+        ]
     },
-    "fullDescription": "Claire's staff, corrupted by overuse of shadow magic. Incredibly powerful but drains the user's life force.",
-    "sections": [
-        {
-            "title": "Enchantments",
-            "content": [
-                "Knockback III - Pushes enemies",
-                "Unbreaking X - Extremely durable",
-                "Unbreakable - Never breaks"
-            ]
+    {
+        "id": "enlightened-pickaxe",
+        "name": "Great Enlightened Pickaxe",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-pickaxe",
+        "gradient": "linear-gradient(135deg, #4FC3F7 0%, #0277BD 100%)",
+        "description": "Forged by a legendary miner who delved deeper than any before",
+        "tags": [
+            "Mining Tool",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+3",
+            "Movement Speed": "+0.15"
         },
-        {
-            "title": "Abilities & Curse",
-            "content": [
-                "Right-Click: Greater Shadow Portal",
-                "  - Create large portal",
-                "  - Costs 4 hearts per use",
-                "  - Cooldown: 20s",
-                "",
-                "WARNING: Drains health when held",
-                "Use with extreme caution"
-            ]
-        }
-    ],
-    "related": ["claires-shadow-staff"]
-}
+        "fullDescription": "His spirit guides your strikes. This legendary pickaxe can mine Tier 1 ores and basic resources.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency VII - Very fast mining",
+                    "Fortune IV - Extra drops",
+                    "Unbreaking VII - Very durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Mining Capabilities",
+                "content": [
+                    "Can mine: All Tier 1 ores",
+                    "Sapphire, Ruby, Topaz, Amber, Jade, Opal, Tungsten",
+                    "Required pickaxe level: Enlightened"
+                ]
+            }
+        ],
+        "related": [
+            "industrial-pickaxe"
+        ]
+    },
+    {
+        "id": "industrial-pickaxe",
+        "name": "Industrial Tungsten Breaker",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-pickaxe",
+        "gradient": "linear-gradient(135deg, #B0BEC5 0%, #546E7A 100%)",
+        "description": "Reinforced with tungsten alloy, designed for dense metal extraction",
+        "tags": [
+            "Mining Tool",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+4",
+            "Movement Speed": "+0.18"
+        },
+        "fullDescription": "Heavy-duty mining at its finest. Can mine Tier 2 ores including Tungsten and Magnetite.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency VIII - Extremely fast mining",
+                    "Fortune V - Great drop bonuses",
+                    "Unbreaking VIII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Mining Capabilities",
+                "content": [
+                    "Can mine: Tier 1 & 2 ores",
+                    "Magnetite",
+                    "Required pickaxe level: Industrial"
+                ]
+            }
+        ],
+        "related": [
+            "magnetic-pickaxe"
+        ]
+    },
+    {
+        "id": "magnetic-pickaxe",
+        "name": "Electromagnetic Extractor",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-pickaxe",
+        "gradient": "linear-gradient(135deg, #757575 0%, #212121 100%)",
+        "description": "Infused with magnetic properties, pulls ores directly to you",
+        "tags": [
+            "Mining Tool",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+5",
+            "Movement Speed": "+0.2"
+        },
+        "fullDescription": "Hums with electromagnetic power. Can mine Tier 3 rare ores.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency IX - Insanely fast mining",
+                    "Fortune V - Great drop bonuses",
+                    "Unbreaking IX - Nearly unbreakable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Mining Capabilities",
+                "content": [
+                    "Can mine: Tier 1, 2 & 3 ores",
+                    "Magmaritian",
+                    "Required pickaxe level: Magnetic"
+                ]
+            }
+        ],
+        "related": [
+            "volcanic-pickaxe",
+            "glacial-pickaxe"
+        ]
+    },
+    {
+        "id": "magnetic-pickaxe-blessed",
+        "name": "Blessed Electromagnetic Extractor",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-pickaxe",
+        "gradient": "linear-gradient(135deg, #FDD835 0%, #F57F17 100%)",
+        "description": "Blessed version with double drop rates for lower tier ores",
+        "tags": [
+            "Mining Tool",
+            "Blessed",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+5",
+            "Movement Speed": "+0.2"
+        },
+        "fullDescription": "Blessed By Toolsmith - Grants 2x drops on Tier 1 & 2, and 1.5x on Tier 3 ores.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency IX - Insanely fast mining",
+                    "Fortune V - Great drop bonuses",
+                    "Unbreaking IX - Nearly unbreakable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Blessing",
+                "content": [
+                    "\u26cf Blessed By Toolsmith",
+                    "2x drops: Tier 1 & 2 ores",
+                    "1.5x drops: Tier 3 ores",
+                    "1x drops: Tier 4 ores"
+                ]
+            }
+        ],
+        "related": [
+            "magnetic-pickaxe"
+        ]
+    },
+    {
+        "id": "volcanic-pickaxe",
+        "name": "Volcanic Inferno Drill",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-fire",
+        "gradient": "linear-gradient(135deg, #FF6F00 0%, #E65100 100%)",
+        "description": "Forged in the heart of a volcano, resistant to extreme heat",
+        "tags": [
+            "Mining Tool",
+            "Fire Immune",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+6",
+            "Movement Speed": "+0.22"
+        },
+        "fullDescription": "Burns away impurities instantly. Immune to Fire Ores (Magmaritian).",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency X - Lightning fast mining",
+                    "Fortune VI - Excellent drop rates",
+                    "Unbreaking X - Extremely durable",
+                    "Fire Aspect II - Burns enemies",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u26a0 Immune to Fire Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "No burn damage from Magmaritian",
+                    "2x drops on Tier 1 & 2"
+                ]
+            }
+        ],
+        "related": [
+            "elemental-pickaxe"
+        ]
+    },
+    {
+        "id": "glacial-pickaxe",
+        "name": "Glacial Permafrost Breaker",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #4FC3F7 0%, #01579B 100%)",
+        "description": "Tempered in eternal ice, impervious to freezing temperatures",
+        "tags": [
+            "Mining Tool",
+            "Frost Immune",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+6",
+            "Movement Speed": "+0.22"
+        },
+        "fullDescription": "Never dulls in the coldest depths. Immune to Frost Ores (Glacial Titanium).",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency X - Lightning fast mining",
+                    "Fortune VI - Excellent drop rates",
+                    "Unbreaking X - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u2744 Immune to Frost Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "No freeze damage from Glacial Titanium",
+                    "2x drops on Tier 1 & 2"
+                ]
+            }
+        ],
+        "related": [
+            "elemental-pickaxe"
+        ]
+    },
+    {
+        "id": "elemental-pickaxe",
+        "name": "Elemental Harmonizer",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-yin-yang",
+        "gradient": "linear-gradient(135deg, #FFA726 0%, #42A5F5 100%)",
+        "description": "Balanced between fire and frost, immune to extreme temperatures",
+        "tags": [
+            "Mining Tool",
+            "Elemental",
+            "Legendary",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+7",
+            "Movement Speed": "+0.24"
+        },
+        "fullDescription": "Harmonizes with elemental ores. Immune to both Fire and Frost ore effects.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XI - Godly mining speed",
+                    "Fortune VII - Amazing drop rates",
+                    "Unbreaking XI - Nearly indestructible",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u26a0 Immune to Fire Ores",
+                    "\u2744 Immune to Frost Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "Unbreakable",
+                    "2x drops on Tier 1 & 2"
+                ]
+            }
+        ],
+        "related": [
+            "iridescent-pickaxe"
+        ]
+    },
+    {
+        "id": "iridescent-pickaxe",
+        "name": "Iridescent Prismatic Drill",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-gem",
+        "gradient": "linear-gradient(135deg, #E1BEE7 0%, #7B1FA2 100%)",
+        "description": "Shimmers with otherworldly light, eyes adapted to its radiance",
+        "tags": [
+            "Mining Tool",
+            "Legendary",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+8",
+            "Movement Speed": "+0.26"
+        },
+        "fullDescription": "Cuts through reality itself. Immune to Radiance Ores (Iridium).",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XII - Transcendent speed",
+                    "Fortune VII - Incredible drop rates",
+                    "Unbreaking XII - Virtually indestructible",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u2726 Immune to Radiance Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "No blindness from Iridium",
+                    "Unbreakable",
+                    "2x drops on Tier 1 & 2"
+                ]
+            }
+        ],
+        "related": [
+            "arcane-mining-drill"
+        ]
+    },
+    {
+        "id": "arcane-mining-drill",
+        "name": "Arcane Mining Drill",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-magic",
+        "gradient": "linear-gradient(135deg, #66BB6A 0%, #1B5E20 100%)",
+        "description": "Channels magical energy to extract ores",
+        "tags": [
+            "Mining Tool",
+            "Legendary",
+            "Magic",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+9",
+            "Movement Speed": "+0.28"
+        },
+        "fullDescription": "Whispers ancient mining incantations. Immune to Magic and Radiance Ores.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XII - Transcendent speed",
+                    "Fortune VII - Incredible drop rates",
+                    "Unbreaking XIII - Nearly immortal",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u2726 Immune to Magic Ores",
+                    "\u2726 Immune to Radiance Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "No levitation from Mana Emerald",
+                    "Unbreakable"
+                ]
+            }
+        ],
+        "related": [
+            "entropic-nullifier"
+        ]
+    },
+    {
+        "id": "entropic-nullifier",
+        "name": "Entropic Nullifier",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-atom",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "Stabilizes chaotic ore formations, nullifying corrupting effects",
+        "tags": [
+            "Mining Tool",
+            "Legendary",
+            "Chaos",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+9",
+            "Movement Speed": "+0.29"
+        },
+        "fullDescription": "Forged in the void between worlds. Immune to Chaos, Magic, and Radiance Ores.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XII - Transcendent speed",
+                    "Fortune VII - Incredible drop rates",
+                    "Unbreaking XV - Essentially immortal",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "Special Abilities",
+                "content": [
+                    "\u26a1 Immune to Chaos Ores",
+                    "\u2726 Immune to Magic Ores",
+                    "\u2726 Immune to Radiance Ores",
+                    "\u26cf Blessed By Toolsmith",
+                    "Unbreakable"
+                ]
+            }
+        ],
+        "related": [
+            "ultimate-pickaxe"
+        ]
+    },
+    {
+        "id": "ultimate-pickaxe",
+        "name": "Ultimate Pickaxe",
+        "category": "equipment",
+        "subcategory": "Tools",
+        "icon": "fa-crown",
+        "gradient": "linear-gradient(135deg, #FFD700 0%, #9C27B0 100%)",
+        "description": "A legendary tool blessed by divine power",
+        "tags": [
+            "Mining Tool",
+            "Mythic",
+            "God-Tier",
+            "Netherite Pickaxe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Pickaxe",
+            "Health": "+11",
+            "Movement Speed": "+0.3"
+        },
+        "fullDescription": "Transcending all mortal limitations. Nothing can resist its perfect edge. The final Pre-Hardmode pickaxe.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Efficiency XIII - Divine mining speed",
+                    "Fortune VIII - Godly drop rates"
+                ]
+            },
+            {
+                "title": "Divine Abilities",
+                "content": [
+                    "\u26a1 Immune to All Ore Debuffs",
+                    "\u26cf Touched by God",
+                    "3x drops on Tier 1 & 2",
+                    "2x drops on Tier 3",
+                    "1x drops on Tier 4",
+                    "Unbreakable",
+                    "Final Pre-Hardmode Pickaxe"
+                ]
+            }
+        ],
+        "related": []
+    }
 ]
