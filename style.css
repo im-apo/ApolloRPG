@@ -221,6 +221,50 @@ nav {
     gap: var(--spacing-sm);
 }
 
+/* ========================================
+   COLLAPSIBLE CATEGORY SIDEBAR
+   ======================================== */
+.category-children {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+.category-children.expanded {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: var(--spacing-xs);
+}
+
+.category-item.has-children {
+    position: relative;
+}
+
+.category-item.has-children::after {
+    content: '\f078';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 0.75rem;
+    transition: transform 0.3s ease;
+    font-size: 0.75em;
+    color: var(--text-secondary);
+}
+
+.category-item.has-children.expanded::after {
+    transform: rotate(180deg);
+    color: var(--accent-primary);
+}
+
+/* Keep existing styles but override when collapsed */
+.category-children:not(.expanded) {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
 .category-item {
     padding: 0.75rem;
     margin-bottom: var(--spacing-sm);

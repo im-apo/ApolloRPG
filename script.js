@@ -154,6 +154,79 @@ function debounce(func, wait) {
 }
 
 // ========================================
+// COLLAPSIBLE CATEGORY SIDEBAR (SIMPLER)
+// ========================================
+function toggleCategoryDropdown(categoryElement) {
+    const children = categoryElement.nextElementSibling;
+    
+    if (children && children.classList.contains('category-children')) {
+        // Close all other expanded categories
+        document.querySelectorAll('.category-children.expanded').forEach(el => {
+            if (el !== children) {
+                el.classList.remove('expanded');
+                el.previousElementSibling.classList.remove('expanded');
+            }
+        });
+        
+        // Toggle this category
+        children.classList.toggle('expanded');
+        categoryElement.classList.toggle('expanded');
+    }
+}
+
+// Initialize collapsible categories
+function initCollapsibleCategories() {
+    const allCategories = document.querySelectorAll('.category-item[data-category]');
+    
+    allCategories.forEach(categoryItem => {
+        const nextElement = categoryItem.nextElementSibling;
+        
+        if (nextElement && nextElement.classList.contains('category-children')) {
+            categoryItem.classList.add('has-children');
+            
+            // Get the icon and span elements
+            const icon = categoryItem.querySelector('i');
+            const span = categoryItem.querySelector('span');
+            
+            // Remove default onclick
+            categoryItem.removeAttribute('onclick');
+            
+            // Clicking the main item toggles dropdown
+            categoryItem.addEventListener('click', function(e) {
+                // If clicking the category item itself (not icon or span)
+                if (e.target === this) {
+                    e.preventDefault();
+                    toggleCategoryDropdown(this);
+                }
+            });
+            
+            // Clicking icon or span navigates
+            if (icon) {
+                icon.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const category = categoryItem.getAttribute('data-category');
+                    if (category && category !== 'home') {
+                        filterCategory(category, null);
+                    }
+                });
+            }
+            
+            if (span) {
+                span.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const category = categoryItem.getAttribute('data-category');
+                    if (category && category !== 'home') {
+                        filterCategory(category, null);
+                    }
+                });
+            }
+        }
+    });
+}
+
+window.toggleCategoryDropdown = toggleCategoryDropdown;
+
+// ========================================
 // RENDER FUNCTIONS
 // ========================================
 function renderWikiGrid(items) {
@@ -451,6 +524,9 @@ function showItemDetail(itemId) {
 // ========================================
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('ApolloRPG Wiki initializing...');
+    
+    // Initialize collapsible categories FIRST
+    initCollapsibleCategories();
     
     // Load all data
     const success = await loadAllData();
