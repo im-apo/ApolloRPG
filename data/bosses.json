@@ -901,7 +901,7 @@
     "icon": "fa-ghost",
     "gradient": "linear-gradient(135deg, #0F0F0F 0%, #434343 100%)",
     "description": "The ultimate void entity, master of all corruption",
-    "tags": ["Void", "Legendary", "Final Boss"],
+    "tags": ["Void", "Legendary", "Hardmode", "The Corruption"],
     "stats": {
       "Health": "18,000 HP",
       "Damage": "70",
