@@ -101,15 +101,43 @@ nav {
     transform: scale(1.05);
 }
 
-.subcategory-badge {
-    font-size: 0.7rem;
-    padding: 0.15rem 0.4rem;
-    margin-left: 0.4rem;
-    border-radius: 4px;
-    background: rgba(102, 126, 234, 0.2);
-    color: var(--accent-primary);
-    text-transform: capitalize;
-    border: 1px solid rgba(102, 126, 234, 0.3);
+.category-group {
+    margin-bottom: var(--spacing-sm);
+}
+
+.category-parent {
+    padding: 0.75rem;
+    border-radius: var(--radius-sm);
+    cursor: default;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.category-parent i {
+    width: 20px;
+    text-align: center;
+}
+
+.category-children {
+    margin-left: 1.5rem;
+    margin-top: var(--spacing-xs);
+    padding-left: 1rem;
+    border-left: 2px solid var(--border-color);
+}
+
+.category-children .category-item {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.category-children .category-item:hover {
+    transform: translateX(2px);
 }
 
 .logo-icon {

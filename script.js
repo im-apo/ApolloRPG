@@ -170,8 +170,6 @@ function renderWikiGrid(items) {
     }
     
     grid.innerHTML = items.map(item => {
-        const subcategoryBadge = item.subcategory ? 
-            `<span class="subcategory-badge">${item.subcategory}</span>` : '';
         
         return `
             <div class="wiki-card fade-in" onclick="showItemDetail('${item.id}')">
@@ -181,7 +179,7 @@ function renderWikiGrid(items) {
                     </div>
                     <div class="wiki-card-title">
                         <h3>${item.name}</h3>
-                        <div class="wiki-card-category">${item.category}${subcategoryBadge}</div>
+                        <div class="wiki-card-category">${item.category}</div>
                     </div>
                 </div>
                 <div class="wiki-card-description">
@@ -309,7 +307,7 @@ function showHome() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function filterCategory(category) {
+function filterCategory(category, subcategory = null) {
     if (!STATE.dataLoaded) {
         console.log('Data not loaded yet');
         return;
@@ -329,12 +327,16 @@ function filterCategory(category) {
     detailView.classList.add('hidden');
     
     // Update active category in sidebar
-    document.querySelectorAll('.category-item').forEach(item => {
-        const itemCategory = item.dataset.category;
-        if (itemCategory) {
-            item.classList.toggle('active', itemCategory === category);
-        }
-    });
+    // Update active category in sidebar
+document.querySelectorAll('.category-item').forEach(item => {
+    const itemCategory = item.dataset.category;
+    const itemSubcategory = item.dataset.subcategory;
+    if (itemCategory) {
+        const isActive = itemCategory === category && 
+                (subcategory === null || subcategory === undefined || itemSubcategory === subcategory);
+        item.classList.toggle('active', isActive);
+    }
+});
     
     // Update breadcrumb
     document.getElementById('breadcrumb').innerHTML = `
@@ -372,7 +374,14 @@ function filterCategory(category) {
     
     // Render items
     const items = getItemsByCategory(category);
-    renderWikiGrid(items);
+
+// Filter by subcategory if provided
+let filteredItems = items;
+if (subcategory) {
+    filteredItems = items.filter(item => item.subcategory === subcategory);
+}
+
+renderWikiGrid(filteredItems);
     
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
