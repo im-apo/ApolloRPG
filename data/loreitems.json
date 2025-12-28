@@ -1,0 +1,1953 @@
+[
+  {
+    "id": "awakeningchapter1",
+    "name": "Awakening: Chapter I",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Before Fear Had A Name; Part 2: The Three Custodians; Part 3: The Unguarded Peace",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Before Fear Had A Name | Before fear learned its own name, before death | lingered beyond its purpose, the world existed | in perfect balance mistaken for permanence. | — | The Nether was not torment but foundation, | where molten rivers breathed in eternal rhythm. | The Brimstone Crags stood at its heart. | — | Part 2: The Three Custodians | From the Brimstone Elemental Mother emerged | three custodians, manifested as necessary truths: | — | Magmar, keeper of flame and becoming. | Frostveil, guardian of endurance and memory. | Aurelion, master of aether and will. | — | They listened to the world, responding to | imbalance like physicians, not generals. | — | Part 3: The Unguarded Peace | Mortals lived untouched by prophecy or dread. | Trolls carved halls. Humans raised villages. | Apollopia existed as a convergence of paths, | where travelers rested longer than intended. | — | No walls protected it. None were needed. | This peace was fragile—not because weak, | but because unquestioned. | — | And in that stillness, the first fracture formed.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Before Fear Had A Name",
+          "Before fear learned its own name, before death",
+          "lingered beyond its purpose, the world existed",
+          "in perfect balance mistaken for permanence.",
+          "",
+          "The Nether was not torment but foundation,",
+          "where molten rivers breathed in eternal rhythm.",
+          "The Brimstone Crags stood at its heart.",
+          "",
+          "Part 2: The Three Custodians",
+          "From the Brimstone Elemental Mother emerged",
+          "three custodians, manifested as necessary truths:",
+          "",
+          "Magmar, keeper of flame and becoming.",
+          "Frostveil, guardian of endurance and memory.",
+          "Aurelion, master of aether and will.",
+          "",
+          "They listened to the world, responding to",
+          "imbalance like physicians, not generals.",
+          "",
+          "Part 3: The Unguarded Peace",
+          "Mortals lived untouched by prophecy or dread.",
+          "Trolls carved halls. Humans raised villages.",
+          "Apollopia existed as a convergence of paths,",
+          "where travelers rested longer than intended.",
+          "",
+          "No walls protected it. None were needed.",
+          "This peace was fragile—not because weak,",
+          "but because unquestioned.",
+          "",
+          "And in that stillness, the first fracture formed."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter2",
+    "name": "Awakening: Chapter II",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: The Sign of Confusion; Part 2: The Shade Lord Emerges; Part 3: The Mother's Warning",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: The Sign of Confusion | The first sign the world was dying was not | fire, nor darkness, nor war—but confusion. | — | Stone flaked beneath gentle touch. Magma | burned with colors that had never existed. | Frost cracked from internal wrongness. | — | The aether thinned. Thoughts no longer flowed. | Memories repeated. Emotions dulled. Purpose frayed. | The Corruption spread as rot through sealed wounds. | — | Part 2: The Shade Lord Emerges | Within the spreading wrongness, something vast | began to coalesce—not a ruler, not a god, | but an absence given shape. | — | The Shade Lord existed as inevitability, | making resistance feel futile before proven so. | — | From its being tore two manifestations: | Catastrophe, where cities fell to ruin. | Cataclysm, warping survivors into mockeries. | — | Part 3: The Mother's Warning | The Brimstone Elemental Mother felt corruption | as a deep, unfamiliar ache. For the first time | since existence began, she could not simply heal. | — | Magmar's flames raged in desperation, reshaping | lands only to watch them curdle into slag. | Frostveil sealed regions in suspended time. | Aurelion listened, and heard silence growing louder. | — | \"This is not a trial we endure,\" she said. | \"It is annihilation that has learned patience.\"",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: The Sign of Confusion",
+          "The first sign the world was dying was not",
+          "fire, nor darkness, nor war—but confusion.",
+          "",
+          "Stone flaked beneath gentle touch. Magma",
+          "burned with colors that had never existed.",
+          "Frost cracked from internal wrongness.",
+          "",
+          "The aether thinned. Thoughts no longer flowed.",
+          "Memories repeated. Emotions dulled. Purpose frayed.",
+          "The Corruption spread as rot through sealed wounds.",
+          "",
+          "Part 2: The Shade Lord Emerges",
+          "Within the spreading wrongness, something vast",
+          "began to coalesce—not a ruler, not a god,",
+          "but an absence given shape.",
+          "",
+          "The Shade Lord existed as inevitability,",
+          "making resistance feel futile before proven so.",
+          "",
+          "From its being tore two manifestations:",
+          "Catastrophe, where cities fell to ruin.",
+          "Cataclysm, warping survivors into mockeries.",
+          "",
+          "Part 3: The Mother's Warning",
+          "The Brimstone Elemental Mother felt corruption",
+          "as a deep, unfamiliar ache. For the first time",
+          "since existence began, she could not simply heal.",
+          "",
+          "Magmar's flames raged in desperation, reshaping",
+          "lands only to watch them curdle into slag.",
+          "Frostveil sealed regions in suspended time.",
+          "Aurelion listened, and heard silence growing louder.",
+          "",
+          "\"This is not a trial we endure,\" she said.",
+          "\"It is annihilation that has learned patience.\""
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter3",
+    "name": "Awakening: Chapter III",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: The Erosion of Will; Part 2: Into The Silence; Part 3: The First Great Loss",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: The Erosion of Will | Aurelion was first to understand the Corruption | could not be fought—it redefined existence. | — | As master of aether, he felt thought itself | stutter, how intention lost its weight, | how choice became echo instead of act. | — | The Corruption pressed against his awareness | until to remain himself became a struggle | measured in moments rather than ages. | — | Part 2: Into The Silence | He withdrew into the deepest currents of aether, | seeking silence to understand what hunted him. | — | But silence was where the void waited. | It did not devour him instantly—it unmade him | slowly, stripping memory, purpose, identity. | — | When he emerged, he was no longer Aurelion. | He was the Corrupt Knight—bound to void, | serving only command, beyond redemption. | — | Part 3: The First Great Loss | The fall of Aurelion was more than tragedy— | it was the first great proof that the cycle | itself could be broken. | — | Magmar and Frostveil felt the absence like | a wound that could not close. The Mother wept | tears that froze before touching ground. | — | The world learned a new emotion that day: | Not just loss, but irreversible loss. | Some things, once broken, cannot be restored.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: The Erosion of Will",
+          "Aurelion was first to understand the Corruption",
+          "could not be fought—it redefined existence.",
+          "",
+          "As master of aether, he felt thought itself",
+          "stutter, how intention lost its weight,",
+          "how choice became echo instead of act.",
+          "",
+          "The Corruption pressed against his awareness",
+          "until to remain himself became a struggle",
+          "measured in moments rather than ages.",
+          "",
+          "Part 2: Into The Silence",
+          "He withdrew into the deepest currents of aether,",
+          "seeking silence to understand what hunted him.",
+          "",
+          "But silence was where the void waited.",
+          "It did not devour him instantly—it unmade him",
+          "slowly, stripping memory, purpose, identity.",
+          "",
+          "When he emerged, he was no longer Aurelion.",
+          "He was the Corrupt Knight—bound to void,",
+          "serving only command, beyond redemption.",
+          "",
+          "Part 3: The First Great Loss",
+          "The fall of Aurelion was more than tragedy—",
+          "it was the first great proof that the cycle",
+          "itself could be broken.",
+          "",
+          "Magmar and Frostveil felt the absence like",
+          "a wound that could not close. The Mother wept",
+          "tears that froze before touching ground.",
+          "",
+          "The world learned a new emotion that day:",
+          "Not just loss, but irreversible loss.",
+          "Some things, once broken, cannot be restored."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter4",
+    "name": "Awakening: Chapter IV",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Life Without Ending; Part 2: The Rise of Monsters; Part 3: The Elemental Corruption",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Life Without Ending | The Corruption did not bring swift death— | it trapped life in grotesque half-states. | — | Elementals screamed as they formed, bodies | correct but essence wrong, bound to pain | they could not articulate. | — | Mortals dreamed of places bending inward, | of skies without stars, ground pulsing like flesh. | Some awoke unable to recognize their own hands. | Others forgot names but remembered fear perfectly. | — | Part 2: The Rise of Monsters | From corruption's spread emerged twisted beings: | — | Skeleton Kings rose from hollow bones. | Zombie Kings shambled with endless hunger. | King Slimes consumed without dying. | Tank Zombies learned flesh could become armor. | — | Each a mockery of what life once meant, | each a warning that death itself had broken, | leaving only suffering without release. | — | Part 3: The Elemental Corruption | Even the great custodians began to fail. | — | Magmar burned corrupted, his flames struggling | against infection spreading through his core. | — | Frostveil sealed herself away, her ice cracking | under the strain of centuries, holding back | the rot from spreading further still. | — | Two of three remained. One already lost. | The cycle wavered at the edge of collapse.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Life Without Ending",
+          "The Corruption did not bring swift death—",
+          "it trapped life in grotesque half-states.",
+          "",
+          "Elementals screamed as they formed, bodies",
+          "correct but essence wrong, bound to pain",
+          "they could not articulate.",
+          "",
+          "Mortals dreamed of places bending inward,",
+          "of skies without stars, ground pulsing like flesh.",
+          "Some awoke unable to recognize their own hands.",
+          "Others forgot names but remembered fear perfectly.",
+          "",
+          "Part 2: The Rise of Monsters",
+          "From corruption's spread emerged twisted beings:",
+          "",
+          "Skeleton Kings rose from hollow bones.",
+          "Zombie Kings shambled with endless hunger.",
+          "King Slimes consumed without dying.",
+          "Tank Zombies learned flesh could become armor.",
+          "",
+          "Each a mockery of what life once meant,",
+          "each a warning that death itself had broken,",
+          "leaving only suffering without release.",
+          "",
+          "Part 3: The Elemental Corruption",
+          "Even the great custodians began to fail.",
+          "",
+          "Magmar burned corrupted, his flames struggling",
+          "against infection spreading through his core.",
+          "",
+          "Frostveil sealed herself away, her ice cracking",
+          "under the strain of centuries, holding back",
+          "the rot from spreading further still.",
+          "",
+          "Two of three remained. One already lost.",
+          "The cycle wavered at the edge of collapse."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter5",
+    "name": "Awakening: Chapter V",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Two Thousand Years of Darkness; Part 2: The Few Who Endured; Part 3: Apollopia's Stubborn Survival",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Two Thousand Years of Darkness | Two thousand years passed in slow agony. | Civilizations rose and fell like breaths. | Heroes emerged, fought valiantly, and died | without changing the inevitable trajectory. | — | The world forgot what sunlight felt like | without fear riding beneath it. | — | Entire generations were born, lived, and perished | without ever knowing a world untainted. | Corruption became normal. Peace became myth. | — | Part 2: The Few Who Endured | Not all hope died. Some refused to break: | — | Merlin, whose wisdom crystallized across lifetimes. | The Hallowed Knight, eternal sentinel between worlds. | The Toolsmith, who still built things meant to last. | Aja the Great, whose will bent but never broke. | The Monkey Miner, laughing defiance into darkness. | — | They survived not because they were strong, | but because they refused to forget what had been. | — | Part 3: Apollopia's Stubborn Survival | Apollopia, that ancient convergence of paths, | survived against all reason. Walls rose where | none had been needed. Rivers were redirected. | Every stone carried memory of what was lost. | — | It stood not as symbol of defiance, but as | stubborn insistence that something—anything— | from the world before must endure. | — | Scarred, diminished, barely recognizable. | But standing. Still standing.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Two Thousand Years of Darkness",
+          "Two thousand years passed in slow agony.",
+          "Civilizations rose and fell like breaths.",
+          "Heroes emerged, fought valiantly, and died",
+          "without changing the inevitable trajectory.",
+          "",
+          "The world forgot what sunlight felt like",
+          "without fear riding beneath it.",
+          "",
+          "Entire generations were born, lived, and perished",
+          "without ever knowing a world untainted.",
+          "Corruption became normal. Peace became myth.",
+          "",
+          "Part 2: The Few Who Endured",
+          "Not all hope died. Some refused to break:",
+          "",
+          "Merlin, whose wisdom crystallized across lifetimes.",
+          "The Hallowed Knight, eternal sentinel between worlds.",
+          "The Toolsmith, who still built things meant to last.",
+          "Aja the Great, whose will bent but never broke.",
+          "The Monkey Miner, laughing defiance into darkness.",
+          "",
+          "They survived not because they were strong,",
+          "but because they refused to forget what had been.",
+          "",
+          "Part 3: Apollopia's Stubborn Survival",
+          "Apollopia, that ancient convergence of paths,",
+          "survived against all reason. Walls rose where",
+          "none had been needed. Rivers were redirected.",
+          "Every stone carried memory of what was lost.",
+          "",
+          "It stood not as symbol of defiance, but as",
+          "stubborn insistence that something—anything—",
+          "from the world before must endure.",
+          "",
+          "Scarred, diminished, barely recognizable.",
+          "But standing. Still standing."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter6",
+    "name": "Awakening: Chapter VI",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: You Rise Without Prophecy; Part 2: The World Watches; Part 3: The First Trials",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: You Rise Without Prophecy | When you rose, there was no prophecy waiting. | No celebration. No guiding hand. | — | The Trollhunter Amulet did not glow in welcome— | it recoiled. Its arcane judgment surged against you, | testing whether your existence could endure its light. | — | For many before you, it meant annihilation. | For you, it meant trial. | You fought without it. You survived without promise. | — | Part 2: The World Watches | The world did not believe in you. | — | It had seen too many heroes rise with fire | in their eyes and conviction in their hearts, | only to fall, broken and forgotten, adding | their bones to the countless failures before. | — | But it watched. | — | And slowly, reluctantly, it waited to see | if you would break like all the others. | — | Part 3: The First Trials | You faced the corrupted without destiny guiding you: | — | Skeleton Kings whose hollow eyes held no mercy. | Zombie Kings whose hunger had no end. | Giant Zombies whose size dwarfed reason. | King Slimes that reformed no matter the strike. | — | Each victory was not triumph but survival. | Each survival was not proof but persistence. | You endured until survival itself became proof.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: You Rise Without Prophecy",
+          "When you rose, there was no prophecy waiting.",
+          "No celebration. No guiding hand.",
+          "",
+          "The Trollhunter Amulet did not glow in welcome—",
+          "it recoiled. Its arcane judgment surged against you,",
+          "testing whether your existence could endure its light.",
+          "",
+          "For many before you, it meant annihilation.",
+          "For you, it meant trial.",
+          "You fought without it. You survived without promise.",
+          "",
+          "Part 2: The World Watches",
+          "The world did not believe in you.",
+          "",
+          "It had seen too many heroes rise with fire",
+          "in their eyes and conviction in their hearts,",
+          "only to fall, broken and forgotten, adding",
+          "their bones to the countless failures before.",
+          "",
+          "But it watched.",
+          "",
+          "And slowly, reluctantly, it waited to see",
+          "if you would break like all the others.",
+          "",
+          "Part 3: The First Trials",
+          "You faced the corrupted without destiny guiding you:",
+          "",
+          "Skeleton Kings whose hollow eyes held no mercy.",
+          "Zombie Kings whose hunger had no end.",
+          "Giant Zombies whose size dwarfed reason.",
+          "King Slimes that reformed no matter the strike.",
+          "",
+          "Each victory was not triumph but survival.",
+          "Each survival was not proof but persistence.",
+          "You endured until survival itself became proof."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter7",
+    "name": "Awakening: Chapter VII",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: The Corrupted Remnants; Part 2: The Changelings' Betrayal; Part 3: Magmar's Struggle",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: The Corrupted Remnants | Beyond the lesser corrupted stood greater horrors— | warriors twisted by fear and endless survival: | — | Bulaar the Vicious, once a warrior of honor, | now twisted into something that survived | only through cruelty and adaptation. | — | Angor Rot, cunning born from suffering, | a shadow that learned to become unbreakable | by embracing pain as armor rather than weakness. | — | Part 2: The Changelings' Betrayal | The Changelings made identity itself a weapon. | Faces worn like stolen masks, trust died | with every transformation they performed. | — | You could not know friend from foe. | Every face could hide malice. | Every ally might turn at any moment. | — | They taught you a brutal lesson: | In a corrupted world, trust must be earned | with blood and proof, never given freely. | — | Part 3: Magmar's Struggle | You found Magmar deep in the Brimstone Crags, | keeper of flame and becoming, now corrupted | but still resisting with everything remaining. | — | His flames burned wrong—infected yet fighting, | struggling against the rot spreading through | his essence like poison through veins. | — | You faced him not as enemy but as tragedy. | And when he fell, you understood: even gods | can be broken by time and patient malice.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: The Corrupted Remnants",
+          "Beyond the lesser corrupted stood greater horrors—",
+          "warriors twisted by fear and endless survival:",
+          "",
+          "Bulaar the Vicious, once a warrior of honor,",
+          "now twisted into something that survived",
+          "only through cruelty and adaptation.",
+          "",
+          "Angor Rot, cunning born from suffering,",
+          "a shadow that learned to become unbreakable",
+          "by embracing pain as armor rather than weakness.",
+          "",
+          "Part 2: The Changelings' Betrayal",
+          "The Changelings made identity itself a weapon.",
+          "Faces worn like stolen masks, trust died",
+          "with every transformation they performed.",
+          "",
+          "You could not know friend from foe.",
+          "Every face could hide malice.",
+          "Every ally might turn at any moment.",
+          "",
+          "They taught you a brutal lesson:",
+          "In a corrupted world, trust must be earned",
+          "with blood and proof, never given freely.",
+          "",
+          "Part 3: Magmar's Struggle",
+          "You found Magmar deep in the Brimstone Crags,",
+          "keeper of flame and becoming, now corrupted",
+          "but still resisting with everything remaining.",
+          "",
+          "His flames burned wrong—infected yet fighting,",
+          "struggling against the rot spreading through",
+          "his essence like poison through veins.",
+          "",
+          "You faced him not as enemy but as tragedy.",
+          "And when he fell, you understood: even gods",
+          "can be broken by time and patient malice."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter8",
+    "name": "Awakening: Chapter VIII",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Frostveil's Sacrifice; Part 2: The Corrupt Knight; Part 3: The Final Corrupted",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Frostveil's Sacrifice | Deep beneath frozen wastes, you found Frostveil, | guardian of endurance and preservation, | who had sealed herself to hold back corruption. | — | For two thousand years she had waited in ice, | her essence cracking under the strain, | holding the line when all others had fallen. | — | She did not ask to be freed. She asked | if you were worthy of what she had protected. | The answer was not words, but endurance. | — | Part 2: The Corrupt Knight | Finally, you faced what remained of Aurelion— | the Corrupt Knight, bound to void and command, | beyond redemption, beyond memory of what he was. | — | He did not recognize you. Did not recognize | himself. The master of will had become | a puppet dancing on strings of pure negation. | — | The battle was not glory. It was mercy. | You freed him from existence—the only kindness | left for one so thoroughly unmade. | — | Part 3: The Final Corrupted | With Aurelion fallen and Frostveil sealed, | only Magmar remained—corrupted but still | resisting, his flames burning infected yet defiant. | — | The battle was not hatred. It was tragedy. | You fought not an enemy, but the corrupted | shell of a guardian who had protected the | world since before memory began. | — | When his flames finally dimmed, you understood: | Even the eternal can fall. Even gods can break.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Frostveil's Sacrifice",
+          "Deep beneath frozen wastes, you found Frostveil,",
+          "guardian of endurance and preservation,",
+          "who had sealed herself to hold back corruption.",
+          "",
+          "For two thousand years she had waited in ice,",
+          "her essence cracking under the strain,",
+          "holding the line when all others had fallen.",
+          "",
+          "She did not ask to be freed. She asked",
+          "if you were worthy of what she had protected.",
+          "The answer was not words, but endurance.",
+          "",
+          "Part 2: The Corrupt Knight",
+          "Finally, you faced what remained of Aurelion—",
+          "the Corrupt Knight, bound to void and command,",
+          "beyond redemption, beyond memory of what he was.",
+          "",
+          "He did not recognize you. Did not recognize",
+          "himself. The master of will had become",
+          "a puppet dancing on strings of pure negation.",
+          "",
+          "The battle was not glory. It was mercy.",
+          "You freed him from existence—the only kindness",
+          "left for one so thoroughly unmade.",
+          "",
+          "Part 3: The Final Corrupted",
+          "With Aurelion fallen and Frostveil sealed,",
+          "only Magmar remained—corrupted but still",
+          "resisting, his flames burning infected yet defiant.",
+          "",
+          "The battle was not hatred. It was tragedy.",
+          "You fought not an enemy, but the corrupted",
+          "shell of a guardian who had protected the",
+          "world since before memory began.",
+          "",
+          "When his flames finally dimmed, you understood:",
+          "Even the eternal can fall. Even gods can break."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter9",
+    "name": "Awakening: Chapter IX",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Infernax the Ancient; Part 2: Daylight Earned; Part 3: The Triumbric Stones",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Infernax the Ancient | Infernax the Ancient stood as emperor of beasts, | breaker of mountains, whose roar once bent | reality itself to his terrible will. | — | Two thousand years of corruption had made him | into something beyond nightmare—a force | of nature twisted into malevolent purpose. | — | The battle shook Apollopia to its foundations. | When the final blow struck, his roar became | a dying echo. The world exhaled forgotten breath. | — | Part 2: Daylight Earned | Only when Infernax fell did the Trollhunter | Amulet acknowledge you fully. The violent | arcane judgment that threatened to consume you | now tempered, recognizing endurance and will. | — | Its light no longer seared—it illuminated. | Sharpened. Prepared. | — | You were no longer merely alive. | You were chosen. | Bearer of the Amulet of Daylight. | — | Part 3: The Triumbric Stones | Yet daylight alone could not cleanse entirely. | Shadows lingered where rot left residue. | — | Each fallen enemy revealed fragments of truth: | The Triumbric Stones, remnants of essence | corrupted but not annihilated. | — | With these, the world whispered, balance | could be forged anew. You gathered them. | Light alone was insufficient. Shadow had lessons | to teach that daylight could not illuminate.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Infernax the Ancient",
+          "Infernax the Ancient stood as emperor of beasts,",
+          "breaker of mountains, whose roar once bent",
+          "reality itself to his terrible will.",
+          "",
+          "Two thousand years of corruption had made him",
+          "into something beyond nightmare—a force",
+          "of nature twisted into malevolent purpose.",
+          "",
+          "The battle shook Apollopia to its foundations.",
+          "When the final blow struck, his roar became",
+          "a dying echo. The world exhaled forgotten breath.",
+          "",
+          "Part 2: Daylight Earned",
+          "Only when Infernax fell did the Trollhunter",
+          "Amulet acknowledge you fully. The violent",
+          "arcane judgment that threatened to consume you",
+          "now tempered, recognizing endurance and will.",
+          "",
+          "Its light no longer seared—it illuminated.",
+          "Sharpened. Prepared.",
+          "",
+          "You were no longer merely alive.",
+          "You were chosen.",
+          "Bearer of the Amulet of Daylight.",
+          "",
+          "Part 3: The Triumbric Stones",
+          "Yet daylight alone could not cleanse entirely.",
+          "Shadows lingered where rot left residue.",
+          "",
+          "Each fallen enemy revealed fragments of truth:",
+          "The Triumbric Stones, remnants of essence",
+          "corrupted but not annihilated.",
+          "",
+          "With these, the world whispered, balance",
+          "could be forged anew. You gathered them.",
+          "Light alone was insufficient. Shadow had lessons",
+          "to teach that daylight could not illuminate."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter10",
+    "name": "Awakening: Chapter X",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: The Amulet of Eclipse; Part 2: Gunmar the Black Falls; Part 3: Wisdom Earned; Part 4: The Elemental Mother Falls",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 4"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: The Amulet of Eclipse | From the Triumbric Stones you forged the | Amulet of Eclipse—shadow and light combined, | capable of matching cunning with brilliance. | — | Where daylight brought clarity, eclipse brought | understanding. The knowledge that darkness | and light are not opposites but partners. | — | Only with both could you face what came next: | Gunmar the Black, the Skull Crusher, | whose dominion was willful destruction itself. | — | Part 2: Gunmar the Black Falls | The duel with Gunmar was not spectacle. | It was judgment. | — | He brought not corruption but deliberate cruelty, | destruction as an art form, annihilation | refined across millennia of practice. | — | When Gunmar fell, the Eclipse sang in silent | resonance, drawing out remnants of corruption. | The world inhaled, sensing hope for the first | time in millennia. True, fragile, terrifying hope. | — | Part 3: Wisdom Earned | Victory did not come in celebration. | It came as knowledge: | — | Power alone is meaningless. | To survive darkness, one must wield judgment | with wisdom, endurance with patience, | and cruelty with mercy. | — | The world, scarred but awake, began remembering: | Life is preserved not by force alone, | but by those willing to endure its pain. | — | Part 4: The Elemental Mother Falls | With Gunmar dead and her three custodians lost, | the Brimstone Elemental Mother herself emerged— | ancient beyond origin, keeper of the cycle. | — | She did not fight with hatred but with desperate | necessity. If corruption claimed her completely, | reality itself would unravel beyond repair. | — | You struck not from cruelty but from understanding: | Sometimes mercy means ending suffering. | Even eternity must end when poisoned.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: The Amulet of Eclipse",
+          "From the Triumbric Stones you forged the",
+          "Amulet of Eclipse—shadow and light combined,",
+          "capable of matching cunning with brilliance.",
+          "",
+          "Where daylight brought clarity, eclipse brought",
+          "understanding. The knowledge that darkness",
+          "and light are not opposites but partners.",
+          "",
+          "Only with both could you face what came next:",
+          "Gunmar the Black, the Skull Crusher,",
+          "whose dominion was willful destruction itself.",
+          "",
+          "Part 2: Gunmar the Black Falls",
+          "The duel with Gunmar was not spectacle.",
+          "It was judgment.",
+          "",
+          "He brought not corruption but deliberate cruelty,",
+          "destruction as an art form, annihilation",
+          "refined across millennia of practice.",
+          "",
+          "When Gunmar fell, the Eclipse sang in silent",
+          "resonance, drawing out remnants of corruption.",
+          "The world inhaled, sensing hope for the first",
+          "time in millennia. True, fragile, terrifying hope.",
+          "",
+          "Part 3: Wisdom Earned",
+          "Victory did not come in celebration.",
+          "It came as knowledge:",
+          "",
+          "Power alone is meaningless.",
+          "To survive darkness, one must wield judgment",
+          "with wisdom, endurance with patience,",
+          "and cruelty with mercy.",
+          "",
+          "The world, scarred but awake, began remembering:",
+          "Life is preserved not by force alone,",
+          "but by those willing to endure its pain.",
+          "",
+          "Part 4: The Elemental Mother Falls",
+          "With Gunmar dead and her three custodians lost,",
+          "the Brimstone Elemental Mother herself emerged—",
+          "ancient beyond origin, keeper of the cycle.",
+          "",
+          "She did not fight with hatred but with desperate",
+          "necessity. If corruption claimed her completely,",
+          "reality itself would unravel beyond repair.",
+          "",
+          "You struck not from cruelty but from understanding:",
+          "Sometimes mercy means ending suffering.",
+          "Even eternity must end when poisoned."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter11",
+    "name": "Awakening: Chapter XI",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: The Absolute Forms; Part 2: The Celestial Stones; Part 3: The Amulet of Moonlight; Part 4: The Shade Lord Dies; Part 5: Corruption Vanishes; Part 6: The Guardian Remains",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 6"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: The Absolute Forms | Beyond Gunmar lay a realm twisted not by | infection, but by malice born from conscious intent. | — | Catastrophe and Cataclysm rose in Absolute | Forms, reshaping reality as if testing every | lesson the world had endured through suffering. | — | Mountains cracked. Skies churned with unearthly | storms. Rivers boiled with ancient magic. | These were not servants. They were architects | of ruin, creatures of deliberate devastation. | — | Part 2: The Celestial Stones | You prepared. Hunted. Scavenged. Endured. | — | The Celestial Stones, scattered across forgotten | realms and trapped within beings who survived | since the first rot, became your crucible. | — | Each one collected, each one tempered into | purpose, strengthened not your body alone, | but your resolve. Your understanding of what | must be protected, regardless of cost. | — | Part 3: The Amulet of Moonlight | From the Celestial Stones you forged the | Amulet of Moonlight—power unrestrained by | balance, untempered by caution, unafraid | to strike directly at the heart of malice. | — | With it, you faced the envoys. Their Absolute | forms towered above mountains, reshaping earth | with every step. And each fell under the | purity of your resolve. Light. Eclipse. Moonlight. | Three powers. One purpose. | — | Part 4: The Shade Lord Dies | Finally, the Shade Lord itself emerged— | not as figure nor king, but as suffocating | inevitability, the sum of all corruption's | patience and cruelty given form. | — | Light, eclipse, and moonlight combined in your | hands, not as tools, but as judgment incarnate. | — | You struck. | The Shade Lord, impossibly vast, could not | survive focus born of endurance, wisdom, and will. | — | Part 5: Corruption Vanishes | When the Shade Lord died, the Corruption | did not retreat—it vanished entirely, | leaving the world empty of insidious rot | for the first time in two thousand years. | — | Silence fell. Absolute. Heavy. Almost sacred. | — | Apollopia survived. Scars lined its walls. | Rivers still carried memory of ash. Forests | remained wary. But the city, and the world | beyond it, could breathe again. | — | Part 6: The Guardian Remains | The amulets—Daylight, Eclipse, Moonlight— | rested at last, their purpose fulfilled, | waiting for a time when evil might rise once more. | — | You survived. Not a hero of prophecy, | not a god among mortals, but the one who | endured when endurance was a choice and not a gift. | — | Beyond healed lands, new evils stirred. | Not servants of corruption, but beings of | will, cunning, and hunger. Your watch continues.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: The Absolute Forms",
+          "Beyond Gunmar lay a realm twisted not by",
+          "infection, but by malice born from conscious intent.",
+          "",
+          "Catastrophe and Cataclysm rose in Absolute",
+          "Forms, reshaping reality as if testing every",
+          "lesson the world had endured through suffering.",
+          "",
+          "Mountains cracked. Skies churned with unearthly",
+          "storms. Rivers boiled with ancient magic.",
+          "These were not servants. They were architects",
+          "of ruin, creatures of deliberate devastation.",
+          "",
+          "Part 2: The Celestial Stones",
+          "You prepared. Hunted. Scavenged. Endured.",
+          "",
+          "The Celestial Stones, scattered across forgotten",
+          "realms and trapped within beings who survived",
+          "since the first rot, became your crucible.",
+          "",
+          "Each one collected, each one tempered into",
+          "purpose, strengthened not your body alone,",
+          "but your resolve. Your understanding of what",
+          "must be protected, regardless of cost.",
+          "",
+          "Part 3: The Amulet of Moonlight",
+          "From the Celestial Stones you forged the",
+          "Amulet of Moonlight—power unrestrained by",
+          "balance, untempered by caution, unafraid",
+          "to strike directly at the heart of malice.",
+          "",
+          "With it, you faced the envoys. Their Absolute",
+          "forms towered above mountains, reshaping earth",
+          "with every step. And each fell under the",
+          "purity of your resolve. Light. Eclipse. Moonlight.",
+          "Three powers. One purpose.",
+          "",
+          "Part 4: The Shade Lord Dies",
+          "Finally, the Shade Lord itself emerged—",
+          "not as figure nor king, but as suffocating",
+          "inevitability, the sum of all corruption's",
+          "patience and cruelty given form.",
+          "",
+          "Light, eclipse, and moonlight combined in your",
+          "hands, not as tools, but as judgment incarnate.",
+          "",
+          "You struck.",
+          "The Shade Lord, impossibly vast, could not",
+          "survive focus born of endurance, wisdom, and will.",
+          "",
+          "Part 5: Corruption Vanishes",
+          "When the Shade Lord died, the Corruption",
+          "did not retreat—it vanished entirely,",
+          "leaving the world empty of insidious rot",
+          "for the first time in two thousand years.",
+          "",
+          "Silence fell. Absolute. Heavy. Almost sacred.",
+          "",
+          "Apollopia survived. Scars lined its walls.",
+          "Rivers still carried memory of ash. Forests",
+          "remained wary. But the city, and the world",
+          "beyond it, could breathe again.",
+          "",
+          "Part 6: The Guardian Remains",
+          "The amulets—Daylight, Eclipse, Moonlight—",
+          "rested at last, their purpose fulfilled,",
+          "waiting for a time when evil might rise once more.",
+          "",
+          "You survived. Not a hero of prophecy,",
+          "not a god among mortals, but the one who",
+          "endured when endurance was a choice and not a gift.",
+          "",
+          "Beyond healed lands, new evils stirred.",
+          "Not servants of corruption, but beings of",
+          "will, cunning, and hunger. Your watch continues."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningchapter12",
+    "name": "Awakening: Chapter XII",
+    "category": "loreitems",
+    "subcategory": "LoreChapters",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Parts: Part 1: Silence But Not Peace; Part 2: The Savior of Apollopia; Part 3: Light in the Darkness",
+    "tags": [
+      "Lore Item",
+      "Collectible",
+      "Pieces: 3"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Part 1: Silence But Not Peace | Silence reigned, but not peace. | The Corruption was gone, yet wounds remained. | — | The survivors—Merlin, the Hallowed Knight, | the Toolsmith, Aja, the Monkey Miner— | looked to you not as legend, but as proof. | — | Apollopia rebuilt around them. Walls patched. | Rivers redirected. Life clawing its way back. | Mortals learned again how to live amidst scars. | — | Part 2: The Savior of Apollopia | You are the Savior of Apollopia, the chosen | of the Trollhunter Amulet, bearer of three | powers forged across centuries of suffering. | — | Your story, however, does not end here. | — | The world beyond—dark forests, forgotten | mountains, ruins of Nether and overworld alike— | waits. New beasts, new evils, new trials stir, | challenging what has been rebuilt, daring | life to endure once more. | — | Part 3: Light in the Darkness | ApolloRPG begins here. | — | Not as a game. | Not as a legend told once. | But as a living, breathing world of light, | darkness, and choice. | — | It was the first dawn in centuries. | — | And it was only the beginning. | — | - End of Story -",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Part 1: Silence But Not Peace",
+          "Silence reigned, but not peace.",
+          "The Corruption was gone, yet wounds remained.",
+          "",
+          "The survivors—Merlin, the Hallowed Knight,",
+          "the Toolsmith, Aja, the Monkey Miner—",
+          "looked to you not as legend, but as proof.",
+          "",
+          "Apollopia rebuilt around them. Walls patched.",
+          "Rivers redirected. Life clawing its way back.",
+          "Mortals learned again how to live amidst scars.",
+          "",
+          "Part 2: The Savior of Apollopia",
+          "You are the Savior of Apollopia, the chosen",
+          "of the Trollhunter Amulet, bearer of three",
+          "powers forged across centuries of suffering.",
+          "",
+          "Your story, however, does not end here.",
+          "",
+          "The world beyond—dark forests, forgotten",
+          "mountains, ruins of Nether and overworld alike—",
+          "waits. New beasts, new evils, new trials stir,",
+          "challenging what has been rebuilt, daring",
+          "life to endure once more.",
+          "",
+          "Part 3: Light in the Darkness",
+          "ApolloRPG begins here.",
+          "",
+          "Not as a game.",
+          "Not as a legend told once.",
+          "But as a living, breathing world of light,",
+          "darkness, and choice.",
+          "",
+          "It was the first dawn in centuries.",
+          "",
+          "And it was only the beginning.",
+          "",
+          "- End of Story -"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-skeletonking",
+    "name": "Awakening: The Skeleton King",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Skeleton King.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Before corruption claimed the land, the dead | rested in eternal peace, bones returning to | earth as the cycle intended. | — | The Skeleton King rose when death itself broke. | Now they command hollow mockeries of life, | bones that remember movement but forget purpose, | an army of the restless who cannot find rest.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Before corruption claimed the land, the dead",
+          "rested in eternal peace, bones returning to",
+          "earth as the cycle intended.",
+          "",
+          "The Skeleton King rose when death itself broke.",
+          "Now they command hollow mockeries of life,",
+          "bones that remember movement but forget purpose,",
+          "an army of the restless who cannot find rest."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-zombieking",
+    "name": "Awakening: The Zombie King",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Zombie King.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "From decay came hunger without end, flesh | remembering the taste of life but forgetting | what it meant to be alive. | — | The Zombie King embodies consumption itself— | hunger that can never be satisfied, need that | grows with every meal. They do not feast for | pleasure. They feast because they forgot how to stop.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "From decay came hunger without end, flesh",
+          "remembering the taste of life but forgetting",
+          "what it meant to be alive.",
+          "",
+          "The Zombie King embodies consumption itself—",
+          "hunger that can never be satisfied, need that",
+          "grows with every meal. They do not feast for",
+          "pleasure. They feast because they forgot how to stop."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-kingslime",
+    "name": "Awakening: The King Slime",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The King Slime.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Life twisted into formless mass, consuming | all that crosses its path, yet incapable of | death itself—reforming endlessly no matter | how many times struck down. | — | The King Slime learned what all corrupted | eventually discover: when death becomes | impossible, existence becomes prison.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Life twisted into formless mass, consuming",
+          "all that crosses its path, yet incapable of",
+          "death itself—reforming endlessly no matter",
+          "how many times struck down.",
+          "",
+          "The King Slime learned what all corrupted",
+          "eventually discover: when death becomes",
+          "impossible, existence becomes prison."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-giantzombie",
+    "name": "Awakening: The Giant Zombie",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Giant Zombie.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Size without purpose, strength without memory, | hunger that could never be satisfied no matter | how much was consumed. | — | The Giant Zombie towers over lesser corrupted, | not from evolution but from grotesque growth— | flesh expanding endlessly, seeking to fill | an emptiness that size alone cannot address.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Size without purpose, strength without memory,",
+          "hunger that could never be satisfied no matter",
+          "how much was consumed.",
+          "",
+          "The Giant Zombie towers over lesser corrupted,",
+          "not from evolution but from grotesque growth—",
+          "flesh expanding endlessly, seeking to fill",
+          "an emptiness that size alone cannot address."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-magmar",
+    "name": "Awakening: Magmar, Keeper of Flame",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Magmar, Keeper of Flame.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Magmar, keeper of flame and becoming, | embodied change without chaos. His fires | shaped land, forged mountains, birthed new | forms of life without consuming the whole. | — | Now corrupted, his flames burn with infection, | struggling against the rot spreading through | his essence. Yet still he resists.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Magmar, keeper of flame and becoming,",
+          "embodied change without chaos. His fires",
+          "shaped land, forged mountains, birthed new",
+          "forms of life without consuming the whole.",
+          "",
+          "Now corrupted, his flames burn with infection,",
+          "struggling against the rot spreading through",
+          "his essence. Yet still he resists."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-frostveil",
+    "name": "Awakening: Frostveil, Guardian of Memory",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Frostveil, Guardian of Memory.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Frostveil, guardian of endurance and preservation, | embodied patience beyond comprehension. Her ice | taught the world how to wait, how to endure | loss without surrendering to it. | — | Sealed away for two thousand years, holding | back corruption, her ice cracks under the strain | but never breaks.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Frostveil, guardian of endurance and preservation,",
+          "embodied patience beyond comprehension. Her ice",
+          "taught the world how to wait, how to endure",
+          "loss without surrendering to it.",
+          "",
+          "Sealed away for two thousand years, holding",
+          "back corruption, her ice cracks under the strain",
+          "but never breaks."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-aurelion",
+    "name": "Awakening: Aurelion, Master of Will",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Aurelion, Master of Will.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Aurelion, master of aether and will, | governed the unseen—thought, resolve, awareness— | binding consciousness to the world so beings | might not only exist, but choose. | — | The first to fall. The first great tragedy. | Now the Corrupt Knight, beyond redemption, | beyond memory of what he once was.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Aurelion, master of aether and will,",
+          "governed the unseen—thought, resolve, awareness—",
+          "binding consciousness to the world so beings",
+          "might not only exist, but choose.",
+          "",
+          "The first to fall. The first great tragedy.",
+          "Now the Corrupt Knight, beyond redemption,",
+          "beyond memory of what he once was."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-infernax",
+    "name": "Awakening: Infernax the Ancient",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Infernax the Ancient.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Infernax, emperor of beasts, breaker of mountains, | whose roar once bent reality itself to his will. | — | Two thousand years of corruption refined him | into something beyond nightmare—a force of | nature given malevolent purpose and singular focus. | — | His fall was a silence louder than any war cry. | When he died, even the stones wept in relief.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Infernax, emperor of beasts, breaker of mountains,",
+          "whose roar once bent reality itself to his will.",
+          "",
+          "Two thousand years of corruption refined him",
+          "into something beyond nightmare—a force of",
+          "nature given malevolent purpose and singular focus.",
+          "",
+          "His fall was a silence louder than any war cry.",
+          "When he died, even the stones wept in relief."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-changelings",
+    "name": "Awakening: The Changeling Spies",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Changeling Spies.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Identity became a weapon. Faces worn like | stolen masks. Trust died with every transformation. | — | The Changelings learned that in a corrupted world, | the greatest power was not strength or magic, | but the ability to be anyone, anywhere, at any | time. They made paranoia itself into an army, | turning allies against each other without ever | drawing a blade.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Identity became a weapon. Faces worn like",
+          "stolen masks. Trust died with every transformation.",
+          "",
+          "The Changelings learned that in a corrupted world,",
+          "the greatest power was not strength or magic,",
+          "but the ability to be anyone, anywhere, at any",
+          "time. They made paranoia itself into an army,",
+          "turning allies against each other without ever",
+          "drawing a blade."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-bulaar",
+    "name": "Awakening: Bulaar the Vicious",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Bulaar the Vicious.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Bulaar was once a warrior of honor, fighting | for causes worth dying for, protecting those | who could not protect themselves. | — | Two thousand years of survival twisted honor | into cruelty, protection into predation. | Now Bulaar hunts not from hunger but from | habit—the last echo of a warrior who forgot | what they once fought to protect.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Bulaar was once a warrior of honor, fighting",
+          "for causes worth dying for, protecting those",
+          "who could not protect themselves.",
+          "",
+          "Two thousand years of survival twisted honor",
+          "into cruelty, protection into predation.",
+          "Now Bulaar hunts not from hunger but from",
+          "habit—the last echo of a warrior who forgot",
+          "what they once fought to protect."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-angorrot",
+    "name": "Awakening: Angor Rot",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Angor Rot.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Angor Rot: cunning born from suffering, | a shadow that learned to endure by becoming | unbreakable through embracing pain as armor. | — | Where others fell to corruption through weakness, | Angor survived by becoming more corrupted | than the corruption itself—mastering the rot | by understanding its nature better than | the Shade Lord ever could.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Angor Rot: cunning born from suffering,",
+          "a shadow that learned to endure by becoming",
+          "unbreakable through embracing pain as armor.",
+          "",
+          "Where others fell to corruption through weakness,",
+          "Angor survived by becoming more corrupted",
+          "than the corruption itself—mastering the rot",
+          "by understanding its nature better than",
+          "the Shade Lord ever could."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-gunmar",
+    "name": "Awakening: Gunmar the Black",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Gunmar the Black.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Gunmar the Black, the Skull Crusher, lord of | destruction whose dominion was not decay but | willful annihilation. He destroyed not because | corrupted, but because he chose destruction. | — | Where others were victims of corruption, | Gunmar was its master—wielding rot as tool | rather than suffering as slave. When he fell, | hope whispered anew for the first time.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Gunmar the Black, the Skull Crusher, lord of",
+          "destruction whose dominion was not decay but",
+          "willful annihilation. He destroyed not because",
+          "corrupted, but because he chose destruction.",
+          "",
+          "Where others were victims of corruption,",
+          "Gunmar was its master—wielding rot as tool",
+          "rather than suffering as slave. When he fell,",
+          "hope whispered anew for the first time."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-elementalmother",
+    "name": "Awakening: The Brimstone Elemental Mother",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Brimstone Elemental Mother.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "So ancient that even the concept of origin | bent around her existence. She was not crowned, | not worshipped, not obeyed. She simply was. | — | Where she moved, stone remembered its shape. | Where she rested, life returned after devastation. | She maintained the cycle, the sacred rhythm | of becoming and passing.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "So ancient that even the concept of origin",
+          "bent around her existence. She was not crowned,",
+          "not worshipped, not obeyed. She simply was.",
+          "",
+          "Where she moved, stone remembered its shape.",
+          "Where she rested, life returned after devastation.",
+          "She maintained the cycle, the sacred rhythm",
+          "of becoming and passing."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-catastrophe",
+    "name": "Awakening: Catastrophe",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Catastrophe.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Where Catastrophe walked, cities fell, histories | crumbled, even identities collapsed under their | own weight. Not from force, but from the simple | truth that nothing could bear its own existence | in Catastrophe's presence. | — | They were not destroyer. They were the concept | of ending given form—inevitable, patient, | and utterly without mercy or malice.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Where Catastrophe walked, cities fell, histories",
+          "crumbled, even identities collapsed under their",
+          "own weight. Not from force, but from the simple",
+          "truth that nothing could bear its own existence",
+          "in Catastrophe's presence.",
+          "",
+          "They were not destroyer. They were the concept",
+          "of ending given form—inevitable, patient,",
+          "and utterly without mercy or malice."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-cataclysm",
+    "name": "Awakening: Cataclysm",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Cataclysm.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Cataclysm followed where Catastrophe led, | reshaping what remained, warping survivors | into mockeries of themselves, ensuring that | nothing broken could ever return unchanged. | — | They taught the cruelest lesson: that survival | is not always mercy. Sometimes, continuing to | exist in a form unrecognizable to yourself | is a fate worse than simple death.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Cataclysm followed where Catastrophe led,",
+          "reshaping what remained, warping survivors",
+          "into mockeries of themselves, ensuring that",
+          "nothing broken could ever return unchanged.",
+          "",
+          "They taught the cruelest lesson: that survival",
+          "is not always mercy. Sometimes, continuing to",
+          "exist in a form unrecognizable to yourself",
+          "is a fate worse than simple death."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-absolutecatastrophe",
+    "name": "Awakening: Absolute Catastrophe",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Absolute Catastrophe.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Absolute Catastrophe: not servant, but architect | of ruin. Not victim of corruption, but its | deliberate manifestation given conscious intent. | — | Mountains cracked beneath their stride. Reality | itself bent to their will. They existed to test | whether anything—anything—could withstand | malice refined to absolute perfection through | two thousand years of patient cultivation.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Absolute Catastrophe: not servant, but architect",
+          "of ruin. Not victim of corruption, but its",
+          "deliberate manifestation given conscious intent.",
+          "",
+          "Mountains cracked beneath their stride. Reality",
+          "itself bent to their will. They existed to test",
+          "whether anything—anything—could withstand",
+          "malice refined to absolute perfection through",
+          "two thousand years of patient cultivation."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-absolutecataclysm",
+    "name": "Awakening: Absolute Cataclysm",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of Absolute Cataclysm.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Absolute Cataclysm: devastation given purpose, | transformation made into weapon. Where Absolute | Catastrophe ended, Absolute Cataclysm redefined. | — | They did not simply destroy. They recreated | the world in corruption's image—ensuring that | even if heroes somehow won, the victory would | be so twisted that defeat might have been kinder.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Absolute Cataclysm: devastation given purpose,",
+          "transformation made into weapon. Where Absolute",
+          "Catastrophe ended, Absolute Cataclysm redefined.",
+          "",
+          "They did not simply destroy. They recreated",
+          "the world in corruption's image—ensuring that",
+          "even if heroes somehow won, the victory would",
+          "be so twisted that defeat might have been kinder."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-shadelord",
+    "name": "Awakening: The Shade Lord",
+    "category": "loreitems",
+    "subcategory": "BossLore",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Shade Lord.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "The Shade Lord: not a ruler, not a god, | but an absence given shape. A pressure upon | reality itself that made resistance feel futile | long before it was proven so. | — | It did not inspire hatred or loyalty, only | suffocating sense that all effort was ultimately | misplaced. When it died, corruption vanished | entire—proof it was not just leader of corruption, | but corruption's very essence made manifest.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "The Shade Lord: not a ruler, not a god,",
+          "but an absence given shape. A pressure upon",
+          "reality itself that made resistance feel futile",
+          "long before it was proven so.",
+          "",
+          "It did not inspire hatred or loyalty, only",
+          "suffocating sense that all effort was ultimately",
+          "misplaced. When it died, corruption vanished",
+          "entire—proof it was not just leader of corruption,",
+          "but corruption's very essence made manifest."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-merlin",
+    "name": "Awakening: Merlin the Archmage",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Merlin the Archmage.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Merlin, wisdom crystallized across lifetimes, | who remembered when magic served balance | rather than survival. When spells were art | rather than weapons of desperation. | — | Now he guards what little remains, teaching | the new generation that knowledge without | wisdom is just another form of destruction.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Merlin, wisdom crystallized across lifetimes,",
+          "who remembered when magic served balance",
+          "rather than survival. When spells were art",
+          "rather than weapons of desperation.",
+          "",
+          "Now he guards what little remains, teaching",
+          "the new generation that knowledge without",
+          "wisdom is just another form of destruction."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-hallowedknight",
+    "name": "Awakening: The Hallowed Knight",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Hallowed Knight.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Eternal sentinel standing between what must | not return and a world not yet ready to face it. | — | The Hallowed Knight knows secrets that would | break lesser minds. They stand vigil not from | duty, but from understanding: some doors must | never be opened, no matter the cost of keeping | them sealed. Even if it means standing alone | for eternity.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Eternal sentinel standing between what must",
+          "not return and a world not yet ready to face it.",
+          "",
+          "The Hallowed Knight knows secrets that would",
+          "break lesser minds. They stand vigil not from",
+          "duty, but from understanding: some doors must",
+          "never be opened, no matter the cost of keeping",
+          "them sealed. Even if it means standing alone",
+          "for eternity."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-toolsmith",
+    "name": "Awakening: The Toolsmith",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Toolsmith.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "The Toolsmith still remembered how to build | things meant to last beyond a single lifetime, | forging hope from scrap and memory. | — | Every hammer strike carried purpose. | Every blade held intention. | They understood that civilization survives not | through heroes alone, but through those who | build the tools heroes need to succeed.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "The Toolsmith still remembered how to build",
+          "things meant to last beyond a single lifetime,",
+          "forging hope from scrap and memory.",
+          "",
+          "Every hammer strike carried purpose.",
+          "Every blade held intention.",
+          "They understood that civilization survives not",
+          "through heroes alone, but through those who",
+          "build the tools heroes need to succeed."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-aja",
+    "name": "Awakening: Aja the Great",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Aja the Great.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Aja the Great, whose will bent but never broke, | standing firm when all seemed lost. | — | They watched empires fall, heroes die, hope | fade and return and fade again. Through it all, | Aja remained—not unchanging, but unbroken. | — | Their name became a monument to endurance, | proof that survival itself can be a form of victory.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Aja the Great, whose will bent but never broke,",
+          "standing firm when all seemed lost.",
+          "",
+          "They watched empires fall, heroes die, hope",
+          "fade and return and fade again. Through it all,",
+          "Aja remained—not unchanging, but unbroken.",
+          "",
+          "Their name became a monument to endurance,",
+          "proof that survival itself can be a form of victory."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningsupp-monkeyminer",
+    "name": "Awakening: The Monkey Miner",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Monkey Miner.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "The Monkey Miner, laughing defiance into darkness, | finding joy even in collapse, proving that | spirit cannot be corrupted by circumstance alone. | — | Where others saw only ash and ruin, the Miner | saw possibility. Every collapsed tunnel was | a new challenge. Every setback, a joke waiting | to be told. Their laughter echoed through caves | when silence would have meant surrender.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "The Monkey Miner, laughing defiance into darkness,",
+          "finding joy even in collapse, proving that",
+          "spirit cannot be corrupted by circumstance alone.",
+          "",
+          "Where others saw only ash and ruin, the Miner",
+          "saw possibility. Every collapsed tunnel was",
+          "a new challenge. Every setback, a joke waiting",
+          "to be told. Their laughter echoed through caves",
+          "when silence would have meant surrender."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeningboss-tankzombie",
+    "name": "Awakening: The Tank Zombie",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Lore record describing the origin, fall, and legacy of The Tank Zombie.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "When flesh forgot weakness and hunger became | armor, the corrupted learned to endure. | — | The Tank Zombie represents adaptation through | suffering—bodies that absorbed blow after blow | until pain itself became protection. They move | slowly not from weakness, but from the weight | of accumulated trauma made physical.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "When flesh forgot weakness and hunger became",
+          "armor, the corrupted learned to endure.",
+          "",
+          "The Tank Zombie represents adaptation through",
+          "suffering—bodies that absorbed blow after blow",
+          "until pain itself became protection. They move",
+          "slowly not from weakness, but from the weight",
+          "of accumulated trauma made physical."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-kanjigar",
+    "name": "Awakening: Kanjigar the Courageous",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Kanjigar the Courageous.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Kanjigar the Courageous, Trollhunter before | the corruption claimed him. He wielded the | Amulet of Daylight with unwavering honor. | — | Father to Draal the Deadly, he stood as | guardian when darkness first whispered its | return. His courage inspired generations. | — | Though he fell before the corruption's peak, | his legacy lived on through his son and | those who remembered what courage truly meant.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Kanjigar the Courageous, Trollhunter before",
+          "the corruption claimed him. He wielded the",
+          "Amulet of Daylight with unwavering honor.",
+          "",
+          "Father to Draal the Deadly, he stood as",
+          "guardian when darkness first whispered its",
+          "return. His courage inspired generations.",
+          "",
+          "Though he fell before the corruption's peak,",
+          "his legacy lived on through his son and",
+          "those who remembered what courage truly meant."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-creepslayerz",
+    "name": "Awakening: The Ancient Creepslayerz",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Ancient Creepslayerz.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "In ages before the First Rot, there existed | an order known as the Creepslayerz— | dark slayers who hunted things that lurked | in places where light dared not reach. | — | Their fate was so horrible, so unutterable, | that even the oldest tomes refuse to speak | of what became of them. Some say they faced | something beyond corruption itself. | — | The books remain silent. The books know fear.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "In ages before the First Rot, there existed",
+          "an order known as the Creepslayerz—",
+          "dark slayers who hunted things that lurked",
+          "in places where light dared not reach.",
+          "",
+          "Their fate was so horrible, so unutterable,",
+          "that even the oldest tomes refuse to speak",
+          "of what became of them. Some say they faced",
+          "something beyond corruption itself.",
+          "",
+          "The books remain silent. The books know fear."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-undeadplague",
+    "name": "Awakening: The Undead Plague",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Undead Plague.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Before corruption became absolute, a great | plague swept through the land—neither wholly | alive nor truly dead, but something between. | — | Some afflicted rose as skeletons, their flesh | stripped away, bones animated by disease. | Others became zombies, trapped in rotting | flesh that refused to release them to death. | — | The plague had no cure, no origin, no mercy. | It simply was, and it left the world changed.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Before corruption became absolute, a great",
+          "plague swept through the land—neither wholly",
+          "alive nor truly dead, but something between.",
+          "",
+          "Some afflicted rose as skeletons, their flesh",
+          "stripped away, bones animated by disease.",
+          "Others became zombies, trapped in rotting",
+          "flesh that refused to release them to death.",
+          "",
+          "The plague had no cure, no origin, no mercy.",
+          "It simply was, and it left the world changed."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-undeadminer",
+    "name": "Awakening: The Undead Miner",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of The Undead Miner.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Deep in forgotten mines, there walks a figure | who cannot remember if they are living or dead. | — | The Undead Miner, claimed by the plague | while deep underground, continues their work | eternal—mining ores that will never be used, | following veins that lead nowhere. | — | They remember the rhythm of the pickaxe. | They remember the weight of stone. | They cannot remember their own name.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Deep in forgotten mines, there walks a figure",
+          "who cannot remember if they are living or dead.",
+          "",
+          "The Undead Miner, claimed by the plague",
+          "while deep underground, continues their work",
+          "eternal—mining ores that will never be used,",
+          "following veins that lead nowhere.",
+          "",
+          "They remember the rhythm of the pickaxe.",
+          "They remember the weight of stone.",
+          "They cannot remember their own name."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-draal",
+    "name": "Awakening: Draal the Deadly",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Draal the Deadly.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Draal the Deadly, son of Kanjigar the Courageous, | warrior without equal, protector of the Trollhunter. | — | Where his father fell to corruption, Draal | stood firm. He fought not for glory or honor, | but for the simple truth that some things | are worth dying to protect. | — | His sacrifice was not prophecy—it was choice. | \"For the glory of Merlin...\" were his last words. | His honor endures in those who remember.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Draal the Deadly, son of Kanjigar the Courageous,",
+          "warrior without equal, protector of the Trollhunter.",
+          "",
+          "Where his father fell to corruption, Draal",
+          "stood firm. He fought not for glory or honor,",
+          "but for the simple truth that some things",
+          "are worth dying to protect.",
+          "",
+          "His sacrifice was not prophecy—it was choice.",
+          "\"For the glory of Merlin...\" were his last words.",
+          "His honor endures in those who remember."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-arthurswife",
+    "name": "Awakening: Lady Guinevere, Arthur's Queen",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Lady Guinevere, Arthur's Queen.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Lady Guinevere, wife to King Arthur, | queen of the realm in the age before corruption. | Where her husband ruled with sword and crown, | she ruled with wisdom and grace. | — | Close to Merlin the Archmage and his wife | Morgana, she stood as bridge between magic | and monarchy, ensuring both served the people. | — | When Morgana fell to shadow magic, Guinevere | mourned the loss of a dear friend turned enemy. | Some wounds even a queen cannot heal.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Lady Guinevere, wife to King Arthur,",
+          "queen of the realm in the age before corruption.",
+          "Where her husband ruled with sword and crown,",
+          "she ruled with wisdom and grace.",
+          "",
+          "Close to Merlin the Archmage and his wife",
+          "Morgana, she stood as bridge between magic",
+          "and monarchy, ensuring both served the people.",
+          "",
+          "When Morgana fell to shadow magic, Guinevere",
+          "mourned the loss of a dear friend turned enemy.",
+          "Some wounds even a queen cannot heal."
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "awakeninglore-morgana",
+    "name": "Awakening: Morgana le Fay",
+    "category": "loreitems",
+    "subcategory": "Extras",
+    "icon": "fa-book",
+    "gradient": "linear-gradient(135deg, #424242 0%, #212121 100%)",
+    "description": "Supplemental lore entry expanding on the history and role of Morgana le Fay.",
+    "tags": [
+      "Lore Item",
+      "Collectible"
+    ],
+    "stats": {
+      "Base Item": "Nautilus Shell",
+      "Item Type": "Lore Item",
+      "Rarity": "Legendary"
+    },
+    "fullDescription": "Morgana le Fay, sister to King Arthur, | wife to Merlin the Archmage, wielder of | the Corrupted Shadow Staff. | — | Once she stood as bridge between crown and | magic, mastering arts that bent reality itself. | But shadow magic demands sacrifice, and | Morgana paid that price again and again. | — | Each portal carved from darkness cost her | something vital. Each spell drained more than | magic—it consumed her humanity, piece by piece. | — | They say she still walks, wielding her staff, | unable to stop even as it kills her slowly.",
+    "sections": [
+      {
+        "title": "Lore",
+        "content": [
+          "Morgana le Fay, sister to King Arthur,",
+          "wife to Merlin the Archmage, wielder of",
+          "the Corrupted Shadow Staff.",
+          "",
+          "Once she stood as bridge between crown and",
+          "magic, mastering arts that bent reality itself.",
+          "But shadow magic demands sacrifice, and",
+          "Morgana paid that price again and again.",
+          "",
+          "Each portal carved from darkness cost her",
+          "something vital. Each spell drained more than",
+          "magic—it consumed her humanity, piece by piece.",
+          "",
+          "They say she still walks, wielding her staff,",
+          "unable to stop even as it kills her slowly."
+        ]
+      }
+    ],
+    "related": []
+  }
+]
