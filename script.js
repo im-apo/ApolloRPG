@@ -49,7 +49,7 @@ async function loadCategoryData(category) {
 }
 
 async function loadAllData() {
-    const categories = ['bosses', 'equipment', 'armor', 'accessories', 'locations', 'questlines', 'enemies', 'materials'];
+    const categories = ['bosses', 'equipment', 'armor', 'accessories', 'locations', 'loreitems', 'questlines', 'enemies', 'materials'];
     
     console.log('Loading wiki data...');
     
@@ -69,7 +69,8 @@ async function loadAllData() {
             ...WIKI_DATA.locations,
             ...WIKI_DATA.questlines,
             ...WIKI_DATA.enemies,
-            ...WIKI_DATA.materials
+            ...WIKI_DATA.materials,
+			...WIKI_DATA.loreitems
         ];
         
         STATE.dataLoaded = true;
@@ -428,7 +429,8 @@ document.querySelectorAll('.category-item').forEach(item => {
         'locations': 'Locations',
         'questlines': 'Questlines',
         'enemies': 'Enemies',
-        'materials': 'Materials'
+        'materials': 'Materials',
+		'loreitems': 'Lore Items'
     };
     
     const categoryDescriptions = {
@@ -439,7 +441,8 @@ document.querySelectorAll('.category-item').forEach(item => {
         'locations': 'Explore diverse worlds and dungeons',
         'questlines': 'Embark on epic adventures',
         'enemies': 'Know your foes and their weaknesses',
-        'materials': 'Crafting materials and upgrade components'
+        'materials': 'Crafting materials and upgrade components',
+		'loreitems': 'Learn Lore about the server and its origins'
     };
     
     document.getElementById('categoryTitle').textContent = categoryNames[category] || category;

@@ -160,18 +160,45 @@
                         <div
                             class="category-item"
                             data-category="materials"
-                            data-subcategory="Lore Item"
-                            onclick="filterCategory('materials', 'Lore Item')"
-                        >
-                            <span>Lore Item</span>
-                        </div>
-                        <div
-                            class="category-item"
-                            data-category="materials"
                             data-subcategory="Gemstones & Metals"
                             onclick="filterCategory('materials', 'Gemstones & Metals')"
                         >
                             <span>Gemstones & Metals</span>
+                        </div>
+                    </div>
+					
+					<div
+                        class="category-item"
+                        data-category="loreitems"
+                        onclick="filterCategory('loreitems', null)"
+                    >
+                        <i class="fas fa-question"></i>
+                        <span>Lore Items</span>
+                    </div>
+                    <div class="category-children">
+                        <div
+                            class="category-item"
+                            data-category="loreitems"
+                            data-subcategory="LoreChapters"
+                            onclick="filterCategory('loreitems', 'LoreChapters')"
+                        >
+                            <span>Lore Chapters</span>
+                        </div>
+                        <div
+                            class="category-item"
+                            data-category="loreitems"
+                            data-subcategory="BossLore"
+                            onclick="filterCategory('loreitems', 'BossLore')"
+                        >
+                            <span>Boss Lore</span>
+                        </div>
+						<div
+                            class="category-item"
+                            data-category="loreitems"
+                            data-subcategory="Extras"
+                            onclick="filterCategory('loreitems', 'Extras')"
+                        >
+                            <span>Extra Lore</span>
                         </div>
                     </div>
 
@@ -436,6 +463,26 @@
                             </div>
                             <h3>Materials</h3>
                             <p>Crafting materials and upgrade components</p>
+                        </div>
+						
+						<div
+                            class="category-card"
+                            onclick="filterCategory('loreitems', null)"
+                        >
+                            <div
+                                class="category-card-icon"
+                                style="
+                                    background: linear-gradient(
+                                        135deg,
+                                        #2c2c2c 0%,
+                                        #434343 100%
+                                    );
+                                "
+                            >
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <h3>Lore Items</h3>
+                            <p>Learn Lore about the server and its origins</p>
                         </div>
 
                         <div
