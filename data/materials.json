@@ -287,91 +287,93 @@
         ]
     },
     {
-        "id": "mega-handle",
-        "name": "Mega Sword Handle",
-        "category": "materials",
-        "subcategory": "Boss Material",
-        "icon": "fa-grip-lines",
-        "gradient": "linear-gradient(135deg, #FF5722 0%, #F57C00 100%)",
-        "description": "Used To Craft Every Sword Going Forward From LightsBane",
-        "tags": [
-            "Crafting Material",
-            "Ultimate Material"
-        ],
-        "stats": {
-            "Base Item": "Leather Horse Armor",
-            "Item Type": "Crafting Material",
-            "Used In": "LightsBane & Beyond"
-        },
-        "fullDescription": "The Mega Sword Handle is an ultimate crafting component required for all top-tier sword upgrades starting from LightsBane. This handle represents the pinnacle of weapon crafting technology.",
-        "sections": [
-            {
-                "title": "Usage",
-                "content": [
-                    "Required for LightsBane",
-                    "Required for Night's Edge",
-                    "Used in all ultimate weapon crafts",
-                    "Most advanced handle material"
-                ]
-            },
-            {
-                "title": "How to Obtain",
-                "content": [
-                    "Dropped by Corrupt King",
-                    "Corruption dimension",
-                    "Ultra rare material"
-                ]
-            }
-        ],
-        "related": [
-            "mega-centrepiece",
-            "lights-bane",
-            "nights-edge"
-        ]
+    "id": "mega-handle",
+    "name": "Voidbound Mega Handle",
+    "category": "materials",
+    "subcategory": "Boss Material",
+    "icon": "fa-grip-lines",
+    "gradient": "linear-gradient(135deg, #6A1B9A 0%, #311B92 100%)",
+    "description": "A foundational component for Void-based weapons",
+    "tags": [
+        "Crafting Material",
+        "Ultimate Material",
+        "Void"
+    ],
+    "stats": {
+        "Base Item": "Leather Horse Armor",
+        "Item Type": "Crafting Material",
+        "Used In": "Void Weapon Recipes"
     },
+    "fullDescription": "The Voidbound Mega Handle is a powerful crafting component forged where light is consumed by the void. Designed to withstand chaotic energies, it serves as the foundation for advanced Void-based weapons.",
+    "sections": [
+        {
+            "title": "Usage",
+            "content": [
+                "Required for Void-based weapon crafting",
+                "Foundation component for entropic weapons",
+                "Channels unstable void energy",
+                "End-game Void material"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Dropped by Corrupt King",
+                "Corruption dimension",
+                "Ultra rare boss material"
+            ]
+        }
+    ],
+    "related": [
+        "mega-centrepiece",
+        "lights-bane",
+		"nights-edge"
+    ]
+},
     {
-        "id": "mega-centrepiece",
-        "name": "Mega Sword Centrepiece",
-        "category": "materials",
-        "subcategory": "Boss Material",
-        "icon": "fa-gem",
-        "gradient": "linear-gradient(135deg, #FFD700 0%, #FF6F00 100%)",
-        "description": "Used To Craft Every Sword Going Forward From LightsBane",
-        "tags": [
-            "Crafting Material",
-            "Ultimate Material"
-        ],
-        "stats": {
-            "Base Item": "Golden Horse Armor",
-            "Item Type": "Crafting Material",
-            "Used In": "LightsBane & Beyond"
-        },
-        "fullDescription": "The Mega Sword Centrepiece is the core component for all ultimate weapon upgrades. This golden gem contains concentrated power from multiple dimensions.",
-        "sections": [
-            {
-                "title": "Usage",
-                "content": [
-                    "Required for LightsBane",
-                    "Required for Night's Edge",
-                    "Core component for ultimate weapons",
-                    "Multi-dimensional power source"
-                ]
-            },
-            {
-                "title": "How to Obtain",
-                "content": [
-                    "Dropped by Corrupt King",
-                    "Corruption dimension boss",
-                    "Ultra rare crafting component"
-                ]
-            }
-        ],
-        "related": [
-            "mega-handle",
-            "lights-bane",
-            "nights-edge"
-        ]
+    "id": "mega-centrepiece",
+    "name": "Voidcore Sword Centrepiece",
+    "category": "materials",
+    "subcategory": "Boss Material",
+    "icon": "fa-gem",
+    "gradient": "linear-gradient(135deg, #7B1FA2 0%, #4A148C 100%)",
+    "description": "A volatile core used in Void-forged weapons",
+    "tags": [
+        "Crafting Material",
+        "Ultimate Material",
+        "Void"
+    ],
+    "stats": {
+        "Base Item": "Golden Horse Armor",
+        "Item Type": "Crafting Material",
+        "Used In": "Void Weapon Recipes"
     },
+    "fullDescription": "The Voidcore Sword Centrepiece is a condensed nexus of volatile void energy. Acting as the heart of Void-forged weapons, it channels entropic power into forms capable of warping reality itself.",
+    "sections": [
+        {
+            "title": "Usage",
+            "content": [
+                "Core component for Void-based weapons",
+                "Required for entropic and void upgrades",
+                "Stabilizes chaotic void energy",
+                "Essential for end-game crafting"
+            ]
+        },
+        {
+            "title": "How to Obtain",
+            "content": [
+                "Dropped by Corrupt King",
+                "Corruption dimension boss",
+                "Ultra rare crafting component"
+            ]
+        }
+    ],
+    "related": [
+        "mega-handle",
+		"lights-bane",
+		"nights-edge"
+    ]
+}, 
     {
     "id": "sapphire",
     "name": "Sapphire",
@@ -718,7 +720,7 @@
             "content": [
                 "Mine Glacial Titanium Ore blocks",
                 "Regenerates every 7.5 seconds",
-                "Requires Magnetic pickaxe or better",
+                "Requires Volcanic Drill or better",
                 "Amount varies by pickaxe quality"
             ]
         },
@@ -773,7 +775,7 @@
             "content": [
                 "Deals 25 hearts lightning damage when mined",
                 "Applies Blindness for 4 seconds",
-                "Get a pickaxe with 'Immune to Radiance Ores'",
+                "Get a pickaxe with 'Immune to Radiant Ores'",
                 "Iridescent Prismatic Drill or better recommended"
             ]
         }
