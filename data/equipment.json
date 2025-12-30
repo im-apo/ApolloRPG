@@ -164,7 +164,7 @@
         "gradient": "linear-gradient(135deg, #64B5F6 0%, #0277BD 100%)",
         "description": "Forged By The Magical Frost Elemental Of The Arctic",
         "tags": [
-            "Boss Drop",
+            "Quest Item",
             "Netherite Sword",
             "Frost"
         ],
@@ -428,7 +428,7 @@
         "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
         "description": "A Weapon Manifested From The Corruption Of The World",
         "tags": [
-            "Boss Drop",
+            "Crafted",
             "Netherite Sword",
             "Corrupted"
         ],
@@ -655,7 +655,7 @@
         "gradient": "linear-gradient(135deg, #E1F5FE 0%, #81D4FA 100%)",
         "description": "For the Doom of Evil, Moonlight is mine to command!",
         "tags": [
-            "Mythic",
+            "Anti-corruption",
             "Supreme Artifact",
             "Netherite Sword"
         ],
