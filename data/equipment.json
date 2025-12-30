@@ -156,6 +156,109 @@
         ]
     },
     {
+        "id": "permafrost",
+        "name": "PermaFrost",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #64B5F6 0%, #0277BD 100%)",
+        "description": "Forged By The Magical Frost Elemental Of The Arctic",
+        "tags": [
+            "Boss Drop",
+            "Netherite Sword",
+            "Frost"
+        ],
+        "stats": {
+            "Base Item": "Netherite Sword",
+            "Attack Damage": "+28",
+            "Health": "+30",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "PermaFrost is a legendary ice blade forged by the Frost Elemental in the frozen wastes of the Arctic. This sword channels the power of eternal winter and can freeze enemies with its touch.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XVI - Massive ice damage",
+                    "Knockback I - Pushes enemies back",
+                    "Fire Aspect II - Paradoxical cold burn",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Obtained by doing the 4th Quest from Miner Monkey",
+                    "Arctic dimension boss",
+                    "Rare frost weapon"
+                ]
+            },
+            {
+                "title": "Upgrade Path",
+                "content": [
+                    "Can be upgraded to FrostBite",
+                    "Requires special frost materials",
+                    "Even more powerful final form"
+                ]
+            }
+        ],
+        "related": [
+            "frostbite"
+        ]
+    },
+    {
+        "id": "butchers-axe",
+        "name": "Butchers Axe",
+        "category": "equipment",
+        "subcategory": "Weapons",
+        "icon": "fa-axe",
+        "gradient": "linear-gradient(135deg, #F44336 0%, #B71C1C 100%)",
+        "description": "I'll Cut You Down!",
+        "tags": [
+            "Boss Drop",
+            "Netherite Axe"
+        ],
+        "stats": {
+            "Base Item": "Netherite Axe",
+            "Attack Damage": "+30",
+            "Health": "+10",
+            "Movement Speed": "+1.0"
+        },
+        "fullDescription": "The Butcher's Axe is a fearsome weapon wielded by the most brutal warriors. This massive netherite axe deals devastating damage and strikes terror into the hearts of enemies.",
+        "sections": [
+            {
+                "title": "Enchantments",
+                "content": [
+                    "Sharpness XVIII - Massive damage",
+                    "Knockback I - Pushes enemies back",
+                    "Unbreaking VII - Extremely durable",
+                    "Mending I - Repairs with experience"
+                ]
+            },
+            {
+                "title": "How to Obtain",
+                "content": [
+                    "Dropped by the Giant",
+                    "Rare drop chance",
+                    "Alternative to sword weapons"
+                ]
+            },
+            {
+                "title": "Special Features",
+                "content": [
+                    "Custom model (Model: 1)",
+                    "High damage axe weapon",
+                    "Full movement speed bonus"
+                ]
+            }
+        ],
+        "related": [
+            "exorcist",
+            "enlightened-pickaxe"
+        ]
+    },
+    {
         "id": "magmarite",
         "name": "Magmarite",
         "category": "equipment",
@@ -250,67 +353,15 @@
                 "title": "Special Features",
                 "content": [
                     "Custom model (Model: 6)",
-                    "Strongest weapon in the game",
+                    "Pinacle of human power",
                     "Maximum stat bonuses",
-                    "Prestigious end-game weapon"
+                    "Prestigious early-game weapon"
                 ]
             }
         ],
         "related": [
             "magmarite",
             "butchers-axe"
-        ]
-    },
-    {
-        "id": "permafrost",
-        "name": "PermaFrost",
-        "category": "equipment",
-        "subcategory": "Weapons",
-        "icon": "fa-snowflake",
-        "gradient": "linear-gradient(135deg, #64B5F6 0%, #0277BD 100%)",
-        "description": "Forged By The Magical Frost Elemental Of The Arctic",
-        "tags": [
-            "Boss Drop",
-            "Netherite Sword",
-            "Frost"
-        ],
-        "stats": {
-            "Base Item": "Netherite Sword",
-            "Attack Damage": "+28",
-            "Health": "+30",
-            "Movement Speed": "+1.0"
-        },
-        "fullDescription": "PermaFrost is a legendary ice blade forged by the Frost Elemental in the frozen wastes of the Arctic. This sword channels the power of eternal winter and can freeze enemies with its touch.",
-        "sections": [
-            {
-                "title": "Enchantments",
-                "content": [
-                    "Sharpness XVI - Massive ice damage",
-                    "Knockback I - Pushes enemies back",
-                    "Fire Aspect II - Paradoxical cold burn",
-                    "Unbreaking VII - Extremely durable",
-                    "Mending I - Repairs with experience"
-                ]
-            },
-            {
-                "title": "How to Obtain",
-                "content": [
-                    "Dropped by Frost Elemental",
-                    "Arctic dimension boss",
-                    "Rare frost weapon"
-                ]
-            },
-            {
-                "title": "Upgrade Path",
-                "content": [
-                    "Can be upgraded to FrostBite",
-                    "Requires special frost materials",
-                    "Even more powerful final form"
-                ]
-            }
-        ],
-        "related": [
-            "frostbite"
         ]
     },
     {
@@ -402,7 +453,7 @@
             {
                 "title": "How to Obtain",
                 "content": [
-                    "Dropped by Corrupt King",
+                    "Crafted using Corrupt Scales",
                     "Corruption dimension boss",
                     "Ultra rare corrupted weapon"
                 ]
@@ -459,6 +510,7 @@
                     "Requires Exorcist",
                     "Requires FrostBite",
                     "Requires Lights Bane",
+                    "Requires Butchers Axe",
                     "Mega Sword Handle",
                     "Mega Sword Centrepiece",
                     "Ultimate crafting recipe"
@@ -477,58 +529,8 @@
         "related": [
             "lights-bane",
             "exorcist",
+            "butchers-axe",
             "frostbite"
-        ]
-    },
-    {
-        "id": "butchers-axe",
-        "name": "Butchers Axe",
-        "category": "equipment",
-        "subcategory": "Weapons",
-        "icon": "fa-axe",
-        "gradient": "linear-gradient(135deg, #F44336 0%, #B71C1C 100%)",
-        "description": "I'll Cut You Down!",
-        "tags": [
-            "Boss Drop",
-            "Netherite Axe"
-        ],
-        "stats": {
-            "Base Item": "Netherite Axe",
-            "Attack Damage": "+30",
-            "Health": "+10",
-            "Movement Speed": "+1.0"
-        },
-        "fullDescription": "The Butcher's Axe is a fearsome weapon wielded by the most brutal warriors. This massive netherite axe deals devastating damage and strikes terror into the hearts of enemies.",
-        "sections": [
-            {
-                "title": "Enchantments",
-                "content": [
-                    "Sharpness XVIII - Massive damage",
-                    "Knockback I - Pushes enemies back",
-                    "Unbreaking VII - Extremely durable",
-                    "Mending I - Repairs with experience"
-                ]
-            },
-            {
-                "title": "How to Obtain",
-                "content": [
-                    "Dropped by Butcher boss",
-                    "Rare drop chance",
-                    "Alternative to sword weapons"
-                ]
-            },
-            {
-                "title": "Special Features",
-                "content": [
-                    "Custom model (Model: 1)",
-                    "High damage axe weapon",
-                    "Full movement speed bonus"
-                ]
-            }
-        ],
-        "related": [
-            "exorcist",
-            "enlightened-pickaxe"
         ]
     },
     {
