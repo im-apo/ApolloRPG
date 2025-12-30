@@ -1006,7 +1006,7 @@
         ]
     },
     {
-        "id": "claires-shadow-staff-corrupted",
+        "id": "morgana-shadow-staff-corrupted",
         "name": "Corrupted Shadow Staff",
         "category": "equipment",
         "subcategory": "Weapons",
@@ -1023,7 +1023,7 @@
             "Attack Damage": "+12",
             "Movement Speed": "+1.15"
         },
-        "fullDescription": "Claire's staff, corrupted by overuse of shadow magic. Incredibly powerful but drains the user's life force.",
+        "fullDescription": "Morgana's staff, corrupted by overuse of shadow magic. Incredibly powerful but drains the user's life force.",
         "sections": [
             {
                 "title": "Enchantments",
@@ -1045,9 +1045,6 @@
                     "Use with extreme caution"
                 ]
             }
-        ],
-        "related": [
-            "claires-shadow-staff"
         ]
     },
     {
