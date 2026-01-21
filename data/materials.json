@@ -612,6 +612,37 @@
     ],
     "related": []
 },
+  {
+    "id": "slimy-core",
+    "name": "Slimy Core",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-droplet",
+    "gradient": "linear-gradient(135deg, #7CFC90 0%, #1B8F3A 100%)",
+    "description": "A sticky core that pulses gently",
+    "tags": ["Tier 2", "Uncommon", "Pre-Hardmode"],
+    "stats": {
+      "Tier": "2",
+      "Rarity": "Uncommon",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "4 seconds",
+      "Required Pickaxe": "Industrial",
+      "Darklands": "No"
+    },
+    "fullDescription": "A sticky core that pulses gently. It clings to your glove for a moment.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Slimy Core Ore blocks",
+          "Regenerates every 4 seconds",
+          "Requires Industrial pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      }
+    ],
+    "related": []
+  },
 {
     "id": "magnetite",
     "name": "Magnetite",
@@ -737,6 +768,124 @@
     ],
     "related": []
 },
+{
+    "id": "butcherstone-shard",
+    "name": "Butcherstone Shard",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-skull",
+    "gradient": "linear-gradient(135deg, #1B5E20 0%, #0B2E10 100%)",
+    "description": "A green shard soaked in Darklands hunger (Darklands)",
+    "tags": ["Tier 3", "Rare", "Pre-Hardmode", "Chaos Debuff", "Darklands"],
+    "stats": {
+      "Tier": "3",
+      "Rarity": "Rare",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "7.5 seconds",
+      "Required Pickaxe": "Magnetic",
+      "Debuff": "Darklands Dread (Weakness II, 5s)",
+      "Darklands": "Yes"
+    },
+    "fullDescription": "A green shard soaked in Darklands hunger. Warm to the touch, like a living furnace. Mining without Chaos immunity inflicts Weakness II for 5 seconds.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Bular Darklands Ore blocks",
+          "Regenerates every 7.5 seconds",
+          "Requires Magnetic pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Weakness II for 5 seconds when mined",
+          "Get a pickaxe with 'Immune to Chaos Ores' (or All Ore Debuffs immunity)",
+          "Higher tier pickaxes recommended for safety"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "hexstone",
+    "name": "Hexstone",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-hand-sparkles",
+    "gradient": "linear-gradient(135deg, #245A2C 0%, #0A2310 100%)",
+    "description": "A curse-carved stone that whispers names (Darklands)",
+    "tags": ["Tier 3", "Rare", "Pre-Hardmode", "Chaos Debuff", "Darklands"],
+    "stats": {
+      "Tier": "3",
+      "Rarity": "Rare",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "7.5 seconds",
+      "Required Pickaxe": "Magnetic",
+      "Debuff": "Hexed (Mining Fatigue II, 5s)",
+      "Darklands": "Yes"
+    },
+    "fullDescription": "A curse-carved stone that whispers names. Leaves dark ink stains on metal. Mining without Chaos immunity inflicts Mining Fatigue II for 5 seconds.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Hexstone Ore blocks",
+          "Regenerates every 7.5 seconds",
+          "Requires Magnetic pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Mining Fatigue II for 5 seconds when mined",
+          "Get a pickaxe with 'Immune to Chaos Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "shiftskin-resin",
+    "name": "Shiftskin Resin",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-mask",
+    "gradient": "linear-gradient(135deg, #2E7D32 0%, #0D3B14 100%)",
+    "description": "A resin that refuses to keep one shape (Darklands)",
+    "tags": ["Tier 3", "Rare", "Pre-Hardmode", "Chaos Debuff", "Darklands"],
+    "stats": {
+      "Tier": "3",
+      "Rarity": "Rare",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "7.5 seconds",
+      "Required Pickaxe": "Magnetic",
+      "Debuff": "Shiftskin Sickness (Nausea I, 6s)",
+      "Darklands": "Yes"
+    },
+    "fullDescription": "A resin that refuses to keep one shape. It looks different every time you blink. Mining without Chaos immunity inflicts Nausea I for 6 seconds.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Shiftskin Ore blocks",
+          "Regenerates every 7.5 seconds",
+          "Requires Magnetic pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Nausea I for 6 seconds when mined",
+          "Get a pickaxe with 'Immune to Chaos Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
 {
     "id": "iridium-shard",
     "name": "Iridium Shard",
@@ -875,4 +1024,201 @@
     ],
     "related": []
 }
+  {
+    "id": "underlord-core",
+    "name": "Underlord Core",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-skull-crossbones",
+    "gradient": "linear-gradient(135deg, #0B3D1E 0%, #000000 100%)",
+    "description": "A Darklands core leaking emerald-black heat (Darklands)",
+    "tags": ["Tier 4", "Legendary", "Pre-Hardmode", "Chaos Debuff", "Darklands"],
+    "stats": {
+      "Tier": "4",
+      "Rarity": "Legendary",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "10 seconds",
+      "Required Pickaxe": "Elemental",
+      "Debuff": "Underlord Pressure (Weakness II + Slowness I, 7s)",
+      "Darklands": "Yes"
+    },
+    "fullDescription": "A Darklands core leaking emerald-black heat. The air around it feels heavier. Mining without Chaos immunity inflicts Weakness II and Slowness I for 7 seconds.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Underlord Ore blocks",
+          "Regenerates every 10 seconds",
+          "Requires Elemental pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Weakness II for 7 seconds",
+          "Applies Slowness I for 7 seconds",
+          "Get a pickaxe with 'Immune to Chaos Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "brimstone-crystal",
+    "name": "Brimstone Crystal",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-fire",
+    "gradient": "linear-gradient(135deg, #FF8C00 0%, #B71C1C 100%)",
+    "description": "A crystal burning from within (Not Darklands)",
+    "tags": ["Tier 4", "Legendary", "Pre-Hardmode", "Fire Debuff", "Not Darklands"],
+    "stats": {
+      "Tier": "4",
+      "Rarity": "Legendary",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "10 seconds",
+      "Required Pickaxe": "Elemental",
+      "Debuff": "Brimstone Heat (Fire Damage, 8 hearts)",
+      "Darklands": "No"
+    },
+    "fullDescription": "A crystal burning from within. It clicks softly like cooling magma. Mining without fire immunity deals 8 hearts of fire damage. This ore is NOT Darklands.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Brimstone Crystal blocks",
+          "Regenerates every 10 seconds",
+          "Requires Elemental pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Deals 8 hearts fire damage when mined",
+          "Get a pickaxe with 'Immune to Fire Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "elderium-crystal",
+    "name": "Elderium Crystal",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-wand-sparkles",
+    "gradient": "linear-gradient(135deg, #C77DFF 0%, #6A00F4 100%)",
+    "description": "A refined crystal etched with ancient fracture-lines (Darklands)",
+    "tags": ["Tier 4", "Legendary", "Pre-Hardmode", "Magic Debuff", "Darklands"],
+    "stats": {
+      "Tier": "4",
+      "Rarity": "Legendary",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "10 seconds",
+      "Required Pickaxe": "Arcane",
+      "Debuff": "Arcane Surge (Levitation I, 2s)",
+      "Darklands": "No"
+    },
+    "fullDescription": "A refined crystal etched with ancient fracture-lines. It hums near enchantments. Mining without magic immunity briefly lifts you with Levitation I for 2 seconds. Darklands.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Elderium Crystal blocks",
+          "Regenerates every 10 seconds",
+          "Requires Arcane pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Levitation I for 2 seconds when mined",
+          "Get a pickaxe with 'Immune to Magic Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "glowrite-clusters",
+    "name": "Glowrite Clusters",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-sun",
+    "gradient": "linear-gradient(135deg, #FFF176 0%, #FFB300 100%)",
+    "description": "A cluster of sun-bright mineral growth (Darklands)",
+    "tags": ["Tier 4", "Legendary", "Pre-Hardmode", "Radiance Debuff", "Darklands"],
+    "stats": {
+      "Tier": "4",
+      "Rarity": "Legendary",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "10 seconds",
+      "Required Pickaxe": "Iridescent",
+      "Debuff": "Dazzled (Blindness I, 3s)",
+      "Darklands": "No"
+    },
+    "fullDescription": "A cluster of sun-bright mineral growth. It glows even in sealed pockets. Mining without radiance immunity inflicts Blindness I for 3 seconds. Darklands.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Glowrite Clusters blocks",
+          "Regenerates every 10 seconds",
+          "Requires Iridescent pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Blindness I for 3 seconds when mined",
+          "Get a pickaxe with 'Immune to Radiant Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "umbryte",
+    "name": "Umbryte",
+    "category": "materials",
+    "subcategory": "Gemstones & Metals",
+    "icon": "fa-moon",
+    "gradient": "linear-gradient(135deg, #5E35B1 0%, #1A237E 100%)",
+    "description": "A shade-veined mineral that swallows sparks (Darklands)",
+    "tags": ["Tier 4", "Legendary", "Pre-Hardmode", "Chaos Debuff", "Darklands"],
+    "stats": {
+      "Tier": "4",
+      "Rarity": "Legendary",
+      "Difficulty": "Pre-Hardmode",
+      "Regeneration": "10 seconds",
+      "Required Pickaxe": "Entropic",
+      "Debuff": "Shade Drain (Weakness II, 5s)",
+      "Darklands": "No"
+    },
+    "fullDescription": "A shade-veined mineral that swallows sparks. Its surface ripples like ink. Mining without Chaos immunity inflicts Weakness II for 5 seconds. Darklands.",
+    "sections": [
+      {
+        "title": "How to Obtain",
+        "content": [
+          "Mine Umbryte blocks",
+          "Regenerates every 10 seconds",
+          "Requires Entropic pickaxe or better",
+          "Amount varies by pickaxe quality"
+        ]
+      },
+      {
+        "title": "Danger Warning",
+        "content": [
+          "Applies Weakness II for 5 seconds when mined",
+          "Get a pickaxe with 'Immune to Chaos Ores' (or All Ore Debuffs immunity)"
+        ]
+      }
+    ],
+    "related": []
+  }
+]
 ]
