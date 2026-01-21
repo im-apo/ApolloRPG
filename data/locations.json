@@ -8,10 +8,9 @@
     "description": "A vast underground mountain network housing multiple biome caverns",
     "tags": ["Mountain", "Multi-Zone", "Progression Area"],
     "stats": {
-      "Level Range": "1–120",
       "Main Areas": "6",
-      "Bosses": "Multiple",
-      "Players": "Solo–Party"
+      "Mini-Bosses": "1",
+      "Loot Quality": "Varies"
     },
     "fullDescription": "The Cozy Caverns is a massive mountain-spanning cave system that serves as a full progression journey for miners and adventurers. Each deeper region introduces new dangers, resources, and lore, culminating in the gateway to the Darklands.",
     "sections": [
@@ -28,11 +27,17 @@
         ]
       },
       {
+        "title": "Mini-Boss Encounter",
+        "content": [
+          "Undead Miner — drops the Enlightened pickaxe"
+        ]
+      },
+      {
         "title": "Notable Features",
         "content": [
           "Progressive ore difficulty",
           "Lore-driven exploration",
-          "Gateway to the Darklands",
+          "Gateway to the Darklands portal",
           "Merlin's Cove hub"
         ]
       }
@@ -45,7 +50,8 @@
       "volcanic-depths",
       "icy-heights",
       "abyssal-maw",
-      "merlins-cove"
+      "merlins-cove",
+      "undead-miner"
     ]
   },
   {
@@ -89,22 +95,15 @@
     "description": "The first main area of the Cozy Caverns, rich with vibrant gemstones",
     "tags": ["Main Area", "Tier 1", "Safe Zone"],
     "stats": {
-      "Level Range": "10–40",
       "Ores": "5",
       "Danger Level": "Low",
-      "Players": "Solo Friendly"
+      "Loot Quality": "Common–Uncommon"
     },
     "fullDescription": "Crystal Caverns is the first true mining region explorers encounter after entering the Cozy Caverns. Glittering walls and crystal growths illuminate the path, providing essential early-game materials.",
     "sections": [
       {
         "title": "Available Ores",
-        "content": [
-          "Jade",
-          "Ruby",
-          "Topaz",
-          "Opal",
-          "Amber"
-        ]
+        "content": ["Jade", "Ruby", "Topaz", "Opal", "Amber"]
       }
     ],
     "related": ["cozy-caverns"]
@@ -118,19 +117,15 @@
     "description": "A mechanized cavern lined with dense metals and magnetic stone",
     "tags": ["Main Area", "Tier 2", "Industrial"],
     "stats": {
-      "Level Range": "35–65",
       "Ores": "2",
       "Danger Level": "Moderate",
-      "Players": "Solo / Duo"
+      "Loot Quality": "Uncommon"
     },
     "fullDescription": "The Industrial Caverns mark a shift from gemstone mining to heavy metallurgy. The air hums with magnetic energy and the walls are reinforced with dense alloys.",
     "sections": [
       {
         "title": "Available Ores",
-        "content": [
-          "Tungsten",
-          "Magnetite"
-        ]
+        "content": ["Tungsten", "Magnetite"]
       }
     ],
     "related": ["cozy-caverns"]
@@ -189,18 +184,15 @@
     "description": "Molten tunnels forged by ancient volcanic pressure",
     "tags": ["Main Area", "Tier 3", "Fire"],
     "stats": {
-      "Level Range": "75–100",
       "Ores": "1",
       "Danger Level": "High",
-      "Players": "Prepared Only"
+      "Loot Quality": "Rare"
     },
     "fullDescription": "The Volcanic Depths are blisteringly hot caverns carved by lava flows. The air scorches unprotected explorers, and the ore itself burns to the touch.",
     "sections": [
       {
         "title": "Available Ores",
-        "content": [
-          "Magmaritian Ore"
-        ]
+        "content": ["Magmaritian Ore"]
       }
     ],
     "related": ["cozy-caverns"]
@@ -214,10 +206,9 @@
     "description": "Frozen caverns suspended in eternal ice",
     "tags": ["Main Area", "Tier 3", "Frost"],
     "stats": {
-      "Level Range": "90–115",
       "Ores": "2",
       "Danger Level": "Very High",
-      "Players": "Well Equipped"
+      "Loot Quality": "Rare–Legendary"
     },
     "fullDescription": "Icy Heights is a glacial cavern where frost magic dominates. Every step slows the unprepared, and the cold seeps into armor and bone alike.",
     "sections": [
@@ -225,7 +216,7 @@
         "title": "Available Ores",
         "content": [
           "Glacial Titanium",
-          "Mana Infused Emerald (Merlin Corridor)"
+          "Mana Infused Emerald (Near Merlin)"
         ]
       }
     ],
@@ -237,30 +228,28 @@
     "category": "locations",
     "icon": "fa-skull",
     "gradient": "linear-gradient(135deg, #512DA8 0%, #000000 100%)",
-    "description": "The final chamber of the Cozy Caverns and gateway to the Darklands",
+    "description": "The final chamber of the Cozy Caverns and home to the Darklands portal",
     "tags": ["Final Area", "Tier 4", "Darklands Gateway"],
     "stats": {
-      "Level Range": "110–140",
       "Ores": "3",
       "Danger Level": "Extreme",
-      "Requirement": "Gear that emits a bright aura"
+      "Portal Requirement": "Gear that emits a bright aura (to enter the Darklands portal)"
     },
-    "fullDescription": "The Abyssal Maw is a void-like cavern that swallows all light. At its heart lies the portal to the Darklands. Only those bearing radiant gear may proceed.",
+    "fullDescription": "The Abyssal Maw is a void-like cavern that swallows all light. At its heart lies the portal to the Darklands. You do NOT need aura gear to mine here — only to enter the Darklands portal.",
     "sections": [
       {
         "title": "Available Ores",
         "content": [
           "Iridium Ore",
           "Entropic Ore",
-          "Mana Infused Emerald (Merlin Corridor)"
+          "Mana Infused Emerald (Near Merlin)"
         ]
       },
       {
-        "title": "Special Requirements",
+        "title": "Darklands Portal",
         "content": [
-          "Requires gear that emits a bright aura",
-          "Chaos and Radiance protection recommended",
-          "Darklands access point"
+          "Portal to the Darklands is located here",
+          "To enter the portal you must have gear that emits a bright aura"
         ]
       }
     ],
@@ -276,18 +265,18 @@
     "tags": ["Story Hub", "NPC", "Questline"],
     "stats": {
       "NPC": "Merlin",
-      "Questlines": "Daylight & Eclipse",
+      "Questlines": "Daylight Amulet & Eclipse Amulet",
       "Lore Importance": "Major"
     },
-    "fullDescription": "Merlin's Cove is a hidden refuge nestled between the Icy Heights and the Abyssal Maw. Here resides Merlin, recently awakened from a long slumber. He serves as a guide to the Darklands and the catalyst for the legendary Daylight & Eclipse questline.",
+    "fullDescription": "Merlin's Cove is a hidden refuge nestled between the Icy Heights and the Abyssal Maw. Here resides Merlin, recently awakened from a long slumber. Speak to him to begin your questline for the Daylight Amulet and Eclipse Amulet. He also serves as a guide for the Darklands and tells tales about Kanjigar the courageous.",
     "sections": [
       {
         "title": "Merlin the Awoken",
         "content": [
-          "Begin the Daylight & Eclipse questline",
-          "Learn about the Darklands",
-          "Hear tales of Kangijarr the Courageous",
-          "Receive guidance for the end of pre-hardmode progression!"
+          "Speak to Merlin to begin the Daylight Amulet & Eclipse Amulet questline",
+          "Learn about the Darklands and what lies beyond the portal",
+          "Hear tales of Kanjigar the Courageous",
+          "Receive progression guidance for end of pre-hardmode!"
         ]
       },
       {
@@ -302,9 +291,9 @@
     "related": [
       "icy-heights",
       "abyssal-maw",
-      "daylight",
-      "eclipse",
-      "kangijarr"
+      "daylight-amulet",
+      "eclipse-amulet",
+      "kanjigars-amulet"
     ]
   }
 ]
