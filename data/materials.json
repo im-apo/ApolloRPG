@@ -627,7 +627,6 @@
       "Difficulty": "Pre-Hardmode",
       "Regeneration": "4 seconds",
       "Required Pickaxe": "Industrial",
-      "Darklands": "No"
     },
     "fullDescription": "A sticky core that pulses gently. It clings to your glove for a moment.",
     "sections": [
@@ -1119,7 +1118,7 @@
       "Regeneration": "10 seconds",
       "Required Pickaxe": "Arcane",
       "Debuff": "Arcane Surge (Levitation I, 2s)",
-      "Darklands": "No"
+      "Darklands": "Yes"
     },
     "fullDescription": "A refined crystal etched with ancient fracture-lines. It hums near enchantments. Mining without magic immunity briefly lifts you with Levitation I for 2 seconds. Darklands.",
     "sections": [
@@ -1158,7 +1157,7 @@
       "Regeneration": "10 seconds",
       "Required Pickaxe": "Iridescent",
       "Debuff": "Dazzled (Blindness I, 3s)",
-      "Darklands": "No"
+      "Darklands": "Yes"
     },
     "fullDescription": "A cluster of sun-bright mineral growth. It glows even in sealed pockets. Mining without radiance immunity inflicts Blindness I for 3 seconds. Darklands.",
     "sections": [
@@ -1197,7 +1196,7 @@
       "Regeneration": "10 seconds",
       "Required Pickaxe": "Entropic",
       "Debuff": "Shade Drain (Weakness II, 5s)",
-      "Darklands": "No"
+      "Darklands": "Yes"
     },
     "fullDescription": "A shade-veined mineral that swallows sparks. Its surface ripples like ink. Mining without Chaos immunity inflicts Weakness II for 5 seconds. Darklands.",
     "sections": [
