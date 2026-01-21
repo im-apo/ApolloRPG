@@ -38,6 +38,7 @@
       }
     ],
     "related": [
+	  "cozy-caverns-entrance",
       "crystal-caverns",
       "industrial-caverns",
       "lush-hollows",
@@ -47,6 +48,38 @@
       "merlins-cove"
     ]
   },
+  {
+  "id": "cozy-caverns-entrance",
+  "name": "Cozy Caverns Entrance",
+  "category": "locations",
+  "icon": "fa-door-open",
+  "gradient": "linear-gradient(135deg, #6FA8FF 0%, #2B59C3 100%)",
+  "description": "The welcoming entrance tunnel to The Cozy Caverns (Sapphire mining zone)",
+  "tags": ["Entrance", "Tier 1", "Starter Zone"],
+  "stats": {
+    "Ores": "1",
+    "Danger Level": "Very Low",
+    "Loot Quality": "Common"
+  },
+  "fullDescription": "The Cozy Caverns Entrance is the first stretch of tunnels within the mountain. Soft crystal shimmer guides new miners forward, and Sapphire nodes line the walls as the primary resource found here.",
+  "sections": [
+    {
+      "title": "Available Ores",
+      "content": [
+        "Sapphire"
+      ]
+    },
+    {
+      "title": "Notable Features",
+      "content": [
+        "Starter mining route",
+        "Safe passage into Crystal Caverns",
+        "Great spot to learn the cavern layout"
+      ]
+    }
+  ],
+  "related": ["cozy-caverns", "crystal-caverns", "sapphire"]
+}
   {
     "id": "crystal-caverns",
     "name": "Crystal Caverns",
@@ -103,30 +136,51 @@
     "related": ["cozy-caverns"]
   },
   {
-    "id": "lush-hollows",
-    "name": "Lush Hollows",
-    "category": "locations",
-    "icon": "fa-leaf",
-    "gradient": "linear-gradient(135deg, #81C784 0%, #1B5E20 100%)",
-    "description": "A living cavern overtaken by growth, slime, and bio-energy",
-    "tags": ["Main Area", "Tier 2", "Organic"],
-    "stats": {
-      "Level Range": "55–80",
-      "Ores": "1",
-      "Danger Level": "Moderate",
-      "Players": "Solo / Duo"
-    },
-    "fullDescription": "The Lush Hollows pulse with life. Bioluminescent flora coats the cavern floor, and viscous growths cling to the walls. The environment feels alive — and watching.",
-    "sections": [
-      {
-        "title": "Available Ores",
-        "content": [
-          "Slimy Core"
-        ]
-      }
-    ],
-    "related": ["cozy-caverns"]
+  "id": "lush-hollows",
+  "name": "Lush Hollows",
+  "category": "locations",
+  "icon": "fa-leaf",
+  "gradient": "linear-gradient(135deg, #81C784 0%, #1B5E20 100%)",
+  "description": "A living cavern overtaken by growth, slime, and bio-energy",
+  "tags": ["Main Area", "Tier 2", "Organic"],
+  "stats": {
+    "Ores": "1",
+    "Mini-Boss": "Undead Miner",
+    "Mini-Boss Spawn": "Center of Lush Hollows",
+    "Loot Quality": "Uncommon"
   },
+  "fullDescription": "The Lush Hollows pulse with life. Bioluminescent flora coats the cavern floor, and viscous growths cling to the walls. At the very center of the cavern, a corrupted figure known as the Undead Miner emerges when disturbed.",
+  "sections": [
+    {
+      "title": "Available Ores",
+      "content": [
+        "Slimy Core"
+      ]
+    },
+    {
+      "title": "Mini-Boss Encounter",
+      "content": [
+        "Undead Miner spawns at the exact center of the Lush Hollows",
+        "Acts as the area's primary guardian",
+        "Drops the Enlightened Pickaxe upon defeat"
+      ]
+    },
+    {
+      "title": "Combat Notes",
+      "content": [
+        "Slow but relentless",
+        "Uses mining-themed attacks",
+        "Recommended to fight in open space"
+      ]
+    }
+  ],
+  "related": [
+    "cozy-caverns",
+    "undead-miner",
+    "slimy-core"
+  ]
+}
+
   {
     "id": "volcanic-depths",
     "name": "Volcanic Depths",
@@ -234,7 +288,7 @@
           "Begin the Daylight & Eclipse questline",
           "Learn about the Darklands",
           "Hear tales of Kangijarr the Courageous",
-          "Receive guidance for end-game progression"
+          "Receive guidance for the end of pre-hardmode progression!"
         ]
       },
       {
