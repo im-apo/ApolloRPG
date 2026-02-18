@@ -6,7 +6,11 @@
         "icon": "fa-skull",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "An undead knight wielding iron equipment",
-        "tags": ["Undead", "Melee", "Elemental Faction"],
+        "tags": [
+            "Undead",
+            "Melee",
+            "Elemental Faction"
+        ],
         "stats": {
             "Health": "40 HP",
             "Damage": "8",
@@ -31,7 +35,9 @@
                 ]
             }
         ],
-        "related": ["zombie-knight"]
+        "related": [
+            "zombie-knight"
+        ]
     },
     {
         "id": "zombie-knight",
@@ -40,7 +46,11 @@
         "icon": "fa-skull-crossbones",
         "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
         "description": "A powerful zombified warrior in diamond armor",
-        "tags": ["Undead", "Melee", "Elemental Faction"],
+        "tags": [
+            "Undead",
+            "Melee",
+            "Elemental Faction"
+        ],
         "stats": {
             "Health": "65 HP",
             "Damage": "14",
@@ -66,7 +76,9 @@
                 ]
             }
         ],
-        "related": ["skeletal-knight"]
+        "related": [
+            "skeletal-knight"
+        ]
     },
     {
         "id": "corrupt-knight",
@@ -75,7 +87,11 @@
         "icon": "fa-shield",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "A knight corrupted by void energy",
-        "tags": ["Void", "Corrupted", "Melee"],
+        "tags": [
+            "Void",
+            "Corrupted",
+            "Melee"
+        ],
         "stats": {
             "Health": "400 HP",
             "Damage": "14",
@@ -101,7 +117,10 @@
                 ]
             }
         ],
-        "related": ["corrupted-undead", "corrupt-trickster"]
+        "related": [
+            "corrupted-undead",
+            "corrupt-trickster"
+        ]
     },
     {
         "id": "corrupted-undead",
@@ -110,7 +129,11 @@
         "icon": "fa-ghost",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "Basic corrupted minions serving the void",
-        "tags": ["Void", "Corrupted", "Melee"],
+        "tags": [
+            "Void",
+            "Corrupted",
+            "Melee"
+        ],
         "stats": {
             "Health": "200 HP",
             "Damage": "10",
@@ -135,7 +158,9 @@
                 ]
             }
         ],
-        "related": ["corrupt-knight"]
+        "related": [
+            "corrupt-knight"
+        ]
     },
     {
         "id": "gumm-gumm-goblin",
@@ -144,7 +169,11 @@
         "icon": "fa-demon",
         "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
         "description": "Small but vicious goblin warriors",
-        "tags": ["Gumm-Gumm", "Melee", "Small"],
+        "tags": [
+            "Gumm-Gumm",
+            "Melee",
+            "Small"
+        ],
         "stats": {
             "Health": "150 HP",
             "Damage": "8",
@@ -168,7 +197,9 @@
                 ]
             }
         ],
-        "related": ["gumm-gumm-berserker"]
+        "related": [
+            "gumm-gumm-berserker"
+        ]
     },
     {
         "id": "gumm-gumm-berserker",
@@ -177,7 +208,11 @@
         "icon": "fa-axe-battle",
         "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
         "description": "Fierce berserker warriors of the Gumm-Gumm",
-        "tags": ["Gumm-Gumm", "Melee", "Berserker"],
+        "tags": [
+            "Gumm-Gumm",
+            "Melee",
+            "Berserker"
+        ],
         "stats": {
             "Health": "800 HP",
             "Damage": "18",
@@ -201,7 +236,9 @@
                 ]
             }
         ],
-        "related": ["gumm-gumm-goblin"]
+        "related": [
+            "gumm-gumm-goblin"
+        ]
     },
     {
         "id": "flame-trickster",
@@ -210,7 +247,11 @@
         "icon": "fa-fire",
         "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
         "description": "Agile fire-wielding minion of Magmar",
-        "tags": ["Elemental", "Fire", "Melee"],
+        "tags": [
+            "Elemental",
+            "Fire",
+            "Melee"
+        ],
         "stats": {
             "Health": "110 HP",
             "Damage": "12",
@@ -244,7 +285,9 @@
                 ]
             }
         ],
-        "related": ["frost-trickster"]
+        "related": [
+            "frost-trickster"
+        ]
     },
     {
         "id": "frost-trickster",
@@ -253,7 +296,11 @@
         "icon": "fa-snowflake",
         "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
         "description": "Swift ice-wielding servant of the Frost Elemental",
-        "tags": ["Elemental", "Ice", "Melee"],
+        "tags": [
+            "Elemental",
+            "Ice",
+            "Melee"
+        ],
         "stats": {
             "Health": "250 HP",
             "Damage": "15",
@@ -280,7 +327,9 @@
                 ]
             }
         ],
-        "related": ["flame-trickster"]
+        "related": [
+            "flame-trickster"
+        ]
     },
     {
         "id": "infernal-phantom",
@@ -289,7 +338,11 @@
         "icon": "fa-ghost",
         "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
         "description": "Ethereal minion of Infernax the Ancient",
-        "tags": ["Elemental", "Fire", "Phantom"],
+        "tags": [
+            "Elemental",
+            "Fire",
+            "Phantom"
+        ],
         "stats": {
             "Health": "150 HP",
             "Damage": "15",
@@ -334,7 +387,11 @@
         "icon": "fa-pickaxe",
         "gradient": "linear-gradient(135deg, #ffd89b 0%, #19547b 100%)",
         "description": "A zombified miner who summons bandit reinforcements",
-        "tags": ["Undead", "Summoner", "Melee"],
+        "tags": [
+            "Undead",
+            "Summoner",
+            "Melee"
+        ],
         "stats": {
             "Health": "200 HP",
             "Damage": "14",
@@ -365,16 +422,22 @@
                 ]
             }
         ],
-        "related": ["bandit"]
+        "related": [
+            "bandit"
+        ]
     },
-	{
+    {
         "id": "corrupt-trickster",
         "name": "Corrupt Trickster",
         "category": "enemies",
         "icon": "fa-mask",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "A devious corrupted boss who terrorizes with mobility and summons",
-        "tags": ["Void", "Teleporter", "Summoner"],
+        "tags": [
+            "Void",
+            "Teleporter",
+            "Summoner"
+        ],
         "stats": {
             "Health": "800 HP",
             "Damage": "18",
@@ -410,7 +473,10 @@
                 ]
             }
         ],
-        "related": ["corrupted-king", "frost-trickster"]
+        "related": [
+            "corrupted-king",
+            "frost-trickster"
+        ]
     },
     {
         "id": "bandit",
@@ -419,7 +485,12 @@
         "icon": "fa-mask",
         "gradient": "linear-gradient(135deg, #8e9eab 0%, #eef2f3 100%)",
         "description": "Common bandits that raid mining operations",
-        "tags": ["Undead", "Creep-slayer", "Melee", "Ranged"],
+        "tags": [
+            "Undead",
+            "Creep-slayer",
+            "Melee",
+            "Ranged"
+        ],
         "stats": {
             "Health": "30 HP",
             "Damage": "3",
@@ -452,7 +523,9 @@
                 ]
             }
         ],
-        "related": ["undead-miner"]
+        "related": [
+            "undead-miner"
+        ]
     },
     {
         "id": "skeletal-minion",
@@ -461,7 +534,11 @@
         "icon": "fa-skull",
         "gradient": "linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%)",
         "description": "Weak skeleton minion summoned by bosses",
-        "tags": ["Undead", "Summoned", "Weak"],
+        "tags": [
+            "Undead",
+            "Summoned",
+            "Weak"
+        ],
         "stats": {
             "Health": "10 HP",
             "Damage": "2",
@@ -479,7 +556,9 @@
                 ]
             }
         ],
-        "related": ["zomboid-minion"]
+        "related": [
+            "zomboid-minion"
+        ]
     },
     {
         "id": "zomboid-minion",
@@ -488,7 +567,11 @@
         "icon": "fa-skull-crossbones",
         "gradient": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
         "description": "Weak zombie minion summoned by bosses",
-        "tags": ["Undead", "Summoned", "Weak"],
+        "tags": [
+            "Undead",
+            "Summoned",
+            "Weak"
+        ],
         "stats": {
             "Health": "10 HP",
             "Damage": "2",
@@ -506,7 +589,9 @@
                 ]
             }
         ],
-        "related": ["skeletal-minion"]
+        "related": [
+            "skeletal-minion"
+        ]
     },
     {
         "id": "slime-variants",
@@ -515,7 +600,11 @@
         "icon": "fa-droplet",
         "gradient": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
         "description": "Various sizes of slimes serving King Slime",
-        "tags": ["Slime", "Elemental Faction", "Various Sizes"],
+        "tags": [
+            "Slime",
+            "Elemental Faction",
+            "Various Sizes"
+        ],
         "stats": {
             "Health": "5-50 HP",
             "Damage": "3",
@@ -541,7 +630,9 @@
                 ]
             }
         ],
-        "related": ["spawn-of-king"]
+        "related": [
+            "spawn-of-king"
+        ]
     },
     {
         "id": "spawn-of-king",
@@ -550,7 +641,11 @@
         "icon": "fa-droplet",
         "gradient": "linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%)",
         "description": "Elite slime spawn of King Slime",
-        "tags": ["Slime", "Elite", "Summoner"],
+        "tags": [
+            "Slime",
+            "Elite",
+            "Summoner"
+        ],
         "stats": {
             "Health": "150 HP",
             "Damage": "7",
@@ -569,7 +664,9 @@
                 ]
             }
         ],
-        "related": ["slime-variants"]
+        "related": [
+            "slime-variants"
+        ]
     },
     {
         "id": "changeling-illusion",
@@ -578,7 +675,11 @@
         "icon": "fa-ghost",
         "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
         "description": "Deceptive illusion created by the Changeling",
-        "tags": ["Gumm-Gumm", "Illusion", "Deceptive"],
+        "tags": [
+            "Gumm-Gumm",
+            "Illusion",
+            "Deceptive"
+        ],
         "stats": {
             "Health": "50 HP",
             "Damage": "1",
@@ -597,7 +698,9 @@
                 ]
             }
         ],
-        "related": ["changeling"]
+        "related": [
+            "changeling"
+        ]
     },
     {
         "id": "angor-shadow-clone",
@@ -606,7 +709,11 @@
         "icon": "fa-clone",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "Shadow duplicate of Angor Rot",
-        "tags": ["Gumm-Gumm", "Shadow", "Clone"],
+        "tags": [
+            "Gumm-Gumm",
+            "Shadow",
+            "Clone"
+        ],
         "stats": {
             "Health": "800 HP",
             "Damage": "12",
@@ -632,7 +739,9 @@
                 ]
             }
         ],
-        "related": ["angor-rot"]
+        "related": [
+            "angor-rot"
+        ]
     },
     {
         "id": "gunmar-spirit-bular",
@@ -641,7 +750,11 @@
         "icon": "fa-ghost",
         "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
         "description": "Spectral form of Bular summoned by Gunmar",
-        "tags": ["Gumm-Gumm", "Spirit", "Elite"],
+        "tags": [
+            "Gumm-Gumm",
+            "Spirit",
+            "Elite"
+        ],
         "stats": {
             "Health": "1400 HP",
             "Damage": "35",
@@ -668,7 +781,10 @@
                 ]
             }
         ],
-        "related": ["gunmar-spirit-angor", "bular"]
+        "related": [
+            "gunmar-spirit-angor",
+            "bular"
+        ]
     },
     {
         "id": "gunmar-spirit-angor",
@@ -677,7 +793,11 @@
         "icon": "fa-ghost",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "description": "Spectral form of Angor Rot summoned by Gunmar",
-        "tags": ["Gumm-Gumm", "Spirit", "Elite"],
+        "tags": [
+            "Gumm-Gumm",
+            "Spirit",
+            "Elite"
+        ],
         "stats": {
             "Health": "1500 HP",
             "Damage": "40",
@@ -705,6 +825,1024 @@
                 ]
             }
         ],
-        "related": ["gunmar-spirit-bular", "angor-rot"]
+        "related": [
+            "gunmar-spirit-bular",
+            "angor-rot"
+        ]
+    },
+    {
+        "id": "decayed-scout",
+        "name": "Decayed Scout",
+        "category": "enemies",
+        "icon": "fa-skull",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A Decayed Scout from the Plains faction",
+        "tags": [
+            "Plains",
+            "Undead",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "26 HP",
+            "Damage": "4",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Decayed Scout is a hostile creature encountered in ApolloRPG. It belongs to the Plains faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "zombie-crawler",
+        "name": "Zombie Crawler",
+        "category": "enemies",
+        "icon": "fa-spider",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A Zombie Crawler from the Plains faction",
+        "tags": [
+            "Plains",
+            "Undead",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "22 HP",
+            "Damage": "5",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Zombie Crawler is a hostile creature encountered in ApolloRPG. It belongs to the Plains faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "swamp-leech",
+        "name": "Swamp Leech",
+        "category": "enemies",
+        "icon": "fa-water",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A Swamp Leech from the Plains faction",
+        "tags": [
+            "Plains",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "30 HP",
+            "Damage": "6",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Swamp Leech is a hostile creature encountered in ApolloRPG. It belongs to the Plains faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "ruin-skirmisher",
+        "name": "Ruin Skirmisher",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #8e9eab 0%, #2c3e50 100%)",
+        "description": "A Ruin Skirmisher from the Ruins faction",
+        "tags": [
+            "Ruins",
+            "Undead",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "44 HP",
+            "Damage": "7",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Ruin Skirmisher is a hostile creature encountered in ApolloRPG. It belongs to the Ruins faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "gem-golem",
+        "name": "Gem Golem",
+        "category": "enemies",
+        "icon": "fa-gem",
+        "gradient": "linear-gradient(135deg, #B388FF 0%, #7C4DFF 100%)",
+        "description": "A Gem Golem from the Gem faction",
+        "tags": [
+            "Gem",
+            "Undead",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "90 HP",
+            "Damage": "12",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Gem Golem is a hostile creature encountered in ApolloRPG. It belongs to the Gem faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "crystal-guardian",
+        "name": "Crystal Guardian",
+        "category": "enemies",
+        "icon": "fa-user-shield",
+        "gradient": "linear-gradient(135deg, #B388FF 0%, #7C4DFF 100%)",
+        "description": "A Crystal Guardian from the Gem faction",
+        "tags": [
+            "Gem",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "75 HP",
+            "Damage": "11",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Crystal Guardian is a hostile creature encountered in ApolloRPG. It belongs to the Gem faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "emerald-warden",
+        "name": "Emerald Warden",
+        "category": "enemies",
+        "icon": "fa-user-shield",
+        "gradient": "linear-gradient(135deg, #B388FF 0%, #7C4DFF 100%)",
+        "description": "A Emerald Warden from the Gem faction",
+        "tags": [
+            "Gem",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "65 HP",
+            "Damage": "10",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Emerald Warden is a hostile creature encountered in ApolloRPG. It belongs to the Gem faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "magma-stalker",
+        "name": "Magma Stalker",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "A Magma Stalker from the Magma faction",
+        "tags": [
+            "Magma",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "210 HP",
+            "Damage": "14",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Magma Stalker is a hostile creature encountered in ApolloRPG. It belongs to the Magma faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "lava-mauler",
+        "name": "Lava Mauler",
+        "category": "enemies",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+        "description": "A Lava Mauler from the Magma faction",
+        "tags": [
+            "Magma",
+            "Undead",
+            "Melee"
+        ],
+        "stats": {
+            "Health": "280 HP",
+            "Damage": "18",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Lava Mauler is a hostile creature encountered in ApolloRPG. It belongs to the Magma faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Basic attacks"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "plague-retcher",
+        "name": "Plague Retcher",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #2ecc71 0%, #145a32 100%)",
+        "description": "A Plague Retcher from the Plague faction",
+        "tags": [
+            "Plague",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "190 HP",
+            "Damage": "12",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Plague Retcher is a hostile creature encountered in ApolloRPG. It belongs to the Plague faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Wooden Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "PlagueInfect - inflicts Poison, Weakness"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "plague-stalker",
+        "name": "Plague Stalker",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #2ecc71 0%, #145a32 100%)",
+        "description": "A Plague Stalker from the Plague faction",
+        "tags": [
+            "Plague",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "260 HP",
+            "Damage": "16",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Plague Stalker is a hostile creature encountered in ApolloRPG. It belongs to the Plague faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "PlagueInfect - inflicts Poison, Weakness"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "frost-wanderer",
+        "name": "Frost Wanderer",
+        "category": "enemies",
+        "icon": "fa-snowflake",
+        "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
+        "description": "A Frost Wanderer from the Glacier faction",
+        "tags": [
+            "Glacier",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "260 HP",
+            "Damage": "12",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Frost Wanderer is a hostile creature encountered in ApolloRPG. It belongs to the Glacier faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "FrostChill - inflicts Mining Fatigue, Slow"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "glacier-brute",
+        "name": "Glacier Brute",
+        "category": "enemies",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
+        "description": "A Glacier Brute from the Glacier faction",
+        "tags": [
+            "Glacier",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "300 HP",
+            "Damage": "18",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Glacier Brute is a hostile creature encountered in ApolloRPG. It belongs to the Glacier faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "FrostChill - inflicts Mining Fatigue, Slow"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "corrupted-acolyte",
+        "name": "Corrupted Acolyte",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A Corrupted Acolyte from the Void faction",
+        "tags": [
+            "Void",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "330 HP",
+            "Damage": "14",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Corrupted Acolyte is a hostile creature encountered in ApolloRPG. It belongs to the Void faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Wooden Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "CorruptedInfect - inflicts Blindness, Wither"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "corrupted-archer",
+        "name": "Corrupted Archer",
+        "category": "enemies",
+        "icon": "fa-bullseye",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A Corrupted Archer from the Void faction",
+        "tags": [
+            "Void",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "360 HP",
+            "Damage": "12",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Corrupted Archer is a hostile creature encountered in ApolloRPG. It belongs to the Void faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "CorruptedBlinkShot - teleports"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "corrupted-brute",
+        "name": "Corrupted Brute",
+        "category": "enemies",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A Corrupted Brute from the Void faction",
+        "tags": [
+            "Void",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "560 HP",
+            "Damage": "20",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Corrupted Brute is a hostile creature encountered in ApolloRPG. It belongs to the Void faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "CorruptedTeleportStrike - deals 8 dmg; inflicts Slow; teleports",
+                    "CorruptedInfect - inflicts Blindness, Wither"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "corrupted-assassin",
+        "name": "Corrupted Assassin",
+        "category": "enemies",
+        "icon": "fa-user-ninja",
+        "gradient": "linear-gradient(135deg, #9C27B0 0%, #4A148C 100%)",
+        "description": "A Corrupted Assassin from the Void faction",
+        "tags": [
+            "Void",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "420 HP",
+            "Damage": "18",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Corrupted Assassin is a hostile creature encountered in ApolloRPG. It belongs to the Void faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "CorruptedShadowStep - deals 6 dmg; inflicts Blindness, Invisibility; teleports"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "gumm-gumm-grunt",
+        "name": "Gumm-Gumm Grunt",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "A Gumm-Gumm Grunt from the Darklands faction",
+        "tags": [
+            "Darklands",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "750 HP",
+            "Damage": "22",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Gumm-Gumm Grunt is a hostile creature encountered in ApolloRPG. It belongs to the Darklands faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "DarklandsRage - inflicts Increase Damage, Speed"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "darklands-stalker",
+        "name": "Darklands Stalker",
+        "category": "enemies",
+        "icon": "fa-skull-crossbones",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "A Darklands Stalker from the Darklands faction",
+        "tags": [
+            "Darklands",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "950 HP",
+            "Damage": "26",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Darklands Stalker is a hostile creature encountered in ApolloRPG. It belongs to the Darklands faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "DarklandsBlink - deals 7 dmg; teleports"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "darklands-troll-brute",
+        "name": "Darklands Troll Brute",
+        "category": "enemies",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+        "description": "A Darklands Troll Brute from the Darklands faction",
+        "tags": [
+            "Darklands",
+            "Undead",
+            "Melee",
+            "Skilled"
+        ],
+        "stats": {
+            "Health": "2000 HP",
+            "Damage": "38",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Darklands Troll Brute is a hostile creature encountered in ApolloRPG. It belongs to the Darklands faction and uses special abilities in combat.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Netherite Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "DarklandsCleave - deals 10 dmg",
+                    "DarklandsTremor - deals 8 dmg; inflicts Slow"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "goblin-skirmisher",
+        "name": "Goblin Skirmisher",
+        "category": "enemies",
+        "icon": "fa-mask",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Goblin Skirmisher",
+        "tags": [
+            "Gumm-Gumm",
+            "Goblin",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "120 HP",
+            "Damage": "10",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Goblin Skirmisher is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Stone Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "GoblinScurry - inflicts Speed"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "goblin-bomber",
+        "name": "Goblin Bomber",
+        "category": "enemies",
+        "icon": "fa-mask",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Goblin Bomber",
+        "tags": [
+            "Gumm-Gumm",
+            "Goblin",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "160 HP",
+            "Damage": "6",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Goblin Bomber is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "GoblinBombThrow - fires projectiles"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "orc-warrior",
+        "name": "Orc Warrior",
+        "category": "enemies",
+        "icon": "fa-axe",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Orc Warrior",
+        "tags": [
+            "Orc",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "280 HP",
+            "Damage": "18",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Orc Warrior is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "OrcBattleCry - inflicts Increase Damage, Speed"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "orc-brute",
+        "name": "Orc Brute",
+        "category": "enemies",
+        "icon": "fa-hammer",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Orc Brute",
+        "tags": [
+            "Orc",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "420 HP",
+            "Damage": "24",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Orc Brute is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Diamond Axe",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "OrcGroundSmash - deals 10 dmg; inflicts Slow"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "category": "enemies",
+        "icon": "fa-ghost",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Wraith",
+        "tags": [
+            "Undead",
+            "Spirit",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "220 HP",
+            "Damage": "14",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Wraith is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "WraithPhase - inflicts Invisibility, Speed"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "possessed-villager",
+        "name": "Possessed Villager",
+        "category": "enemies",
+        "icon": "fa-user-shield",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Possessed Villager",
+        "tags": [
+            "Undead",
+            "Spirit",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "260 HP",
+            "Damage": "16",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Possessed Villager is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Iron Sword",
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "PossessionCurse - inflicts Confusion, Weakness"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "harpy",
+        "name": "Harpy",
+        "category": "enemies",
+        "icon": "fa-feather",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Harpy",
+        "tags": [
+            "Flying",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "90 HP",
+            "Damage": "12",
+            "Armor": "Leather Set",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Harpy is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Leather Set"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "HarpyDive - deals 7 dmg; inflicts Slow; teleports"
+                ]
+            }
+        ],
+        "related": []
+    },
+    {
+        "id": "wyvern",
+        "name": "Wyvern",
+        "category": "enemies",
+        "icon": "fa-dragon",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "A mythical enemy: Wyvern",
+        "tags": [
+            "Flying",
+            "Melee",
+            "Mythical"
+        ],
+        "stats": {
+            "Health": "1040 HP",
+            "Damage": "59",
+            "Armor": "None",
+            "Experience": "Varies"
+        },
+        "fullDescription": "Wyvern is a mythical enemy encountered in ApolloRPG, featuring unique skills and behaviors.",
+        "sections": [
+            {
+                "title": "Equipment",
+                "content": [
+                    "Varies"
+                ]
+            },
+            {
+                "title": "Abilities",
+                "content": [
+                    "Wyvern AcquireTarget",
+                    "Wyvern StrafeFlight",
+                    "Wyvern FireBreath - fires projectiles",
+                    "Wyvern FireDive",
+                    "Wyvern WingGust - deals 16 dmg; knocks back"
+                ]
+            }
+        ],
+        "related": []
     }
 ]
