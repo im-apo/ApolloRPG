@@ -9,18 +9,39 @@
         <title>ApolloRPG Wiki</title>
 
         <!-- Twitter / X Card -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="ApolloRPG Wiki">
-        <meta name="twitter:description" content="Explore bosses, locations, lore, equipment, and progression in the ApolloRPG universe.">
-        <meta name="twitter:image" content="https://im-apo.github.io/ApolloRPG/icon.png">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ApolloRPG Wiki" />
+        <meta
+            name="twitter:description"
+            content="Explore bosses, locations, lore, equipment, and progression in the ApolloRPG universe."
+        />
+        <meta
+            name="twitter:image"
+            content="https://im-apo.github.io/ApolloRPG/icon.png"
+        />
 
         <!-- Open Graph (Discord, Slack, etc) -->
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="ApolloRPG Wiki">
-        <meta property="og:description" content="A complete wiki for ApolloRPG — bosses, locations, lore, equipment, and progression.">
-        <meta property="og:image" content="https://im-apo.github.io/ApolloRPG/icon.png">
-        <meta property="og:url" content="https://im-apo.github.io/ApolloRPG/">
-        <meta property="og:site_name" content="ApolloRPG Wiki">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ApolloRPG Wiki" />
+        <meta
+            property="og:description"
+            content="A complete wiki for ApolloRPG — bosses, locations, lore, equipment, and progression."
+        />
+        <meta
+            property="og:image"
+            content="https://im-apo.github.io/ApolloRPG/icon.png"
+        />
+        <meta property="og:url" content="https://im-apo.github.io/ApolloRPG/" />
+        <meta property="og:site_name" content="ApolloRPG Wiki" />
+
+        <script>
+            (function () {
+                const isGitHubPages = location.hostname.endsWith("github.io");
+                const base = document.createElement("base");
+                base.href = isGitHubPages ? "/ApolloRPG/" : "/";
+                document.head.prepend(base);
+            })();
+        </script>
 
         <link
             rel="stylesheet"
@@ -28,6 +49,7 @@
         />
         <link rel="stylesheet" href="style.css" />
     </head>
+
     <body>
         <!-- Header Navigation -->
         <header>
@@ -181,8 +203,8 @@
                             <span>Gemstones & Metals</span>
                         </div>
                     </div>
-					
-					<div
+
+                    <div
                         class="category-item"
                         data-category="loreitems"
                         onclick="filterCategory('loreitems', null)"
@@ -207,7 +229,7 @@
                         >
                             <span>Boss Lore</span>
                         </div>
-						<div
+                        <div
                             class="category-item"
                             data-category="loreitems"
                             data-subcategory="Extras"
@@ -254,6 +276,8 @@
                     <a onclick="showHome()">Home</a>
                 </div>
 
+                <!-- HOME VIEW (hero MUST be inside here) -->
+                <div id="homeView">
                     <div class="wiki-hero">
                         <h1>Welcome to ApolloRPG Wiki</h1>
                         <p>
@@ -261,7 +285,7 @@
                             more
                         </p>
                     </div>
-					<div id="homeView">
+
                     <div class="update-log-banner" onclick="openUpdateModal()">
                         <div class="update-banner-content">
                             <div class="update-banner-icon">
@@ -373,6 +397,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Category Grid on Main Page -->
                     <div class="category-grid">
                         <div
@@ -479,8 +504,8 @@
                             <h3>Materials</h3>
                             <p>Crafting materials and upgrade components</p>
                         </div>
-						
-						<div
+
+                        <div
                             class="category-card"
                             onclick="filterCategory('loreitems', null)"
                         >
@@ -598,12 +623,26 @@
                         <div class="wiki-grid" id="relatedItems"></div>
                     </div>
                 </div>
+
+                <!-- ✅ Secrets View (sibling, NOT inside detailView) -->
+                <div id="secretsView" class="hidden">
+                    <div class="category-header">
+                        <h1 id="secretsTitle">Secrets</h1>
+                        <p id="secretsDescription">
+                            You weren’t supposed to be here…
+                        </p>
+                    </div>
+
+                    <div class="detail-content">
+                        <div class="detail-description" id="secretsBody"></div>
+                    </div>
+                </div>
             </main>
         </div>
 
         <footer>
             <p>
-                ApolloRPG Wiki © 2026 | Made with
+                ApolloRPG Wiki © 2025 | Made with
                 <i class="fas fa-heart"></i> by the ApolloMC Team
             </p>
         </footer>
@@ -611,4 +650,3 @@
         <script src="script.js"></script>
     </body>
 </html>
-
