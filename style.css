@@ -120,6 +120,43 @@
 [data-theme="salvation"] .theme-dropdown-header { color: #8888aa; }
 [data-theme="salvation"] .theme-option-name { color: #1a1a2e; }
 [data-theme="salvation"] .theme-option-sub { color: #5a5a7a; }
+/* Detail view */
+[data-theme="salvation"] .detail-title-section h1 { color: #1a1a2e; }
+[data-theme="salvation"] .detail-badge { color: #4f46e5; background: rgba(79,70,229,0.1); }
+[data-theme="salvation"] .stat-label { color: #5a5a7a; }
+[data-theme="salvation"] .stat-value { color: #4f46e5; }
+[data-theme="salvation"] .stat-item { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .detail-description h2 { color: #1a1a2e; }
+[data-theme="salvation"] .detail-description p { color: #3a3a5a; }
+[data-theme="salvation"] .detail-section h3 { color: #1a1a2e; }
+[data-theme="salvation"] .detail-section li { color: #3a3a5a; }
+[data-theme="salvation"] .detail-section li::before { color: #4f46e5; }
+[data-theme="salvation"] .detail-header { background: #fff; border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .detail-content { background: #fff; border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .detail-section { border-top-color: rgba(0,0,0,0.08); }
+
+/* Related items section */
+[data-theme="salvation"] .related-items h2 { color: #1a1a2e; }
+[data-theme="salvation"] .wiki-card-title h3 { color: #1a1a2e; }
+
+/* Category list view */
+[data-theme="salvation"] .category-header h1 { color: #1a1a2e; }
+[data-theme="salvation"] .category-header p { color: #5a5a7a; }
+
+/* Modal */
+[data-theme="salvation"] .modal-container { background: #f2f2f8; }
+[data-theme="salvation"] .modal-header { background: #fff; border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .modal-header-content h2 { color: #1a1a2e; }
+[data-theme="salvation"] .update-card { background: rgba(0,0,0,0.03); }
+[data-theme="salvation"] .update-title { color: #1a1a2e; }
+[data-theme="salvation"] .update-description { color: #3a3a5a; }
+[data-theme="salvation"] .update-features li { color: #3a3a5a; }
+[data-theme="salvation"] .update-date { color: #5a5a7a; }
+
+/* Sidebar cards */
+[data-theme="salvation"] .category-section { background: #fff; border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .wiki-card { background: #fff; border-color: rgba(0,0,0,0.08); }
+[data-theme="salvation"] .wiki-card:hover { background: #f8f8ff; }
 
 [data-theme="earth"] {
     --bg-primary: #060e06;
