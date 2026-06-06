@@ -69,6 +69,41 @@
                         placeholder="Search wiki..."
                     />
                 </div>
+                <div class="theme-switcher" id="themeSwitcher">
+                    <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleThemeDropdown()" aria-label="Choose theme">
+                        <div class="theme-toggle-dot" id="themeToggleDot"></div>
+                        <span id="themeToggleLabel">Ocean</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="theme-dropdown" id="themeDropdown">
+                        <div class="theme-dropdown-header">Choose Theme</div>
+                        <div class="theme-option" data-theme="ocean" onclick="setTheme('ocean')">
+                            <div class="theme-swatch"><div style="background:#667eea"></div><div style="background:#0a0a0f"></div></div>
+                            <div class="theme-option-text"><span class="theme-option-name">Ocean</span><span class="theme-option-sub">Blue · Black</span></div>
+                            <i class="fas fa-check theme-check"></i>
+                        </div>
+                        <div class="theme-option" data-theme="crimson" onclick="setTheme('crimson')">
+                            <div class="theme-swatch"><div style="background:#ef4444"></div><div style="background:#0f0808"></div></div>
+                            <div class="theme-option-text"><span class="theme-option-name">Crimson</span><span class="theme-option-sub">Red · Black</span></div>
+                            <i class="fas fa-check theme-check"></i>
+                        </div>
+                        <div class="theme-option" data-theme="corruption" onclick="setTheme('corruption')">
+                            <div class="theme-swatch"><div style="background:#2a2a2a"></div><div style="background:#050505"></div></div>
+                            <div class="theme-option-text"><span class="theme-option-name">Corruption</span><span class="theme-option-sub">Full Black</span></div>
+                            <i class="fas fa-check theme-check"></i>
+                        </div>
+                        <div class="theme-option" data-theme="salvation" onclick="setTheme('salvation')">
+                            <div class="theme-swatch"><div style="background:#4f46e5"></div><div style="background:#f8f8fc"></div></div>
+                            <div class="theme-option-text"><span class="theme-option-name">Salvation</span><span class="theme-option-sub">Light Mode</span></div>
+                            <i class="fas fa-check theme-check"></i>
+                        </div>
+                        <div class="theme-option" data-theme="earth" onclick="setTheme('earth')">
+                            <div class="theme-swatch"><div style="background:#4ade80"></div><div style="background:#060e06"></div></div>
+                            <div class="theme-option-text"><span class="theme-option-name">Earth</span><span class="theme-option-sub">Green · Black</span></div>
+                            <i class="fas fa-check theme-check"></i>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
 
