@@ -373,7 +373,6 @@
                         </p>
                     </div>
 
-                    <!-- Current Update Banner (Home Only) -->
                     <div class="update-log-banner" onclick="openUpdateModal()">
                         <div class="update-banner-content">
                             <div class="update-banner-icon">
@@ -390,50 +389,6 @@
                         </div>
                     </div>
                     
-                    <!-- Past & Future Update Banners Row -->
-                    <div class="update-logs-row">
-                        <div class="update-log-banner update-log-past" onclick="showUpdatePage('past')">
-                            <div class="update-banner-content">
-                                <div class="update-banner-icon">
-                                    <i class="fas fa-book"></i>
-                                </div>
-                                <div class="update-banner-text">
-                                    <h3>Past Updates</h3>
-                                    <p>View the full history of changes</p>
-                                </div>
-                                <div class="update-banner-cta">
-                                    <span>View History</span>
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="update-log-banner update-log-future" onclick="showUpdatePage('future')">
-                            <div class="update-banner-content">
-                                <div class="update-banner-icon">
-                                    <i class="fas fa-rocket"></i>
-                                </div>
-                                <div class="update-banner-text">
-                                    <h3>Future Updates</h3>
-                                    <p>Sneak peeks at what's coming next</p>
-                                </div>
-                                <div class="update-banner-cta">
-                                    <span>View Roadmap</span>
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="recentlyViewedSection" style="display:none; margin-bottom: var(--spacing-xl);">
-                        <h2 style="font-size:1.5rem; color:#fff; margin-bottom: var(--spacing-lg);">
-                            <i class="fas fa-history" style="color: var(--accent-primary); margin-right: 8px;"></i>
-                            Recently Viewed
-                        </h2>
-                        <div class="wiki-grid" id="recentlyViewedGrid"></div>
-                    </div>
-
-                    <!-- Current Update Modal (unchanged, stays working) -->
                     <div id="updateModal" class="modal">
                         <div class="modal-overlay" onclick="closeUpdateModal()"></div>
                         <div class="modal-container">
@@ -446,7 +401,6 @@
                                     <i class="fas fa-times"></i>
                                 </button>
                             </div>
-                    
                             <div class="modal-body">
                                 <div class="update-card latest-rapid">
                                     <div class="update-header">
@@ -476,6 +430,14 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div id="recentlyViewedSection" style="display:none; margin-bottom: var(--spacing-xl);">
+                        <h2 style="font-size:1.5rem; color:#fff; margin-bottom: var(--spacing-lg);">
+                            <i class="fas fa-history" style="color: var(--accent-primary); margin-right: 8px;"></i>
+                            Recently Viewed
+                        </h2>
+                        <div class="wiki-grid" id="recentlyViewedGrid"></div>
                     </div>
 
                     <!-- Category Grid on Main Page -->
