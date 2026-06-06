@@ -392,43 +392,220 @@
                     <div id="updateModal" class="modal">
                         <div class="modal-overlay" onclick="closeUpdateModal()"></div>
                         <div class="modal-container">
+                    
+                            <!-- Modal Header -->
                             <div class="modal-header">
                                 <div class="modal-header-content">
                                     <i class="fas fa-newspaper"></i>
-                                    <h2>Update Changelog</h2>
+                                    <div>
+                                        <h2>Update Changelog</h2>
+                                        <span class="modal-subtitle">ApolloRPG — Full Version History</span>
+                                    </div>
                                 </div>
                                 <button class="modal-close" onclick="closeUpdateModal()">
                                     <i class="fas fa-times"></i>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <div class="update-card latest-rapid">
-                                    <div class="update-header">
-                                        <div class="update-title">
-                                            <span>Update: Daylight/Eclipse</span>
-                                            <span class="update-badge badge-dual-rapid">Latest + Major</span>
+                    
+                            <!-- Filter Bar -->
+                            <div class="changelog-filters">
+                                <button class="filter-btn active" data-filter="all" onclick="filterChangelog('all', this)">All</button>
+                                <button class="filter-btn" data-filter="major" onclick="filterChangelog('major', this)">Major</button>
+                                <button class="filter-btn" data-filter="minor" onclick="filterChangelog('minor', this)">Minor</button>
+                                <button class="filter-btn" data-filter="hotfix" onclick="filterChangelog('hotfix', this)">Hotfix</button>
+                                <button class="filter-btn" data-filter="launch" onclick="filterChangelog('launch', this)">Launch</button>
+                            </div>
+                    
+                            <!-- Modal Body — Timeline -->
+                            <div class="modal-body changelog-body">
+                    
+                                <!-- v2.0.0 — CURRENT / LATEST -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-latest">
+                                            <i class="fas fa-star"></i>
                                         </div>
-                                        <div class="update-date">
-                                            <i class="far fa-calendar"></i>
-                                            <span>Early-Mid 2026</span>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card changelog-card-latest">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v2.0.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                    <span class="changelog-type-badge badge-type-current">
+                                                        <i class="fas fa-circle"></i> Current
+                                                    </span>
+                                                </div>
+                                                <div class="changelog-name">Daylight / Eclipse</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Early–Mid 2026
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body expanded">
+                                            <p class="changelog-summary">
+                                                A landmark update bringing a whole new dimension, five new bosses, three new weapon tiers and sweeping progression changes.
+                                            </p>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>New Bosses:</strong> Gunmar The Black, Bular The Butcher, Angor Rot, Changeling, Infernax The Ancient</li>
+                                                    <li class="cl-added"><strong>New Dimension:</strong> Darklands</li>
+                                                    <li class="cl-added"><strong>New Weapons:</strong> Daylight, Eclipse, Moonlight</li>
+                                                    <li class="cl-added"><strong>New Armor Sets:</strong> Daylight Armour, Eclipse Armour, Moonlight Armour + New Vanity Sets</li>
+                                                    <li class="cl-added"><strong>New Materials:</strong> Awakenings (Boss Lore), New Metals and Gemstones</li>
+                                                    <li class="cl-added"><strong>New Accessories:</strong> Improved Crystals, New Crystal variants</li>
+                                                </ul>
+                                            </div>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title changed-title">
+                                                    <i class="fas fa-pen"></i> Changed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-changed"><strong>Rebalanced:</strong> Full progression rework + old boss rebalance</li>
+                                                    <li class="cl-changed"><strong>Renamed:</strong> Corrupted King</li>
+                                                    <li class="cl-changed"><strong>Reworked:</strong> Plot and Boss Summon system</li>
+                                                </ul>
+                                            </div>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title fixed-title">
+                                                    <i class="fas fa-wrench"></i> Fixed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-fixed">Join ApolloRPG now and check the new update for yourself!</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="update-description">
-                                        The Daylight/Eclipse update brings a new dimension, bosses and expanded content!
+                                </div>
+                    
+                                <!-- v1.1.0 — Major: The Awakening -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
                                     </div>
-                                    <ul class="update-features">
-                                        <li class="added"><strong>New Bosses:</strong> Gunmar The Black, Bular The Butcher, Angor Rot, Changeling, Infernax The Ancient</li>
-                                        <li class="added"><strong>New Dimension:</strong> Darklands</li>
-                                        <li class="added"><strong>New Weapons:</strong> Daylight, Eclipse, Moonlight</li>
-                                        <li class="added"><strong>New Armor Set:</strong> Daylight Armour, Eclipse Armour, Moonlight Armour, New Vanity Sets</li>
-                                        <li class="added"><strong>New Materials:</strong> Added Awakenings (Boss Lore), Added New Metals and Gemstones</li>
-                                        <li class="added"><strong>New Accessories:</strong> Improved Crystals and Added New Crystals</li>
-                                        <li class="changed"><strong>Rebalanced:</strong> The Progression and the Rest of the old Bosses</li>
-                                        <li class="changed"><strong>Changes:</strong> Renamed Corrupted King, Plot Rework, Boss Summon Rework.</li>
-                                        <li class="fixed"><strong>Check It Out!</strong> Join ApolloRPG now and check the new update for yourself!</li>
-                                    </ul>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.1.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">The Awakening</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">
+                                                Introduced awakened boss forms, an expanded lore system and the crystal accessory tier.
+                                            </p>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Awakened Bosses:</strong> Powered-up forms for the existing roster</li>
+                                                    <li class="cl-added"><strong>Lore Chapters:</strong> New story content and boss lore entries</li>
+                                                    <li class="cl-added"><strong>Crystals:</strong> Introduced the crystal accessory system</li>
+                                                </ul>
+                                            </div>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title changed-title">
+                                                    <i class="fas fa-pen"></i> Changed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-changed"><strong>Rebalanced:</strong> Early game difficulty curve</li>
+                                                    <li class="cl-changed"><strong>Reworked:</strong> Boss summon mechanics</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- v1.0.0 — Launch: Origins -->
+                                <div class="changelog-entry" data-type="launch">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-launch"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.0.0</span>
+                                                    <span class="changelog-type-badge badge-type-launch">Launch</span>
+                                                </div>
+                                                <div class="changelog-name">Origins</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Mid 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">
+                                                The original launch of ApolloRPG — core progression, the first boss roster and base dimensions.
+                                            </p>
+                    
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Core Systems:</strong> Full progression from Pre-Hardmode to Hardmode</li>
+                                                    <li class="cl-added"><strong>Bosses:</strong> Initial Pre-Hardmode and Hardmode boss roster</li>
+                                                    <li class="cl-added"><strong>Locations:</strong> Starting dimensions and zones</li>
+                                                    <li class="cl-added"><strong>Equipment:</strong> Base weapons, armour and accessories</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                    
+                            <!-- Stats Footer -->
+                            <div class="changelog-footer">
+                                <div class="changelog-stat">
+                                    <span class="changelog-stat-value">3</span>
+                                    <span class="changelog-stat-label">Updates</span>
+                                </div>
+                                <div class="changelog-stat">
+                                    <span class="changelog-stat-value">8+</span>
+                                    <span class="changelog-stat-label">Bosses Added</span>
+                                </div>
+                                <div class="changelog-stat">
+                                    <span class="changelog-stat-value">2</span>
+                                    <span class="changelog-stat-label">Dimensions</span>
+                                </div>
+                                <div class="changelog-stat">
+                                    <span class="changelog-stat-value">6+</span>
+                                    <span class="changelog-stat-label">Armor Sets</span>
+                                </div>
+                                <div class="changelog-stat">
+                                    <span class="changelog-stat-value">v2.0.0</span>
+                                    <span class="changelog-stat-label">Latest Version</span>
                                 </div>
                             </div>
+                    
                         </div>
                     </div>
 
