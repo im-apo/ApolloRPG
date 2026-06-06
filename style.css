@@ -656,12 +656,24 @@ nav {
     overflow: hidden;
 }
 
+/* Only animate when modal is open */
+.modal:not(.active) .update-card.latest-rapid::before,
+.modal:not(.active) .update-badge.badge-dual-rapid {
+    animation: none;
+}
+
 /* 3D tilt setup */
 .wiki-card,
 .category-card {
     transform-style: preserve-3d;
     transition: transform 0.15s ease, box-shadow 0.15s ease, background var(--transition), border-color var(--transition);
     will-change: transform;
+}
+
+/* Remove it when not hovered to free GPU memory */
+.wiki-card:not(:hover),
+.category-card:not(:hover) {
+    will-change: auto;
 }
 
 .wiki-card::before {
