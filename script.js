@@ -572,6 +572,7 @@ function renderWikiGrid(items) {
         `;
         })
         .join('');
+   document.querySelectorAll('.wiki-card').forEach(attachTilt);
 }
 
 function renderItemDetail(item) {
@@ -715,6 +716,7 @@ function showHome(push = true) {
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.querySelectorAll('.category-card').forEach(attachTilt);
 }
 
 function filterCategory(category, subcategory = null, push = true) {
@@ -1020,10 +1022,46 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // ROUTE BASED ON CURRENT URL
         handleRoute();
-
+        initTilt();
         console.log('ApolloRPG Wiki loaded successfully!');
     }
 });
+
+// ========================================
+// 3D TILT ON HOVER
+// ========================================
+function initTilt() {
+    document.querySelectorAll('.wiki-card, .category-card').forEach(attachTilt);
+}
+
+function attachTilt(card) {
+    card.addEventListener('mousemove', onTiltMove);
+    card.addEventListener('mouseleave', onTiltLeave);
+}
+
+function onTiltMove(e) {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const cx = rect.width / 2;
+    const cy = rect.height / 2;
+
+    // Max tilt in degrees — keep it subtle
+    const maxTilt = 6;
+    const rotateX = ((y - cy) / cy) * -maxTilt;
+    const rotateY = ((x - cx) / cx) * maxTilt;
+
+    card.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+}
+
+function onTiltLeave(e) {
+    const card = e.currentTarget;
+    card.style.transform = '';
+}
+
+window.initTilt = initTilt;
+window.attachTilt = attachTilt;
 
 // ========================================
 // UPDATE MODAL FUNCTIONS
