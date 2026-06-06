@@ -800,11 +800,15 @@ function showUpdatePage(type, push = true) {
     if (!UPDATE_PAGE_CONTENT[type]) return;
     const page = UPDATE_PAGE_CONTENT[type];
 
+    // Hide everything else
     document.getElementById('homeView').classList.add('hidden');
     document.getElementById('listView').classList.add('hidden');
     document.getElementById('detailView').classList.add('hidden');
-    document.getElementById('secretsView').classList.add('hidden');
+    document.getElementById('secretsView')?.classList.add('hidden');
     document.getElementById('updatePageView').classList.remove('hidden');
+
+    // Clear sidebar active states
+    document.querySelectorAll('.category-item').forEach(el => el.classList.remove('active'));
 
     document.getElementById('updatePageTitle').textContent = page.title;
     document.getElementById('updatePageDescription').textContent = page.description;
@@ -817,16 +821,12 @@ function showUpdatePage(type, push = true) {
         <span>${page.title}</span>
     `;
 
-    document.querySelectorAll('.category-item').forEach(el => el.classList.remove('active'));
-
     if (push) {
         history.pushState(null, '', `${BASE_PATH}/updates/${type}`);
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
-window.showUpdatePage = showUpdatePage;
 
 // ========================================
 // RENDER FUNCTIONS
