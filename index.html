@@ -388,783 +388,810 @@
     					</div>
     				</div>
     			   
-    				<!-- Modal Body — Timeline -->
-                    <div class="modal-body changelog-body">
-                    
-                        <!-- v2.0.0 — CURRENT / Rerelease -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-latest">
-                                    <i class="fas fa-star"></i>
+    				<div id="updateModal" class="modal">
+    					<div class="modal-overlay" onclick="closeUpdateModal()"></div>
+    					<div class="modal-container">
+    			   
+    						<!-- Modal Header -->
+    						<div class="modal-header">
+    							<div class="modal-header-content">
+    								<i class="fas fa-newspaper"></i>
+    								<div>
+    									<h2>Update Changelog</h2>
+    									<span class="modal-subtitle">ApolloRPG — Full Version History</span>
+    								</div>
+    							</div>
+    							<button class="modal-close" onclick="closeUpdateModal()">
+    								<i class="fas fa-times"></i>
+    							</button>
+    						</div>
+    			   
+    						<!-- Filter Bar -->
+    						<div class="changelog-filters">
+    							<button class="filter-btn active" data-filter="all" onclick="filterChangelog('all', this)">All</button>
+    							<button class="filter-btn" data-filter="major" onclick="filterChangelog('major', this)">Major</button>
+    							<button class="filter-btn" data-filter="minor" onclick="filterChangelog('minor', this)">Minor</button>
+    							<button class="filter-btn" data-filter="hotfix" onclick="filterChangelog('hotfix', this)">Hotfix</button>
+    							<button class="filter-btn" data-filter="launch" onclick="filterChangelog('launch', this)">Launch</button>
+    						</div>
+    			   
+    						<!-- Modal Body — Timeline -->
+                            <div class="modal-body changelog-body">
+                            
+                                <!-- v2.0.0 — CURRENT / Rerelease -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-latest">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card changelog-card-latest">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v2.0.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                    <span class="changelog-type-badge badge-type-launch">Launch</span>
+                                                    <span class="changelog-type-badge badge-type-current">
+                                                        <i class="fas fa-circle"></i> Current
+                                                    </span>
+                                                </div>
+                                                <div class="changelog-name">Daylight / Eclipse</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Release Date Unknown
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body expanded">
+                                            <p class="changelog-summary">
+                                                Official rerelease of the server as <strong>ApolloRPG</strong>. A landmark update bringing a whole new dimension, five new bosses, three new weapon tiers, sweeping progression changes, and a full world reset from the previous Mining Sim Java server.
+                                            </p>
+                            
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>New Dimension:</strong> Darklands</li>
+                                                    <li class="cl-added"><strong>New Bosses:</strong> Gunmar The Black, Bular The Butcher, Angor Rot, Changeling, Infernax The Ancient</li>
+                                                    <li class="cl-added"><strong>New Weapons:</strong> Daylight, Eclipse, Moonlight</li>
+                                                    <li class="cl-added"><strong>New Armor Sets:</strong> Daylight Armour, Eclipse Armour, Moonlight Armour + New Vanity Sets</li>
+                                                    <li class="cl-added"><strong>New Materials:</strong> Awakenings (Boss Lore), New Metals and Gemstones</li>
+                                                    <li class="cl-added"><strong>New Accessories:</strong> Improved Crystals, New Crystal variants, Amulets</li>
+                                                    <li class="cl-added"><strong>New Ores &amp; Systems:</strong> Ancient Beings and associated content</li>
+                                                </ul>
+                                            </div>
+                            
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title changed-title">
+                                                    <i class="fas fa-pen"></i> Changed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-changed"><strong>Rerelease:</strong> Complete server reset and rebranding from Mining Sim Java to ApolloRPG</li>
+                                                    <li class="cl-changed"><strong>Rebalanced:</strong> Full progression rework + old boss rebalance</li>
+                                                    <li class="cl-changed"><strong>Renamed:</strong> Corrupted King</li>
+                                                    <li class="cl-changed"><strong>Reworked:</strong> Plot and Boss Summon system</li>
+                                                </ul>
+                                            </div>
+                            
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title fixed-title">
+                                                    <i class="fas fa-wrench"></i> Fixed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-fixed">Various legacy issues carried over from previous versions</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="timeline-line"></div>
+                            
+                                <!-- v1.9.9 — Preparations -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.9.9</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Rerelease Preparations</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025 / Early 2026
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">
+                                                Final preparations for the full server reset and rerelease as ApolloRPG.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.5 Server Closure -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.5</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Server Closure</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">Server closed due to hosting issues.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.4 Daylight Preparations -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.4</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Daylight Preparations</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">Preparations for the Daylight Update.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.3 Cleanup (Removed Section) -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.3</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Cleanup</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
+                                                    <i class="fas fa-minus-circle"></i> Removed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-removed"><strong>Areas & Bosses:</strong> Incendium, Hovering Inferno, and Room of Mesmerisation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.2 Corruption Removal (Removed Section) -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.2</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Corruption Removal</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
+                                                    <i class="fas fa-minus-circle"></i> Removed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-removed"><strong>World Feature:</strong> Removed Corruption from the world</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.1 Tank Class -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.1</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Tank Class</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>New Class:</strong> Tank</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.7.0 Corruption & New Content -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.7.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Corruption &amp; New Content</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Items & Bosses:</strong> Corrupt King, Lights Bane, Nights Edge, Corrupted Armour, Menacing Magmar Helmet</li>
+                                                    <li class="cl-added"><strong>Lore:</strong> Added lore for Giant</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.6.2 Economy Rework -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.6.2</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Economy Rework</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>NPCs & Areas:</strong> Added Shopkeepers and Player Plaza</li>
+                                                </ul>
+                                            </div>
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title changed-title">
+                                                    <i class="fas fa-pen"></i> Changed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-changed"><strong>System:</strong> Full Economy Rework</li>
+                                                </ul>
+                                            </div>
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
+                                                    <i class="fas fa-minus-circle"></i> Removed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-removed"><strong>Area:</strong> Shop Floor 2 (Replaced by Player Plaza)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.6.1 Meteor Cleanup (Removed Section) -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.6.1</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Meteor Cleanup</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
+                                                    <i class="fas fa-minus-circle"></i> Removed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-removed"><strong>Event Content:</strong> Meteor Fallout</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.6.0 Elementals & Quests -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.6.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Elementals &amp; Quests</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Magmar Content:</strong> Magmar Elemental, Magmarite, Exorcist, More Quests</li>
+                                                    <li class="cl-added"><strong>Frost Content:</strong> Frost Elemental, Frost-themed content, Permafrost quest sword, Frostbite (v1.6.5)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.5.2 Meteor Event -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.5.2</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Meteor Event</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">Meteor Event — meteor crashes into a plot near the End Portal.</p>
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
+                                                    <i class="fas fa-minus-circle"></i> Removed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-removed"><strong>Server Branch:</strong> Deleted MSJ S2</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.5.0 Quests & Season 2 -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.5.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Quests &amp; Season 2</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Mid 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>System:</strong> Quests system</li>
+                                                    <li class="cl-added"><strong>New Branch:</strong> New server branch: Mining Sim Java S2 (Aether, Runic Items, etc.)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.4.0 Slime & Giant Update -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.4.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Slime &amp; Giant Update</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Bosses & Drops:</strong> King Slime and all drops, Giant and all drops</li>
+                                                    <li class="cl-added"><strong>Items & NPCs:</strong> Bandit for Undead Miner, Ultimate Pickaxe</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.3.0 Skeleton & Zombie Kings -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.3.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Skeleton &amp; Zombie Kings</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Bosses & Drops:</strong> Skeleton King and all related content</li>
+                                                    <li class="cl-added"><strong>Content (v1.3.2):</strong> Zombie King, Undead Miner, and Enlightened Pickaxe</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.2.0 Nether & End Expansion -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.2.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">Nether &amp; End Expansion</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Dimensions:</strong> Nether &amp; End fully opened</li>
+                                                    <li class="cl-added"><strong>Items:</strong> Incendium (custom Nether items)</li>
+                                                    <li class="cl-added"><strong>Bosses:</strong> Hovering Inferno (custom boss)</li>
+                                                    <li class="cl-added"><strong>Features:</strong> Shop Second Floor, Leaderboards, Room of Mesmerisation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.1.3 Shop Update -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.1.3</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Shop Update</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Shop:</strong> Added new items to the shop</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.1.2 Mine Fixes -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.1.2</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Mine Fixes</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title fixed-title">
+                                                    <i class="fas fa-wrench"></i> Fixed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-fixed"><strong>Bugs:</strong> Additional fixes related to the mine</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.1.1 Mine Fixes -->
+                                <div class="changelog-entry" data-type="minor">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-minor"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.1.1</span>
+                                                    <span class="changelog-type-badge badge-type-minor">Minor</span>
+                                                </div>
+                                                <div class="changelog-name">Mine Fixes</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title fixed-title">
+                                                    <i class="fas fa-wrench"></i> Fixed
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-fixed"><strong>Bugs:</strong> Fixed issues related to the mine</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.1.0 The Awakening -->
+                                <div class="changelog-entry" data-type="major">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-major"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.1.0</span>
+                                                    <span class="changelog-type-badge badge-type-major">Major</span>
+                                                </div>
+                                                <div class="changelog-name">The Awakening</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Late 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <div class="changelog-section">
+                                                <div class="changelog-section-title added-title">
+                                                    <i class="fas fa-plus-circle"></i> Added
+                                                </div>
+                                                <ul class="changelog-list">
+                                                    <li class="cl-added"><strong>Features:</strong> New shop additions, Mega Plots</li>
+                                                    <li class="cl-added"><strong>Events:</strong> Mob Arena (for future updates), and Mob Raids (Zombies, Endermen, etc. with custom loot)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- v1.0.0 — Launch -->
+                                <div class="changelog-entry" data-type="launch">
+                                    <div class="changelog-timeline">
+                                        <div class="timeline-dot dot-launch"></div>
+                                    </div>
+                                    <div class="changelog-card">
+                                        <div class="changelog-card-header" onclick="toggleChangelog(this)">
+                                            <div class="changelog-card-left">
+                                                <div class="changelog-version-row">
+                                                    <span class="changelog-version">v1.0.0</span>
+                                                    <span class="changelog-type-badge badge-type-launch">Launch</span>
+                                                </div>
+                                                <div class="changelog-name">Origins</div>
+                                                <div class="changelog-date">
+                                                    <i class="far fa-calendar"></i> Mid 2025
+                                                </div>
+                                            </div>
+                                            <div class="changelog-toggle-icon">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="changelog-card-body">
+                                            <p class="changelog-summary">
+                                                The server originally launched as <strong>Mining Sim Java</strong>, an official port of the popular PS3 Minecraft world "Mining Sim". At launch it only contained core features: Animal Farm, Small Plots, Large Plots, and the Mine. Many features present in later versions were not yet implemented.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
                             </div>
-                            <div class="changelog-card changelog-card-latest">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v2.0.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                            <span class="changelog-type-badge badge-type-launch">Launch</span>
-                                            <span class="changelog-type-badge badge-type-current">
-                                                <i class="fas fa-circle"></i> Current
-                                            </span>
-                                        </div>
-                                        <div class="changelog-name">Daylight / Eclipse</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Release Date Unknown
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-up"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body expanded">
-                                    <p class="changelog-summary">
-                                        Official rerelease of the server as <strong>ApolloRPG</strong>. A landmark update bringing a whole new dimension, five new bosses, three new weapon tiers, sweeping progression changes, and a full world reset from the previous Mining Sim Java server.
-                                    </p>
-                    
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>New Dimension:</strong> Darklands</li>
-                                            <li class="cl-added"><strong>New Bosses:</strong> Gunmar The Black, Bular The Butcher, Angor Rot, Changeling, Infernax The Ancient</li>
-                                            <li class="cl-added"><strong>New Weapons:</strong> Daylight, Eclipse, Moonlight</li>
-                                            <li class="cl-added"><strong>New Armor Sets:</strong> Daylight Armour, Eclipse Armour, Moonlight Armour + New Vanity Sets</li>
-                                            <li class="cl-added"><strong>New Materials:</strong> Awakenings (Boss Lore), New Metals and Gemstones</li>
-                                            <li class="cl-added"><strong>New Accessories:</strong> Improved Crystals, New Crystal variants, Amulets</li>
-                                            <li class="cl-added"><strong>New Ores &amp; Systems:</strong> Ancient Beings and associated content</li>
-                                        </ul>
-                                    </div>
-                    
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title changed-title">
-                                            <i class="fas fa-pen"></i> Changed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-changed"><strong>Rerelease:</strong> Complete server reset and rebranding from Mining Sim Java to ApolloRPG</li>
-                                            <li class="cl-changed"><strong>Rebalanced:</strong> Full progression rework + old boss rebalance</li>
-                                            <li class="cl-changed"><strong>Renamed:</strong> Corrupted King</li>
-                                            <li class="cl-changed"><strong>Reworked:</strong> Plot and Boss Summon system</li>
-                                        </ul>
-                                    </div>
-                    
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title fixed-title">
-                                            <i class="fas fa-wrench"></i> Fixed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-fixed">Various legacy issues carried over from previous versions</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.9.9 — Preparations -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.9.9</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Rerelease Preparations</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025 / Early 2026
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <p class="changelog-summary">
-                                        Final preparations for the full server reset and rerelease as ApolloRPG.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.5 Server Closure -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.5</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Server Closure</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <p class="changelog-summary">Server closed due to hosting issues.</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.4 Daylight Preparations -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.4</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Daylight Preparations</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <p class="changelog-summary">Preparations for the Daylight Update.</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.3 Cleanup (Removed Section) -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.3</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Cleanup</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
-                                            <i class="fas fa-minus-circle"></i> Removed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-removed"><strong>Areas & Bosses:</strong> Incendium, Hovering Inferno, and Room of Mesmerisation</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.2 Corruption Removal (Removed Section) -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.2</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Corruption Removal</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
-                                            <i class="fas fa-minus-circle"></i> Removed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-removed"><strong>World Feature:</strong> Removed Corruption from the world</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.1 Tank Class -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.1</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Tank Class</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>New Class:</strong> Tank</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.7.0 Corruption & New Content -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.7.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Corruption &amp; New Content</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Items & Bosses:</strong> Corrupt King, Lights Bane, Nights Edge, Corrupted Armour, Menacing Magmar Helmet</li>
-                                            <li class="cl-added"><strong>Lore:</strong> Added lore for Giant</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.6.2 Economy Rework -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.6.2</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Economy Rework</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>NPCs & Areas:</strong> Added Shopkeepers and Player Plaza</li>
-                                        </ul>
-                                    </div>
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title changed-title">
-                                            <i class="fas fa-pen"></i> Changed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-changed"><strong>System:</strong> Full Economy Rework</li>
-                                        </ul>
-                                    </div>
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
-                                            <i class="fas fa-minus-circle"></i> Removed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-removed"><strong>Area:</strong> Shop Floor 2 (Replaced by Player Plaza)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.6.1 Meteor Cleanup (Removed Section) -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.6.1</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Meteor Cleanup</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
-                                            <i class="fas fa-minus-circle"></i> Removed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-removed"><strong>Event Content:</strong> Meteor Fallout</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.6.0 Elementals & Quests -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.6.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Elementals &amp; Quests</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Magmar Content:</strong> Magmar Elemental, Magmarite, Exorcist, More Quests</li>
-                                            <li class="cl-added"><strong>Frost Content:</strong> Frost Elemental, Frost-themed content, Permafrost quest sword, Frostbite (v1.6.5)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.5.2 Meteor Event -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.5.2</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Meteor Event</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <p class="changelog-summary">Meteor Event — meteor crashes into a plot near the End Portal.</p>
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title removed-title" style="color: #ff4d4d;">
-                                            <i class="fas fa-minus-circle"></i> Removed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-removed"><strong>Server Branch:</strong> Deleted MSJ S2</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.5.0 Quests & Season 2 -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.5.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Quests &amp; Season 2</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Mid 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>System:</strong> Quests system</li>
-                                            <li class="cl-added"><strong>New Branch:</strong> New server branch: Mining Sim Java S2 (Aether, Runic Items, etc.)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.4.0 Slime & Giant Update -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.4.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Slime &amp; Giant Update</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Bosses & Drops:</strong> King Slime and all drops, Giant and all drops</li>
-                                            <li class="cl-added"><strong>Items & NPCs:</strong> Bandit for Undead Miner, Ultimate Pickaxe</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.3.0 Skeleton & Zombie Kings -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.3.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Skeleton &amp; Zombie Kings</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Bosses & Drops:</strong> Skeleton King and all related content</li>
-                                            <li class="cl-added"><strong>Content (v1.3.2):</strong> Zombie King, Undead Miner, and Enlightened Pickaxe</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.2.0 Nether & End Expansion -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.2.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">Nether &amp; End Expansion</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Dimensions:</strong> Nether &amp; End fully opened</li>
-                                            <li class="cl-added"><strong>Items:</strong> Incendium (custom Nether items)</li>
-                                            <li class="cl-added"><strong>Bosses:</strong> Hovering Inferno (custom boss)</li>
-                                            <li class="cl-added"><strong>Features:</strong> Shop Second Floor, Leaderboards, Room of Mesmerisation</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.1.3 Shop Update -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.1.3</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Shop Update</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Shop:</strong> Added new items to the shop</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.1.2 Mine Fixes -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.1.2</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Mine Fixes</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title fixed-title">
-                                            <i class="fas fa-wrench"></i> Fixed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-fixed"><strong>Bugs:</strong> Additional fixes related to the mine</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.1.1 Mine Fixes -->
-                        <div class="changelog-entry" data-type="minor">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-minor"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.1.1</span>
-                                            <span class="changelog-type-badge badge-type-minor">Minor</span>
-                                        </div>
-                                        <div class="changelog-name">Mine Fixes</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title fixed-title">
-                                            <i class="fas fa-wrench"></i> Fixed
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-fixed"><strong>Bugs:</strong> Fixed issues related to the mine</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.1.0 The Awakening -->
-                        <div class="changelog-entry" data-type="major">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-major"></div>
-                                <div class="timeline-line"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.1.0</span>
-                                            <span class="changelog-type-badge badge-type-major">Major</span>
-                                        </div>
-                                        <div class="changelog-name">The Awakening</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Late 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <div class="changelog-section">
-                                        <div class="changelog-section-title added-title">
-                                            <i class="fas fa-plus-circle"></i> Added
-                                        </div>
-                                        <ul class="changelog-list">
-                                            <li class="cl-added"><strong>Features:</strong> New shop additions, Mega Plots</li>
-                                            <li class="cl-added"><strong>Events:</strong> Mob Arena (for future updates), and Mob Raids (Zombies, Endermen, etc. with custom loot)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!-- v1.0.0 — Launch -->
-                        <div class="changelog-entry" data-type="launch">
-                            <div class="changelog-timeline">
-                                <div class="timeline-dot dot-launch"></div>
-                            </div>
-                            <div class="changelog-card">
-                                <div class="changelog-card-header" onclick="toggleChangelog(this)">
-                                    <div class="changelog-card-left">
-                                        <div class="changelog-version-row">
-                                            <span class="changelog-version">v1.0.0</span>
-                                            <span class="changelog-type-badge badge-type-launch">Launch</span>
-                                        </div>
-                                        <div class="changelog-name">Origins</div>
-                                        <div class="changelog-date">
-                                            <i class="far fa-calendar"></i> Mid 2025
-                                        </div>
-                                    </div>
-                                    <div class="changelog-toggle-icon">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                                <div class="changelog-card-body">
-                                    <p class="changelog-summary">
-                                        The server originally launched as <strong>Mining Sim Java</strong>, an official port of the popular PS3 Minecraft world "Mining Sim". At launch it only contained core features: Animal Farm, Small Plots, Large Plots, and the Mine. Many features present in later versions were not yet implemented.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                    </div>
     			   
     						<!-- Stats Footer -->
     						<div class="changelog-footer">
