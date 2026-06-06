@@ -169,6 +169,11 @@
                         <span>Main Page</span>
                     </div>
 
+                    <div class="category-item" onclick="showFavourites()">
+                        <i class="fas fa-star"></i>
+                        <span>Favourites</span>
+                    </div>
+
                     <div
                         class="category-item"
                         data-category="bosses"
@@ -368,23 +373,62 @@
                         </p>
                     </div>
 
-                    <div class="update-log-banner" onclick="openUpdateModal()">
-                        <div class="update-banner-content">
-                            <div class="update-banner-icon">
-                                <i class="fas fa-newspaper"></i>
-                            </div>
-                            <div class="update-banner-text">
-                                <h3>New Update: Daylight/Eclipse</h3>
-                                <p>
-                                    Darklands, Amulets, Ancient Beings, New Ores
-                                    & More!
-                                </p>
-                            </div>
-                            <div class="update-banner-cta">
-                                <span>View Changelog</span>
-                                <i class="fas fa-arrow-right"></i>
+                    <div class="update-logs-row">
+                        <div class="update-log-banner update-log-past" onclick="openUpdateModal('past')">
+                            <div class="update-banner-content">
+                                <div class="update-banner-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="update-banner-text">
+                                    <h3>Past Updates</h3>
+                                    <p>View the full history of changes</p>
+                                </div>
+                                <div class="update-banner-cta">
+                                    <span>View History</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
+                    
+                        <div class="update-log-banner update-log-current" onclick="openUpdateModal('current')">
+                            <div class="update-banner-content">
+                                <div class="update-banner-icon">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div class="update-banner-text">
+                                    <h3>New Update: Daylight/Eclipse</h3>
+                                    <p>Darklands, Amulets, Ancient Beings, New Ores & More!</p>
+                                </div>
+                                <div class="update-banner-cta">
+                                    <span>View Changelog</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="update-log-banner update-log-future" onclick="openUpdateModal('future')">
+                            <div class="update-banner-content">
+                                <div class="update-banner-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="update-banner-text">
+                                    <h3>Future Updates</h3>
+                                    <p>Sneak peeks at what's coming next</p>
+                                </div>
+                                <div class="update-banner-cta">
+                                    <span>View Roadmap</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="recentlyViewedSection" style="display:none; margin-bottom: var(--spacing-xl);">
+                        <h2 style="font-size:1.5rem; color:#fff; margin-bottom: var(--spacing-lg);">
+                            <i class="fas fa-history" style="color: var(--accent-primary); margin-right: 8px;"></i>
+                            Recently Viewed
+                        </h2>
+                        <div class="wiki-grid" id="recentlyViewedGrid"></div>
                     </div>
 
                     <div id="updateModal" class="modal">
