@@ -11,6 +11,8 @@
    THEMES
    ======================================== */
 
+
+
 :root,
 [data-theme="ocean"] {
     --bg-primary: #0a0a0f;
@@ -19,6 +21,7 @@
     --bg-card-hover: rgba(255,255,255,0.04);
     --border-color: rgba(255,255,255,0.08);
     --border-hover: rgba(102,126,234,0.3);
+    --glow-rgb: 120, 119, 198;
     --text-primary: #e0e0e0;
     --text-secondary: #888;
     --text-tertiary: #666;
@@ -53,6 +56,7 @@
     --bg-card-hover: rgba(255,80,80,0.05);
     --border-color: rgba(255,60,60,0.1);
     --border-hover: rgba(239,68,68,0.35);
+   --glow-rgb: 239, 68,  68;
     --text-primary: #e8d8d8;
     --text-secondary: #8a6a6a;
     --text-tertiary: #6a5050;
@@ -72,6 +76,7 @@
     --border-color: rgba(255,255,255,0.06);
     --border-hover: rgba(180,180,180,0.2);
     --text-primary: #c0c0c0;
+    --glow-rgb: 80,  80,  80;
     --text-secondary: #666;
     --text-tertiary: #444;
     --accent-primary: #888;
@@ -89,6 +94,7 @@
     --bg-card-hover: rgba(255,255,255,0.95);
     --border-color: rgba(0,0,0,0.08);
     --border-hover: rgba(79,70,229,0.3);
+    --glow-rgb: 79,  70,  229;
     --text-primary: #1a1a2e;
     --text-secondary: #5a5a7a;
     --text-tertiary: #8888aa;
@@ -108,6 +114,7 @@
     --border-color: rgba(74,222,128,0.08);
     --border-hover: rgba(74,222,128,0.3);
     --text-primary: #d4e8d4;
+    --glow-rgb: 74,  222, 128;
     --text-secondary: #6a8a6a;
     --text-tertiary: #4a6a4a;
     --accent-primary: #4ade80;
@@ -280,8 +287,8 @@ body::before {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(99, 102, 241, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(var(--glow-rgb), 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(var(--glow-rgb), 0.03) 0%, transparent 50%);
     pointer-events: none;
     z-index: 0;
 }
@@ -366,7 +373,7 @@ nav {
 .logo-icon {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--logo-gradient);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
@@ -513,7 +520,7 @@ nav {
 }
 
 .category-item.active {
-    background: rgba(102, 126, 234, 0.15);
+    background: rgba(var(--glow-rgb), 0.15);
     color: var(--accent-primary);
     border-left: 3px solid var(--accent-primary);
     padding-left: calc(0.75rem - 3px);
@@ -558,7 +565,7 @@ nav {
 .wiki-hero h1 {
     font-size: 3rem;
     margin-bottom: var(--spacing-md);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--hero-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -921,7 +928,7 @@ footer i {
    UPDATE LOG BANNER
    ======================================== */
 .update-log-banner {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+    background: linear-gradient(135deg, rgba(var(--glow-rgb), 0.12) 0%, rgba(var(--glow-rgb), 0.06) 100%);
     border: 2px solid var(--border-color);
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg);
@@ -962,7 +969,7 @@ footer i {
 .update-banner-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--logo-gradient);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
