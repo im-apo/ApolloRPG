@@ -49,7 +49,6 @@ const THEMES = {
     ocean:      { label: 'Ocean',      dot: 'linear-gradient(135deg,#667eea,#0a0a0f)' },
     crimson:    { label: 'Crimson',    dot: 'linear-gradient(135deg,#ef4444,#0f0808)' },
     corruption: { label: 'Corruption', dot: 'linear-gradient(135deg,#2a2a2a,#050505)' },
-    salvation:  { label: 'Salvation',  dot: 'linear-gradient(135deg,#4f46e5,#f8f8fc)' },
     earth:      { label: 'Earth',      dot: 'linear-gradient(135deg,#4ade80,#060e06)' },
 };
 
