@@ -43,6 +43,53 @@ function stripBasePath(pathname) {
 }
 
 // ========================================
+// THEME SYSTEM
+// ========================================
+const THEMES = {
+    ocean:      { label: 'Ocean',      dot: 'linear-gradient(135deg,#667eea,#0a0a0f)' },
+    crimson:    { label: 'Crimson',    dot: 'linear-gradient(135deg,#ef4444,#0f0808)' },
+    corruption: { label: 'Corruption', dot: 'linear-gradient(135deg,#2a2a2a,#050505)' },
+    salvation:  { label: 'Salvation',  dot: 'linear-gradient(135deg,#4f46e5,#f8f8fc)' },
+    earth:      { label: 'Earth',      dot: 'linear-gradient(135deg,#4ade80,#060e06)' },
+};
+
+function applyTheme(name) {
+    if (!THEMES[name]) name = 'ocean';
+    document.documentElement.setAttribute('data-theme', name);
+    const dot = document.getElementById('themeToggleDot');
+    const label = document.getElementById('themeToggleLabel');
+    if (dot)   dot.style.background = THEMES[name].dot;
+    if (label) label.textContent = THEMES[name].label;
+    document.querySelectorAll('.theme-option').forEach(el => {
+        el.classList.toggle('active', el.dataset.theme === name);
+    });
+}
+
+function setTheme(name) {
+    applyTheme(name);
+    try { localStorage.setItem('apolloTheme', name); } catch(e) {}
+    closeThemeDropdown();
+}
+
+function toggleThemeDropdown() {
+    const dd = document.getElementById('themeDropdown');
+    dd.classList.toggle('open');
+}
+
+function closeThemeDropdown() {
+    document.getElementById('themeDropdown')?.classList.remove('open');
+}
+
+// Close when clicking outside
+document.addEventListener('click', e => {
+    const switcher = document.getElementById('themeSwitcher');
+    if (switcher && !switcher.contains(e.target)) closeThemeDropdown();
+});
+
+window.setTheme = setTheme;
+window.toggleThemeDropdown = toggleThemeDropdown;
+
+// ========================================
 // SLUG HELPERS
 // ========================================
 function toSlug(str) {
@@ -932,6 +979,14 @@ window.addEventListener('popstate', () => {
 // ========================================
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('ApolloRPG Wiki initializing...');
+
+   // Load saved theme immediately to avoid flash
+   try {
+       const saved = localStorage.getItem('apolloTheme') || 'ocean';
+       applyTheme(saved);
+   } catch(e) {
+       applyTheme('ocean');
+   }
 
     // Initialize collapsible categories FIRST
     initCollapsibleCategories();
