@@ -705,6 +705,130 @@ function initCollapsibleCategories() {
 window.toggleCategoryDropdown = toggleCategoryDropdown;
 
 // ========================================
+// UPDATE LOG PAGES
+// ========================================
+const UPDATE_PAGE_CONTENT = {
+    past: {
+        title: 'Past Updates',
+        description: 'The full history of ApolloRPG updates',
+        body: `
+            <div class="update-card major" style="margin-bottom: var(--spacing-xl);">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: The Awakening</span>
+                        <span class="update-badge badge-major">Major</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Late 2025</div>
+                </div>
+                <div class="update-description">
+                    Added awakened boss forms, new lore chapters, and the crystal accessory system.
+                </div>
+                <ul class="update-features">
+                    <li class="added"><strong>Awakened Bosses:</strong> New powered-up boss forms for existing roster</li>
+                    <li class="added"><strong>Lore Chapters:</strong> New story content and boss lore entries</li>
+                    <li class="added"><strong>Crystals:</strong> Introduced the crystal accessory system</li>
+                    <li class="changed"><strong>Rebalanced:</strong> Early game difficulty curve</li>
+                    <li class="changed"><strong>Reworked:</strong> Boss summon mechanics</li>
+                </ul>
+            </div>
+
+            <div class="update-card minor" style="margin-bottom: var(--spacing-xl);">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: Origins</span>
+                        <span class="update-badge badge-minor">Launch</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Mid 2025</div>
+                </div>
+                <div class="update-description">
+                    The original launch of ApolloRPG with core bosses, progression and base systems.
+                </div>
+                <ul class="update-features">
+                    <li class="added"><strong>Launch:</strong> Core game systems and progression</li>
+                    <li class="added"><strong>Bosses:</strong> Initial Pre-Hardmode and Hardmode boss roster</li>
+                    <li class="added"><strong>Locations:</strong> Starting dimensions and zones</li>
+                    <li class="added"><strong>Equipment:</strong> Base weapons, armour and accessories</li>
+                </ul>
+            </div>
+        `
+    },
+
+    future: {
+        title: 'Future Updates',
+        description: 'Planned content and the ApolloRPG roadmap',
+        body: `
+            <div class="update-card" style="border-left-color: var(--accent-primary); margin-bottom: var(--spacing-xl);">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Next Update: TBA</span>
+                        <span class="update-badge" style="background: rgba(var(--glow-rgb),0.15); color: var(--accent-primary);">Planned</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Coming Soon</div>
+                </div>
+                <div class="update-description">
+                    What the team is currently working towards after Daylight/Eclipse.
+                </div>
+                <ul class="update-features">
+                    <li class="added"><strong>New Dimension:</strong> Post-Darklands area — details TBA</li>
+                    <li class="added"><strong>New Boss Chain:</strong> Continued post-Darklands progression</li>
+                    <li class="added"><strong>Drop Tables:</strong> Full crafting paths and upgrade routes</li>
+                    <li class="added"><strong>More Lore:</strong> Expanded awakening chapters</li>
+                    <li class="changed"><strong>Wiki:</strong> Comparison tool, secret lore pages, ARG trail</li>
+                </ul>
+            </div>
+
+            <div class="update-card" style="border-left-color: var(--text-tertiary); opacity: 0.6;">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Far Future: Unknown</span>
+                        <span class="update-badge" style="background: rgba(255,255,255,0.05); color: var(--text-secondary);">Concept</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Unknown</div>
+                </div>
+                <div class="update-description">
+                    Long term concepts being considered — nothing confirmed yet.
+                </div>
+                <ul class="update-features">
+                    <li class="fixed"><strong>More to come</strong> as the team shares more details</li>
+                </ul>
+            </div>
+        `
+    }
+};
+
+function showUpdatePage(type, push = true) {
+    if (!UPDATE_PAGE_CONTENT[type]) return;
+    const page = UPDATE_PAGE_CONTENT[type];
+
+    document.getElementById('homeView').classList.add('hidden');
+    document.getElementById('listView').classList.add('hidden');
+    document.getElementById('detailView').classList.add('hidden');
+    document.getElementById('secretsView').classList.add('hidden');
+    document.getElementById('updatePageView').classList.remove('hidden');
+
+    document.getElementById('updatePageTitle').textContent = page.title;
+    document.getElementById('updatePageDescription').textContent = page.description;
+    document.getElementById('updatePageBody').innerHTML = page.body;
+
+    document.getElementById('breadcrumb').innerHTML = `
+        <i class="fas fa-home"></i>
+        <a onclick="showHome(true)">Home</a>
+        <span>›</span>
+        <span>${page.title}</span>
+    `;
+
+    document.querySelectorAll('.category-item').forEach(el => el.classList.remove('active'));
+
+    if (push) {
+        history.pushState(null, '', `${BASE_PATH}/updates/${type}`);
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+window.showUpdatePage = showUpdatePage;
+
+// ========================================
 // RENDER FUNCTIONS
 // ========================================
 function renderWikiGrid(items) {
@@ -906,6 +1030,7 @@ function showHome(push = true) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     renderRecentlyViewed();
     document.querySelectorAll('.category-card').forEach(attachTilt);
+    document.getElementById('updatePageView')?.classList.add('hidden');
 }
 
 function filterCategory(category, subcategory = null, push = true) {
@@ -1003,6 +1128,7 @@ function filterCategory(category, subcategory = null, push = true) {
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('updatePageView')?.classList.add('hidden');
 }
 
 function handleSearch(query) {
@@ -1068,6 +1194,7 @@ function showItemDetail(itemId, push = true) {
     STATE.currentItem = item;
 
     renderItemDetail(item);
+    document.getElementById('updatePageView')?.classList.add('hidden');
     addToRecentlyViewed(item.id);
 
     if (push) {
@@ -1124,6 +1251,17 @@ function handleRoute() {
         showSecrets(secretSlug, false);
         return;
     }
+
+   if (first === 'updates') {
+       const type = segments[1] || 'current';
+       if (type === 'current') {
+           showHome(false);
+           setTimeout(() => openUpdateModal(), 100);
+       } else {
+           showUpdatePage(type, false);
+       }
+       return;
+   }
 
    if (first === 'favourites') {
        showFavourites();
