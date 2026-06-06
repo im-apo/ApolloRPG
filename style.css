@@ -105,6 +105,21 @@
     --logo-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     --search-bg: rgba(0,0,0,0.04);
 }
+[data-theme="salvation"] .wiki-hero p { color: #5a5a7a; }
+[data-theme="salvation"] .wiki-card-description { color: #5a5a7a; }
+[data-theme="salvation"] .wiki-card-category { color: #8888aa; }
+[data-theme="salvation"] .category-card p { color: #5a5a7a; }
+[data-theme="salvation"] .category-card h3 { color: #1a1a2e; }
+[data-theme="salvation"] .category-section h3 { color: #1a1a2e; }
+[data-theme="salvation"] .breadcrumb { color: #5a5a7a; }
+[data-theme="salvation"] .breadcrumb a { color: #5a5a7a; }
+[data-theme="salvation"] footer { color: #8888aa; }
+[data-theme="salvation"] .update-banner-text p { color: #5a5a7a; }
+[data-theme="salvation"] .update-banner-text h3 { color: #1a1a2e; }
+[data-theme="salvation"] .theme-toggle-btn { color: #1a1a2e; }
+[data-theme="salvation"] .theme-dropdown-header { color: #8888aa; }
+[data-theme="salvation"] .theme-option-name { color: #1a1a2e; }
+[data-theme="salvation"] .theme-option-sub { color: #5a5a7a; }
 
 [data-theme="earth"] {
     --bg-primary: #060e06;
@@ -611,7 +626,6 @@ nav {
 .category-card:hover {
     background: var(--bg-card-hover);
     border-color: var(--border-hover);
-    transform: translateY(-4px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -676,6 +690,14 @@ nav {
     overflow: hidden;
 }
 
+/* 3D tilt setup */
+.wiki-card,
+.category-card {
+    transform-style: preserve-3d;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background var(--transition), border-color var(--transition);
+    will-change: transform;
+}
+
 .wiki-card::before {
     content: '';
     position: absolute;
@@ -695,7 +717,6 @@ nav {
 .wiki-card:hover {
     background: var(--bg-card-hover);
     border-color: var(--border-hover);
-    transform: translateY(-4px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
