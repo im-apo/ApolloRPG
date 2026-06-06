@@ -49,6 +49,12 @@ const THEMES = {
     ocean:      { label: 'Ocean',      dot: 'linear-gradient(135deg,#667eea,#0a0a0f)' },
     crimson:    { label: 'Crimson',    dot: 'linear-gradient(135deg,#ef4444,#0f0808)' },
     corruption: { label: 'Corruption', dot: 'linear-gradient(135deg,#2a2a2a,#050505)' },
+    void:    { label: 'Void',    dot: 'linear-gradient(135deg,#a855f7,#07050f)' },
+    inferno: { label: 'Inferno', dot: 'linear-gradient(135deg,#f97316,#0f0700)' },
+    abyss:   { label: 'Abyss',   dot: 'linear-gradient(135deg,#06b6d4,#00080f)' },
+    phantom: { label: 'Phantom', dot: 'linear-gradient(135deg,#ec4899,#0f0008)' },
+    toxic:   { label: 'Toxic',   dot: 'linear-gradient(135deg,#eab308,#080f00)' },
+    spectre: { label: 'Spectre', dot: 'linear-gradient(135deg,#e0e0e0,#080808)' },
     earth:      { label: 'Earth',      dot: 'linear-gradient(135deg,#4ade80,#060e06)' },
 };
 
