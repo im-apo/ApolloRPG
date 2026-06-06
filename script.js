@@ -1426,71 +1426,8 @@ window.attachTilt = attachTilt;
 // ========================================
 // UPDATE MODAL FUNCTIONS
 // ========================================
-function openUpdateModal(type = 'current') {
+function openUpdateModal() {
     const modal = document.getElementById('updateModal');
-    const body = modal.querySelector('.modal-body');
-
-    if (type === 'current') {
-        body.innerHTML = `<!-- your existing current update card HTML -->`;
-    }
-
-    if (type === 'past') {
-        body.innerHTML = `
-            <div class="update-card major">
-                <div class="update-header">
-                    <div class="update-title">
-                        <span>Update: The Awakening</span>
-                        <span class="update-badge badge-major">Major</span>
-                    </div>
-                    <div class="update-date"><i class="far fa-calendar"></i> Late 2025</div>
-                </div>
-                <div class="update-description">Added awakened boss forms, new lore chapters, and crystal accessories.</div>
-                <ul class="update-features">
-                    <li class="added"><strong>Awakened Bosses:</strong> New powered-up boss forms</li>
-                    <li class="added"><strong>Lore Chapters:</strong> New story content</li>
-                    <li class="added"><strong>Crystals:</strong> New accessory system</li>
-                    <li class="changed"><strong>Rebalanced:</strong> Early game difficulty</li>
-                </ul>
-            </div>
-            <div class="update-card minor">
-                <div class="update-header">
-                    <div class="update-title">
-                        <span>Update: Origins</span>
-                        <span class="update-badge badge-minor">Minor</span>
-                    </div>
-                    <div class="update-date"><i class="far fa-calendar"></i> Mid 2025</div>
-                </div>
-                <div class="update-description">The original launch of ApolloRPG with core bosses and progression.</div>
-                <ul class="update-features">
-                    <li class="added"><strong>Launch:</strong> Core game systems</li>
-                    <li class="added"><strong>Bosses:</strong> Initial boss roster</li>
-                    <li class="added"><strong>Progression:</strong> Pre-Hardmode and Hardmode paths</li>
-                </ul>
-            </div>
-        `;
-    }
-
-    if (type === 'future') {
-        body.innerHTML = `
-            <div class="update-card" style="border-left-color: var(--accent-primary);">
-                <div class="update-header">
-                    <div class="update-title">
-                        <span>Update: TBA</span>
-                        <span class="update-badge" style="background: rgba(var(--glow-rgb),0.2); color: var(--accent-primary);">Planned</span>
-                    </div>
-                    <div class="update-date"><i class="far fa-calendar"></i> Coming Soon</div>
-                </div>
-                <div class="update-description">What the team is currently working towards.</div>
-                <ul class="update-features">
-                    <li class="added"><strong>New Dimension:</strong> Details TBA</li>
-                    <li class="added"><strong>New Boss Chain:</strong> Post-Darklands progression</li>
-                    <li class="added"><strong>Drop Tables:</strong> Full crafting paths</li>
-                    <li class="changed"><strong>Wiki:</strong> Comparison tool, secret lore pages</li>
-                </ul>
-            </div>
-        `;
-    }
-
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
@@ -1501,16 +1438,15 @@ function closeUpdateModal() {
     document.body.style.overflow = '';
 }
 
+window.openUpdateModal = openUpdateModal;
+window.closeUpdateModal = closeUpdateModal;
+
 // Close modal on ESC key
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeUpdateModal();
     }
 });
-
-// Export functions
-window.openUpdateModal = openUpdateModal;
-window.closeUpdateModal = closeUpdateModal;
 
 // Export functions for onclick handlers
 window.showHome = showHome;
