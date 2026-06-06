@@ -452,6 +452,181 @@ function debounce(func, wait) {
 }
 
 // ========================================
+// ZOOM-PROOF SIDEBAR
+// ========================================
+function lockSidebarSize() {
+    const sidebar = document.querySelector('.sidebar');
+    if (!sidebar) return;
+    const scale = 1 / window.devicePixelRatio;
+    // Only apply if zoomed
+    if (Math.abs(scale - 1) > 0.05) {
+        sidebar.style.transform = `scale(${scale})`;
+        sidebar.style.width = `${280 / scale}px`;
+        sidebar.style.transformOrigin = 'top left';
+    } else {
+        sidebar.style.transform = '';
+        sidebar.style.width = '';
+    }
+}
+
+window.addEventListener('resize', lockSidebarSize);
+lockSidebarSize();
+
+// ========================================
+// KEYBOARD SHORTCUTS
+// ========================================
+let lastEscapeTime = 0;
+
+document.addEventListener('keydown', (e) => {
+    const searchInput = document.getElementById('searchInput');
+    const isTyping = document.activeElement === searchInput;
+
+    // Press / to focus search
+    if (e.key === '/' && !isTyping) {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select();
+        showToast('Search focused');
+        return;
+    }
+
+    // Escape key handling
+    if (e.key === 'Escape') {
+        if (isTyping) {
+            // Single escape — exit search, clear input, go home
+            searchInput.blur();
+            searchInput.value = '';
+            STATE.searchQuery = '';
+            showHome(true);
+            showToast('Search cleared');
+            return;
+        }
+
+        // Double escape — return to homepage
+        const now = Date.now();
+        if (now - lastEscapeTime < 400) {
+            showHome(true);
+            showToast('Home');
+        }
+        lastEscapeTime = now;
+    }
+});
+
+// ========================================
+// RECENTLY VIEWED
+// ========================================
+const MAX_RECENT = 5;
+
+function getRecentlyViewed() {
+    try {
+        return JSON.parse(localStorage.getItem('apolloRecent') || '[]');
+    } catch { return []; }
+}
+
+function addToRecentlyViewed(itemId) {
+    try {
+        let recent = getRecentlyViewed();
+        recent = recent.filter(id => id !== itemId);
+        recent.unshift(itemId);
+        recent = recent.slice(0, MAX_RECENT);
+        localStorage.setItem('apolloRecent', JSON.stringify(recent));
+    } catch {}
+}
+
+function renderRecentlyViewed() {
+    const container = document.getElementById('recentlyViewedGrid');
+    if (!container) return;
+    const recent = getRecentlyViewed();
+    const items = recent.map(id => getItemById(id)).filter(Boolean);
+
+    if (items.length === 0) {
+        container.parentElement.style.display = 'none';
+        return;
+    }
+
+    container.parentElement.style.display = 'block';
+    container.innerHTML = items.map(item => `
+        <div class="wiki-card fade-in" onclick="showItemDetail('${item.id}', true)">
+            <div class="wiki-card-header">
+                <div class="wiki-card-icon" style="background: ${item.gradient};">
+                    <i class="fas ${item.icon}"></i>
+                </div>
+                <div class="wiki-card-title">
+                    <h3>${item.name}</h3>
+                    <div class="wiki-card-category">${item.category}</div>
+                </div>
+            </div>
+            <div class="wiki-card-description">${item.description}</div>
+        </div>
+    `).join('');
+
+    container.querySelectorAll('.wiki-card').forEach(attachTilt);
+}
+
+// ========================================
+// FAVOURITES
+// ========================================
+function getFavourites() {
+    try {
+        return JSON.parse(localStorage.getItem('apolloFavourites') || '[]');
+    } catch { return []; }
+}
+
+function toggleFavourite(itemId, e) {
+    e.stopPropagation();
+    try {
+        let favs = getFavourites();
+        if (favs.includes(itemId)) {
+            favs = favs.filter(id => id !== itemId);
+            showToast('Removed from favourites');
+        } else {
+            favs.push(itemId);
+            showToast('Added to favourites ★');
+        }
+        localStorage.setItem('apolloFavourites', JSON.stringify(favs));
+        // Update all visible star buttons
+        document.querySelectorAll(`[data-fav-id="${itemId}"]`).forEach(btn => {
+            btn.classList.toggle('fav-active', favs.includes(itemId));
+        });
+    } catch {}
+}
+
+function isFavourite(itemId) {
+    return getFavourites().includes(itemId);
+}
+
+function showFavourites() {
+    if (!STATE.dataLoaded) return;
+    const favs = getFavourites();
+    const items = favs.map(id => getItemById(id)).filter(Boolean);
+
+    STATE.currentView = 'list';
+
+    document.getElementById('homeView').classList.add('hidden');
+    document.getElementById('listView').classList.remove('hidden');
+    document.getElementById('detailView').classList.add('hidden');
+
+    document.getElementById('categoryTitle').innerHTML =
+        `<i class="fas fa-star" style="color:var(--accent-primary);margin-right:8px"></i>Favourites`;
+    document.getElementById('categoryDescription').textContent =
+        items.length > 0 ? `${items.length} saved item${items.length !== 1 ? 's' : ''}` : 'Nothing saved yet — star items to add them here';
+
+    document.getElementById('breadcrumb').innerHTML = `
+        <i class="fas fa-home"></i>
+        <a onclick="showHome(true)">Home</a>
+        <span>›</span>
+        <span>Favourites</span>
+    `;
+
+    renderWikiGrid(items);
+    history.pushState(null, '', `${BASE_PATH}/favourites`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+window.toggleFavourite = toggleFavourite;
+window.showFavourites = showFavourites;
+
+// ========================================
 // COLLAPSIBLE CATEGORY SIDEBAR (SIMPLER)
 // ========================================
 function toggleCategoryDropdown(categoryElement) {
@@ -557,6 +732,12 @@ function renderWikiGrid(items) {
                         <h3>${item.name}</h3>
                         <div class="wiki-card-category">${item.category}</div>
                     </div>
+                    <button class="fav-btn ${isFavourite(item.id) ? 'fav-active' : ''}"
+                        data-fav-id="${item.id}"
+                        onclick="toggleFavourite('${item.id}', event)"
+                        title="Add to favourites">
+                        <i class="fas fa-star"></i>
+                    </button>
                 </div>
                 <div class="wiki-card-description">
                     ${item.description}
@@ -577,7 +758,9 @@ function renderWikiGrid(items) {
         `;
         })
         .join('');
-   document.querySelectorAll('.wiki-card').forEach(attachTilt);
+
+    // Reattach tilt to newly rendered cards
+    document.querySelectorAll('.wiki-card').forEach(attachTilt);
 }
 
 function renderItemDetail(item) {
@@ -721,6 +904,7 @@ function showHome(push = true) {
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    renderRecentlyViewed();
     document.querySelectorAll('.category-card').forEach(attachTilt);
 }
 
@@ -884,11 +1068,33 @@ function showItemDetail(itemId, push = true) {
     STATE.currentItem = item;
 
     renderItemDetail(item);
+    addToRecentlyViewed(item.id);
 
     if (push) {
         history.pushState(null, '', buildItemPath(item));
     }
 }
+
+// ========================================
+// TOAST
+// ========================================
+let toastTimeout = null;
+
+function showToast(message) {
+    let toast = document.getElementById('globalToast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'globalToast';
+        toast.className = 'toast';
+        document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
+window.showToast = showToast;
 
 // ========================================
 // ROUTER
@@ -918,6 +1124,11 @@ function handleRoute() {
         showSecrets(secretSlug, false);
         return;
     }
+
+   if (first === 'favourites') {
+       showFavourites();
+       return;
+   }
 
     // normal category routing
     const category = first;
@@ -1077,8 +1288,71 @@ window.attachTilt = attachTilt;
 // ========================================
 // UPDATE MODAL FUNCTIONS
 // ========================================
-function openUpdateModal() {
+function openUpdateModal(type = 'current') {
     const modal = document.getElementById('updateModal');
+    const body = modal.querySelector('.modal-body');
+
+    if (type === 'current') {
+        body.innerHTML = `<!-- your existing current update card HTML -->`;
+    }
+
+    if (type === 'past') {
+        body.innerHTML = `
+            <div class="update-card major">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: The Awakening</span>
+                        <span class="update-badge badge-major">Major</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Late 2025</div>
+                </div>
+                <div class="update-description">Added awakened boss forms, new lore chapters, and crystal accessories.</div>
+                <ul class="update-features">
+                    <li class="added"><strong>Awakened Bosses:</strong> New powered-up boss forms</li>
+                    <li class="added"><strong>Lore Chapters:</strong> New story content</li>
+                    <li class="added"><strong>Crystals:</strong> New accessory system</li>
+                    <li class="changed"><strong>Rebalanced:</strong> Early game difficulty</li>
+                </ul>
+            </div>
+            <div class="update-card minor">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: Origins</span>
+                        <span class="update-badge badge-minor">Minor</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Mid 2025</div>
+                </div>
+                <div class="update-description">The original launch of ApolloRPG with core bosses and progression.</div>
+                <ul class="update-features">
+                    <li class="added"><strong>Launch:</strong> Core game systems</li>
+                    <li class="added"><strong>Bosses:</strong> Initial boss roster</li>
+                    <li class="added"><strong>Progression:</strong> Pre-Hardmode and Hardmode paths</li>
+                </ul>
+            </div>
+        `;
+    }
+
+    if (type === 'future') {
+        body.innerHTML = `
+            <div class="update-card" style="border-left-color: var(--accent-primary);">
+                <div class="update-header">
+                    <div class="update-title">
+                        <span>Update: TBA</span>
+                        <span class="update-badge" style="background: rgba(var(--glow-rgb),0.2); color: var(--accent-primary);">Planned</span>
+                    </div>
+                    <div class="update-date"><i class="far fa-calendar"></i> Coming Soon</div>
+                </div>
+                <div class="update-description">What the team is currently working towards.</div>
+                <ul class="update-features">
+                    <li class="added"><strong>New Dimension:</strong> Details TBA</li>
+                    <li class="added"><strong>New Boss Chain:</strong> Post-Darklands progression</li>
+                    <li class="added"><strong>Drop Tables:</strong> Full crafting paths</li>
+                    <li class="changed"><strong>Wiki:</strong> Comparison tool, secret lore pages</li>
+                </ul>
+            </div>
+        `;
+    }
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
