@@ -1038,25 +1038,31 @@ function attachTilt(card) {
     card.addEventListener('mouseleave', onTiltLeave);
 }
 
+let tiltFrame = null;
+
 function onTiltMove(e) {
     const card = e.currentTarget;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const cx = rect.width / 2;
-    const cy = rect.height / 2;
-
-    // Max tilt in degrees — keep it subtle
-    const maxTilt = 6;
-    const rotateX = ((y - cy) / cy) * -maxTilt;
-    const rotateY = ((x - cx) / cx) * maxTilt;
-
-    card.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+    if (tiltFrame) return; // skip if a frame is already queued
+    tiltFrame = requestAnimationFrame(() => {
+        tiltFrame = null;
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const cx = rect.width / 2;
+        const cy = rect.height / 2;
+        const maxTilt = 6;
+        const rotateX = ((y - cy) / cy) * -maxTilt;
+        const rotateY = ((x - cx) / cx) * maxTilt;
+        card.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+    });
 }
 
 function onTiltLeave(e) {
-    const card = e.currentTarget;
-    card.style.transform = '';
+    if (tiltFrame) {
+        cancelAnimationFrame(tiltFrame);
+        tiltFrame = null;
+    }
+    e.currentTarget.style.transform = '';
 }
 
 window.initTilt = initTilt;
