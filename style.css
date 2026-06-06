@@ -506,14 +506,19 @@ nav {
     padding: var(--spacing-xl);
     display: flex;
     gap: var(--spacing-xl);
+    align-items: flex-start;
 }
 
-/* ========================================
-   SIDEBAR
-   ======================================== */
 .sidebar {
     width: 280px;
+    min-width: 280px;
     flex-shrink: 0;
+    position: sticky;
+    top: 70px;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+    zoom: reset;
+    transform-origin: top left;
 }
 
 .category-section {
@@ -531,6 +536,107 @@ nav {
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
+}
+
+/* ========================================
+   CUSTOM SCROLLBAR
+   ======================================== */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-primary);
+    border-radius: 3px;
+    opacity: 0.7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 1;
+    background: var(--accent-primary);
+    filter: brightness(1.2);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-primary) var(--bg-primary);
+}
+
+.update-logs-row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.update-log-past {
+    border-color: rgba(var(--glow-rgb), 0.2);
+    opacity: 0.85;
+}
+
+.update-log-future {
+    border-color: rgba(var(--glow-rgb), 0.2);
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+    .update-logs-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+.fav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-tertiary);
+    font-size: 1rem;
+    padding: 4px 6px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+    flex-shrink: 0;
+}
+
+.fav-btn:hover {
+    color: var(--accent-primary);
+    background: rgba(var(--glow-rgb), 0.1);
+}
+
+.fav-btn.fav-active {
+    color: var(--accent-primary);
+}
+
+/* ========================================
+   TOAST NOTIFICATIONS
+   ======================================== */
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+    white-space: nowrap;
+    border-left: 3px solid var(--accent-primary);
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
 }
 
 /* ========================================
