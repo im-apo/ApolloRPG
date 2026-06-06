@@ -570,19 +570,14 @@ nav {
 
 .update-logs-row {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-xl);
 }
 
-.update-log-past {
-    border-color: rgba(var(--glow-rgb), 0.2);
-    opacity: 0.85;
-}
-
-.update-log-future {
-    border-color: rgba(var(--glow-rgb), 0.2);
-    opacity: 0.85;
+.update-log-past .update-banner-icon,
+.update-log-future .update-banner-icon {
+    background: rgba(var(--glow-rgb), 0.15);
 }
 
 @media (max-width: 768px) {
