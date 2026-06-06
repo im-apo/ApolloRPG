@@ -1432,6 +1432,35 @@ function openUpdateModal() {
     document.body.style.overflow = 'hidden';
 }
 
+// ========================================
+// CHANGELOG INTERACTIONS
+// ========================================
+function toggleChangelog(header) {
+    const body = header.nextElementSibling;
+    const icon = header.querySelector('.changelog-toggle-icon i');
+    const isExpanded = body.classList.contains('expanded');
+
+    body.classList.toggle('expanded', !isExpanded);
+    icon.classList.toggle('fa-chevron-down', isExpanded);
+    icon.classList.toggle('fa-chevron-up', !isExpanded);
+}
+
+function filterChangelog(type, btn) {
+    // Update active button
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Show/hide entries
+    document.querySelectorAll('.changelog-entry').forEach(entry => {
+        const entryType = entry.dataset.type;
+        const show = type === 'all' || entryType === type;
+        entry.classList.toggle('hidden-entry', !show);
+    });
+}
+
+window.toggleChangelog = toggleChangelog;
+window.filterChangelog = filterChangelog;
+
 function closeUpdateModal() {
     const modal = document.getElementById('updateModal');
     modal.classList.remove('active');
