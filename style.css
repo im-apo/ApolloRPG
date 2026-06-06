@@ -379,7 +379,7 @@ body::before {
    HEADER & NAVIGATION
    ======================================== */
 header {
-    background: rgba(20, 20, 30, 0.9);
+    background: var(--header-bg);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     position: sticky;
